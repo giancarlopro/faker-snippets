@@ -14,6 +14,7 @@ for f in files:
             snippets.append(snippet)
 
 formated_snippet = dict()
+grouped = dict()
 
 for s in snippets:
     group_1 = s.group(1).replace("\"", "\\\"")
@@ -22,6 +23,12 @@ for s in snippets:
     formated_snippet[group_1]["prefix"] = group_1
     formated_snippet[group_1]["body"] = group_1
     formated_snippet[group_1]["description"] = "Fake {} {}".format(s.group(2), s.group(3))
+
+    try:
+        grouped[s.group(2)].append(formated_snippet[group_1])
+    except KeyError:
+        grouped[s.group(2)] = list()
+        grouped[s.group(2)].append(formated_snippet[group_1])
 
 def is_last_key(d, key):
     keys = list(d.keys())
@@ -39,3 +46,17 @@ with open("snippets.json", "w") as f:
         if not is_last_key(formated_snippet, name):
             f.write(",")
     f.write("\n}\n")
+
+with open("features.md", "w") as f:
+    f.write("## Features\n")
+    # f.write("|Snippet|Description|\n")
+    # f.write("|-------|-----------|\n")
+    # for name in formated_snippet:
+    #     # f.write("## {}\n".format(name))
+    #     f.write("| {} | Generate {} |\n".format(formated_snippet[name]["body"], formated_snippet[name]["description"]))
+    for group in grouped:
+        f.write("### {}\n".format(group))
+        f.write("|Snippet|Description|\n")
+        f.write("|-------|-----------|\n")
+        for snip in grouped[group]:
+            f.write("| {} | Generate {} |\n".format(snip["body"], snip["description"]))
