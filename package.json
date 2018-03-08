@@ -2,7 +2,7 @@
     "name": "faker-snippets",
     "displayName": "Faker Snippets",
     "description": "Snippets for Faker gem",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "icon": "images/icon.png",
     "publisher": "giancarlopro",
     "license": "MIT",
@@ -11,7 +11,7 @@
         "url": "https://github.com/giancarlopro/faker-snippets"
     },
     "engines": {
-        "vscode": "^1.21.0"
+        "vscode": "^1.5.0"
     },
     "categories": [
         "Snippets"
