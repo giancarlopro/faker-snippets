@@ -4,6 +4,11 @@
     "description": "Snippets for Faker gem",
     "version": "0.0.1",
     "publisher": "giancarlopro",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/giancarlopro/faker-snippets"
+    },
     "engines": {
         "vscode": "^1.21.0"
     },
