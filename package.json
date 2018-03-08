@@ -1,0 +1,21 @@
+{
+    "name": "faker-snippets",
+    "displayName": "Faker Snippets",
+    "description": "Snippets for Faker gem",
+    "version": "0.0.1",
+    "publisher": "giancarlopro",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "ruby",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

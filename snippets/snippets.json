@@ -1,0 +1,3110 @@
+{
+	"Faker::VForVendetta.character":{
+		"scope":"ruby",
+		"prefix":"Faker::VForVendetta.character",
+		"body":"Faker::VForVendetta.character",
+		"description":"Fake VForVendetta character"
+	},
+	"Faker::VForVendetta.speech":{
+		"scope":"ruby",
+		"prefix":"Faker::VForVendetta.speech",
+		"body":"Faker::VForVendetta.speech",
+		"description":"Fake VForVendetta speech"
+	},
+	"Faker::VForVendetta.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::VForVendetta.quote",
+		"body":"Faker::VForVendetta.quote",
+		"description":"Fake VForVendetta quote"
+	},
+	"Faker::Company.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.name",
+		"body":"Faker::Company.name",
+		"description":"Fake Company name"
+	},
+	"Faker::Company.suffix":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.suffix",
+		"body":"Faker::Company.suffix",
+		"description":"Fake Company suffix"
+	},
+	"Faker::Company.catch_phrase":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.catch_phrase",
+		"body":"Faker::Company.catch_phrase",
+		"description":"Fake Company catch_phrase"
+	},
+	"Faker::Company.buzzword":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.buzzword",
+		"body":"Faker::Company.buzzword",
+		"description":"Fake Company buzzword"
+	},
+	"Faker::Company.bs":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.bs",
+		"body":"Faker::Company.bs",
+		"description":"Fake Company bs"
+	},
+	"Faker::Company.ein":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.ein",
+		"body":"Faker::Company.ein",
+		"description":"Fake Company ein"
+	},
+	"Faker::Company.duns_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.duns_number",
+		"body":"Faker::Company.duns_number",
+		"description":"Fake Company duns_number"
+	},
+	"Faker::Company.logo":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.logo",
+		"body":"Faker::Company.logo",
+		"description":"Fake Company logo"
+	},
+	"Faker::Company.swedish_organisation_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.swedish_organisation_number",
+		"body":"Faker::Company.swedish_organisation_number",
+		"description":"Fake Company swedish_organisation_number"
+	},
+	"Faker::Company.french_siren_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.french_siren_number",
+		"body":"Faker::Company.french_siren_number",
+		"description":"Fake Company french_siren_number"
+	},
+	"Faker::Company.french_siret_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.french_siret_number",
+		"body":"Faker::Company.french_siret_number",
+		"description":"Fake Company french_siret_number"
+	},
+	"Faker::Company.norwegian_organisation_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.norwegian_organisation_number",
+		"body":"Faker::Company.norwegian_organisation_number",
+		"description":"Fake Company norwegian_organisation_number"
+	},
+	"Faker::Company.australian_business_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.australian_business_number",
+		"body":"Faker::Company.australian_business_number",
+		"description":"Fake Company australian_business_number"
+	},
+	"Faker::Company.profession":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.profession",
+		"body":"Faker::Company.profession",
+		"description":"Fake Company profession"
+	},
+	"Faker::Company.type":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.type",
+		"body":"Faker::Company.type",
+		"description":"Fake Company type"
+	},
+	"Faker::Team.creature":{
+		"scope":"ruby",
+		"prefix":"Faker::Team.creature",
+		"body":"Faker::Team.creature",
+		"description":"Fake Team creature"
+	},
+	"Faker::Team.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Team.name",
+		"body":"Faker::Team.name",
+		"description":"Fake Team name"
+	},
+	"Faker::Team.state":{
+		"scope":"ruby",
+		"prefix":"Faker::Team.state",
+		"body":"Faker::Team.state",
+		"description":"Fake Team state"
+	},
+	"Faker::Team.sport":{
+		"scope":"ruby",
+		"prefix":"Faker::Team.sport",
+		"body":"Faker::Team.sport",
+		"description":"Fake Team sport"
+	},
+	"Faker::Team.mascot":{
+		"scope":"ruby",
+		"prefix":"Faker::Team.mascot",
+		"body":"Faker::Team.mascot",
+		"description":"Fake Team mascot"
+	},
+	"Faker::Ancient.god":{
+		"scope":"ruby",
+		"prefix":"Faker::Ancient.god",
+		"body":"Faker::Ancient.god",
+		"description":"Fake Ancient god"
+	},
+	"Faker::Ancient.primordial":{
+		"scope":"ruby",
+		"prefix":"Faker::Ancient.primordial",
+		"body":"Faker::Ancient.primordial",
+		"description":"Fake Ancient primordial"
+	},
+	"Faker::Ancient.titan":{
+		"scope":"ruby",
+		"prefix":"Faker::Ancient.titan",
+		"body":"Faker::Ancient.titan",
+		"description":"Fake Ancient titan"
+	},
+	"Faker::Ancient.hero":{
+		"scope":"ruby",
+		"prefix":"Faker::Ancient.hero",
+		"body":"Faker::Ancient.hero",
+		"description":"Fake Ancient hero"
+	},
+	"Faker::Food.dish":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.dish",
+		"body":"Faker::Food.dish",
+		"description":"Fake Food dish"
+	},
+	"Faker::Food.description":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.description",
+		"body":"Faker::Food.description",
+		"description":"Fake Food description"
+	},
+	"Faker::Food.ingredient":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.ingredient",
+		"body":"Faker::Food.ingredient",
+		"description":"Fake Food ingredient"
+	},
+	"Faker::Food.spice":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.spice",
+		"body":"Faker::Food.spice",
+		"description":"Fake Food spice"
+	},
+	"Faker::Food.measurement":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.measurement",
+		"body":"Faker::Food.measurement",
+		"description":"Fake Food measurement"
+	},
+	"Faker::Food.metric_measurement":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.metric_measurement",
+		"body":"Faker::Food.metric_measurement",
+		"description":"Fake Food metric_measurement"
+	},
+	"Faker::Verb.base":{
+		"scope":"ruby",
+		"prefix":"Faker::Verb.base",
+		"body":"Faker::Verb.base",
+		"description":"Fake Verb base"
+	},
+	"Faker::Verb.past":{
+		"scope":"ruby",
+		"prefix":"Faker::Verb.past",
+		"body":"Faker::Verb.past",
+		"description":"Fake Verb past"
+	},
+	"Faker::Verb.past_participle":{
+		"scope":"ruby",
+		"prefix":"Faker::Verb.past_participle",
+		"body":"Faker::Verb.past_participle",
+		"description":"Fake Verb past_participle"
+	},
+	"Faker::Verb.simple_present":{
+		"scope":"ruby",
+		"prefix":"Faker::Verb.simple_present",
+		"body":"Faker::Verb.simple_present",
+		"description":"Fake Verb simple_present"
+	},
+	"Faker::Verb.ing_form":{
+		"scope":"ruby",
+		"prefix":"Faker::Verb.ing_form",
+		"body":"Faker::Verb.ing_form",
+		"description":"Fake Verb ing_form"
+	},
+	"Faker::MostInterestingManInTheWorld.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::MostInterestingManInTheWorld.quote",
+		"body":"Faker::MostInterestingManInTheWorld.quote",
+		"description":"Fake MostInterestingManInTheWorld quote"
+	},
+	"Faker::DrWho.catch_phrase":{
+		"scope":"ruby",
+		"prefix":"Faker::DrWho.catch_phrase",
+		"body":"Faker::DrWho.catch_phrase",
+		"description":"Fake DrWho catch_phrase"
+	},
+	"Faker::RickAndMorty.character":{
+		"scope":"ruby",
+		"prefix":"Faker::RickAndMorty.character",
+		"body":"Faker::RickAndMorty.character",
+		"description":"Fake RickAndMorty character"
+	},
+	"Faker::RickAndMorty.location":{
+		"scope":"ruby",
+		"prefix":"Faker::RickAndMorty.location",
+		"body":"Faker::RickAndMorty.location",
+		"description":"Fake RickAndMorty location"
+	},
+	"Faker::RickAndMorty.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::RickAndMorty.quote",
+		"body":"Faker::RickAndMorty.quote",
+		"description":"Fake RickAndMorty quote"
+	},
+	"Faker::Crypto.md5":{
+		"scope":"ruby",
+		"prefix":"Faker::Crypto.md5",
+		"body":"Faker::Crypto.md5",
+		"description":"Fake Crypto md5"
+	},
+	"Faker::Crypto.sha1":{
+		"scope":"ruby",
+		"prefix":"Faker::Crypto.sha1",
+		"body":"Faker::Crypto.sha1",
+		"description":"Fake Crypto sha1"
+	},
+	"Faker::Crypto.sha256":{
+		"scope":"ruby",
+		"prefix":"Faker::Crypto.sha256",
+		"body":"Faker::Crypto.sha256",
+		"description":"Fake Crypto sha256"
+	},
+	"Faker::Twitter.user":{
+		"scope":"ruby",
+		"prefix":"Faker::Twitter.user",
+		"body":"Faker::Twitter.user",
+		"description":"Fake Twitter user"
+	},
+	"Faker::Twitter.status":{
+		"scope":"ruby",
+		"prefix":"Faker::Twitter.status",
+		"body":"Faker::Twitter.status",
+		"description":"Fake Twitter status"
+	},
+	"Faker::Twitter.screen_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Twitter.screen_name",
+		"body":"Faker::Twitter.screen_name",
+		"description":"Fake Twitter screen_name"
+	},
+	"Faker::Business.credit_card_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Business.credit_card_number",
+		"body":"Faker::Business.credit_card_number",
+		"description":"Fake Business credit_card_number"
+	},
+	"Faker::Business.credit_card_expiry_date":{
+		"scope":"ruby",
+		"prefix":"Faker::Business.credit_card_expiry_date",
+		"body":"Faker::Business.credit_card_expiry_date",
+		"description":"Fake Business credit_card_expiry_date"
+	},
+	"Faker::Business.credit_card_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Business.credit_card_type",
+		"body":"Faker::Business.credit_card_type",
+		"description":"Fake Business credit_card_type"
+	},
+	"Faker::App.name":{
+		"scope":"ruby",
+		"prefix":"Faker::App.name",
+		"body":"Faker::App.name",
+		"description":"Fake App name"
+	},
+	"Faker::App.version":{
+		"scope":"ruby",
+		"prefix":"Faker::App.version",
+		"body":"Faker::App.version",
+		"description":"Fake App version"
+	},
+	"Faker::App.author":{
+		"scope":"ruby",
+		"prefix":"Faker::App.author",
+		"body":"Faker::App.author",
+		"description":"Fake App author"
+	},
+	"Faker::App.semantic_version":{
+		"scope":"ruby",
+		"prefix":"Faker::App.semantic_version",
+		"body":"Faker::App.semantic_version",
+		"description":"Fake App semantic_version"
+	},
+	"Faker::App.semantic_version(major: 42)":{
+		"scope":"ruby",
+		"prefix":"Faker::App.semantic_version(major: 42)",
+		"body":"Faker::App.semantic_version(major: 42)",
+		"description":"Fake App semantic_version"
+	},
+	"Faker::App.semantic_version(minor: 100..101)":{
+		"scope":"ruby",
+		"prefix":"Faker::App.semantic_version(minor: 100..101)",
+		"body":"Faker::App.semantic_version(minor: 100..101)",
+		"description":"Fake App semantic_version"
+	},
+	"Faker::App.semantic_version(patch: 5..6)":{
+		"scope":"ruby",
+		"prefix":"Faker::App.semantic_version(patch: 5..6)",
+		"body":"Faker::App.semantic_version(patch: 5..6)",
+		"description":"Fake App semantic_version"
+	},
+	"Faker::Space.planet":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.planet",
+		"body":"Faker::Space.planet",
+		"description":"Fake Space planet"
+	},
+	"Faker::Space.moon":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.moon",
+		"body":"Faker::Space.moon",
+		"description":"Fake Space moon"
+	},
+	"Faker::Space.galaxy":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.galaxy",
+		"body":"Faker::Space.galaxy",
+		"description":"Fake Space galaxy"
+	},
+	"Faker::Space.nebula":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.nebula",
+		"body":"Faker::Space.nebula",
+		"description":"Fake Space nebula"
+	},
+	"Faker::Space.star_cluster":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.star_cluster",
+		"body":"Faker::Space.star_cluster",
+		"description":"Fake Space star_cluster"
+	},
+	"Faker::Space.constellation":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.constellation",
+		"body":"Faker::Space.constellation",
+		"description":"Fake Space constellation"
+	},
+	"Faker::Space.star":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.star",
+		"body":"Faker::Space.star",
+		"description":"Fake Space star"
+	},
+	"Faker::Space.agency":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.agency",
+		"body":"Faker::Space.agency",
+		"description":"Fake Space agency"
+	},
+	"Faker::Space.agency_abv":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.agency_abv",
+		"body":"Faker::Space.agency_abv",
+		"description":"Fake Space agency_abv"
+	},
+	"Faker::Space.nasa_space_craft":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.nasa_space_craft",
+		"body":"Faker::Space.nasa_space_craft",
+		"description":"Fake Space nasa_space_craft"
+	},
+	"Faker::Space.company":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.company",
+		"body":"Faker::Space.company",
+		"description":"Fake Space company"
+	},
+	"Faker::Space.distance_measurement":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.distance_measurement",
+		"body":"Faker::Space.distance_measurement",
+		"description":"Fake Space distance_measurement"
+	},
+	"Faker::Space.meteorite":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.meteorite",
+		"body":"Faker::Space.meteorite",
+		"description":"Fake Space meteorite"
+	},
+	"Faker::FunnyName.name":{
+		"scope":"ruby",
+		"prefix":"Faker::FunnyName.name",
+		"body":"Faker::FunnyName.name",
+		"description":"Fake FunnyName name"
+	},
+	"Faker::FunnyName.two_word_name":{
+		"scope":"ruby",
+		"prefix":"Faker::FunnyName.two_word_name",
+		"body":"Faker::FunnyName.two_word_name",
+		"description":"Fake FunnyName two_word_name"
+	},
+	"Faker::FunnyName.three_word_name":{
+		"scope":"ruby",
+		"prefix":"Faker::FunnyName.three_word_name",
+		"body":"Faker::FunnyName.three_word_name",
+		"description":"Fake FunnyName three_word_name"
+	},
+	"Faker::FunnyName.four_word_name":{
+		"scope":"ruby",
+		"prefix":"Faker::FunnyName.four_word_name",
+		"body":"Faker::FunnyName.four_word_name",
+		"description":"Fake FunnyName four_word_name"
+	},
+	"Faker::FunnyName.name_with_initial":{
+		"scope":"ruby",
+		"prefix":"Faker::FunnyName.name_with_initial",
+		"body":"Faker::FunnyName.name_with_initial",
+		"description":"Fake FunnyName name_with_initial"
+	},
+	"Faker::Color.hex_color":{
+		"scope":"ruby",
+		"prefix":"Faker::Color.hex_color",
+		"body":"Faker::Color.hex_color",
+		"description":"Fake Color hex_color"
+	},
+	"Faker::Color.color_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Color.color_name",
+		"body":"Faker::Color.color_name",
+		"description":"Fake Color color_name"
+	},
+	"Faker::Color.rgb_color":{
+		"scope":"ruby",
+		"prefix":"Faker::Color.rgb_color",
+		"body":"Faker::Color.rgb_color",
+		"description":"Fake Color rgb_color"
+	},
+	"Faker::Color.hsl_color":{
+		"scope":"ruby",
+		"prefix":"Faker::Color.hsl_color",
+		"body":"Faker::Color.hsl_color",
+		"description":"Fake Color hsl_color"
+	},
+	"Faker::Color.hsla_color":{
+		"scope":"ruby",
+		"prefix":"Faker::Color.hsla_color",
+		"body":"Faker::Color.hsla_color",
+		"description":"Fake Color hsla_color"
+	},
+	"Faker::Name.name_with_middle":{
+		"scope":"ruby",
+		"prefix":"Faker::Name.name_with_middle",
+		"body":"Faker::Name.name_with_middle",
+		"description":"Fake Name name_with_middle"
+	},
+	"Faker::RockBand.name":{
+		"scope":"ruby",
+		"prefix":"Faker::RockBand.name",
+		"body":"Faker::RockBand.name",
+		"description":"Fake RockBand name"
+	},
+	"Faker::Omniauth.google":{
+		"scope":"ruby",
+		"prefix":"Faker::Omniauth.google",
+		"body":"Faker::Omniauth.google",
+		"description":"Fake Omniauth google"
+	},
+	"Faker::Omniauth.facebook":{
+		"scope":"ruby",
+		"prefix":"Faker::Omniauth.facebook",
+		"body":"Faker::Omniauth.facebook",
+		"description":"Fake Omniauth facebook"
+	},
+	"Faker::Omniauth.twitter":{
+		"scope":"ruby",
+		"prefix":"Faker::Omniauth.twitter",
+		"body":"Faker::Omniauth.twitter",
+		"description":"Fake Omniauth twitter"
+	},
+	"Faker::Omniauth.linkedin":{
+		"scope":"ruby",
+		"prefix":"Faker::Omniauth.linkedin",
+		"body":"Faker::Omniauth.linkedin",
+		"description":"Fake Omniauth linkedin"
+	},
+	"Faker::Omniauth.github":{
+		"scope":"ruby",
+		"prefix":"Faker::Omniauth.github",
+		"body":"Faker::Omniauth.github",
+		"description":"Fake Omniauth github"
+	},
+	"Faker::Demographic.race":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.race",
+		"body":"Faker::Demographic.race",
+		"description":"Fake Demographic race"
+	},
+	"Faker::Demographic.educational_attainment":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.educational_attainment",
+		"body":"Faker::Demographic.educational_attainment",
+		"description":"Fake Demographic educational_attainment"
+	},
+	"Faker::Demographic.demonym":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.demonym",
+		"body":"Faker::Demographic.demonym",
+		"description":"Fake Demographic demonym"
+	},
+	"Faker::Demographic.marital_status":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.marital_status",
+		"body":"Faker::Demographic.marital_status",
+		"description":"Fake Demographic marital_status"
+	},
+	"Faker::Demographic.sex":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.sex",
+		"body":"Faker::Demographic.sex",
+		"description":"Fake Demographic sex"
+	},
+	"Faker::Demographic.height":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.height",
+		"body":"Faker::Demographic.height",
+		"description":"Fake Demographic height"
+	},
+	"Faker::Demographic.height(:imperial)":{
+		"scope":"ruby",
+		"prefix":"Faker::Demographic.height(:imperial)",
+		"body":"Faker::Demographic.height(:imperial)",
+		"description":"Fake Demographic height"
+	},
+	"Faker::HowIMetYourMother.character":{
+		"scope":"ruby",
+		"prefix":"Faker::HowIMetYourMother.character",
+		"body":"Faker::HowIMetYourMother.character",
+		"description":"Fake HowIMetYourMother character"
+	},
+	"Faker::HowIMetYourMother.catch_phrase":{
+		"scope":"ruby",
+		"prefix":"Faker::HowIMetYourMother.catch_phrase",
+		"body":"Faker::HowIMetYourMother.catch_phrase",
+		"description":"Fake HowIMetYourMother catch_phrase"
+	},
+	"Faker::HowIMetYourMother.high_five":{
+		"scope":"ruby",
+		"prefix":"Faker::HowIMetYourMother.high_five",
+		"body":"Faker::HowIMetYourMother.high_five",
+		"description":"Fake HowIMetYourMother high_five"
+	},
+	"Faker::HowIMetYourMother.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::HowIMetYourMother.quote",
+		"body":"Faker::HowIMetYourMother.quote",
+		"description":"Fake HowIMetYourMother quote"
+	},
+	"Faker::Code.isbn":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.isbn",
+		"body":"Faker::Code.isbn",
+		"description":"Fake Code isbn"
+	},
+	"Faker::Code.ean":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.ean",
+		"body":"Faker::Code.ean",
+		"description":"Fake Code ean"
+	},
+	"Faker::Code.asin":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.asin",
+		"body":"Faker::Code.asin",
+		"description":"Fake Code asin"
+	},
+	"Faker::Lorem.word":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.word",
+		"body":"Faker::Lorem.word",
+		"description":"Fake Lorem word"
+	},
+	"Faker::Lorem.words":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.words",
+		"body":"Faker::Lorem.words",
+		"description":"Fake Lorem words"
+	},
+	"Faker::Lorem.words(4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.words(4)",
+		"body":"Faker::Lorem.words(4)",
+		"description":"Fake Lorem words"
+	},
+	"Faker::Lorem.words(4, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.words(4, true)",
+		"body":"Faker::Lorem.words(4, true)",
+		"description":"Fake Lorem words"
+	},
+	"Faker::Lorem.characters":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.characters",
+		"body":"Faker::Lorem.characters",
+		"description":"Fake Lorem characters"
+	},
+	"Faker::Lorem.characters(10)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.characters(10)",
+		"body":"Faker::Lorem.characters(10)",
+		"description":"Fake Lorem characters"
+	},
+	"Faker::Lorem.sentence":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentence",
+		"body":"Faker::Lorem.sentence",
+		"description":"Fake Lorem sentence"
+	},
+	"Faker::Lorem.sentence(3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentence(3)",
+		"body":"Faker::Lorem.sentence(3)",
+		"description":"Fake Lorem sentence"
+	},
+	"Faker::Lorem.sentence(3, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentence(3, true)",
+		"body":"Faker::Lorem.sentence(3, true)",
+		"description":"Fake Lorem sentence"
+	},
+	"Faker::Lorem.sentence(3, false, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentence(3, false, 4)",
+		"body":"Faker::Lorem.sentence(3, false, 4)",
+		"description":"Fake Lorem sentence"
+	},
+	"Faker::Lorem.sentence(3, true, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentence(3, true, 4)",
+		"body":"Faker::Lorem.sentence(3, true, 4)",
+		"description":"Fake Lorem sentence"
+	},
+	"Faker::Lorem.sentences":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentences",
+		"body":"Faker::Lorem.sentences",
+		"description":"Fake Lorem sentences"
+	},
+	"Faker::Lorem.sentences(1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentences(1)",
+		"body":"Faker::Lorem.sentences(1)",
+		"description":"Fake Lorem sentences"
+	},
+	"Faker::Lorem.sentences(1, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.sentences(1, true)",
+		"body":"Faker::Lorem.sentences(1, true)",
+		"description":"Fake Lorem sentences"
+	},
+	"Faker::Lorem.paragraph":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph",
+		"body":"Faker::Lorem.paragraph",
+		"description":"Fake Lorem paragraph"
+	},
+	"Faker::Lorem.paragraph(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph(2)",
+		"body":"Faker::Lorem.paragraph(2)",
+		"description":"Fake Lorem paragraph"
+	},
+	"Faker::Lorem.paragraph(2, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph(2, true)",
+		"body":"Faker::Lorem.paragraph(2, true)",
+		"description":"Fake Lorem paragraph"
+	},
+	"Faker::Lorem.paragraph(2, false, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph(2, false, 4)",
+		"body":"Faker::Lorem.paragraph(2, false, 4)",
+		"description":"Fake Lorem paragraph"
+	},
+	"Faker::Lorem.paragraph(2, true, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph(2, true, 4)",
+		"body":"Faker::Lorem.paragraph(2, true, 4)",
+		"description":"Fake Lorem paragraph"
+	},
+	"Faker::Lorem.paragraphs":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraphs",
+		"body":"Faker::Lorem.paragraphs",
+		"description":"Fake Lorem paragraphs"
+	},
+	"Faker::Lorem.paragraphs(1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraphs(1)",
+		"body":"Faker::Lorem.paragraphs(1)",
+		"description":"Fake Lorem paragraphs"
+	},
+	"Faker::Lorem.paragraphs(1, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraphs(1, true)",
+		"body":"Faker::Lorem.paragraphs(1, true)",
+		"description":"Fake Lorem paragraphs"
+	},
+	"Faker::WorldOfWarcraft.hero":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldOfWarcraft.hero",
+		"body":"Faker::WorldOfWarcraft.hero",
+		"description":"Fake WorldOfWarcraft hero"
+	},
+	"Faker::WorldOfWarcraft.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldOfWarcraft.quote",
+		"body":"Faker::WorldOfWarcraft.quote",
+		"description":"Fake WorldOfWarcraft quote"
+	},
+	"Faker::Fallout.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Fallout.character",
+		"body":"Faker::Fallout.character",
+		"description":"Fake Fallout character"
+	},
+	"Faker::Fallout.faction":{
+		"scope":"ruby",
+		"prefix":"Faker::Fallout.faction",
+		"body":"Faker::Fallout.faction",
+		"description":"Fake Fallout faction"
+	},
+	"Faker::Fallout.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Fallout.location",
+		"body":"Faker::Fallout.location",
+		"description":"Fake Fallout location"
+	},
+	"Faker::Fallout.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Fallout.quote",
+		"body":"Faker::Fallout.quote",
+		"description":"Fake Fallout quote"
+	},
+	"Faker::Science.element":{
+		"scope":"ruby",
+		"prefix":"Faker::Science.element",
+		"body":"Faker::Science.element",
+		"description":"Fake Science element"
+	},
+	"Faker::Science.scientist":{
+		"scope":"ruby",
+		"prefix":"Faker::Science.scientist",
+		"body":"Faker::Science.scientist",
+		"description":"Fake Science scientist"
+	},
+	"Faker::BossaNova.artist":{
+		"scope":"ruby",
+		"prefix":"Faker::BossaNova.artist",
+		"body":"Faker::BossaNova.artist",
+		"description":"Fake BossaNova artist"
+	},
+	"Faker::BossaNova.song":{
+		"scope":"ruby",
+		"prefix":"Faker::BossaNova.song",
+		"body":"Faker::BossaNova.song",
+		"description":"Fake BossaNova song"
+	},
+	"Faker::Cat.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Cat.name",
+		"body":"Faker::Cat.name",
+		"description":"Fake Cat name"
+	},
+	"Faker::Cat.breed":{
+		"scope":"ruby",
+		"prefix":"Faker::Cat.breed",
+		"body":"Faker::Cat.breed",
+		"description":"Fake Cat breed"
+	},
+	"Faker::Cat.registry":{
+		"scope":"ruby",
+		"prefix":"Faker::Cat.registry",
+		"body":"Faker::Cat.registry",
+		"description":"Fake Cat registry"
+	},
+	"Faker::Vehicle.vin":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.vin",
+		"body":"Faker::Vehicle.vin",
+		"description":"Fake Vehicle vin"
+	},
+	"Faker::Vehicle.manufacture":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.manufacture",
+		"body":"Faker::Vehicle.manufacture",
+		"description":"Fake Vehicle manufacture"
+	},
+	"Faker::Matz.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Matz.quote",
+		"body":"Faker::Matz.quote",
+		"description":"Fake Matz quote"
+	},
+	"Faker::Book.title":{
+		"scope":"ruby",
+		"prefix":"Faker::Book.title",
+		"body":"Faker::Book.title",
+		"description":"Fake Book title"
+	},
+	"Faker::Book.author":{
+		"scope":"ruby",
+		"prefix":"Faker::Book.author",
+		"body":"Faker::Book.author",
+		"description":"Fake Book author"
+	},
+	"Faker::Book.publisher":{
+		"scope":"ruby",
+		"prefix":"Faker::Book.publisher",
+		"body":"Faker::Book.publisher",
+		"description":"Fake Book publisher"
+	},
+	"Faker::Book.genre":{
+		"scope":"ruby",
+		"prefix":"Faker::Book.genre",
+		"body":"Faker::Book.genre",
+		"description":"Fake Book genre"
+	},
+	"Faker::BackToTheFuture.character":{
+		"scope":"ruby",
+		"prefix":"Faker::BackToTheFuture.character",
+		"body":"Faker::BackToTheFuture.character",
+		"description":"Fake BackToTheFuture character"
+	},
+	"Faker::BackToTheFuture.date":{
+		"scope":"ruby",
+		"prefix":"Faker::BackToTheFuture.date",
+		"body":"Faker::BackToTheFuture.date",
+		"description":"Fake BackToTheFuture date"
+	},
+	"Faker::BackToTheFuture.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::BackToTheFuture.quote",
+		"body":"Faker::BackToTheFuture.quote",
+		"description":"Fake BackToTheFuture quote"
+	},
+	"Faker::Dune.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.character",
+		"body":"Faker::Dune.character",
+		"description":"Fake Dune character"
+	},
+	"Faker::Dune.title":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.title",
+		"body":"Faker::Dune.title",
+		"description":"Fake Dune title"
+	},
+	"Faker::Dune.planet":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.planet",
+		"body":"Faker::Dune.planet",
+		"description":"Fake Dune planet"
+	},
+	"Faker::Dune.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.quote",
+		"body":"Faker::Dune.quote",
+		"description":"Fake Dune quote"
+	},
+	"Faker::Dune.quote(\"baron_harkonnen\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.quote(\"baron_harkonnen\")",
+		"body":"Faker::Dune.quote(\"baron_harkonnen\")",
+		"description":"Fake Dune quote"
+	},
+	"Faker::Dune.saying":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.saying",
+		"body":"Faker::Dune.saying",
+		"description":"Fake Dune saying"
+	},
+	"Faker::Dune.saying(\"fremen\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Dune.saying(\"fremen\")",
+		"body":"Faker::Dune.saying(\"fremen\")",
+		"description":"Fake Dune saying"
+	},
+	"Faker::ChuckNorris.fact":{
+		"scope":"ruby",
+		"prefix":"Faker::ChuckNorris.fact",
+		"body":"Faker::ChuckNorris.fact",
+		"description":"Fake ChuckNorris fact"
+	},
+	"Faker::TheThickOfIt.character":{
+		"scope":"ruby",
+		"prefix":"Faker::TheThickOfIt.character",
+		"body":"Faker::TheThickOfIt.character",
+		"description":"Fake TheThickOfIt character"
+	},
+	"Faker::TheThickOfIt.department":{
+		"scope":"ruby",
+		"prefix":"Faker::TheThickOfIt.department",
+		"body":"Faker::TheThickOfIt.department",
+		"description":"Fake TheThickOfIt department"
+	},
+	"Faker::TheThickOfIt.position":{
+		"scope":"ruby",
+		"prefix":"Faker::TheThickOfIt.position",
+		"body":"Faker::TheThickOfIt.position",
+		"description":"Fake TheThickOfIt position"
+	},
+	"Faker::SlackEmoji.people":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.people",
+		"body":"Faker::SlackEmoji.people",
+		"description":"Fake SlackEmoji people"
+	},
+	"Faker::SlackEmoji.nature":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.nature",
+		"body":"Faker::SlackEmoji.nature",
+		"description":"Fake SlackEmoji nature"
+	},
+	"Faker::SlackEmoji.food_and_drink":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.food_and_drink",
+		"body":"Faker::SlackEmoji.food_and_drink",
+		"description":"Fake SlackEmoji food_and_drink"
+	},
+	"Faker::SlackEmoji.celebration":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.celebration",
+		"body":"Faker::SlackEmoji.celebration",
+		"description":"Fake SlackEmoji celebration"
+	},
+	"Faker::SlackEmoji.activity":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.activity",
+		"body":"Faker::SlackEmoji.activity",
+		"description":"Fake SlackEmoji activity"
+	},
+	"Faker::SlackEmoji.travel_and_places":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.travel_and_places",
+		"body":"Faker::SlackEmoji.travel_and_places",
+		"description":"Fake SlackEmoji travel_and_places"
+	},
+	"Faker::SlackEmoji.objects_and_symbols":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.objects_and_symbols",
+		"body":"Faker::SlackEmoji.objects_and_symbols",
+		"description":"Fake SlackEmoji objects_and_symbols"
+	},
+	"Faker::SlackEmoji.custom":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.custom",
+		"body":"Faker::SlackEmoji.custom",
+		"description":"Fake SlackEmoji custom"
+	},
+	"Faker::SlackEmoji.emoji":{
+		"scope":"ruby",
+		"prefix":"Faker::SlackEmoji.emoji",
+		"body":"Faker::SlackEmoji.emoji",
+		"description":"Fake SlackEmoji emoji"
+	},
+	"Faker::RuPaul.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::RuPaul.quote",
+		"body":"Faker::RuPaul.quote",
+		"description":"Fake RuPaul quote"
+	},
+	"Faker::RuPaul.queen":{
+		"scope":"ruby",
+		"prefix":"Faker::RuPaul.queen",
+		"body":"Faker::RuPaul.queen",
+		"description":"Fake RuPaul queen"
+	},
+	"Faker::Stripe.valid_card":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.valid_card",
+		"body":"Faker::Stripe.valid_card",
+		"description":"Fake Stripe valid_card"
+	},
+	"Faker::Stripe.valid_card(\"visa_debit\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.valid_card(\"visa_debit\")",
+		"body":"Faker::Stripe.valid_card(\"visa_debit\")",
+		"description":"Fake Stripe valid_card"
+	},
+	"Faker::Stripe.invalid_card":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.invalid_card",
+		"body":"Faker::Stripe.invalid_card",
+		"description":"Fake Stripe invalid_card"
+	},
+	"Faker::Stripe.invalid_card(\"addressZipFail\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.invalid_card(\"addressZipFail\")",
+		"body":"Faker::Stripe.invalid_card(\"addressZipFail\")",
+		"description":"Fake Stripe invalid_card"
+	},
+	"Faker::Stripe.month":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.month",
+		"body":"Faker::Stripe.month",
+		"description":"Fake Stripe month"
+	},
+	"Faker::Stripe.year":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.year",
+		"body":"Faker::Stripe.year",
+		"description":"Fake Stripe year"
+	},
+	"Faker::Stripe.ccv":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.ccv",
+		"body":"Faker::Stripe.ccv",
+		"description":"Fake Stripe ccv"
+	},
+	"Faker::Stripe.ccv(\"amex\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.ccv(\"amex\")",
+		"body":"Faker::Stripe.ccv(\"amex\")",
+		"description":"Fake Stripe ccv"
+	},
+	"Faker::Number.between(3,10)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.between(3,10)",
+		"body":"Faker::Number.between(3,10)",
+		"description":"Fake Number between"
+	},
+	"Faker::Internet.free_email":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.free_email",
+		"body":"Faker::Internet.free_email",
+		"description":"Fake Internet free_email"
+	},
+	"Faker::Placeholdit.image":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image",
+		"body":"Faker::Placeholdit.image",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::Placeholdit.image(\"50x50\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\")",
+		"body":"Faker::Placeholdit.image(\"50x50\")",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::Placeholdit.image(\"50x50\", 'jpg')":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\", 'jpg')",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpg')",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::Placeholdit.image(\"50x50\", 'gif', 'ffffff')":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\", 'gif', 'ffffff')",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'gif', 'ffffff')",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text')":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text')",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text')",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::GameOfThrones.character":{
+		"scope":"ruby",
+		"prefix":"Faker::GameOfThrones.character",
+		"body":"Faker::GameOfThrones.character",
+		"description":"Fake GameOfThrones character"
+	},
+	"Faker::GameOfThrones.house":{
+		"scope":"ruby",
+		"prefix":"Faker::GameOfThrones.house",
+		"body":"Faker::GameOfThrones.house",
+		"description":"Fake GameOfThrones house"
+	},
+	"Faker::GameOfThrones.city":{
+		"scope":"ruby",
+		"prefix":"Faker::GameOfThrones.city",
+		"body":"Faker::GameOfThrones.city",
+		"description":"Fake GameOfThrones city"
+	},
+	"Faker::GameOfThrones.dragon":{
+		"scope":"ruby",
+		"prefix":"Faker::GameOfThrones.dragon",
+		"body":"Faker::GameOfThrones.dragon",
+		"description":"Fake GameOfThrones dragon"
+	},
+	"Faker::Bank.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.name",
+		"body":"Faker::Bank.name",
+		"description":"Fake Bank name"
+	},
+	"Faker::Bank.swift_bic":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.swift_bic",
+		"body":"Faker::Bank.swift_bic",
+		"description":"Fake Bank swift_bic"
+	},
+	"Faker::Bank.iban":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.iban",
+		"body":"Faker::Bank.iban",
+		"description":"Fake Bank iban"
+	},
+	"Faker::Bank.iban(\"be\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.iban(\"be\")",
+		"body":"Faker::Bank.iban(\"be\")",
+		"description":"Fake Bank iban"
+	},
+	"Faker::Bitcoin.address":{
+		"scope":"ruby",
+		"prefix":"Faker::Bitcoin.address",
+		"body":"Faker::Bitcoin.address",
+		"description":"Fake Bitcoin address"
+	},
+	"Faker::Bitcoin.testnet_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Bitcoin.testnet_address",
+		"body":"Faker::Bitcoin.testnet_address",
+		"description":"Fake Bitcoin testnet_address"
+	},
+	"Faker::Time.between(DateTime.now - 1, DateTime.now)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(DateTime.now - 1, DateTime.now)",
+		"body":"Faker::Time.between(DateTime.now - 1, DateTime.now)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :all)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :all)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :all)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :day)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :day)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :day)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :night)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :night)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :night)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :morning)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :morning)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :morning)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :afternoon)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :afternoon)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :afternoon)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :evening)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :evening)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :evening)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.between(2.days.ago, Date.today, :midnight)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(2.days.ago, Date.today, :midnight)",
+		"body":"Faker::Time.between(2.days.ago, Date.today, :midnight)",
+		"description":"Fake Time between"
+	},
+	"Faker::Time.backward(14, :evening)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.backward(14, :evening)",
+		"body":"Faker::Time.backward(14, :evening)",
+		"description":"Fake Time backward"
+	},
+	"Faker::LeagueOfLegends.champion":{
+		"scope":"ruby",
+		"prefix":"Faker::LeagueOfLegends.champion",
+		"body":"Faker::LeagueOfLegends.champion",
+		"description":"Fake LeagueOfLegends champion"
+	},
+	"Faker::LeagueOfLegends.location":{
+		"scope":"ruby",
+		"prefix":"Faker::LeagueOfLegends.location",
+		"body":"Faker::LeagueOfLegends.location",
+		"description":"Fake LeagueOfLegends location"
+	},
+	"Faker::LeagueOfLegends.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::LeagueOfLegends.quote",
+		"body":"Faker::LeagueOfLegends.quote",
+		"description":"Fake LeagueOfLegends quote"
+	},
+	"Faker::LeagueOfLegends.summoner_spell":{
+		"scope":"ruby",
+		"prefix":"Faker::LeagueOfLegends.summoner_spell",
+		"body":"Faker::LeagueOfLegends.summoner_spell",
+		"description":"Fake LeagueOfLegends summoner_spell"
+	},
+	"Faker::LeagueOfLegends.masteries":{
+		"scope":"ruby",
+		"prefix":"Faker::LeagueOfLegends.masteries",
+		"body":"Faker::LeagueOfLegends.masteries",
+		"description":"Fake LeagueOfLegends masteries"
+	},
+	"Faker::LeagueOfLegends.rank":{
+		"scope":"ruby",
+		"prefix":"Faker::LeagueOfLegends.rank",
+		"body":"Faker::LeagueOfLegends.rank",
+		"description":"Fake LeagueOfLegends rank"
+	},
+	"Faker::Overwatch.hero":{
+		"scope":"ruby",
+		"prefix":"Faker::Overwatch.hero",
+		"body":"Faker::Overwatch.hero",
+		"description":"Fake Overwatch hero"
+	},
+	"Faker::Overwatch.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Overwatch.location",
+		"body":"Faker::Overwatch.location",
+		"description":"Fake Overwatch location"
+	},
+	"Faker::Overwatch.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Overwatch.quote",
+		"body":"Faker::Overwatch.quote",
+		"description":"Fake Overwatch quote"
+	},
+	"Faker::Dog.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.name",
+		"body":"Faker::Dog.name",
+		"description":"Fake Dog name"
+	},
+	"Faker::Dog.breed":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.breed",
+		"body":"Faker::Dog.breed",
+		"description":"Fake Dog breed"
+	},
+	"Faker::Dog.sound":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.sound",
+		"body":"Faker::Dog.sound",
+		"description":"Fake Dog sound"
+	},
+	"Faker::Dog.meme_phrase":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.meme_phrase",
+		"body":"Faker::Dog.meme_phrase",
+		"description":"Fake Dog meme_phrase"
+	},
+	"Faker::Dog.age":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.age",
+		"body":"Faker::Dog.age",
+		"description":"Fake Dog age"
+	},
+	"Faker::Dog.gender":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.gender",
+		"body":"Faker::Dog.gender",
+		"description":"Fake Dog gender"
+	},
+	"Faker::Dog.coat_length":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.coat_length",
+		"body":"Faker::Dog.coat_length",
+		"description":"Fake Dog coat_length"
+	},
+	"Faker::Dog.size":{
+		"scope":"ruby",
+		"prefix":"Faker::Dog.size",
+		"body":"Faker::Dog.size",
+		"description":"Fake Dog size"
+	},
+	"Faker::LoremPixel.image":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image",
+		"body":"Faker::LoremPixel.image",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(\"50x60\")",
+		"body":"Faker::LoremPixel.image(\"50x60\")",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(\"50x60\", true)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(\"50x60\", true)",
+		"body":"Faker::LoremPixel.image(\"50x60\", true)",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(\"50x60\", false, 'sports')":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(\"50x60\", false, 'sports')",
+		"body":"Faker::LoremPixel.image(\"50x60\", false, 'sports')",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(\"50x60\", false, 'sports', 3)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(\"50x60\", false, 'sports', 3)",
+		"body":"Faker::LoremPixel.image(\"50x60\", false, 'sports', 3)",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(\"50x60\", false, 'sports', 3, 'Dummy-text')":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(\"50x60\", false, 'sports', 3, 'Dummy-text')",
+		"body":"Faker::LoremPixel.image(\"50x60\", false, 'sports', 3, 'Dummy-text')",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(\"50x60\", false, 'sports', nil, 'Dummy-text')":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(\"50x60\", false, 'sports', nil, 'Dummy-text')",
+		"body":"Faker::LoremPixel.image(\"50x60\", false, 'sports', nil, 'Dummy-text')",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::LoremPixel.image(secure: false)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremPixel.image(secure: false)",
+		"body":"Faker::LoremPixel.image(secure: false)",
+		"description":"Fake LoremPixel image"
+	},
+	"Faker::PhoneNumber.phone_number":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.phone_number",
+		"body":"Faker::PhoneNumber.phone_number",
+		"description":"Fake PhoneNumber phone_number"
+	},
+	"Faker::PhoneNumber.cell_phone":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.cell_phone",
+		"body":"Faker::PhoneNumber.cell_phone",
+		"description":"Fake PhoneNumber cell_phone"
+	},
+	"Faker::PhoneNumber.area_code":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.area_code",
+		"body":"Faker::PhoneNumber.area_code",
+		"description":"Fake PhoneNumber area_code"
+	},
+	"Faker::PhoneNumber.exchange_code":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.exchange_code",
+		"body":"Faker::PhoneNumber.exchange_code",
+		"description":"Fake PhoneNumber exchange_code"
+	},
+	"Faker::PhoneNumber.subscriber_number":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.subscriber_number",
+		"body":"Faker::PhoneNumber.subscriber_number",
+		"description":"Fake PhoneNumber subscriber_number"
+	},
+	"Faker::PhoneNumber.subscriber_number(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.subscriber_number(2)",
+		"body":"Faker::PhoneNumber.subscriber_number(2)",
+		"description":"Fake PhoneNumber subscriber_number"
+	},
+	"Faker::PhoneNumber.extension":{
+		"scope":"ruby",
+		"prefix":"Faker::PhoneNumber.extension",
+		"body":"Faker::PhoneNumber.extension",
+		"description":"Fake PhoneNumber extension"
+	},
+	"Faker::AquaTeenHungerForce.character":{
+		"scope":"ruby",
+		"prefix":"Faker::AquaTeenHungerForce.character",
+		"body":"Faker::AquaTeenHungerForce.character",
+		"description":"Fake AquaTeenHungerForce character"
+	},
+	"Faker::DragonBall.character":{
+		"scope":"ruby",
+		"prefix":"Faker::DragonBall.character",
+		"body":"Faker::DragonBall.character",
+		"description":"Fake DragonBall character"
+	},
+	"Faker::Hobbit.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Hobbit.character",
+		"body":"Faker::Hobbit.character",
+		"description":"Fake Hobbit character"
+	},
+	"Faker::Hobbit.thorins_company":{
+		"scope":"ruby",
+		"prefix":"Faker::Hobbit.thorins_company",
+		"body":"Faker::Hobbit.thorins_company",
+		"description":"Fake Hobbit thorins_company"
+	},
+	"Faker::Hobbit.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Hobbit.quote",
+		"body":"Faker::Hobbit.quote",
+		"description":"Fake Hobbit quote"
+	},
+	"Faker::Hobbit.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Hobbit.location",
+		"body":"Faker::Hobbit.location",
+		"description":"Fake Hobbit location"
+	},
+	"Faker::LordOfTheRings.character":{
+		"scope":"ruby",
+		"prefix":"Faker::LordOfTheRings.character",
+		"body":"Faker::LordOfTheRings.character",
+		"description":"Fake LordOfTheRings character"
+	},
+	"Faker::LordOfTheRings.location":{
+		"scope":"ruby",
+		"prefix":"Faker::LordOfTheRings.location",
+		"body":"Faker::LordOfTheRings.location",
+		"description":"Fake LordOfTheRings location"
+	},
+	"Faker::FamilyGuy.character":{
+		"scope":"ruby",
+		"prefix":"Faker::FamilyGuy.character",
+		"body":"Faker::FamilyGuy.character",
+		"description":"Fake FamilyGuy character"
+	},
+	"Faker::FamilyGuy.location":{
+		"scope":"ruby",
+		"prefix":"Faker::FamilyGuy.location",
+		"body":"Faker::FamilyGuy.location",
+		"description":"Fake FamilyGuy location"
+	},
+	"Faker::FamilyGuy.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::FamilyGuy.quote",
+		"body":"Faker::FamilyGuy.quote",
+		"description":"Fake FamilyGuy quote"
+	},
+	"Faker::Job.title":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.title",
+		"body":"Faker::Job.title",
+		"description":"Fake Job title"
+	},
+	"Faker::Job.field":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.field",
+		"body":"Faker::Job.field",
+		"description":"Fake Job field"
+	},
+	"Faker::Job.seniority":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.seniority",
+		"body":"Faker::Job.seniority",
+		"description":"Fake Job seniority"
+	},
+	"Faker::Job.position":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.position",
+		"body":"Faker::Job.position",
+		"description":"Fake Job position"
+	},
+	"Faker::Job.key_skill":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.key_skill",
+		"body":"Faker::Job.key_skill",
+		"description":"Fake Job key_skill"
+	},
+	"Faker::Job.employment_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.employment_type",
+		"body":"Faker::Job.employment_type",
+		"description":"Fake Job employment_type"
+	},
+	"Faker::Job.education_level":{
+		"scope":"ruby",
+		"prefix":"Faker::Job.education_level",
+		"body":"Faker::Job.education_level",
+		"description":"Fake Job education_level"
+	},
+	"Faker::Movie.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Movie.quote",
+		"body":"Faker::Movie.quote",
+		"description":"Fake Movie quote"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.character":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.character",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.character",
+		"description":"Fake HitchhikersGuideToTheGalaxy character"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.location":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.location",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.location",
+		"description":"Fake HitchhikersGuideToTheGalaxy location"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.marvin_quote":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.marvin_quote",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.marvin_quote",
+		"description":"Fake HitchhikersGuideToTheGalaxy marvin_quote"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.planet":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.planet",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.planet",
+		"description":"Fake HitchhikersGuideToTheGalaxy planet"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.quote",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.quote",
+		"description":"Fake HitchhikersGuideToTheGalaxy quote"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.specie":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.specie",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.specie",
+		"description":"Fake HitchhikersGuideToTheGalaxy specie"
+	},
+	"Faker::HitchhikersGuideToTheGalaxy.starship":{
+		"scope":"ruby",
+		"prefix":"Faker::HitchhikersGuideToTheGalaxy.starship",
+		"body":"Faker::HitchhikersGuideToTheGalaxy.starship",
+		"description":"Fake HitchhikersGuideToTheGalaxy starship"
+	},
+	"Faker::TwinPeaks.character":{
+		"scope":"ruby",
+		"prefix":"Faker::TwinPeaks.character",
+		"body":"Faker::TwinPeaks.character",
+		"description":"Fake TwinPeaks character"
+	},
+	"Faker::TwinPeaks.location":{
+		"scope":"ruby",
+		"prefix":"Faker::TwinPeaks.location",
+		"body":"Faker::TwinPeaks.location",
+		"description":"Fake TwinPeaks location"
+	},
+	"Faker::TwinPeaks.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::TwinPeaks.quote",
+		"body":"Faker::TwinPeaks.quote",
+		"description":"Fake TwinPeaks quote"
+	},
+	"Faker::SiliconValley.email":{
+		"scope":"ruby",
+		"prefix":"Faker::SiliconValley.email",
+		"body":"Faker::SiliconValley.email",
+		"description":"Fake SiliconValley email"
+	},
+	"Faker::HeyArnold.character":{
+		"scope":"ruby",
+		"prefix":"Faker::HeyArnold.character",
+		"body":"Faker::HeyArnold.character",
+		"description":"Fake HeyArnold character"
+	},
+	"Faker::HeyArnold.location":{
+		"scope":"ruby",
+		"prefix":"Faker::HeyArnold.location",
+		"body":"Faker::HeyArnold.location",
+		"description":"Fake HeyArnold location"
+	},
+	"Faker::HeyArnold.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::HeyArnold.quote",
+		"body":"Faker::HeyArnold.quote",
+		"description":"Fake HeyArnold quote"
+	},
+	"Faker::Boolean.boolean":{
+		"scope":"ruby",
+		"prefix":"Faker::Boolean.boolean",
+		"body":"Faker::Boolean.boolean",
+		"description":"Fake Boolean boolean"
+	},
+	"Faker::Boolean.boolean(0.2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Boolean.boolean(0.2)",
+		"body":"Faker::Boolean.boolean(0.2)",
+		"description":"Fake Boolean boolean"
+	},
+	"Faker::Commerce.color":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.color",
+		"body":"Faker::Commerce.color",
+		"description":"Fake Commerce color"
+	},
+	"Faker::Commerce.department":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.department",
+		"body":"Faker::Commerce.department",
+		"description":"Fake Commerce department"
+	},
+	"Faker::Commerce.department(5)":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.department(5)",
+		"body":"Faker::Commerce.department(5)",
+		"description":"Fake Commerce department"
+	},
+	"Faker::Commerce.department(2, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.department(2, true)",
+		"body":"Faker::Commerce.department(2, true)",
+		"description":"Fake Commerce department"
+	},
+	"Faker::Commerce.material":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.material",
+		"body":"Faker::Commerce.material",
+		"description":"Fake Commerce material"
+	},
+	"Faker::Commerce.product_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.product_name",
+		"body":"Faker::Commerce.product_name",
+		"description":"Fake Commerce product_name"
+	},
+	"Faker::Commerce.price":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.price",
+		"body":"Faker::Commerce.price",
+		"description":"Fake Commerce price"
+	},
+	"Faker::Commerce.promotion_code":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.promotion_code",
+		"body":"Faker::Commerce.promotion_code",
+		"description":"Fake Commerce promotion_code"
+	},
+	"Faker::ElderScrolls.race":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.race",
+		"body":"Faker::ElderScrolls.race",
+		"description":"Fake ElderScrolls race"
+	},
+	"Faker::ElderScrolls.creature":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.creature",
+		"body":"Faker::ElderScrolls.creature",
+		"description":"Fake ElderScrolls creature"
+	},
+	"Faker::ElderScrolls.region":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.region",
+		"body":"Faker::ElderScrolls.region",
+		"description":"Fake ElderScrolls region"
+	},
+	"Faker::ElderScrolls.dragon":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.dragon",
+		"body":"Faker::ElderScrolls.dragon",
+		"description":"Fake ElderScrolls dragon"
+	},
+	"Faker::ProgrammingLanguage.name":{
+		"scope":"ruby",
+		"prefix":"Faker::ProgrammingLanguage.name",
+		"body":"Faker::ProgrammingLanguage.name",
+		"description":"Fake ProgrammingLanguage name"
+	},
+	"Faker::ProgrammingLanguage.creator":{
+		"scope":"ruby",
+		"prefix":"Faker::ProgrammingLanguage.creator",
+		"body":"Faker::ProgrammingLanguage.creator",
+		"description":"Fake ProgrammingLanguage creator"
+	},
+	"Faker::Measurement.height":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.height",
+		"body":"Faker::Measurement.height",
+		"description":"Fake Measurement height"
+	},
+	"Faker::Measurement.height(1.4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.height(1.4)",
+		"body":"Faker::Measurement.height(1.4)",
+		"description":"Fake Measurement height"
+	},
+	"Faker::Measurement.height(\"none\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.height(\"none\")",
+		"body":"Faker::Measurement.height(\"none\")",
+		"description":"Fake Measurement height"
+	},
+	"Faker::Measurement.height(\"all\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.height(\"all\")",
+		"body":"Faker::Measurement.height(\"all\")",
+		"description":"Fake Measurement height"
+	},
+	"Faker::Measurement.length":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.length",
+		"body":"Faker::Measurement.length",
+		"description":"Fake Measurement length"
+	},
+	"Faker::Measurement.volume":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.volume",
+		"body":"Faker::Measurement.volume",
+		"description":"Fake Measurement volume"
+	},
+	"Faker::Measurement.weight":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.weight",
+		"body":"Faker::Measurement.weight",
+		"description":"Fake Measurement weight"
+	},
+	"Faker::Measurement.metric_height":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.metric_height",
+		"body":"Faker::Measurement.metric_height",
+		"description":"Fake Measurement metric_height"
+	},
+	"Faker::Measurement.metric_length":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.metric_length",
+		"body":"Faker::Measurement.metric_length",
+		"description":"Fake Measurement metric_length"
+	},
+	"Faker::Measurement.metric_volume":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.metric_volume",
+		"body":"Faker::Measurement.metric_volume",
+		"description":"Fake Measurement metric_volume"
+	},
+	"Faker::Measurement.metric_weight":{
+		"scope":"ruby",
+		"prefix":"Faker::Measurement.metric_weight",
+		"body":"Faker::Measurement.metric_weight",
+		"description":"Fake Measurement metric_weight"
+	},
+	"Faker::VentureBros.character":{
+		"scope":"ruby",
+		"prefix":"Faker::VentureBros.character",
+		"body":"Faker::VentureBros.character",
+		"description":"Fake VentureBros character"
+	},
+	"Faker::VentureBros.vehicle":{
+		"scope":"ruby",
+		"prefix":"Faker::VentureBros.vehicle",
+		"body":"Faker::VentureBros.vehicle",
+		"description":"Fake VentureBros vehicle"
+	},
+	"Faker::VentureBros.organization":{
+		"scope":"ruby",
+		"prefix":"Faker::VentureBros.organization",
+		"body":"Faker::VentureBros.organization",
+		"description":"Fake VentureBros organization"
+	},
+	"Faker::VentureBros.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::VentureBros.quote",
+		"body":"Faker::VentureBros.quote",
+		"description":"Fake VentureBros quote"
+	},
+	"Faker::Zelda.game":{
+		"scope":"ruby",
+		"prefix":"Faker::Zelda.game",
+		"body":"Faker::Zelda.game",
+		"description":"Fake Zelda game"
+	},
+	"Faker::Zelda.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Zelda.character",
+		"body":"Faker::Zelda.character",
+		"description":"Fake Zelda character"
+	},
+	"Faker::Zelda.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Zelda.location",
+		"body":"Faker::Zelda.location",
+		"description":"Fake Zelda location"
+	},
+	"Faker::Zelda.item":{
+		"scope":"ruby",
+		"prefix":"Faker::Zelda.item",
+		"body":"Faker::Zelda.item",
+		"description":"Fake Zelda item"
+	},
+	"Faker::Friends.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Friends.character",
+		"body":"Faker::Friends.character",
+		"description":"Fake Friends character"
+	},
+	"Faker::Friends.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Friends.location",
+		"body":"Faker::Friends.location",
+		"description":"Fake Friends location"
+	},
+	"Faker::Friends.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Friends.quote",
+		"body":"Faker::Friends.quote",
+		"description":"Fake Friends quote"
+	},
+	"Faker::Hacker.say_something_smart":{
+		"scope":"ruby",
+		"prefix":"Faker::Hacker.say_something_smart",
+		"body":"Faker::Hacker.say_something_smart",
+		"description":"Fake Hacker say_something_smart"
+	},
+	"Faker::Hacker.ingverb":{
+		"scope":"ruby",
+		"prefix":"Faker::Hacker.ingverb",
+		"body":"Faker::Hacker.ingverb",
+		"description":"Fake Hacker ingverb"
+	},
+	"Faker::Beer.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.name",
+		"body":"Faker::Beer.name",
+		"description":"Fake Beer name"
+	},
+	"Faker::Beer.style":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.style",
+		"body":"Faker::Beer.style",
+		"description":"Fake Beer style"
+	},
+	"Faker::Beer.hop":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.hop",
+		"body":"Faker::Beer.hop",
+		"description":"Fake Beer hop"
+	},
+	"Faker::Beer.yeast":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.yeast",
+		"body":"Faker::Beer.yeast",
+		"description":"Fake Beer yeast"
+	},
+	"Faker::Beer.malts":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.malts",
+		"body":"Faker::Beer.malts",
+		"description":"Fake Beer malts"
+	},
+	"Faker::Beer.ibu":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.ibu",
+		"body":"Faker::Beer.ibu",
+		"description":"Fake Beer ibu"
+	},
+	"Faker::Beer.alcohol":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.alcohol",
+		"body":"Faker::Beer.alcohol",
+		"description":"Fake Beer alcohol"
+	},
+	"Faker::Beer.blg":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.blg",
+		"body":"Faker::Beer.blg",
+		"description":"Fake Beer blg"
+	},
+	"Faker::Lovecraft.fhtagn(3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.fhtagn(3)",
+		"body":"Faker::Lovecraft.fhtagn(3)",
+		"description":"Fake Lovecraft fhtagn"
+	},
+	"Faker::Lovecraft.deity":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.deity",
+		"body":"Faker::Lovecraft.deity",
+		"description":"Fake Lovecraft deity"
+	},
+	"Faker::Lovecraft.tome":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.tome",
+		"body":"Faker::Lovecraft.tome",
+		"description":"Fake Lovecraft tome"
+	},
+	"Faker::Lovecraft.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.location",
+		"body":"Faker::Lovecraft.location",
+		"description":"Fake Lovecraft location"
+	},
+	"Faker::Lovecraft.word":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.word",
+		"body":"Faker::Lovecraft.word",
+		"description":"Fake Lovecraft word"
+	},
+	"Faker::Lovecraft.sentence":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.sentence",
+		"body":"Faker::Lovecraft.sentence",
+		"description":"Fake Lovecraft sentence"
+	},
+	"Faker::Lovecraft.sentence(3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.sentence(3)",
+		"body":"Faker::Lovecraft.sentence(3)",
+		"description":"Fake Lovecraft sentence"
+	},
+	"Faker::Lovecraft.sentence(3, 1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.sentence(3, 1)",
+		"body":"Faker::Lovecraft.sentence(3, 1)",
+		"description":"Fake Lovecraft sentence"
+	},
+	"Faker::Lovecraft.words":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.words",
+		"body":"Faker::Lovecraft.words",
+		"description":"Fake Lovecraft words"
+	},
+	"Faker::Lovecraft.words(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.words(2)",
+		"body":"Faker::Lovecraft.words(2)",
+		"description":"Fake Lovecraft words"
+	},
+	"Faker::Lovecraft.words(2, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.words(2, true)",
+		"body":"Faker::Lovecraft.words(2, true)",
+		"description":"Fake Lovecraft words"
+	},
+	"Faker::Lovecraft.sentences":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.sentences",
+		"body":"Faker::Lovecraft.sentences",
+		"description":"Fake Lovecraft sentences"
+	},
+	"Faker::Lovecraft.sentences(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.sentences(2)",
+		"body":"Faker::Lovecraft.sentences(2)",
+		"description":"Fake Lovecraft sentences"
+	},
+	"Faker::Lovecraft.paragraph":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraph",
+		"body":"Faker::Lovecraft.paragraph",
+		"description":"Fake Lovecraft paragraph"
+	},
+	"Faker::Lovecraft.paragraph(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraph(2)",
+		"body":"Faker::Lovecraft.paragraph(2)",
+		"description":"Fake Lovecraft paragraph"
+	},
+	"Faker::Lovecraft.paragraph(2, 1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraph(2, 1)",
+		"body":"Faker::Lovecraft.paragraph(2, 1)",
+		"description":"Fake Lovecraft paragraph"
+	},
+	"Faker::Lovecraft.paragraphs":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraphs",
+		"body":"Faker::Lovecraft.paragraphs",
+		"description":"Fake Lovecraft paragraphs"
+	},
+	"Faker::Lovecraft.paragraphs(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraphs(2)",
+		"body":"Faker::Lovecraft.paragraphs(2)",
+		"description":"Fake Lovecraft paragraphs"
+	},
+	"Faker::OnePiece.character":{
+		"scope":"ruby",
+		"prefix":"Faker::OnePiece.character",
+		"body":"Faker::OnePiece.character",
+		"description":"Fake OnePiece character"
+	},
+	"Faker::OnePiece.sea":{
+		"scope":"ruby",
+		"prefix":"Faker::OnePiece.sea",
+		"body":"Faker::OnePiece.sea",
+		"description":"Fake OnePiece sea"
+	},
+	"Faker::OnePiece.island":{
+		"scope":"ruby",
+		"prefix":"Faker::OnePiece.island",
+		"body":"Faker::OnePiece.island",
+		"description":"Fake OnePiece island"
+	},
+	"Faker::OnePiece.location":{
+		"scope":"ruby",
+		"prefix":"Faker::OnePiece.location",
+		"body":"Faker::OnePiece.location",
+		"description":"Fake OnePiece location"
+	},
+	"Faker::OnePiece.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::OnePiece.quote",
+		"body":"Faker::OnePiece.quote",
+		"description":"Fake OnePiece quote"
+	},
+	"Faker::OnePiece.akuma_no_mi":{
+		"scope":"ruby",
+		"prefix":"Faker::OnePiece.akuma_no_mi",
+		"body":"Faker::OnePiece.akuma_no_mi",
+		"description":"Fake OnePiece akuma_no_mi"
+	},
+	"Faker::Date.between(2.days.ago, Date.today)":{
+		"scope":"ruby",
+		"prefix":"Faker::Date.between(2.days.ago, Date.today)",
+		"body":"Faker::Date.between(2.days.ago, Date.today)",
+		"description":"Fake Date between"
+	},
+	"Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today)":{
+		"scope":"ruby",
+		"prefix":"Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today)",
+		"body":"Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today)",
+		"description":"Fake Date between_except"
+	},
+	"Faker::Date.backward(14)":{
+		"scope":"ruby",
+		"prefix":"Faker::Date.backward(14)",
+		"body":"Faker::Date.backward(14)",
+		"description":"Fake Date backward"
+	},
+	"Faker::Date.birthday(18, 65)":{
+		"scope":"ruby",
+		"prefix":"Faker::Date.birthday(18, 65)",
+		"body":"Faker::Date.birthday(18, 65)",
+		"description":"Fake Date birthday"
+	},
+	"Faker::String.random":{
+		"scope":"ruby",
+		"prefix":"Faker::String.random",
+		"body":"Faker::String.random",
+		"description":"Fake String random"
+	},
+	"Faker::String.random(4)":{
+		"scope":"ruby",
+		"prefix":"Faker::String.random(4)",
+		"body":"Faker::String.random(4)",
+		"description":"Fake String random"
+	},
+	"Faker::String.random(3..12)":{
+		"scope":"ruby",
+		"prefix":"Faker::String.random(3..12)",
+		"body":"Faker::String.random(3..12)",
+		"description":"Fake String random"
+	},
+	"Faker::String.random([0, 6])":{
+		"scope":"ruby",
+		"prefix":"Faker::String.random([0, 6])",
+		"body":"Faker::String.random([0, 6])",
+		"description":"Fake String random"
+	},
+	"Faker::String.random([1, (2..5), [3, 6], nil])":{
+		"scope":"ruby",
+		"prefix":"Faker::String.random([1, (2..5), [3, 6], nil])",
+		"body":"Faker::String.random([1, (2..5), [3, 6], nil])",
+		"description":"Fake String random"
+	},
+	"Faker::Superhero.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Superhero.name",
+		"body":"Faker::Superhero.name",
+		"description":"Fake Superhero name"
+	},
+	"Faker::Superhero.power":{
+		"scope":"ruby",
+		"prefix":"Faker::Superhero.power",
+		"body":"Faker::Superhero.power",
+		"description":"Fake Superhero power"
+	},
+	"Faker::Superhero.prefix":{
+		"scope":"ruby",
+		"prefix":"Faker::Superhero.prefix",
+		"body":"Faker::Superhero.prefix",
+		"description":"Fake Superhero prefix"
+	},
+	"Faker::Superhero.suffix":{
+		"scope":"ruby",
+		"prefix":"Faker::Superhero.suffix",
+		"body":"Faker::Superhero.suffix",
+		"description":"Fake Superhero suffix"
+	},
+	"Faker::Superhero.descriptor":{
+		"scope":"ruby",
+		"prefix":"Faker::Superhero.descriptor",
+		"body":"Faker::Superhero.descriptor",
+		"description":"Fake Superhero descriptor"
+	},
+	"Faker::Dessert.variety":{
+		"scope":"ruby",
+		"prefix":"Faker::Dessert.variety",
+		"body":"Faker::Dessert.variety",
+		"description":"Fake Dessert variety"
+	},
+	"Faker::Dessert.topping":{
+		"scope":"ruby",
+		"prefix":"Faker::Dessert.topping",
+		"body":"Faker::Dessert.topping",
+		"description":"Fake Dessert topping"
+	},
+	"Faker::Dessert.flavor":{
+		"scope":"ruby",
+		"prefix":"Faker::Dessert.flavor",
+		"body":"Faker::Dessert.flavor",
+		"description":"Fake Dessert flavor"
+	},
+	"Faker::Internet.email":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.email",
+		"body":"Faker::Internet.email",
+		"description":"Fake Internet email"
+	},
+	"Faker::Internet.email('Nancy')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.email('Nancy')",
+		"body":"Faker::Internet.email('Nancy')",
+		"description":"Fake Internet email"
+	},
+	"Faker::Internet.free_email('Nancy')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.free_email('Nancy')",
+		"body":"Faker::Internet.free_email('Nancy')",
+		"description":"Fake Internet free_email"
+	},
+	"Faker::Internet.safe_email":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.safe_email",
+		"body":"Faker::Internet.safe_email",
+		"description":"Fake Internet safe_email"
+	},
+	"Faker::Internet.safe_email('Nancy')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.safe_email('Nancy')",
+		"body":"Faker::Internet.safe_email('Nancy')",
+		"description":"Fake Internet safe_email"
+	},
+	"Faker::Internet.user_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.user_name",
+		"body":"Faker::Internet.user_name",
+		"description":"Fake Internet user_name"
+	},
+	"Faker::Internet.user_name('Nancy')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.user_name('Nancy')",
+		"body":"Faker::Internet.user_name('Nancy')",
+		"description":"Fake Internet user_name"
+	},
+	"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))",
+		"body":"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))",
+		"description":"Fake Internet user_name"
+	},
+	"Faker::Internet.password":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.password",
+		"body":"Faker::Internet.password",
+		"description":"Fake Internet password"
+	},
+	"Faker::Internet.password(8)":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.password(8)",
+		"body":"Faker::Internet.password(8)",
+		"description":"Fake Internet password"
+	},
+	"Faker::Internet.password(10, 20)":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.password(10, 20)",
+		"body":"Faker::Internet.password(10, 20)",
+		"description":"Fake Internet password"
+	},
+	"Faker::Internet.password(10, 20, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.password(10, 20, true)",
+		"body":"Faker::Internet.password(10, 20, true)",
+		"description":"Fake Internet password"
+	},
+	"Faker::Internet.password(10, 20, true, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.password(10, 20, true, true)",
+		"body":"Faker::Internet.password(10, 20, true, true)",
+		"description":"Fake Internet password"
+	},
+	"Faker::Internet.domain_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.domain_name",
+		"body":"Faker::Internet.domain_name",
+		"description":"Fake Internet domain_name"
+	},
+	"Faker::Internet.fix_umlauts('äöüß')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.fix_umlauts('äöüß')",
+		"body":"Faker::Internet.fix_umlauts('äöüß')",
+		"description":"Fake Internet fix_umlauts"
+	},
+	"Faker::Internet.domain_word":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.domain_word",
+		"body":"Faker::Internet.domain_word",
+		"description":"Fake Internet domain_word"
+	},
+	"Faker::Internet.domain_suffix":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.domain_suffix",
+		"body":"Faker::Internet.domain_suffix",
+		"description":"Fake Internet domain_suffix"
+	},
+	"Faker::Internet.ip_v4_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.ip_v4_address",
+		"body":"Faker::Internet.ip_v4_address",
+		"description":"Fake Internet ip_v4_address"
+	},
+	"Faker::Internet.private_ip_v4_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.private_ip_v4_address",
+		"body":"Faker::Internet.private_ip_v4_address",
+		"description":"Fake Internet private_ip_v4_address"
+	},
+	"Faker::Internet.public_ip_v4_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.public_ip_v4_address",
+		"body":"Faker::Internet.public_ip_v4_address",
+		"description":"Fake Internet public_ip_v4_address"
+	},
+	"Faker::Internet.ip_v4_cidr":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.ip_v4_cidr",
+		"body":"Faker::Internet.ip_v4_cidr",
+		"description":"Fake Internet ip_v4_cidr"
+	},
+	"Faker::Internet.ip_v6_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.ip_v6_address",
+		"body":"Faker::Internet.ip_v6_address",
+		"description":"Fake Internet ip_v6_address"
+	},
+	"Faker::Internet.ip_v6_cidr":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.ip_v6_cidr",
+		"body":"Faker::Internet.ip_v6_cidr",
+		"description":"Fake Internet ip_v6_cidr"
+	},
+	"Faker::Internet.mac_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.mac_address",
+		"body":"Faker::Internet.mac_address",
+		"description":"Fake Internet mac_address"
+	},
+	"Faker::Internet.mac_address('55:44:33')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.mac_address('55:44:33')",
+		"body":"Faker::Internet.mac_address('55:44:33')",
+		"description":"Fake Internet mac_address"
+	},
+	"Faker::Internet.url":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.url",
+		"body":"Faker::Internet.url",
+		"description":"Fake Internet url"
+	},
+	"Faker::Internet.url('example.com')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.url('example.com')",
+		"body":"Faker::Internet.url('example.com')",
+		"description":"Fake Internet url"
+	},
+	"Faker::Internet.url('example.com', '/foobar.html')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.url('example.com', '/foobar.html')",
+		"body":"Faker::Internet.url('example.com', '/foobar.html')",
+		"description":"Fake Internet url"
+	},
+	"Faker::Internet.slug":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.slug",
+		"body":"Faker::Internet.slug",
+		"description":"Fake Internet slug"
+	},
+	"Faker::Internet.slug('foo bar')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.slug('foo bar')",
+		"body":"Faker::Internet.slug('foo bar')",
+		"description":"Fake Internet slug"
+	},
+	"Faker::Internet.slug('foo bar', '-')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.slug('foo bar', '-')",
+		"body":"Faker::Internet.slug('foo bar', '-')",
+		"description":"Fake Internet slug"
+	},
+	"Faker::Internet.user_agent":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.user_agent",
+		"body":"Faker::Internet.user_agent",
+		"description":"Fake Internet user_agent"
+	},
+	"Faker::Internet.user_agent(:firefox)":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.user_agent(:firefox)",
+		"body":"Faker::Internet.user_agent(:firefox)",
+		"description":"Fake Internet user_agent"
+	},
+	"Faker::Avatar.image":{
+		"scope":"ruby",
+		"prefix":"Faker::Avatar.image",
+		"body":"Faker::Avatar.image",
+		"description":"Fake Avatar image"
+	},
+	"Faker::Avatar.image(\"my-own-slug\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Avatar.image(\"my-own-slug\")",
+		"body":"Faker::Avatar.image(\"my-own-slug\")",
+		"description":"Fake Avatar image"
+	},
+	"Faker::Avatar.image(\"my-own-slug\", \"50x50\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Avatar.image(\"my-own-slug\", \"50x50\")",
+		"body":"Faker::Avatar.image(\"my-own-slug\", \"50x50\")",
+		"description":"Fake Avatar image"
+	},
+	"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"jpg\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"jpg\")",
+		"body":"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"jpg\")",
+		"description":"Fake Avatar image"
+	},
+	"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\")",
+		"body":"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\")",
+		"description":"Fake Avatar image"
+	},
+	"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\", \"set1\", \"bg1\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\", \"set1\", \"bg1\")",
+		"body":"Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\", \"set1\", \"bg1\")",
+		"description":"Fake Avatar image"
+	},
+	"Faker::Robin.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Robin.quote",
+		"body":"Faker::Robin.quote",
+		"description":"Fake Robin quote"
+	},
+	"Faker::Pokemon.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Pokemon.name",
+		"body":"Faker::Pokemon.name",
+		"description":"Fake Pokemon name"
+	},
+	"Faker::Pokemon.location":{
+		"scope":"ruby",
+		"prefix":"Faker::Pokemon.location",
+		"body":"Faker::Pokemon.location",
+		"description":"Fake Pokemon location"
+	},
+	"Faker::Pokemon.move":{
+		"scope":"ruby",
+		"prefix":"Faker::Pokemon.move",
+		"body":"Faker::Pokemon.move",
+		"description":"Fake Pokemon move"
+	},
+	"Faker::StarTrek.character":{
+		"scope":"ruby",
+		"prefix":"Faker::StarTrek.character",
+		"body":"Faker::StarTrek.character",
+		"description":"Fake StarTrek character"
+	},
+	"Faker::StarTrek.location":{
+		"scope":"ruby",
+		"prefix":"Faker::StarTrek.location",
+		"body":"Faker::StarTrek.location",
+		"description":"Fake StarTrek location"
+	},
+	"Faker::StarTrek.specie":{
+		"scope":"ruby",
+		"prefix":"Faker::StarTrek.specie",
+		"body":"Faker::StarTrek.specie",
+		"description":"Fake StarTrek specie"
+	},
+	"Faker::StarTrek.villain":{
+		"scope":"ruby",
+		"prefix":"Faker::StarTrek.villain",
+		"body":"Faker::StarTrek.villain",
+		"description":"Fake StarTrek villain"
+	},
+	"Faker::Educator.university":{
+		"scope":"ruby",
+		"prefix":"Faker::Educator.university",
+		"body":"Faker::Educator.university",
+		"description":"Fake Educator university"
+	},
+	"Faker::Educator.secondary_school":{
+		"scope":"ruby",
+		"prefix":"Faker::Educator.secondary_school",
+		"body":"Faker::Educator.secondary_school",
+		"description":"Fake Educator secondary_school"
+	},
+	"Faker::Educator.course":{
+		"scope":"ruby",
+		"prefix":"Faker::Educator.course",
+		"body":"Faker::Educator.course",
+		"description":"Fake Educator course"
+	},
+	"Faker::Educator.campus":{
+		"scope":"ruby",
+		"prefix":"Faker::Educator.campus",
+		"body":"Faker::Educator.campus",
+		"description":"Fake Educator campus"
+	},
+	"Faker::Types.string":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.string",
+		"body":"Faker::Types.string",
+		"description":"Fake Types string"
+	},
+	"Faker::Types.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.character",
+		"body":"Faker::Types.character",
+		"description":"Fake Types character"
+	},
+	"Faker::Types.integer":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.integer",
+		"body":"Faker::Types.integer",
+		"description":"Fake Types integer"
+	},
+	"Faker::Types.hash":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.hash",
+		"body":"Faker::Types.hash",
+		"description":"Fake Types hash"
+	},
+	"Faker::Types.complex_hash":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.complex_hash",
+		"body":"Faker::Types.complex_hash",
+		"description":"Fake Types complex_hash"
+	},
+	"Faker::Types.array":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.array",
+		"body":"Faker::Types.array",
+		"description":"Fake Types array"
+	},
+	"Faker::Types.random_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.random_type",
+		"body":"Faker::Types.random_type",
+		"description":"Fake Types random_type"
+	},
+	"Faker::Types.random_complex_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.random_complex_type",
+		"body":"Faker::Types.random_complex_type",
+		"description":"Fake Types random_complex_type"
+	},
+	"Faker::Coffee.blend_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Coffee.blend_name",
+		"body":"Faker::Coffee.blend_name",
+		"description":"Fake Coffee blend_name"
+	},
+	"Faker::Coffee.origin":{
+		"scope":"ruby",
+		"prefix":"Faker::Coffee.origin",
+		"body":"Faker::Coffee.origin",
+		"description":"Fake Coffee origin"
+	},
+	"Faker::Coffee.variety":{
+		"scope":"ruby",
+		"prefix":"Faker::Coffee.variety",
+		"body":"Faker::Coffee.variety",
+		"description":"Fake Coffee variety"
+	},
+	"Faker::Coffee.notes":{
+		"scope":"ruby",
+		"prefix":"Faker::Coffee.notes",
+		"body":"Faker::Coffee.notes",
+		"description":"Fake Coffee notes"
+	},
+	"Faker::Number.number(10)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.number(10)",
+		"body":"Faker::Number.number(10)",
+		"description":"Fake Number number"
+	},
+	"Faker::Number.decimal(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.decimal(2)",
+		"body":"Faker::Number.decimal(2)",
+		"description":"Fake Number decimal"
+	},
+	"Faker::Number.decimal(2, 3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.decimal(2, 3)",
+		"body":"Faker::Number.decimal(2, 3)",
+		"description":"Fake Number decimal"
+	},
+	"Faker::Number.normal(50, 3.5)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.normal(50, 3.5)",
+		"body":"Faker::Number.normal(50, 3.5)",
+		"description":"Fake Number normal"
+	},
+	"Faker::Number.hexadecimal(3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.hexadecimal(3)",
+		"body":"Faker::Number.hexadecimal(3)",
+		"description":"Fake Number hexadecimal"
+	},
+	"Faker::Number.between(1, 10)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.between(1, 10)",
+		"body":"Faker::Number.between(1, 10)",
+		"description":"Fake Number between"
+	},
+	"Faker::Number.positive":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.positive",
+		"body":"Faker::Number.positive",
+		"description":"Fake Number positive"
+	},
+	"Faker::Number.negative":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.negative",
+		"body":"Faker::Number.negative",
+		"description":"Fake Number negative"
+	},
+	"Faker::Number.digit":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.digit",
+		"body":"Faker::Number.digit",
+		"description":"Fake Number digit"
+	},
+	"Faker::File.extension":{
+		"scope":"ruby",
+		"prefix":"Faker::File.extension",
+		"body":"Faker::File.extension",
+		"description":"Fake File extension"
+	},
+	"Faker::File.mime_type":{
+		"scope":"ruby",
+		"prefix":"Faker::File.mime_type",
+		"body":"Faker::File.mime_type",
+		"description":"Fake File mime_type"
+	},
+	"Faker::File.file_name('path/to')":{
+		"scope":"ruby",
+		"prefix":"Faker::File.file_name('path/to')",
+		"body":"Faker::File.file_name('path/to')",
+		"description":"Fake File file_name"
+	},
+	"Faker::File.file_name('foo/bar', 'baz')":{
+		"scope":"ruby",
+		"prefix":"Faker::File.file_name('foo/bar', 'baz')",
+		"body":"Faker::File.file_name('foo/bar', 'baz')",
+		"description":"Fake File file_name"
+	},
+	"Faker::File.file_name('foo/bar', 'baz', 'doc')":{
+		"scope":"ruby",
+		"prefix":"Faker::File.file_name('foo/bar', 'baz', 'doc')",
+		"body":"Faker::File.file_name('foo/bar', 'baz', 'doc')",
+		"description":"Fake File file_name"
+	},
+	"Faker::File.file_name('foo/bar', 'baz', 'mp3', '\')":{
+		"scope":"ruby",
+		"prefix":"Faker::File.file_name('foo/bar', 'baz', 'mp3', '\')",
+		"body":"Faker::File.file_name('foo/bar', 'baz', 'mp3', '\')",
+		"description":"Fake File file_name"
+	},
+	"Faker::Seinfeld.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Seinfeld.character",
+		"body":"Faker::Seinfeld.character",
+		"description":"Fake Seinfeld character"
+	},
+	"Faker::Seinfeld.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Seinfeld.quote",
+		"body":"Faker::Seinfeld.quote",
+		"description":"Fake Seinfeld quote"
+	},
+	"Faker::UmphreysMcgee.song":{
+		"scope":"ruby",
+		"prefix":"Faker::UmphreysMcgee.song",
+		"body":"Faker::UmphreysMcgee.song",
+		"description":"Fake UmphreysMcgee song"
+	},
+	"Faker::University.name":{
+		"scope":"ruby",
+		"prefix":"Faker::University.name",
+		"body":"Faker::University.name",
+		"description":"Fake University name"
+	},
+	"Faker::University.greek_organization":{
+		"scope":"ruby",
+		"prefix":"Faker::University.greek_organization",
+		"body":"Faker::University.greek_organization",
+		"description":"Fake University greek_organization"
+	},
+	"Faker::Currency.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Currency.name",
+		"body":"Faker::Currency.name",
+		"description":"Fake Currency name"
+	},
+	"Faker::Currency.code":{
+		"scope":"ruby",
+		"prefix":"Faker::Currency.code",
+		"body":"Faker::Currency.code",
+		"description":"Fake Currency code"
+	},
+	"Faker::Hipster.word":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.word",
+		"body":"Faker::Hipster.word",
+		"description":"Fake Hipster word"
+	},
+	"Faker::Hipster.words":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.words",
+		"body":"Faker::Hipster.words",
+		"description":"Fake Hipster words"
+	},
+	"Faker::Hipster.words(4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.words(4)",
+		"body":"Faker::Hipster.words(4)",
+		"description":"Fake Hipster words"
+	},
+	"Faker::Hipster.words(4, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.words(4, true)",
+		"body":"Faker::Hipster.words(4, true)",
+		"description":"Fake Hipster words"
+	},
+	"Faker::Hipster.words(4, true, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.words(4, true, true)",
+		"body":"Faker::Hipster.words(4, true, true)",
+		"description":"Fake Hipster words"
+	},
+	"Faker::Hipster.sentence":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentence",
+		"body":"Faker::Hipster.sentence",
+		"description":"Fake Hipster sentence"
+	},
+	"Faker::Hipster.sentence(3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentence(3)",
+		"body":"Faker::Hipster.sentence(3)",
+		"description":"Fake Hipster sentence"
+	},
+	"Faker::Hipster.sentence(3, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentence(3, true)",
+		"body":"Faker::Hipster.sentence(3, true)",
+		"description":"Fake Hipster sentence"
+	},
+	"Faker::Hipster.sentence(3, false, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentence(3, false, 4)",
+		"body":"Faker::Hipster.sentence(3, false, 4)",
+		"description":"Fake Hipster sentence"
+	},
+	"Faker::Hipster.sentence(3, true, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentence(3, true, 4)",
+		"body":"Faker::Hipster.sentence(3, true, 4)",
+		"description":"Fake Hipster sentence"
+	},
+	"Faker::Hipster.sentences":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentences",
+		"body":"Faker::Hipster.sentences",
+		"description":"Fake Hipster sentences"
+	},
+	"Faker::Hipster.sentences(1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentences(1)",
+		"body":"Faker::Hipster.sentences(1)",
+		"description":"Fake Hipster sentences"
+	},
+	"Faker::Hipster.sentences(1, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.sentences(1, true)",
+		"body":"Faker::Hipster.sentences(1, true)",
+		"description":"Fake Hipster sentences"
+	},
+	"Faker::Hipster.paragraph":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph",
+		"body":"Faker::Hipster.paragraph",
+		"description":"Fake Hipster paragraph"
+	},
+	"Faker::Hipster.paragraph(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph(2)",
+		"body":"Faker::Hipster.paragraph(2)",
+		"description":"Fake Hipster paragraph"
+	},
+	"Faker::Hipster.paragraph(2, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph(2, true)",
+		"body":"Faker::Hipster.paragraph(2, true)",
+		"description":"Fake Hipster paragraph"
+	},
+	"Faker::Hipster.paragraph(2, false, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph(2, false, 4)",
+		"body":"Faker::Hipster.paragraph(2, false, 4)",
+		"description":"Fake Hipster paragraph"
+	},
+	"Faker::Hipster.paragraph(2, true, 4)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph(2, true, 4)",
+		"body":"Faker::Hipster.paragraph(2, true, 4)",
+		"description":"Fake Hipster paragraph"
+	},
+	"Faker::Hipster.paragraphs":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraphs",
+		"body":"Faker::Hipster.paragraphs",
+		"description":"Fake Hipster paragraphs"
+	},
+	"Faker::Hipster.paragraphs(1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraphs(1)",
+		"body":"Faker::Hipster.paragraphs(1)",
+		"description":"Fake Hipster paragraphs"
+	},
+	"Faker::Hipster.paragraphs(1, true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraphs(1, true)",
+		"body":"Faker::Hipster.paragraphs(1, true)",
+		"description":"Fake Hipster paragraphs"
+	},
+	"Faker::StarWars.call_sign":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.call_sign",
+		"body":"Faker::StarWars.call_sign",
+		"description":"Fake StarWars call_sign"
+	},
+	"Faker::StarWars.character":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.character",
+		"body":"Faker::StarWars.character",
+		"description":"Fake StarWars character"
+	},
+	"Faker::StarWars.droid":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.droid",
+		"body":"Faker::StarWars.droid",
+		"description":"Fake StarWars droid"
+	},
+	"Faker::StarWars.planet":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.planet",
+		"body":"Faker::StarWars.planet",
+		"description":"Fake StarWars planet"
+	},
+	"Faker::StarWars.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.quote",
+		"body":"Faker::StarWars.quote",
+		"description":"Fake StarWars quote"
+	},
+	"Faker::StarWars.quote(\"leia_organa\")":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.quote(\"leia_organa\")",
+		"body":"Faker::StarWars.quote(\"leia_organa\")",
+		"description":"Fake StarWars quote"
+	},
+	"Faker::StarWars.specie":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.specie",
+		"body":"Faker::StarWars.specie",
+		"description":"Fake StarWars specie"
+	},
+	"Faker::StarWars.vehicle":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.vehicle",
+		"body":"Faker::StarWars.vehicle",
+		"description":"Fake StarWars vehicle"
+	},
+	"Faker::StarWars.wookiee_sentence":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.wookiee_sentence",
+		"body":"Faker::StarWars.wookiee_sentence",
+		"description":"Fake StarWars wookiee_sentence"
+	},
+	"Faker::Markdown.headers":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.headers",
+		"body":"Faker::Markdown.headers",
+		"description":"Fake Markdown headers"
+	},
+	"Faker::Markdown.emphasis":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.emphasis",
+		"body":"Faker::Markdown.emphasis",
+		"description":"Fake Markdown emphasis"
+	},
+	"Faker::Markdown.ordered_list":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.ordered_list",
+		"body":"Faker::Markdown.ordered_list",
+		"description":"Fake Markdown ordered_list"
+	},
+	"Faker::Markdown.unordered_list":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.unordered_list",
+		"body":"Faker::Markdown.unordered_list",
+		"description":"Fake Markdown unordered_list"
+	},
+	"Faker::Markdown.inline_code":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.inline_code",
+		"body":"Faker::Markdown.inline_code",
+		"description":"Fake Markdown inline_code"
+	},
+	"Faker::Markdown.block_code":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.block_code",
+		"body":"Faker::Markdown.block_code",
+		"description":"Fake Markdown block_code"
+	},
+	"Faker::Markdown.table":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.table",
+		"body":"Faker::Markdown.table",
+		"description":"Fake Markdown table"
+	},
+	"Faker::Markdown.random":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.random",
+		"body":"Faker::Markdown.random",
+		"description":"Fake Markdown random"
+	},
+	"Faker::Compass.quarter_wind_abbreviation":{
+		"scope":"ruby",
+		"prefix":"Faker::Compass.quarter_wind_abbreviation",
+		"body":"Faker::Compass.quarter_wind_abbreviation",
+		"description":"Fake Compass quarter_wind_abbreviation"
+	},
+	"Faker::TheFreshPrinceOfBelAir.character":{
+		"scope":"ruby",
+		"prefix":"Faker::TheFreshPrinceOfBelAir.character",
+		"body":"Faker::TheFreshPrinceOfBelAir.character",
+		"description":"Fake TheFreshPrinceOfBelAir character"
+	},
+	"Faker::TheFreshPrinceOfBelAir.celebrity":{
+		"scope":"ruby",
+		"prefix":"Faker::TheFreshPrinceOfBelAir.celebrity",
+		"body":"Faker::TheFreshPrinceOfBelAir.celebrity",
+		"description":"Fake TheFreshPrinceOfBelAir celebrity"
+	},
+	"Faker::TheFreshPrinceOfBelAir.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::TheFreshPrinceOfBelAir.quote",
+		"body":"Faker::TheFreshPrinceOfBelAir.quote",
+		"description":"Fake TheFreshPrinceOfBelAir quote"
+	},
+	"Faker::HarryPotter.character":{
+		"scope":"ruby",
+		"prefix":"Faker::HarryPotter.character",
+		"body":"Faker::HarryPotter.character",
+		"description":"Fake HarryPotter character"
+	},
+	"Faker::HarryPotter.location":{
+		"scope":"ruby",
+		"prefix":"Faker::HarryPotter.location",
+		"body":"Faker::HarryPotter.location",
+		"description":"Fake HarryPotter location"
+	},
+	"Faker::HarryPotter.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::HarryPotter.quote",
+		"body":"Faker::HarryPotter.quote",
+		"description":"Fake HarryPotter quote"
+	},
+	"Faker::HarryPotter.book":{
+		"scope":"ruby",
+		"prefix":"Faker::HarryPotter.book",
+		"body":"Faker::HarryPotter.book",
+		"description":"Fake HarryPotter book"
+	},
+	"Faker::HarryPotter.house":{
+		"scope":"ruby",
+		"prefix":"Faker::HarryPotter.house",
+		"body":"Faker::HarryPotter.house",
+		"description":"Fake HarryPotter house"
+	},
+	"Faker::Simpsons.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Simpsons.character",
+		"body":"Faker::Simpsons.character",
+		"description":"Fake Simpsons character"
+	},
+	"Faker::Address.city":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.city",
+		"body":"Faker::Address.city",
+		"description":"Fake Address city"
+	},
+	"Faker::Address.street_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.street_name",
+		"body":"Faker::Address.street_name",
+		"description":"Fake Address street_name"
+	},
+	"Faker::Address.street_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.street_address",
+		"body":"Faker::Address.street_address",
+		"description":"Fake Address street_address"
+	},
+	"Faker::Address.secondary_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.secondary_address",
+		"body":"Faker::Address.secondary_address",
+		"description":"Fake Address secondary_address"
+	},
+	"Faker::Address.building_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.building_number",
+		"body":"Faker::Address.building_number",
+		"description":"Fake Address building_number"
+	},
+	"Faker::Address.community":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.community",
+		"body":"Faker::Address.community",
+		"description":"Fake Address community"
+	},
+	"Faker::Address.zip_code":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.zip_code",
+		"body":"Faker::Address.zip_code",
+		"description":"Fake Address zip_code"
+	},
+	"Faker::Address.zip":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.zip",
+		"body":"Faker::Address.zip",
+		"description":"Fake Address zip"
+	},
+	"Faker::Address.postcode":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.postcode",
+		"body":"Faker::Address.postcode",
+		"description":"Fake Address postcode"
+	},
+	"Faker::Address.time_zone":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.time_zone",
+		"body":"Faker::Address.time_zone",
+		"description":"Fake Address time_zone"
+	},
+	"Faker::Address.street_suffix":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.street_suffix",
+		"body":"Faker::Address.street_suffix",
+		"description":"Fake Address street_suffix"
+	},
+	"Faker::Address.city_suffix":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.city_suffix",
+		"body":"Faker::Address.city_suffix",
+		"description":"Fake Address city_suffix"
+	},
+	"Faker::Address.city_prefix":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.city_prefix",
+		"body":"Faker::Address.city_prefix",
+		"description":"Fake Address city_prefix"
+	},
+	"Faker::Address.state":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.state",
+		"body":"Faker::Address.state",
+		"description":"Fake Address state"
+	},
+	"Faker::Address.state_abbr":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.state_abbr",
+		"body":"Faker::Address.state_abbr",
+		"description":"Fake Address state_abbr"
+	},
+	"Faker::Address.country":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.country",
+		"body":"Faker::Address.country",
+		"description":"Fake Address country"
+	},
+	"Faker::Address.country_code":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.country_code",
+		"body":"Faker::Address.country_code",
+		"description":"Fake Address country_code"
+	},
+	"Faker::Address.country_code_long":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.country_code_long",
+		"body":"Faker::Address.country_code_long",
+		"description":"Fake Address country_code_long"
+	},
+	"Faker::Address.latitude":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.latitude",
+		"body":"Faker::Address.latitude",
+		"description":"Fake Address latitude"
+	},
+	"Faker::Address.longitude":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.longitude",
+		"body":"Faker::Address.longitude",
+		"description":"Fake Address longitude"
+	},
+	"Faker::Music.key":{
+		"scope":"ruby",
+		"prefix":"Faker::Music.key",
+		"body":"Faker::Music.key",
+		"description":"Fake Music key"
+	},
+	"Faker::Music.chord":{
+		"scope":"ruby",
+		"prefix":"Faker::Music.chord",
+		"body":"Faker::Music.chord",
+		"description":"Fake Music chord"
+	},
+	"Faker::Music.instrument":{
+		"scope":"ruby",
+		"prefix":"Faker::Music.instrument",
+		"body":"Faker::Music.instrument",
+		"description":"Fake Music instrument"
+	},
+	"Faker::Fillmurray.image":{
+		"scope":"ruby",
+		"prefix":"Faker::Fillmurray.image",
+		"body":"Faker::Fillmurray.image",
+		"description":"Fake Fillmurray image"
+	},
+	"Faker::Fillmurray.image(true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Fillmurray.image(true)",
+		"body":"Faker::Fillmurray.image(true)",
+		"description":"Fake Fillmurray image"
+	},
+	"Faker::Fillmurray.image(false, 200, 400)":{
+		"scope":"ruby",
+		"prefix":"Faker::Fillmurray.image(false, 200, 400)",
+		"body":"Faker::Fillmurray.image(false, 200, 400)",
+		"description":"Fake Fillmurray image"
+	}
+}
