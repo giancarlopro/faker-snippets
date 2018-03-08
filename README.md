@@ -2,6 +2,17 @@
 
 VSCode extension with code snippets for [Faker Gem](https://github.com/stympy/faker)
 
+## Known Issues
+
+If you find some issue, feel free to open a new issue on github.
+
+## Release Notes
+
+Last updates.
+
+### 0.0.1
+
+Initial release of Faker Snippets
 ## Features
 ### VForVendetta
 |Snippet|Description|
@@ -823,16 +834,3 @@ VSCode extension with code snippets for [Faker Gem](https://github.com/stympy/fa
 | Faker::Fillmurray.image | Generate Fake Fillmurray image |
 | Faker::Fillmurray.image(true) | Generate Fake Fillmurray image |
 | Faker::Fillmurray.image(false, 200, 400) | Generate Fake Fillmurray image |
-
-
-## Known Issues
-
-If you find some issue, feel free to open a new issue on github.
-
-## Release Notes
-
-Last updates.
-
-### 0.0.1
-
-Initial release of Faker Snippets
