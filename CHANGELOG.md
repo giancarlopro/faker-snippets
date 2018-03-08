@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 -->
 ## [Unreleased]
 
-## [0.10] - 2018-03-08
+## [0.1.0] - 2018-03-08
 Added icon
 Added install instructions
 ## [0.0.1]
