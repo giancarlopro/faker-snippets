@@ -7,7 +7,9 @@ VSCode extension with code snippets for [Faker Gem](https://github.com/stympy/fa
 2. Search for "Faker Snippets"
 3. Click `install`
 4. Click `reload`
+
 ## Features
+
 ### VForVendetta
 |Snippet|Description|
 |-------|-----------|
