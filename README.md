@@ -16,825 +16,836 @@ ext install giancarlopro.faker-snippets
 ```
 3. Press `reload`
 
+## Usage
+![Usage](images/usage.gif)
+
 ## Features
 
 ### VForVendetta
-|Snippet|Description|
-|-------|-----------|
-| Faker::VForVendetta.character | Generate Fake VForVendetta character |
-| Faker::VForVendetta.speech | Generate Fake VForVendetta speech |
-| Faker::VForVendetta.quote | Generate Fake VForVendetta quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::VForVendetta.character | VForVendetta.character |
+| Faker::VForVendetta.speech | VForVendetta.speech |
+| Faker::VForVendetta.quote | VForVendetta.quote |
 ### Company
-|Snippet|Description|
-|-------|-----------|
-| Faker::Company.name | Generate Fake Company name |
-| Faker::Company.suffix | Generate Fake Company suffix |
-| Faker::Company.catch_phrase | Generate Fake Company catch_phrase |
-| Faker::Company.buzzword | Generate Fake Company buzzword |
-| Faker::Company.bs | Generate Fake Company bs |
-| Faker::Company.ein | Generate Fake Company ein |
-| Faker::Company.duns_number | Generate Fake Company duns_number |
-| Faker::Company.logo | Generate Fake Company logo |
-| Faker::Company.swedish_organisation_number | Generate Fake Company swedish_organisation_number |
-| Faker::Company.french_siren_number | Generate Fake Company french_siren_number |
-| Faker::Company.french_siret_number | Generate Fake Company french_siret_number |
-| Faker::Company.norwegian_organisation_number | Generate Fake Company norwegian_organisation_number |
-| Faker::Company.australian_business_number | Generate Fake Company australian_business_number |
-| Faker::Company.profession | Generate Fake Company profession |
-| Faker::Company.type | Generate Fake Company type |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Company.name | Company.name |
+| Faker::Company.suffix | Company.suffix |
+| Faker::Company.catch_phrase | Company.catch_phrase |
+| Faker::Company.buzzword | Company.buzzword |
+| Faker::Company.bs | Company.bs |
+| Faker::Company.ein | Company.ein |
+| Faker::Company.duns_number | Company.duns_number |
+| Faker::Company.logo | Company.logo |
+| Faker::Company.swedish_organisation_number | Company.swedish_organisation_number |
+| Faker::Company.french_siren_number | Company.french_siren_number |
+| Faker::Company.french_siret_number | Company.french_siret_number |
+| Faker::Company.norwegian_organisation_number | Company.norwegian_organisation_number |
+| Faker::Company.australian_business_number | Company.australian_business_number |
+| Faker::Company.profession | Company.profession |
+| Faker::Company.type | Company.type |
 ### Team
-|Snippet|Description|
-|-------|-----------|
-| Faker::Team.creature | Generate Fake Team creature |
-| Faker::Team.name | Generate Fake Team name |
-| Faker::Team.state | Generate Fake Team state |
-| Faker::Team.sport | Generate Fake Team sport |
-| Faker::Team.mascot | Generate Fake Team mascot |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Team.creature | Team.creature |
+| Faker::Team.name | Team.name |
+| Faker::Team.state | Team.state |
+| Faker::Team.sport | Team.sport |
+| Faker::Team.mascot | Team.mascot |
 ### Ancient
-|Snippet|Description|
-|-------|-----------|
-| Faker::Ancient.god | Generate Fake Ancient god |
-| Faker::Ancient.primordial | Generate Fake Ancient primordial |
-| Faker::Ancient.titan | Generate Fake Ancient titan |
-| Faker::Ancient.hero | Generate Fake Ancient hero |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Ancient.god | Ancient.god |
+| Faker::Ancient.primordial | Ancient.primordial |
+| Faker::Ancient.titan | Ancient.titan |
+| Faker::Ancient.hero | Ancient.hero |
 ### Food
-|Snippet|Description|
-|-------|-----------|
-| Faker::Food.dish | Generate Fake Food dish |
-| Faker::Food.description | Generate Fake Food description |
-| Faker::Food.ingredient | Generate Fake Food ingredient |
-| Faker::Food.spice | Generate Fake Food spice |
-| Faker::Food.measurement | Generate Fake Food measurement |
-| Faker::Food.metric_measurement | Generate Fake Food metric_measurement |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Food.dish | Food.dish |
+| Faker::Food.description | Food.description |
+| Faker::Food.ingredient | Food.ingredient |
+| Faker::Food.spice | Food.spice |
+| Faker::Food.measurement | Food.measurement |
+| Faker::Food.metric_measurement | Food.metric_measurement |
 ### Verb
-|Snippet|Description|
-|-------|-----------|
-| Faker::Verb.base | Generate Fake Verb base |
-| Faker::Verb.past | Generate Fake Verb past |
-| Faker::Verb.past_participle | Generate Fake Verb past_participle |
-| Faker::Verb.simple_present | Generate Fake Verb simple_present |
-| Faker::Verb.ing_form | Generate Fake Verb ing_form |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Verb.base | Verb.base |
+| Faker::Verb.past | Verb.past |
+| Faker::Verb.past_participle | Verb.past_participle |
+| Faker::Verb.simple_present | Verb.simple_present |
+| Faker::Verb.ing_form | Verb.ing_form |
 ### MostInterestingManInTheWorld
-|Snippet|Description|
-|-------|-----------|
-| Faker::MostInterestingManInTheWorld.quote | Generate Fake MostInterestingManInTheWorld quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::MostInterestingManInTheWorld.quote | MostInterestingManInTheWorld.quote |
 ### DrWho
-|Snippet|Description|
-|-------|-----------|
-| Faker::DrWho.catch_phrase | Generate Fake DrWho catch_phrase |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::DrWho.catch_phrase | DrWho.catch_phrase |
 ### RickAndMorty
-|Snippet|Description|
-|-------|-----------|
-| Faker::RickAndMorty.character | Generate Fake RickAndMorty character |
-| Faker::RickAndMorty.location | Generate Fake RickAndMorty location |
-| Faker::RickAndMorty.quote | Generate Fake RickAndMorty quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::RickAndMorty.character | RickAndMorty.character |
+| Faker::RickAndMorty.location | RickAndMorty.location |
+| Faker::RickAndMorty.quote | RickAndMorty.quote |
 ### Crypto
-|Snippet|Description|
-|-------|-----------|
-| Faker::Crypto.md5 | Generate Fake Crypto md5 |
-| Faker::Crypto.sha1 | Generate Fake Crypto sha1 |
-| Faker::Crypto.sha256 | Generate Fake Crypto sha256 |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Crypto.md5 | Crypto.md5 |
+| Faker::Crypto.sha1 | Crypto.sha1 |
+| Faker::Crypto.sha256 | Crypto.sha256 |
 ### Twitter
-|Snippet|Description|
-|-------|-----------|
-| Faker::Twitter.user | Generate Fake Twitter user |
-| Faker::Twitter.status | Generate Fake Twitter status |
-| Faker::Twitter.screen_name | Generate Fake Twitter screen_name |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Twitter.user | Twitter.user |
+| Faker::Twitter.status | Twitter.status |
+| Faker::Twitter.screen_name | Twitter.screen_name |
 ### Business
-|Snippet|Description|
-|-------|-----------|
-| Faker::Business.credit_card_number | Generate Fake Business credit_card_number |
-| Faker::Business.credit_card_expiry_date | Generate Fake Business credit_card_expiry_date |
-| Faker::Business.credit_card_type | Generate Fake Business credit_card_type |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Business.credit_card_number | Business.credit_card_number |
+| Faker::Business.credit_card_expiry_date | Business.credit_card_expiry_date |
+| Faker::Business.credit_card_type | Business.credit_card_type |
 ### App
-|Snippet|Description|
-|-------|-----------|
-| Faker::App.name | Generate Fake App name |
-| Faker::App.version | Generate Fake App version |
-| Faker::App.author | Generate Fake App author |
-| Faker::App.semantic_version | Generate Fake App semantic_version |
-| Faker::App.semantic_version(major: 42) | Generate Fake App semantic_version |
-| Faker::App.semantic_version(minor: 100..101) | Generate Fake App semantic_version |
-| Faker::App.semantic_version(patch: 5..6) | Generate Fake App semantic_version |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::App.name | App.name |
+| Faker::App.version | App.version |
+| Faker::App.author | App.author |
+| Faker::App.semantic_version | App.semantic_version |
+| Faker::App.semantic_version(major: 42) | App.semantic_version(major: 42) |
+| Faker::App.semantic_version(minor: 100..101) | App.semantic_version(minor: 100..101) |
+| Faker::App.semantic_version(patch: 5..6) | App.semantic_version(patch: 5..6) |
 ### Space
-|Snippet|Description|
-|-------|-----------|
-| Faker::Space.planet | Generate Fake Space planet |
-| Faker::Space.moon | Generate Fake Space moon |
-| Faker::Space.galaxy | Generate Fake Space galaxy |
-| Faker::Space.nebula | Generate Fake Space nebula |
-| Faker::Space.star_cluster | Generate Fake Space star_cluster |
-| Faker::Space.constellation | Generate Fake Space constellation |
-| Faker::Space.star | Generate Fake Space star |
-| Faker::Space.agency | Generate Fake Space agency |
-| Faker::Space.agency_abv | Generate Fake Space agency_abv |
-| Faker::Space.nasa_space_craft | Generate Fake Space nasa_space_craft |
-| Faker::Space.company | Generate Fake Space company |
-| Faker::Space.distance_measurement | Generate Fake Space distance_measurement |
-| Faker::Space.meteorite | Generate Fake Space meteorite |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Space.planet | Space.planet |
+| Faker::Space.moon | Space.moon |
+| Faker::Space.galaxy | Space.galaxy |
+| Faker::Space.nebula | Space.nebula |
+| Faker::Space.star_cluster | Space.star_cluster |
+| Faker::Space.constellation | Space.constellation |
+| Faker::Space.star | Space.star |
+| Faker::Space.agency | Space.agency |
+| Faker::Space.agency_abv | Space.agency_abv |
+| Faker::Space.nasa_space_craft | Space.nasa_space_craft |
+| Faker::Space.company | Space.company |
+| Faker::Space.distance_measurement | Space.distance_measurement |
+| Faker::Space.meteorite | Space.meteorite |
 ### FunnyName
-|Snippet|Description|
-|-------|-----------|
-| Faker::FunnyName.name | Generate Fake FunnyName name |
-| Faker::FunnyName.two_word_name | Generate Fake FunnyName two_word_name |
-| Faker::FunnyName.three_word_name | Generate Fake FunnyName three_word_name |
-| Faker::FunnyName.four_word_name | Generate Fake FunnyName four_word_name |
-| Faker::FunnyName.name_with_initial | Generate Fake FunnyName name_with_initial |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::FunnyName.name | FunnyName.name |
+| Faker::FunnyName.two_word_name | FunnyName.two_word_name |
+| Faker::FunnyName.three_word_name | FunnyName.three_word_name |
+| Faker::FunnyName.four_word_name | FunnyName.four_word_name |
+| Faker::FunnyName.name_with_initial | FunnyName.name_with_initial |
 ### Color
-|Snippet|Description|
-|-------|-----------|
-| Faker::Color.hex_color | Generate Fake Color hex_color |
-| Faker::Color.color_name | Generate Fake Color color_name |
-| Faker::Color.rgb_color | Generate Fake Color rgb_color |
-| Faker::Color.hsl_color | Generate Fake Color hsl_color |
-| Faker::Color.hsla_color | Generate Fake Color hsla_color |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Color.hex_color | Color.hex_color |
+| Faker::Color.color_name | Color.color_name |
+| Faker::Color.rgb_color | Color.rgb_color |
+| Faker::Color.hsl_color | Color.hsl_color |
+| Faker::Color.hsla_color | Color.hsla_color |
 ### Name
-|Snippet|Description|
-|-------|-----------|
-| Faker::Name.name_with_middle | Generate Fake Name name_with_middle |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Name.name | Name.name |
+| Faker::Name.name_with_middle | Name.name_with_middle |
+| Faker::Name.first_name | Name.first_name |
+| Faker::Name.last_name | Name.last_name |
+| Faker::Name.prefix | Name.prefix |
+| Faker::Name.suffix | Name.suffix |
+| Faker::Name.title | Name.title |
+| Faker::Name.initials | Name.initials |
+| Faker::Name.initials(2) | Name.initials(2) |
 ### RockBand
-|Snippet|Description|
-|-------|-----------|
-| Faker::RockBand.name | Generate Fake RockBand name |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::RockBand.name | RockBand.name |
 ### Omniauth
-|Snippet|Description|
-|-------|-----------|
-| Faker::Omniauth.google | Generate Fake Omniauth google |
-| Faker::Omniauth.facebook | Generate Fake Omniauth facebook |
-| Faker::Omniauth.twitter | Generate Fake Omniauth twitter |
-| Faker::Omniauth.linkedin | Generate Fake Omniauth linkedin |
-| Faker::Omniauth.github | Generate Fake Omniauth github |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Omniauth.google | Omniauth.google |
+| Faker::Omniauth.facebook | Omniauth.facebook |
+| Faker::Omniauth.twitter | Omniauth.twitter |
+| Faker::Omniauth.linkedin | Omniauth.linkedin |
+| Faker::Omniauth.github | Omniauth.github |
 ### Demographic
-|Snippet|Description|
-|-------|-----------|
-| Faker::Demographic.race | Generate Fake Demographic race |
-| Faker::Demographic.educational_attainment | Generate Fake Demographic educational_attainment |
-| Faker::Demographic.demonym | Generate Fake Demographic demonym |
-| Faker::Demographic.marital_status | Generate Fake Demographic marital_status |
-| Faker::Demographic.sex | Generate Fake Demographic sex |
-| Faker::Demographic.height | Generate Fake Demographic height |
-| Faker::Demographic.height(:imperial) | Generate Fake Demographic height |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Demographic.race | Demographic.race |
+| Faker::Demographic.educational_attainment | Demographic.educational_attainment |
+| Faker::Demographic.demonym | Demographic.demonym |
+| Faker::Demographic.marital_status | Demographic.marital_status |
+| Faker::Demographic.sex | Demographic.sex |
+| Faker::Demographic.height | Demographic.height |
+| Faker::Demographic.height(:imperial) | Demographic.height(:imperial) |
 ### HowIMetYourMother
-|Snippet|Description|
-|-------|-----------|
-| Faker::HowIMetYourMother.character | Generate Fake HowIMetYourMother character |
-| Faker::HowIMetYourMother.catch_phrase | Generate Fake HowIMetYourMother catch_phrase |
-| Faker::HowIMetYourMother.high_five | Generate Fake HowIMetYourMother high_five |
-| Faker::HowIMetYourMother.quote | Generate Fake HowIMetYourMother quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::HowIMetYourMother.character | HowIMetYourMother.character |
+| Faker::HowIMetYourMother.catch_phrase | HowIMetYourMother.catch_phrase |
+| Faker::HowIMetYourMother.high_five | HowIMetYourMother.high_five |
+| Faker::HowIMetYourMother.quote | HowIMetYourMother.quote |
 ### Code
-|Snippet|Description|
-|-------|-----------|
-| Faker::Code.isbn | Generate Fake Code isbn |
-| Faker::Code.ean | Generate Fake Code ean |
-| Faker::Code.asin | Generate Fake Code asin |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Code.isbn | Code.isbn |
+| Faker::Code.ean | Code.ean |
+| Faker::Code.asin | Code.asin |
 ### Lorem
-|Snippet|Description|
-|-------|-----------|
-| Faker::Lorem.word | Generate Fake Lorem word |
-| Faker::Lorem.words | Generate Fake Lorem words |
-| Faker::Lorem.words(4) | Generate Fake Lorem words |
-| Faker::Lorem.words(4, true) | Generate Fake Lorem words |
-| Faker::Lorem.characters | Generate Fake Lorem characters |
-| Faker::Lorem.characters(10) | Generate Fake Lorem characters |
-| Faker::Lorem.sentence | Generate Fake Lorem sentence |
-| Faker::Lorem.sentence(3) | Generate Fake Lorem sentence |
-| Faker::Lorem.sentence(3, true) | Generate Fake Lorem sentence |
-| Faker::Lorem.sentence(3, false, 4) | Generate Fake Lorem sentence |
-| Faker::Lorem.sentence(3, true, 4) | Generate Fake Lorem sentence |
-| Faker::Lorem.sentences | Generate Fake Lorem sentences |
-| Faker::Lorem.sentences(1) | Generate Fake Lorem sentences |
-| Faker::Lorem.sentences(1, true) | Generate Fake Lorem sentences |
-| Faker::Lorem.paragraph | Generate Fake Lorem paragraph |
-| Faker::Lorem.paragraph(2) | Generate Fake Lorem paragraph |
-| Faker::Lorem.paragraph(2, true) | Generate Fake Lorem paragraph |
-| Faker::Lorem.paragraph(2, false, 4) | Generate Fake Lorem paragraph |
-| Faker::Lorem.paragraph(2, true, 4) | Generate Fake Lorem paragraph |
-| Faker::Lorem.paragraphs | Generate Fake Lorem paragraphs |
-| Faker::Lorem.paragraphs(1) | Generate Fake Lorem paragraphs |
-| Faker::Lorem.paragraphs(1, true) | Generate Fake Lorem paragraphs |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Lorem.word | Lorem.word |
+| Faker::Lorem.words | Lorem.words |
+| Faker::Lorem.words(4) | Lorem.words(4) |
+| Faker::Lorem.words(4, true) | Lorem.words(4, true) |
+| Faker::Lorem.characters | Lorem.characters |
+| Faker::Lorem.characters(10) | Lorem.characters(10) |
+| Faker::Lorem.sentence | Lorem.sentence |
+| Faker::Lorem.sentence(3) | Lorem.sentence(3) |
+| Faker::Lorem.sentence(3, true) | Lorem.sentence(3, true) |
+| Faker::Lorem.sentence(3, false, 4) | Lorem.sentence(3, false, 4) |
+| Faker::Lorem.sentence(3, true, 4) | Lorem.sentence(3, true, 4) |
+| Faker::Lorem.sentences | Lorem.sentences |
+| Faker::Lorem.sentences(1) | Lorem.sentences(1) |
+| Faker::Lorem.sentences(1, true) | Lorem.sentences(1, true) |
+| Faker::Lorem.paragraph | Lorem.paragraph |
+| Faker::Lorem.paragraph(2) | Lorem.paragraph(2) |
+| Faker::Lorem.paragraph(2, true) | Lorem.paragraph(2, true) |
+| Faker::Lorem.paragraph(2, false, 4) | Lorem.paragraph(2, false, 4) |
+| Faker::Lorem.paragraph(2, true, 4) | Lorem.paragraph(2, true, 4) |
+| Faker::Lorem.paragraphs | Lorem.paragraphs |
+| Faker::Lorem.paragraphs(1) | Lorem.paragraphs(1) |
+| Faker::Lorem.paragraphs(1, true) | Lorem.paragraphs(1, true) |
 ### WorldOfWarcraft
-|Snippet|Description|
-|-------|-----------|
-| Faker::WorldOfWarcraft.hero | Generate Fake WorldOfWarcraft hero |
-| Faker::WorldOfWarcraft.quote | Generate Fake WorldOfWarcraft quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::WorldOfWarcraft.hero | WorldOfWarcraft.hero |
+| Faker::WorldOfWarcraft.quote | WorldOfWarcraft.quote |
 ### Fallout
-|Snippet|Description|
-|-------|-----------|
-| Faker::Fallout.character | Generate Fake Fallout character |
-| Faker::Fallout.faction | Generate Fake Fallout faction |
-| Faker::Fallout.location | Generate Fake Fallout location |
-| Faker::Fallout.quote | Generate Fake Fallout quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Fallout.character | Fallout.character |
+| Faker::Fallout.faction | Fallout.faction |
+| Faker::Fallout.location | Fallout.location |
+| Faker::Fallout.quote | Fallout.quote |
 ### Science
-|Snippet|Description|
-|-------|-----------|
-| Faker::Science.element | Generate Fake Science element |
-| Faker::Science.scientist | Generate Fake Science scientist |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Science.element | Science.element |
+| Faker::Science.scientist | Science.scientist |
 ### BossaNova
-|Snippet|Description|
-|-------|-----------|
-| Faker::BossaNova.artist | Generate Fake BossaNova artist |
-| Faker::BossaNova.song | Generate Fake BossaNova song |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::BossaNova.artist | BossaNova.artist |
+| Faker::BossaNova.song | BossaNova.song |
 ### Cat
-|Snippet|Description|
-|-------|-----------|
-| Faker::Cat.name | Generate Fake Cat name |
-| Faker::Cat.breed | Generate Fake Cat breed |
-| Faker::Cat.registry | Generate Fake Cat registry |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Cat.name | Cat.name |
+| Faker::Cat.breed | Cat.breed |
+| Faker::Cat.registry | Cat.registry |
 ### Vehicle
-|Snippet|Description|
-|-------|-----------|
-| Faker::Vehicle.vin | Generate Fake Vehicle vin |
-| Faker::Vehicle.manufacture | Generate Fake Vehicle manufacture |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Vehicle.vin | Vehicle.vin |
+| Faker::Vehicle.manufacture | Vehicle.manufacture |
 ### Matz
-|Snippet|Description|
-|-------|-----------|
-| Faker::Matz.quote | Generate Fake Matz quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Matz.quote | Matz.quote |
 ### Book
-|Snippet|Description|
-|-------|-----------|
-| Faker::Book.title | Generate Fake Book title |
-| Faker::Book.author | Generate Fake Book author |
-| Faker::Book.publisher | Generate Fake Book publisher |
-| Faker::Book.genre | Generate Fake Book genre |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Book.title | Book.title |
+| Faker::Book.author | Book.author |
+| Faker::Book.publisher | Book.publisher |
+| Faker::Book.genre | Book.genre |
 ### BackToTheFuture
-|Snippet|Description|
-|-------|-----------|
-| Faker::BackToTheFuture.character | Generate Fake BackToTheFuture character |
-| Faker::BackToTheFuture.date | Generate Fake BackToTheFuture date |
-| Faker::BackToTheFuture.quote | Generate Fake BackToTheFuture quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::BackToTheFuture.character | BackToTheFuture.character |
+| Faker::BackToTheFuture.date | BackToTheFuture.date |
+| Faker::BackToTheFuture.quote | BackToTheFuture.quote |
 ### Dune
-|Snippet|Description|
-|-------|-----------|
-| Faker::Dune.character | Generate Fake Dune character |
-| Faker::Dune.title | Generate Fake Dune title |
-| Faker::Dune.planet | Generate Fake Dune planet |
-| Faker::Dune.quote | Generate Fake Dune quote |
-| Faker::Dune.quote(\"baron_harkonnen\") | Generate Fake Dune quote |
-| Faker::Dune.saying | Generate Fake Dune saying |
-| Faker::Dune.saying(\"fremen\") | Generate Fake Dune saying |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Dune.character | Dune.character |
+| Faker::Dune.title | Dune.title |
+| Faker::Dune.planet | Dune.planet |
+| Faker::Dune.quote | Dune.quote |
+| Faker::Dune.quote(\"baron_harkonnen\") | Dune.quote(\"baron_harkonnen\") |
+| Faker::Dune.saying | Dune.saying |
+| Faker::Dune.saying(\"fremen\") | Dune.saying(\"fremen\") |
 ### ChuckNorris
-|Snippet|Description|
-|-------|-----------|
-| Faker::ChuckNorris.fact | Generate Fake ChuckNorris fact |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::ChuckNorris.fact | ChuckNorris.fact |
 ### TheThickOfIt
-|Snippet|Description|
-|-------|-----------|
-| Faker::TheThickOfIt.character | Generate Fake TheThickOfIt character |
-| Faker::TheThickOfIt.department | Generate Fake TheThickOfIt department |
-| Faker::TheThickOfIt.position | Generate Fake TheThickOfIt position |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::TheThickOfIt.character | TheThickOfIt.character |
+| Faker::TheThickOfIt.department | TheThickOfIt.department |
+| Faker::TheThickOfIt.position | TheThickOfIt.position |
 ### SlackEmoji
-|Snippet|Description|
-|-------|-----------|
-| Faker::SlackEmoji.people | Generate Fake SlackEmoji people |
-| Faker::SlackEmoji.nature | Generate Fake SlackEmoji nature |
-| Faker::SlackEmoji.food_and_drink | Generate Fake SlackEmoji food_and_drink |
-| Faker::SlackEmoji.celebration | Generate Fake SlackEmoji celebration |
-| Faker::SlackEmoji.activity | Generate Fake SlackEmoji activity |
-| Faker::SlackEmoji.travel_and_places | Generate Fake SlackEmoji travel_and_places |
-| Faker::SlackEmoji.objects_and_symbols | Generate Fake SlackEmoji objects_and_symbols |
-| Faker::SlackEmoji.custom | Generate Fake SlackEmoji custom |
-| Faker::SlackEmoji.emoji | Generate Fake SlackEmoji emoji |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::SlackEmoji.people | SlackEmoji.people |
+| Faker::SlackEmoji.nature | SlackEmoji.nature |
+| Faker::SlackEmoji.food_and_drink | SlackEmoji.food_and_drink |
+| Faker::SlackEmoji.celebration | SlackEmoji.celebration |
+| Faker::SlackEmoji.activity | SlackEmoji.activity |
+| Faker::SlackEmoji.travel_and_places | SlackEmoji.travel_and_places |
+| Faker::SlackEmoji.objects_and_symbols | SlackEmoji.objects_and_symbols |
+| Faker::SlackEmoji.custom | SlackEmoji.custom |
+| Faker::SlackEmoji.emoji | SlackEmoji.emoji |
 ### RuPaul
-|Snippet|Description|
-|-------|-----------|
-| Faker::RuPaul.quote | Generate Fake RuPaul quote |
-| Faker::RuPaul.queen | Generate Fake RuPaul queen |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::RuPaul.quote | RuPaul.quote |
+| Faker::RuPaul.queen | RuPaul.queen |
 ### Stripe
-|Snippet|Description|
-|-------|-----------|
-| Faker::Stripe.valid_card | Generate Fake Stripe valid_card |
-| Faker::Stripe.valid_card(\"visa_debit\") | Generate Fake Stripe valid_card |
-| Faker::Stripe.invalid_card | Generate Fake Stripe invalid_card |
-| Faker::Stripe.invalid_card(\"addressZipFail\") | Generate Fake Stripe invalid_card |
-| Faker::Stripe.month | Generate Fake Stripe month |
-| Faker::Stripe.year | Generate Fake Stripe year |
-| Faker::Stripe.ccv | Generate Fake Stripe ccv |
-| Faker::Stripe.ccv(\"amex\") | Generate Fake Stripe ccv |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Stripe.valid_card | Stripe.valid_card |
+| Faker::Stripe.valid_card(\"visa_debit\") | Stripe.valid_card(\"visa_debit\") |
+| Faker::Stripe.invalid_card | Stripe.invalid_card |
+| Faker::Stripe.invalid_card(\"addressZipFail\") | Stripe.invalid_card(\"addressZipFail\") |
+| Faker::Stripe.month | Stripe.month |
+| Faker::Stripe.year | Stripe.year |
+| Faker::Stripe.ccv | Stripe.ccv |
+| Faker::Stripe.ccv(\"amex\") | Stripe.ccv(\"amex\") |
 ### Number
-|Snippet|Description|
-|-------|-----------|
-| Faker::Number.between(3,10) | Generate Fake Number between |
-| Faker::Number.number(10) | Generate Fake Number number |
-| Faker::Number.decimal(2) | Generate Fake Number decimal |
-| Faker::Number.decimal(2, 3) | Generate Fake Number decimal |
-| Faker::Number.normal(50, 3.5) | Generate Fake Number normal |
-| Faker::Number.hexadecimal(3) | Generate Fake Number hexadecimal |
-| Faker::Number.between(1, 10) | Generate Fake Number between |
-| Faker::Number.positive | Generate Fake Number positive |
-| Faker::Number.negative | Generate Fake Number negative |
-| Faker::Number.digit | Generate Fake Number digit |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Number.between(3,10) | Number.between(3,10) |
+| Faker::Number.number(10) | Number.number(10) |
+| Faker::Number.decimal(2) | Number.decimal(2) |
+| Faker::Number.decimal(2, 3) | Number.decimal(2, 3) |
+| Faker::Number.normal(50, 3.5) | Number.normal(50, 3.5) |
+| Faker::Number.hexadecimal(3) | Number.hexadecimal(3) |
+| Faker::Number.between(1, 10) | Number.between(1, 10) |
+| Faker::Number.positive | Number.positive |
+| Faker::Number.negative | Number.negative |
+| Faker::Number.digit | Number.digit |
 ### Internet
-|Snippet|Description|
-|-------|-----------|
-| Faker::Internet.free_email | Generate Fake Internet free_email |
-| Faker::Internet.email | Generate Fake Internet email |
-| Faker::Internet.email('Nancy') | Generate Fake Internet email |
-| Faker::Internet.free_email | Generate Fake Internet free_email |
-| Faker::Internet.free_email('Nancy') | Generate Fake Internet free_email |
-| Faker::Internet.safe_email | Generate Fake Internet safe_email |
-| Faker::Internet.safe_email('Nancy') | Generate Fake Internet safe_email |
-| Faker::Internet.user_name | Generate Fake Internet user_name |
-| Faker::Internet.user_name('Nancy') | Generate Fake Internet user_name |
-| Faker::Internet.user_name('Nancy Johnson', %w(. _ -)) | Generate Fake Internet user_name |
-| Faker::Internet.password | Generate Fake Internet password |
-| Faker::Internet.password(8) | Generate Fake Internet password |
-| Faker::Internet.password(10, 20) | Generate Fake Internet password |
-| Faker::Internet.password(10, 20, true) | Generate Fake Internet password |
-| Faker::Internet.password(10, 20, true, true) | Generate Fake Internet password |
-| Faker::Internet.domain_name | Generate Fake Internet domain_name |
-| Faker::Internet.fix_umlauts('äöüß') | Generate Fake Internet fix_umlauts |
-| Faker::Internet.domain_word | Generate Fake Internet domain_word |
-| Faker::Internet.domain_suffix | Generate Fake Internet domain_suffix |
-| Faker::Internet.ip_v4_address | Generate Fake Internet ip_v4_address |
-| Faker::Internet.private_ip_v4_address | Generate Fake Internet private_ip_v4_address |
-| Faker::Internet.public_ip_v4_address | Generate Fake Internet public_ip_v4_address |
-| Faker::Internet.ip_v4_cidr | Generate Fake Internet ip_v4_cidr |
-| Faker::Internet.ip_v6_address | Generate Fake Internet ip_v6_address |
-| Faker::Internet.ip_v6_cidr | Generate Fake Internet ip_v6_cidr |
-| Faker::Internet.mac_address | Generate Fake Internet mac_address |
-| Faker::Internet.mac_address('55:44:33') | Generate Fake Internet mac_address |
-| Faker::Internet.url | Generate Fake Internet url |
-| Faker::Internet.url('example.com') | Generate Fake Internet url |
-| Faker::Internet.url('example.com', '/foobar.html') | Generate Fake Internet url |
-| Faker::Internet.slug | Generate Fake Internet slug |
-| Faker::Internet.slug('foo bar') | Generate Fake Internet slug |
-| Faker::Internet.slug('foo bar', '-') | Generate Fake Internet slug |
-| Faker::Internet.user_agent | Generate Fake Internet user_agent |
-| Faker::Internet.user_agent(:firefox) | Generate Fake Internet user_agent |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Internet.free_email | Internet.free_email |
+| Faker::Internet.email | Internet.email |
+| Faker::Internet.email('Nancy') | Internet.email('Nancy') |
+| Faker::Internet.free_email | Internet.free_email |
+| Faker::Internet.free_email('Nancy') | Internet.free_email('Nancy') |
+| Faker::Internet.safe_email | Internet.safe_email |
+| Faker::Internet.safe_email('Nancy') | Internet.safe_email('Nancy') |
+| Faker::Internet.user_name | Internet.user_name |
+| Faker::Internet.user_name('Nancy') | Internet.user_name('Nancy') |
+| Faker::Internet.user_name('Nancy Johnson', %w(. _ -)) | Internet.user_name('Nancy Johnson', %w(. _ -)) |
+| Faker::Internet.password | Internet.password |
+| Faker::Internet.password(8) | Internet.password(8) |
+| Faker::Internet.password(10, 20) | Internet.password(10, 20) |
+| Faker::Internet.password(10, 20, true) | Internet.password(10, 20, true) |
+| Faker::Internet.password(10, 20, true, true) | Internet.password(10, 20, true, true) |
+| Faker::Internet.domain_name | Internet.domain_name |
+| Faker::Internet.fix_umlauts('äöüß') | Internet.fix_umlauts('äöüß') |
+| Faker::Internet.domain_word | Internet.domain_word |
+| Faker::Internet.domain_suffix | Internet.domain_suffix |
+| Faker::Internet.ip_v4_address | Internet.ip_v4_address |
+| Faker::Internet.private_ip_v4_address | Internet.private_ip_v4_address |
+| Faker::Internet.public_ip_v4_address | Internet.public_ip_v4_address |
+| Faker::Internet.ip_v4_cidr | Internet.ip_v4_cidr |
+| Faker::Internet.ip_v6_address | Internet.ip_v6_address |
+| Faker::Internet.ip_v6_cidr | Internet.ip_v6_cidr |
+| Faker::Internet.mac_address | Internet.mac_address |
+| Faker::Internet.mac_address('55:44:33') | Internet.mac_address('55:44:33') |
+| Faker::Internet.url | Internet.url |
+| Faker::Internet.url('example.com') | Internet.url('example.com') |
+| Faker::Internet.url('example.com', '/foobar.html') | Internet.url('example.com', '/foobar.html') |
+| Faker::Internet.slug | Internet.slug |
+| Faker::Internet.slug('foo bar') | Internet.slug('foo bar') |
+| Faker::Internet.slug('foo bar', '-') | Internet.slug('foo bar', '-') |
+| Faker::Internet.user_agent | Internet.user_agent |
+| Faker::Internet.user_agent(:firefox) | Internet.user_agent(:firefox) |
 ### Placeholdit
-|Snippet|Description|
-|-------|-----------|
-| Faker::Placeholdit.image | Generate Fake Placeholdit image |
-| Faker::Placeholdit.image(\"50x50\") | Generate Fake Placeholdit image |
-| Faker::Placeholdit.image(\"50x50\", 'jpg') | Generate Fake Placeholdit image |
-| Faker::Placeholdit.image(\"50x50\", 'gif', 'ffffff') | Generate Fake Placeholdit image |
-| Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000') | Generate Fake Placeholdit image |
-| Faker::Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text') | Generate Fake Placeholdit image |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Placeholdit.image | Placeholdit.image |
+| Faker::Placeholdit.image(\"50x50\") | Placeholdit.image(\"50x50\") |
+| Faker::Placeholdit.image(\"50x50\", 'jpg') | Placeholdit.image(\"50x50\", 'jpg') |
+| Faker::Placeholdit.image(\"50x50\", 'gif', 'ffffff') | Placeholdit.image(\"50x50\", 'gif', 'ffffff') |
+| Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000') | Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000') |
+| Faker::Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text') | Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text') |
 ### GameOfThrones
-|Snippet|Description|
-|-------|-----------|
-| Faker::GameOfThrones.character | Generate Fake GameOfThrones character |
-| Faker::GameOfThrones.house | Generate Fake GameOfThrones house |
-| Faker::GameOfThrones.city | Generate Fake GameOfThrones city |
-| Faker::GameOfThrones.dragon | Generate Fake GameOfThrones dragon |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::GameOfThrones.character | GameOfThrones.character |
+| Faker::GameOfThrones.house | GameOfThrones.house |
+| Faker::GameOfThrones.city | GameOfThrones.city |
+| Faker::GameOfThrones.dragon | GameOfThrones.dragon |
 ### Bank
-|Snippet|Description|
-|-------|-----------|
-| Faker::Bank.name | Generate Fake Bank name |
-| Faker::Bank.swift_bic | Generate Fake Bank swift_bic |
-| Faker::Bank.iban | Generate Fake Bank iban |
-| Faker::Bank.iban(\"be\") | Generate Fake Bank iban |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Bank.name | Bank.name |
+| Faker::Bank.swift_bic | Bank.swift_bic |
+| Faker::Bank.iban | Bank.iban |
+| Faker::Bank.iban(\"be\") | Bank.iban(\"be\") |
 ### Bitcoin
-|Snippet|Description|
-|-------|-----------|
-| Faker::Bitcoin.address | Generate Fake Bitcoin address |
-| Faker::Bitcoin.testnet_address | Generate Fake Bitcoin testnet_address |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Bitcoin.address | Bitcoin.address |
+| Faker::Bitcoin.testnet_address | Bitcoin.testnet_address |
 ### Time
-|Snippet|Description|
-|-------|-----------|
-| Faker::Time.between(DateTime.now - 1, DateTime.now) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :all) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :day) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :night) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :morning) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :afternoon) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :evening) | Generate Fake Time between |
-| Faker::Time.between(2.days.ago, Date.today, :midnight) | Generate Fake Time between |
-| Faker::Time.backward(14, :evening) | Generate Fake Time backward |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Time.between(DateTime.now - 1, DateTime.now) | Time.between(DateTime.now - 1, DateTime.now) |
+| Faker::Time.between(2.days.ago, Date.today, :all) | Time.between(2.days.ago, Date.today, :all) |
+| Faker::Time.between(2.days.ago, Date.today, :day) | Time.between(2.days.ago, Date.today, :day) |
+| Faker::Time.between(2.days.ago, Date.today, :night) | Time.between(2.days.ago, Date.today, :night) |
+| Faker::Time.between(2.days.ago, Date.today, :morning) | Time.between(2.days.ago, Date.today, :morning) |
+| Faker::Time.between(2.days.ago, Date.today, :afternoon) | Time.between(2.days.ago, Date.today, :afternoon) |
+| Faker::Time.between(2.days.ago, Date.today, :evening) | Time.between(2.days.ago, Date.today, :evening) |
+| Faker::Time.between(2.days.ago, Date.today, :midnight) | Time.between(2.days.ago, Date.today, :midnight) |
+| Faker::Time.backward(14, :evening) | Time.backward(14, :evening) |
 ### LeagueOfLegends
-|Snippet|Description|
-|-------|-----------|
-| Faker::LeagueOfLegends.champion | Generate Fake LeagueOfLegends champion |
-| Faker::LeagueOfLegends.location | Generate Fake LeagueOfLegends location |
-| Faker::LeagueOfLegends.quote | Generate Fake LeagueOfLegends quote |
-| Faker::LeagueOfLegends.summoner_spell | Generate Fake LeagueOfLegends summoner_spell |
-| Faker::LeagueOfLegends.masteries | Generate Fake LeagueOfLegends masteries |
-| Faker::LeagueOfLegends.rank | Generate Fake LeagueOfLegends rank |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::LeagueOfLegends.champion | LeagueOfLegends.champion |
+| Faker::LeagueOfLegends.location | LeagueOfLegends.location |
+| Faker::LeagueOfLegends.quote | LeagueOfLegends.quote |
+| Faker::LeagueOfLegends.summoner_spell | LeagueOfLegends.summoner_spell |
+| Faker::LeagueOfLegends.masteries | LeagueOfLegends.masteries |
+| Faker::LeagueOfLegends.rank | LeagueOfLegends.rank |
 ### Overwatch
-|Snippet|Description|
-|-------|-----------|
-| Faker::Overwatch.hero | Generate Fake Overwatch hero |
-| Faker::Overwatch.location | Generate Fake Overwatch location |
-| Faker::Overwatch.quote | Generate Fake Overwatch quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Overwatch.hero | Overwatch.hero |
+| Faker::Overwatch.location | Overwatch.location |
+| Faker::Overwatch.quote | Overwatch.quote |
 ### Dog
-|Snippet|Description|
-|-------|-----------|
-| Faker::Dog.name | Generate Fake Dog name |
-| Faker::Dog.breed | Generate Fake Dog breed |
-| Faker::Dog.sound | Generate Fake Dog sound |
-| Faker::Dog.meme_phrase | Generate Fake Dog meme_phrase |
-| Faker::Dog.age | Generate Fake Dog age |
-| Faker::Dog.gender | Generate Fake Dog gender |
-| Faker::Dog.coat_length | Generate Fake Dog coat_length |
-| Faker::Dog.size | Generate Fake Dog size |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Dog.name | Dog.name |
+| Faker::Dog.breed | Dog.breed |
+| Faker::Dog.sound | Dog.sound |
+| Faker::Dog.meme_phrase | Dog.meme_phrase |
+| Faker::Dog.age | Dog.age |
+| Faker::Dog.gender | Dog.gender |
+| Faker::Dog.coat_length | Dog.coat_length |
+| Faker::Dog.size | Dog.size |
 ### LoremPixel
-|Snippet|Description|
-|-------|-----------|
-| Faker::LoremPixel.image | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(\"50x60\") | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(\"50x60\", true) | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(\"50x60\", false, 'sports') | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(\"50x60\", false, 'sports', 3) | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(\"50x60\", false, 'sports', 3, 'Dummy-text') | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(\"50x60\", false, 'sports', nil, 'Dummy-text') | Generate Fake LoremPixel image |
-| Faker::LoremPixel.image(secure: false) | Generate Fake LoremPixel image |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::LoremPixel.image | LoremPixel.image |
+| Faker::LoremPixel.image(\"50x60\") | LoremPixel.image(\"50x60\") |
+| Faker::LoremPixel.image(\"50x60\", true) | LoremPixel.image(\"50x60\", true) |
+| Faker::LoremPixel.image(\"50x60\", false, 'sports') | LoremPixel.image(\"50x60\", false, 'sports') |
+| Faker::LoremPixel.image(\"50x60\", false, 'sports', 3) | LoremPixel.image(\"50x60\", false, 'sports', 3) |
+| Faker::LoremPixel.image(\"50x60\", false, 'sports', 3, 'Dummy-text') | LoremPixel.image(\"50x60\", false, 'sports', 3, 'Dummy-text') |
+| Faker::LoremPixel.image(\"50x60\", false, 'sports', nil, 'Dummy-text') | LoremPixel.image(\"50x60\", false, 'sports', nil, 'Dummy-text') |
+| Faker::LoremPixel.image(secure: false) | LoremPixel.image(secure: false) |
 ### PhoneNumber
-|Snippet|Description|
-|-------|-----------|
-| Faker::PhoneNumber.phone_number | Generate Fake PhoneNumber phone_number |
-| Faker::PhoneNumber.cell_phone | Generate Fake PhoneNumber cell_phone |
-| Faker::PhoneNumber.area_code | Generate Fake PhoneNumber area_code |
-| Faker::PhoneNumber.exchange_code | Generate Fake PhoneNumber exchange_code |
-| Faker::PhoneNumber.subscriber_number | Generate Fake PhoneNumber subscriber_number |
-| Faker::PhoneNumber.subscriber_number(2) | Generate Fake PhoneNumber subscriber_number |
-| Faker::PhoneNumber.extension | Generate Fake PhoneNumber extension |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::PhoneNumber.phone_number | PhoneNumber.phone_number |
+| Faker::PhoneNumber.cell_phone | PhoneNumber.cell_phone |
+| Faker::PhoneNumber.area_code | PhoneNumber.area_code |
+| Faker::PhoneNumber.exchange_code | PhoneNumber.exchange_code |
+| Faker::PhoneNumber.subscriber_number | PhoneNumber.subscriber_number |
+| Faker::PhoneNumber.subscriber_number(2) | PhoneNumber.subscriber_number(2) |
+| Faker::PhoneNumber.extension | PhoneNumber.extension |
 ### AquaTeenHungerForce
-|Snippet|Description|
-|-------|-----------|
-| Faker::AquaTeenHungerForce.character | Generate Fake AquaTeenHungerForce character |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::AquaTeenHungerForce.character | AquaTeenHungerForce.character |
 ### DragonBall
-|Snippet|Description|
-|-------|-----------|
-| Faker::DragonBall.character | Generate Fake DragonBall character |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::DragonBall.character | DragonBall.character |
 ### Hobbit
-|Snippet|Description|
-|-------|-----------|
-| Faker::Hobbit.character | Generate Fake Hobbit character |
-| Faker::Hobbit.thorins_company | Generate Fake Hobbit thorins_company |
-| Faker::Hobbit.quote | Generate Fake Hobbit quote |
-| Faker::Hobbit.location | Generate Fake Hobbit location |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Hobbit.character | Hobbit.character |
+| Faker::Hobbit.thorins_company | Hobbit.thorins_company |
+| Faker::Hobbit.quote | Hobbit.quote |
+| Faker::Hobbit.location | Hobbit.location |
 ### LordOfTheRings
-|Snippet|Description|
-|-------|-----------|
-| Faker::LordOfTheRings.character | Generate Fake LordOfTheRings character |
-| Faker::LordOfTheRings.location | Generate Fake LordOfTheRings location |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::LordOfTheRings.character | LordOfTheRings.character |
+| Faker::LordOfTheRings.location | LordOfTheRings.location |
 ### FamilyGuy
-|Snippet|Description|
-|-------|-----------|
-| Faker::FamilyGuy.character | Generate Fake FamilyGuy character |
-| Faker::FamilyGuy.location | Generate Fake FamilyGuy location |
-| Faker::FamilyGuy.quote | Generate Fake FamilyGuy quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::FamilyGuy.character | FamilyGuy.character |
+| Faker::FamilyGuy.location | FamilyGuy.location |
+| Faker::FamilyGuy.quote | FamilyGuy.quote |
 ### Job
-|Snippet|Description|
-|-------|-----------|
-| Faker::Job.title | Generate Fake Job title |
-| Faker::Job.field | Generate Fake Job field |
-| Faker::Job.seniority | Generate Fake Job seniority |
-| Faker::Job.position | Generate Fake Job position |
-| Faker::Job.key_skill | Generate Fake Job key_skill |
-| Faker::Job.employment_type | Generate Fake Job employment_type |
-| Faker::Job.education_level | Generate Fake Job education_level |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Job.title | Job.title |
+| Faker::Job.field | Job.field |
+| Faker::Job.seniority | Job.seniority |
+| Faker::Job.position | Job.position |
+| Faker::Job.key_skill | Job.key_skill |
+| Faker::Job.employment_type | Job.employment_type |
+| Faker::Job.education_level | Job.education_level |
 ### Movie
-|Snippet|Description|
-|-------|-----------|
-| Faker::Movie.quote | Generate Fake Movie quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Movie.quote | Movie.quote |
 ### HitchhikersGuideToTheGalaxy
-|Snippet|Description|
-|-------|-----------|
-| Faker::HitchhikersGuideToTheGalaxy.character | Generate Fake HitchhikersGuideToTheGalaxy character |
-| Faker::HitchhikersGuideToTheGalaxy.location | Generate Fake HitchhikersGuideToTheGalaxy location |
-| Faker::HitchhikersGuideToTheGalaxy.marvin_quote | Generate Fake HitchhikersGuideToTheGalaxy marvin_quote |
-| Faker::HitchhikersGuideToTheGalaxy.planet | Generate Fake HitchhikersGuideToTheGalaxy planet |
-| Faker::HitchhikersGuideToTheGalaxy.quote | Generate Fake HitchhikersGuideToTheGalaxy quote |
-| Faker::HitchhikersGuideToTheGalaxy.specie | Generate Fake HitchhikersGuideToTheGalaxy specie |
-| Faker::HitchhikersGuideToTheGalaxy.starship | Generate Fake HitchhikersGuideToTheGalaxy starship |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::HitchhikersGuideToTheGalaxy.character | HitchhikersGuideToTheGalaxy.character |
+| Faker::HitchhikersGuideToTheGalaxy.location | HitchhikersGuideToTheGalaxy.location |
+| Faker::HitchhikersGuideToTheGalaxy.marvin_quote | HitchhikersGuideToTheGalaxy.marvin_quote |
+| Faker::HitchhikersGuideToTheGalaxy.planet | HitchhikersGuideToTheGalaxy.planet |
+| Faker::HitchhikersGuideToTheGalaxy.quote | HitchhikersGuideToTheGalaxy.quote |
+| Faker::HitchhikersGuideToTheGalaxy.specie | HitchhikersGuideToTheGalaxy.specie |
+| Faker::HitchhikersGuideToTheGalaxy.starship | HitchhikersGuideToTheGalaxy.starship |
 ### TwinPeaks
-|Snippet|Description|
-|-------|-----------|
-| Faker::TwinPeaks.character | Generate Fake TwinPeaks character |
-| Faker::TwinPeaks.location | Generate Fake TwinPeaks location |
-| Faker::TwinPeaks.quote | Generate Fake TwinPeaks quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::TwinPeaks.character | TwinPeaks.character |
+| Faker::TwinPeaks.location | TwinPeaks.location |
+| Faker::TwinPeaks.quote | TwinPeaks.quote |
 ### SiliconValley
-|Snippet|Description|
-|-------|-----------|
-| Faker::SiliconValley.email | Generate Fake SiliconValley email |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::SiliconValley.email | SiliconValley.email |
 ### HeyArnold
-|Snippet|Description|
-|-------|-----------|
-| Faker::HeyArnold.character | Generate Fake HeyArnold character |
-| Faker::HeyArnold.location | Generate Fake HeyArnold location |
-| Faker::HeyArnold.quote | Generate Fake HeyArnold quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::HeyArnold.character | HeyArnold.character |
+| Faker::HeyArnold.location | HeyArnold.location |
+| Faker::HeyArnold.quote | HeyArnold.quote |
 ### Boolean
-|Snippet|Description|
-|-------|-----------|
-| Faker::Boolean.boolean | Generate Fake Boolean boolean |
-| Faker::Boolean.boolean(0.2) | Generate Fake Boolean boolean |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Boolean.boolean | Boolean.boolean |
+| Faker::Boolean.boolean(0.2) | Boolean.boolean(0.2) |
 ### Commerce
-|Snippet|Description|
-|-------|-----------|
-| Faker::Commerce.color | Generate Fake Commerce color |
-| Faker::Commerce.department | Generate Fake Commerce department |
-| Faker::Commerce.department(5) | Generate Fake Commerce department |
-| Faker::Commerce.department(2, true) | Generate Fake Commerce department |
-| Faker::Commerce.material | Generate Fake Commerce material |
-| Faker::Commerce.product_name | Generate Fake Commerce product_name |
-| Faker::Commerce.price | Generate Fake Commerce price |
-| Faker::Commerce.promotion_code | Generate Fake Commerce promotion_code |
-| Faker::Commerce.material | Generate Fake Commerce material |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Commerce.color | Commerce.color |
+| Faker::Commerce.department | Commerce.department |
+| Faker::Commerce.department(5) | Commerce.department(5) |
+| Faker::Commerce.department(2, true) | Commerce.department(2, true) |
+| Faker::Commerce.material | Commerce.material |
+| Faker::Commerce.product_name | Commerce.product_name |
+| Faker::Commerce.price | Commerce.price |
+| Faker::Commerce.promotion_code | Commerce.promotion_code |
+| Faker::Commerce.material | Commerce.material |
 ### ElderScrolls
-|Snippet|Description|
-|-------|-----------|
-| Faker::ElderScrolls.race | Generate Fake ElderScrolls race |
-| Faker::ElderScrolls.creature | Generate Fake ElderScrolls creature |
-| Faker::ElderScrolls.region | Generate Fake ElderScrolls region |
-| Faker::ElderScrolls.dragon | Generate Fake ElderScrolls dragon |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::ElderScrolls.race | ElderScrolls.race |
+| Faker::ElderScrolls.creature | ElderScrolls.creature |
+| Faker::ElderScrolls.region | ElderScrolls.region |
+| Faker::ElderScrolls.dragon | ElderScrolls.dragon |
 ### ProgrammingLanguage
-|Snippet|Description|
-|-------|-----------|
-| Faker::ProgrammingLanguage.name | Generate Fake ProgrammingLanguage name |
-| Faker::ProgrammingLanguage.creator | Generate Fake ProgrammingLanguage creator |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::ProgrammingLanguage.name | ProgrammingLanguage.name |
+| Faker::ProgrammingLanguage.creator | ProgrammingLanguage.creator |
 ### Measurement
-|Snippet|Description|
-|-------|-----------|
-| Faker::Measurement.height | Generate Fake Measurement height |
-| Faker::Measurement.height(1.4) | Generate Fake Measurement height |
-| Faker::Measurement.height(\"none\") | Generate Fake Measurement height |
-| Faker::Measurement.height(\"all\") | Generate Fake Measurement height |
-| Faker::Measurement.length | Generate Fake Measurement length |
-| Faker::Measurement.volume | Generate Fake Measurement volume |
-| Faker::Measurement.weight | Generate Fake Measurement weight |
-| Faker::Measurement.metric_height | Generate Fake Measurement metric_height |
-| Faker::Measurement.metric_length | Generate Fake Measurement metric_length |
-| Faker::Measurement.metric_volume | Generate Fake Measurement metric_volume |
-| Faker::Measurement.metric_weight | Generate Fake Measurement metric_weight |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Measurement.height | Measurement.height |
+| Faker::Measurement.height(1.4) | Measurement.height(1.4) |
+| Faker::Measurement.height(\"none\") | Measurement.height(\"none\") |
+| Faker::Measurement.height(\"all\") | Measurement.height(\"all\") |
+| Faker::Measurement.length | Measurement.length |
+| Faker::Measurement.volume | Measurement.volume |
+| Faker::Measurement.weight | Measurement.weight |
+| Faker::Measurement.metric_height | Measurement.metric_height |
+| Faker::Measurement.metric_length | Measurement.metric_length |
+| Faker::Measurement.metric_volume | Measurement.metric_volume |
+| Faker::Measurement.metric_weight | Measurement.metric_weight |
 ### VentureBros
-|Snippet|Description|
-|-------|-----------|
-| Faker::VentureBros.character | Generate Fake VentureBros character |
-| Faker::VentureBros.vehicle | Generate Fake VentureBros vehicle |
-| Faker::VentureBros.organization | Generate Fake VentureBros organization |
-| Faker::VentureBros.quote | Generate Fake VentureBros quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::VentureBros.character | VentureBros.character |
+| Faker::VentureBros.vehicle | VentureBros.vehicle |
+| Faker::VentureBros.organization | VentureBros.organization |
+| Faker::VentureBros.quote | VentureBros.quote |
 ### Zelda
-|Snippet|Description|
-|-------|-----------|
-| Faker::Zelda.game | Generate Fake Zelda game |
-| Faker::Zelda.character | Generate Fake Zelda character |
-| Faker::Zelda.location | Generate Fake Zelda location |
-| Faker::Zelda.item | Generate Fake Zelda item |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Zelda.game | Zelda.game |
+| Faker::Zelda.character | Zelda.character |
+| Faker::Zelda.location | Zelda.location |
+| Faker::Zelda.item | Zelda.item |
 ### Friends
-|Snippet|Description|
-|-------|-----------|
-| Faker::Friends.character | Generate Fake Friends character |
-| Faker::Friends.location | Generate Fake Friends location |
-| Faker::Friends.quote | Generate Fake Friends quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Friends.character | Friends.character |
+| Faker::Friends.location | Friends.location |
+| Faker::Friends.quote | Friends.quote |
 ### Hacker
-|Snippet|Description|
-|-------|-----------|
-| Faker::Hacker.say_something_smart | Generate Fake Hacker say_something_smart |
-| Faker::Hacker.ingverb | Generate Fake Hacker ingverb |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Hacker.say_something_smart | Hacker.say_something_smart |
+| Faker::Hacker.ingverb | Hacker.ingverb |
 ### Beer
-|Snippet|Description|
-|-------|-----------|
-| Faker::Beer.name | Generate Fake Beer name |
-| Faker::Beer.style | Generate Fake Beer style |
-| Faker::Beer.hop | Generate Fake Beer hop |
-| Faker::Beer.yeast | Generate Fake Beer yeast |
-| Faker::Beer.malts | Generate Fake Beer malts |
-| Faker::Beer.ibu | Generate Fake Beer ibu |
-| Faker::Beer.alcohol | Generate Fake Beer alcohol |
-| Faker::Beer.blg | Generate Fake Beer blg |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Beer.name | Beer.name |
+| Faker::Beer.style | Beer.style |
+| Faker::Beer.hop | Beer.hop |
+| Faker::Beer.yeast | Beer.yeast |
+| Faker::Beer.malts | Beer.malts |
+| Faker::Beer.ibu | Beer.ibu |
+| Faker::Beer.alcohol | Beer.alcohol |
+| Faker::Beer.blg | Beer.blg |
 ### Lovecraft
-|Snippet|Description|
-|-------|-----------|
-| Faker::Lovecraft.fhtagn(3) | Generate Fake Lovecraft fhtagn |
-| Faker::Lovecraft.deity | Generate Fake Lovecraft deity |
-| Faker::Lovecraft.tome | Generate Fake Lovecraft tome |
-| Faker::Lovecraft.location | Generate Fake Lovecraft location |
-| Faker::Lovecraft.word | Generate Fake Lovecraft word |
-| Faker::Lovecraft.sentence | Generate Fake Lovecraft sentence |
-| Faker::Lovecraft.sentence(3) | Generate Fake Lovecraft sentence |
-| Faker::Lovecraft.sentence(3, 1) | Generate Fake Lovecraft sentence |
-| Faker::Lovecraft.words | Generate Fake Lovecraft words |
-| Faker::Lovecraft.words(2) | Generate Fake Lovecraft words |
-| Faker::Lovecraft.words(2, true) | Generate Fake Lovecraft words |
-| Faker::Lovecraft.sentences | Generate Fake Lovecraft sentences |
-| Faker::Lovecraft.sentences(2) | Generate Fake Lovecraft sentences |
-| Faker::Lovecraft.paragraph | Generate Fake Lovecraft paragraph |
-| Faker::Lovecraft.paragraph(2) | Generate Fake Lovecraft paragraph |
-| Faker::Lovecraft.paragraph(2, 1) | Generate Fake Lovecraft paragraph |
-| Faker::Lovecraft.paragraphs | Generate Fake Lovecraft paragraphs |
-| Faker::Lovecraft.paragraphs(2) | Generate Fake Lovecraft paragraphs |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Lovecraft.fhtagn(3) | Lovecraft.fhtagn(3) |
+| Faker::Lovecraft.deity | Lovecraft.deity |
+| Faker::Lovecraft.tome | Lovecraft.tome |
+| Faker::Lovecraft.location | Lovecraft.location |
+| Faker::Lovecraft.word | Lovecraft.word |
+| Faker::Lovecraft.sentence | Lovecraft.sentence |
+| Faker::Lovecraft.sentence(3) | Lovecraft.sentence(3) |
+| Faker::Lovecraft.sentence(3, 1) | Lovecraft.sentence(3, 1) |
+| Faker::Lovecraft.words | Lovecraft.words |
+| Faker::Lovecraft.words(2) | Lovecraft.words(2) |
+| Faker::Lovecraft.words(2, true) | Lovecraft.words(2, true) |
+| Faker::Lovecraft.sentences | Lovecraft.sentences |
+| Faker::Lovecraft.sentences(2) | Lovecraft.sentences(2) |
+| Faker::Lovecraft.paragraph | Lovecraft.paragraph |
+| Faker::Lovecraft.paragraph(2) | Lovecraft.paragraph(2) |
+| Faker::Lovecraft.paragraph(2, 1) | Lovecraft.paragraph(2, 1) |
+| Faker::Lovecraft.paragraphs | Lovecraft.paragraphs |
+| Faker::Lovecraft.paragraphs(2) | Lovecraft.paragraphs(2) |
 ### OnePiece
-|Snippet|Description|
-|-------|-----------|
-| Faker::OnePiece.character | Generate Fake OnePiece character |
-| Faker::OnePiece.sea | Generate Fake OnePiece sea |
-| Faker::OnePiece.island | Generate Fake OnePiece island |
-| Faker::OnePiece.location | Generate Fake OnePiece location |
-| Faker::OnePiece.quote | Generate Fake OnePiece quote |
-| Faker::OnePiece.akuma_no_mi | Generate Fake OnePiece akuma_no_mi |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::OnePiece.character | OnePiece.character |
+| Faker::OnePiece.sea | OnePiece.sea |
+| Faker::OnePiece.island | OnePiece.island |
+| Faker::OnePiece.location | OnePiece.location |
+| Faker::OnePiece.quote | OnePiece.quote |
+| Faker::OnePiece.akuma_no_mi | OnePiece.akuma_no_mi |
 ### Date
-|Snippet|Description|
-|-------|-----------|
-| Faker::Date.between(2.days.ago, Date.today) | Generate Fake Date between |
-| Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today) | Generate Fake Date between_except |
-| Faker::Date.backward(14) | Generate Fake Date backward |
-| Faker::Date.birthday(18, 65) | Generate Fake Date birthday |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Date.between(2.days.ago, Date.today) | Date.between(2.days.ago, Date.today) |
+| Faker::Date.between_except(1.year.ago, 1.year.from_now, Date.today) | Date.between_except(1.year.ago, 1.year.from_now, Date.today) |
+| Faker::Date.backward(14) | Date.backward(14) |
+| Faker::Date.birthday(18, 65) | Date.birthday(18, 65) |
 ### String
-|Snippet|Description|
-|-------|-----------|
-| Faker::String.random | Generate Fake String random |
-| Faker::String.random(4) | Generate Fake String random |
-| Faker::String.random(3..12) | Generate Fake String random |
-| Faker::String.random([0, 6]) | Generate Fake String random |
-| Faker::String.random([1, (2..5), [3, 6], nil]) | Generate Fake String random |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::String.random | String.random |
+| Faker::String.random(4) | String.random(4) |
+| Faker::String.random(3..12) | String.random(3..12) |
+| Faker::String.random([0, 6]) | String.random([0, 6]) |
+| Faker::String.random([1, (2..5), [3, 6], nil]) | String.random([1, (2..5), [3, 6], nil]) |
 ### Superhero
-|Snippet|Description|
-|-------|-----------|
-| Faker::Superhero.name | Generate Fake Superhero name |
-| Faker::Superhero.power | Generate Fake Superhero power |
-| Faker::Superhero.prefix | Generate Fake Superhero prefix |
-| Faker::Superhero.suffix | Generate Fake Superhero suffix |
-| Faker::Superhero.descriptor | Generate Fake Superhero descriptor |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Superhero.name | Superhero.name |
+| Faker::Superhero.power | Superhero.power |
+| Faker::Superhero.prefix | Superhero.prefix |
+| Faker::Superhero.suffix | Superhero.suffix |
+| Faker::Superhero.descriptor | Superhero.descriptor |
 ### Dessert
-|Snippet|Description|
-|-------|-----------|
-| Faker::Dessert.variety | Generate Fake Dessert variety |
-| Faker::Dessert.topping | Generate Fake Dessert topping |
-| Faker::Dessert.flavor | Generate Fake Dessert flavor |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Dessert.variety | Dessert.variety |
+| Faker::Dessert.topping | Dessert.topping |
+| Faker::Dessert.flavor | Dessert.flavor |
 ### Avatar
-|Snippet|Description|
-|-------|-----------|
-| Faker::Avatar.image | Generate Fake Avatar image |
-| Faker::Avatar.image(\"my-own-slug\") | Generate Fake Avatar image |
-| Faker::Avatar.image(\"my-own-slug\", \"50x50\") | Generate Fake Avatar image |
-| Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"jpg\") | Generate Fake Avatar image |
-| Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\") | Generate Fake Avatar image |
-| Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\", \"set1\", \"bg1\") | Generate Fake Avatar image |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Avatar.image | Avatar.image |
+| Faker::Avatar.image(\"my-own-slug\") | Avatar.image(\"my-own-slug\") |
+| Faker::Avatar.image(\"my-own-slug\", \"50x50\") | Avatar.image(\"my-own-slug\", \"50x50\") |
+| Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"jpg\") | Avatar.image(\"my-own-slug\", \"50x50\", \"jpg\") |
+| Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\") | Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\") |
+| Faker::Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\", \"set1\", \"bg1\") | Avatar.image(\"my-own-slug\", \"50x50\", \"bmp\", \"set1\", \"bg1\") |
 ### Robin
-|Snippet|Description|
-|-------|-----------|
-| Faker::Robin.quote | Generate Fake Robin quote |
-| Faker::Robin.quote | Generate Fake Robin quote |
-| Faker::Robin.quote | Generate Fake Robin quote |
-| Faker::Robin.quote | Generate Fake Robin quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Robin.quote | Robin.quote |
+| Faker::Robin.quote | Robin.quote |
+| Faker::Robin.quote | Robin.quote |
+| Faker::Robin.quote | Robin.quote |
 ### Pokemon
-|Snippet|Description|
-|-------|-----------|
-| Faker::Pokemon.name | Generate Fake Pokemon name |
-| Faker::Pokemon.location | Generate Fake Pokemon location |
-| Faker::Pokemon.move | Generate Fake Pokemon move |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Pokemon.name | Pokemon.name |
+| Faker::Pokemon.location | Pokemon.location |
+| Faker::Pokemon.move | Pokemon.move |
 ### StarTrek
-|Snippet|Description|
-|-------|-----------|
-| Faker::StarTrek.character | Generate Fake StarTrek character |
-| Faker::StarTrek.location | Generate Fake StarTrek location |
-| Faker::StarTrek.specie | Generate Fake StarTrek specie |
-| Faker::StarTrek.villain | Generate Fake StarTrek villain |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::StarTrek.character | StarTrek.character |
+| Faker::StarTrek.location | StarTrek.location |
+| Faker::StarTrek.specie | StarTrek.specie |
+| Faker::StarTrek.villain | StarTrek.villain |
 ### Educator
-|Snippet|Description|
-|-------|-----------|
-| Faker::Educator.university | Generate Fake Educator university |
-| Faker::Educator.secondary_school | Generate Fake Educator secondary_school |
-| Faker::Educator.course | Generate Fake Educator course |
-| Faker::Educator.campus | Generate Fake Educator campus |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Educator.university | Educator.university |
+| Faker::Educator.secondary_school | Educator.secondary_school |
+| Faker::Educator.course | Educator.course |
+| Faker::Educator.campus | Educator.campus |
 ### Types
-|Snippet|Description|
-|-------|-----------|
-| Faker::Types.string | Generate Fake Types string |
-| Faker::Types.character | Generate Fake Types character |
-| Faker::Types.integer | Generate Fake Types integer |
-| Faker::Types.hash | Generate Fake Types hash |
-| Faker::Types.complex_hash | Generate Fake Types complex_hash |
-| Faker::Types.array | Generate Fake Types array |
-| Faker::Types.random_type | Generate Fake Types random_type |
-| Faker::Types.random_complex_type | Generate Fake Types random_complex_type |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Types.string | Types.string |
+| Faker::Types.character | Types.character |
+| Faker::Types.integer | Types.integer |
+| Faker::Types.hash | Types.hash |
+| Faker::Types.complex_hash | Types.complex_hash |
+| Faker::Types.array | Types.array |
+| Faker::Types.random_type | Types.random_type |
+| Faker::Types.random_complex_type | Types.random_complex_type |
 ### Coffee
-|Snippet|Description|
-|-------|-----------|
-| Faker::Coffee.blend_name | Generate Fake Coffee blend_name |
-| Faker::Coffee.origin | Generate Fake Coffee origin |
-| Faker::Coffee.variety | Generate Fake Coffee variety |
-| Faker::Coffee.notes | Generate Fake Coffee notes |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Coffee.blend_name | Coffee.blend_name |
+| Faker::Coffee.origin | Coffee.origin |
+| Faker::Coffee.variety | Coffee.variety |
+| Faker::Coffee.notes | Coffee.notes |
 ### File
-|Snippet|Description|
-|-------|-----------|
-| Faker::File.extension | Generate Fake File extension |
-| Faker::File.mime_type | Generate Fake File mime_type |
-| Faker::File.file_name('path/to') | Generate Fake File file_name |
-| Faker::File.file_name('foo/bar', 'baz') | Generate Fake File file_name |
-| Faker::File.file_name('foo/bar', 'baz', 'doc') | Generate Fake File file_name |
-| Faker::File.file_name('foo/bar', 'baz', 'mp3', '\') | Generate Fake File file_name |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::File.extension | File.extension |
+| Faker::File.mime_type | File.mime_type |
+| Faker::File.file_name('path/to') | File.file_name('path/to') |
+| Faker::File.file_name('foo/bar', 'baz') | File.file_name('foo/bar', 'baz') |
+| Faker::File.file_name('foo/bar', 'baz', 'doc') | File.file_name('foo/bar', 'baz', 'doc') |
+| Faker::File.file_name('foo/bar', 'baz', 'mp3', '\\') | File.file_name('foo/bar', 'baz', 'mp3', '\\') |
 ### Seinfeld
-|Snippet|Description|
-|-------|-----------|
-| Faker::Seinfeld.character | Generate Fake Seinfeld character |
-| Faker::Seinfeld.quote | Generate Fake Seinfeld quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Seinfeld.character | Seinfeld.character |
+| Faker::Seinfeld.quote | Seinfeld.quote |
 ### UmphreysMcgee
-|Snippet|Description|
-|-------|-----------|
-| Faker::UmphreysMcgee.song | Generate Fake UmphreysMcgee song |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::UmphreysMcgee.song | UmphreysMcgee.song |
 ### University
-|Snippet|Description|
-|-------|-----------|
-| Faker::University.name | Generate Fake University name |
-| Faker::University.greek_organization | Generate Fake University greek_organization |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::University.name | University.name |
+| Faker::University.greek_organization | University.greek_organization |
 ### Currency
-|Snippet|Description|
-|-------|-----------|
-| Faker::Currency.name | Generate Fake Currency name |
-| Faker::Currency.code | Generate Fake Currency code |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Currency.name | Currency.name |
+| Faker::Currency.code | Currency.code |
 ### Hipster
-|Snippet|Description|
-|-------|-----------|
-| Faker::Hipster.word | Generate Fake Hipster word |
-| Faker::Hipster.words | Generate Fake Hipster words |
-| Faker::Hipster.words(4) | Generate Fake Hipster words |
-| Faker::Hipster.words(4, true) | Generate Fake Hipster words |
-| Faker::Hipster.words(4, true, true) | Generate Fake Hipster words |
-| Faker::Hipster.sentence | Generate Fake Hipster sentence |
-| Faker::Hipster.sentence(3) | Generate Fake Hipster sentence |
-| Faker::Hipster.sentence(3, true) | Generate Fake Hipster sentence |
-| Faker::Hipster.sentence(3, false, 4) | Generate Fake Hipster sentence |
-| Faker::Hipster.sentence(3, true, 4) | Generate Fake Hipster sentence |
-| Faker::Hipster.sentences | Generate Fake Hipster sentences |
-| Faker::Hipster.sentences(1) | Generate Fake Hipster sentences |
-| Faker::Hipster.sentences(1, true) | Generate Fake Hipster sentences |
-| Faker::Hipster.paragraph | Generate Fake Hipster paragraph |
-| Faker::Hipster.paragraph(2) | Generate Fake Hipster paragraph |
-| Faker::Hipster.paragraph(2, true) | Generate Fake Hipster paragraph |
-| Faker::Hipster.paragraph(2, false, 4) | Generate Fake Hipster paragraph |
-| Faker::Hipster.paragraph(2, true, 4) | Generate Fake Hipster paragraph |
-| Faker::Hipster.paragraphs | Generate Fake Hipster paragraphs |
-| Faker::Hipster.paragraphs(1) | Generate Fake Hipster paragraphs |
-| Faker::Hipster.paragraphs(1, true) | Generate Fake Hipster paragraphs |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Hipster.word | Hipster.word |
+| Faker::Hipster.words | Hipster.words |
+| Faker::Hipster.words(4) | Hipster.words(4) |
+| Faker::Hipster.words(4, true) | Hipster.words(4, true) |
+| Faker::Hipster.words(4, true, true) | Hipster.words(4, true, true) |
+| Faker::Hipster.sentence | Hipster.sentence |
+| Faker::Hipster.sentence(3) | Hipster.sentence(3) |
+| Faker::Hipster.sentence(3, true) | Hipster.sentence(3, true) |
+| Faker::Hipster.sentence(3, false, 4) | Hipster.sentence(3, false, 4) |
+| Faker::Hipster.sentence(3, true, 4) | Hipster.sentence(3, true, 4) |
+| Faker::Hipster.sentences | Hipster.sentences |
+| Faker::Hipster.sentences(1) | Hipster.sentences(1) |
+| Faker::Hipster.sentences(1, true) | Hipster.sentences(1, true) |
+| Faker::Hipster.paragraph | Hipster.paragraph |
+| Faker::Hipster.paragraph(2) | Hipster.paragraph(2) |
+| Faker::Hipster.paragraph(2, true) | Hipster.paragraph(2, true) |
+| Faker::Hipster.paragraph(2, false, 4) | Hipster.paragraph(2, false, 4) |
+| Faker::Hipster.paragraph(2, true, 4) | Hipster.paragraph(2, true, 4) |
+| Faker::Hipster.paragraphs | Hipster.paragraphs |
+| Faker::Hipster.paragraphs(1) | Hipster.paragraphs(1) |
+| Faker::Hipster.paragraphs(1, true) | Hipster.paragraphs(1, true) |
 ### StarWars
-|Snippet|Description|
-|-------|-----------|
-| Faker::StarWars.call_sign | Generate Fake StarWars call_sign |
-| Faker::StarWars.character | Generate Fake StarWars character |
-| Faker::StarWars.droid | Generate Fake StarWars droid |
-| Faker::StarWars.planet | Generate Fake StarWars planet |
-| Faker::StarWars.quote | Generate Fake StarWars quote |
-| Faker::StarWars.quote(\"leia_organa\") | Generate Fake StarWars quote |
-| Faker::StarWars.specie | Generate Fake StarWars specie |
-| Faker::StarWars.vehicle | Generate Fake StarWars vehicle |
-| Faker::StarWars.wookiee_sentence | Generate Fake StarWars wookiee_sentence |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::StarWars.call_sign | StarWars.call_sign |
+| Faker::StarWars.character | StarWars.character |
+| Faker::StarWars.droid | StarWars.droid |
+| Faker::StarWars.planet | StarWars.planet |
+| Faker::StarWars.quote | StarWars.quote |
+| Faker::StarWars.quote(\"leia_organa\") | StarWars.quote(\"leia_organa\") |
+| Faker::StarWars.specie | StarWars.specie |
+| Faker::StarWars.vehicle | StarWars.vehicle |
+| Faker::StarWars.wookiee_sentence | StarWars.wookiee_sentence |
 ### Markdown
-|Snippet|Description|
-|-------|-----------|
-| Faker::Markdown.headers | Generate Fake Markdown headers |
-| Faker::Markdown.emphasis | Generate Fake Markdown emphasis |
-| Faker::Markdown.ordered_list | Generate Fake Markdown ordered_list |
-| Faker::Markdown.unordered_list | Generate Fake Markdown unordered_list |
-| Faker::Markdown.inline_code | Generate Fake Markdown inline_code |
-| Faker::Markdown.block_code | Generate Fake Markdown block_code |
-| Faker::Markdown.table | Generate Fake Markdown table |
-| Faker::Markdown.random | Generate Fake Markdown random |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Markdown.headers | Markdown.headers |
+| Faker::Markdown.emphasis | Markdown.emphasis |
+| Faker::Markdown.ordered_list | Markdown.ordered_list |
+| Faker::Markdown.unordered_list | Markdown.unordered_list |
+| Faker::Markdown.inline_code | Markdown.inline_code |
+| Faker::Markdown.block_code | Markdown.block_code |
+| Faker::Markdown.table | Markdown.table |
+| Faker::Markdown.random | Markdown.random |
 ### Compass
-|Snippet|Description|
-|-------|-----------|
-| Faker::Compass.quarter_wind_abbreviation | Generate Fake Compass quarter_wind_abbreviation |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Compass.quarter_wind_abbreviation | Compass.quarter_wind_abbreviation |
 ### TheFreshPrinceOfBelAir
-|Snippet|Description|
-|-------|-----------|
-| Faker::TheFreshPrinceOfBelAir.character | Generate Fake TheFreshPrinceOfBelAir character |
-| Faker::TheFreshPrinceOfBelAir.celebrity | Generate Fake TheFreshPrinceOfBelAir celebrity |
-| Faker::TheFreshPrinceOfBelAir.quote | Generate Fake TheFreshPrinceOfBelAir quote |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::TheFreshPrinceOfBelAir.character | TheFreshPrinceOfBelAir.character |
+| Faker::TheFreshPrinceOfBelAir.celebrity | TheFreshPrinceOfBelAir.celebrity |
+| Faker::TheFreshPrinceOfBelAir.quote | TheFreshPrinceOfBelAir.quote |
 ### HarryPotter
-|Snippet|Description|
-|-------|-----------|
-| Faker::HarryPotter.character | Generate Fake HarryPotter character |
-| Faker::HarryPotter.location | Generate Fake HarryPotter location |
-| Faker::HarryPotter.quote | Generate Fake HarryPotter quote |
-| Faker::HarryPotter.book | Generate Fake HarryPotter book |
-| Faker::HarryPotter.house | Generate Fake HarryPotter house |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::HarryPotter.character | HarryPotter.character |
+| Faker::HarryPotter.location | HarryPotter.location |
+| Faker::HarryPotter.quote | HarryPotter.quote |
+| Faker::HarryPotter.book | HarryPotter.book |
+| Faker::HarryPotter.house | HarryPotter.house |
 ### Simpsons
-|Snippet|Description|
-|-------|-----------|
-| Faker::Simpsons.character | Generate Fake Simpsons character |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Simpsons.character | Simpsons.character |
 ### Address
-|Snippet|Description|
-|-------|-----------|
-| Faker::Address.city | Generate Fake Address city |
-| Faker::Address.street_name | Generate Fake Address street_name |
-| Faker::Address.street_address | Generate Fake Address street_address |
-| Faker::Address.secondary_address | Generate Fake Address secondary_address |
-| Faker::Address.building_number | Generate Fake Address building_number |
-| Faker::Address.community | Generate Fake Address community |
-| Faker::Address.zip_code | Generate Fake Address zip_code |
-| Faker::Address.zip | Generate Fake Address zip |
-| Faker::Address.postcode | Generate Fake Address postcode |
-| Faker::Address.time_zone | Generate Fake Address time_zone |
-| Faker::Address.street_suffix | Generate Fake Address street_suffix |
-| Faker::Address.city_suffix | Generate Fake Address city_suffix |
-| Faker::Address.city_prefix | Generate Fake Address city_prefix |
-| Faker::Address.state | Generate Fake Address state |
-| Faker::Address.state_abbr | Generate Fake Address state_abbr |
-| Faker::Address.country | Generate Fake Address country |
-| Faker::Address.country_code | Generate Fake Address country_code |
-| Faker::Address.country_code_long | Generate Fake Address country_code_long |
-| Faker::Address.latitude | Generate Fake Address latitude |
-| Faker::Address.longitude | Generate Fake Address longitude |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Address.city | Address.city |
+| Faker::Address.street_name | Address.street_name |
+| Faker::Address.street_address | Address.street_address |
+| Faker::Address.secondary_address | Address.secondary_address |
+| Faker::Address.building_number | Address.building_number |
+| Faker::Address.community | Address.community |
+| Faker::Address.zip_code | Address.zip_code |
+| Faker::Address.zip | Address.zip |
+| Faker::Address.postcode | Address.postcode |
+| Faker::Address.time_zone | Address.time_zone |
+| Faker::Address.street_suffix | Address.street_suffix |
+| Faker::Address.city_suffix | Address.city_suffix |
+| Faker::Address.city_prefix | Address.city_prefix |
+| Faker::Address.state | Address.state |
+| Faker::Address.state_abbr | Address.state_abbr |
+| Faker::Address.country | Address.country |
+| Faker::Address.country_code | Address.country_code |
+| Faker::Address.country_code_long | Address.country_code_long |
+| Faker::Address.latitude | Address.latitude |
+| Faker::Address.longitude | Address.longitude |
 ### Music
-|Snippet|Description|
-|-------|-----------|
-| Faker::Music.key | Generate Fake Music key |
-| Faker::Music.chord | Generate Fake Music chord |
-| Faker::Music.instrument | Generate Fake Music instrument |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Music.key | Music.key |
+| Faker::Music.chord | Music.chord |
+| Faker::Music.instrument | Music.instrument |
 ### Fillmurray
-|Snippet|Description|
-|-------|-----------|
-| Faker::Fillmurray.image | Generate Fake Fillmurray image |
-| Faker::Fillmurray.image(true) | Generate Fake Fillmurray image |
-| Faker::Fillmurray.image(false, 200, 400) | Generate Fake Fillmurray image |
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Fillmurray.image | Fillmurray.image |
+| Faker::Fillmurray.image(true) | Fillmurray.image(true) |
+| Faker::Fillmurray.image(false, 200, 400) | Fillmurray.image(false, 200, 400) |
