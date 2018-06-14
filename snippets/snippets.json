@@ -59,6 +59,18 @@
 		"body":"Faker::Company.suffix",
 		"description":"Fake Company suffix"
 	},
+	"Faker::Company.industry":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.industry",
+		"body":"Faker::Company.industry",
+		"description":"Fake Company industry"
+	},
+	"Company.industry":{
+		"scope":"ruby",
+		"prefix":"Company.industry",
+		"body":"Faker::Company.industry",
+		"description":"Fake Company industry"
+	},
 	"Faker::Company.catch_phrase":{
 		"scope":"ruby",
 		"prefix":"Faker::Company.catch_phrase",
@@ -131,6 +143,30 @@
 		"body":"Faker::Company.logo",
 		"description":"Fake Company logo"
 	},
+	"Faker::Company.type":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.type",
+		"body":"Faker::Company.type",
+		"description":"Fake Company type"
+	},
+	"Company.type":{
+		"scope":"ruby",
+		"prefix":"Company.type",
+		"body":"Faker::Company.type",
+		"description":"Fake Company type"
+	},
+	"Faker::Company.profession":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.profession",
+		"body":"Faker::Company.profession",
+		"description":"Fake Company profession"
+	},
+	"Company.profession":{
+		"scope":"ruby",
+		"prefix":"Company.profession",
+		"body":"Faker::Company.profession",
+		"description":"Fake Company profession"
+	},
 	"Faker::Company.swedish_organisation_number":{
 		"scope":"ruby",
 		"prefix":"Faker::Company.swedish_organisation_number",
@@ -142,6 +178,18 @@
 		"prefix":"Company.swedish_organisation_number",
 		"body":"Faker::Company.swedish_organisation_number",
 		"description":"Fake Company swedish_organisation_number"
+	},
+	"Faker::Company.czech_organisation_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.czech_organisation_number",
+		"body":"Faker::Company.czech_organisation_number",
+		"description":"Fake Company czech_organisation_number"
+	},
+	"Company.czech_organisation_number":{
+		"scope":"ruby",
+		"prefix":"Company.czech_organisation_number",
+		"body":"Faker::Company.czech_organisation_number",
+		"description":"Fake Company czech_organisation_number"
 	},
 	"Faker::Company.french_siren_number":{
 		"scope":"ruby",
@@ -191,29 +239,41 @@
 		"body":"Faker::Company.australian_business_number",
 		"description":"Fake Company australian_business_number"
 	},
-	"Faker::Company.profession":{
+	"Faker::Company.spanish_organisation_number":{
 		"scope":"ruby",
-		"prefix":"Faker::Company.profession",
-		"body":"Faker::Company.profession",
-		"description":"Fake Company profession"
+		"prefix":"Faker::Company.spanish_organisation_number",
+		"body":"Faker::Company.spanish_organisation_number",
+		"description":"Fake Company spanish_organisation_number"
 	},
-	"Company.profession":{
+	"Company.spanish_organisation_number":{
 		"scope":"ruby",
-		"prefix":"Company.profession",
-		"body":"Faker::Company.profession",
-		"description":"Fake Company profession"
+		"prefix":"Company.spanish_organisation_number",
+		"body":"Faker::Company.spanish_organisation_number",
+		"description":"Fake Company spanish_organisation_number"
 	},
-	"Faker::Company.type":{
+	"Faker::Company.polish_taxpayer_identification_number":{
 		"scope":"ruby",
-		"prefix":"Faker::Company.type",
-		"body":"Faker::Company.type",
-		"description":"Fake Company type"
+		"prefix":"Faker::Company.polish_taxpayer_identification_number",
+		"body":"Faker::Company.polish_taxpayer_identification_number",
+		"description":"Fake Company polish_taxpayer_identification_number"
 	},
-	"Company.type":{
+	"Company.polish_taxpayer_identification_number":{
 		"scope":"ruby",
-		"prefix":"Company.type",
-		"body":"Faker::Company.type",
-		"description":"Fake Company type"
+		"prefix":"Company.polish_taxpayer_identification_number",
+		"body":"Faker::Company.polish_taxpayer_identification_number",
+		"description":"Fake Company polish_taxpayer_identification_number"
+	},
+	"Faker::Company.polish_register_of_national_economy":{
+		"scope":"ruby",
+		"prefix":"Faker::Company.polish_register_of_national_economy",
+		"body":"Faker::Company.polish_register_of_national_economy",
+		"description":"Fake Company polish_register_of_national_economy"
+	},
+	"Company.polish_register_of_national_economy":{
+		"scope":"ruby",
+		"prefix":"Company.polish_register_of_national_economy",
+		"body":"Faker::Company.polish_register_of_national_economy",
+		"description":"Fake Company polish_register_of_national_economy"
 	},
 	"Faker::Team.creature":{
 		"scope":"ruby",
@@ -274,6 +334,30 @@
 		"prefix":"Team.mascot",
 		"body":"Faker::Team.mascot",
 		"description":"Fake Team mascot"
+	},
+	"Faker::NewGirl.character":{
+		"scope":"ruby",
+		"prefix":"Faker::NewGirl.character",
+		"body":"Faker::NewGirl.character",
+		"description":"Fake NewGirl character"
+	},
+	"NewGirl.character":{
+		"scope":"ruby",
+		"prefix":"NewGirl.character",
+		"body":"Faker::NewGirl.character",
+		"description":"Fake NewGirl character"
+	},
+	"Faker::NewGirl.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::NewGirl.quote",
+		"body":"Faker::NewGirl.quote",
+		"description":"Fake NewGirl quote"
+	},
+	"NewGirl.quote":{
+		"scope":"ruby",
+		"prefix":"NewGirl.quote",
+		"body":"Faker::NewGirl.quote",
+		"description":"Fake NewGirl quote"
 	},
 	"Faker::Ancient.god":{
 		"scope":"ruby",
@@ -358,6 +442,30 @@
 		"prefix":"Food.ingredient",
 		"body":"Faker::Food.ingredient",
 		"description":"Fake Food ingredient"
+	},
+	"Faker::Food.fruits":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.fruits",
+		"body":"Faker::Food.fruits",
+		"description":"Fake Food fruits"
+	},
+	"Food.fruits":{
+		"scope":"ruby",
+		"prefix":"Food.fruits",
+		"body":"Faker::Food.fruits",
+		"description":"Fake Food fruits"
+	},
+	"Faker::Food.vegetables":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.vegetables",
+		"body":"Faker::Food.vegetables",
+		"description":"Fake Food vegetables"
+	},
+	"Food.vegetables":{
+		"scope":"ruby",
+		"prefix":"Food.vegetables",
+		"body":"Faker::Food.vegetables",
+		"description":"Fake Food vegetables"
 	},
 	"Faker::Food.spice":{
 		"scope":"ruby",
@@ -863,6 +971,18 @@
 		"body":"Faker::Space.meteorite",
 		"description":"Fake Space meteorite"
 	},
+	"Faker::Space.launch_vehicule":{
+		"scope":"ruby",
+		"prefix":"Faker::Space.launch_vehicule",
+		"body":"Faker::Space.launch_vehicule",
+		"description":"Fake Space launch_vehicule"
+	},
+	"Space.launch_vehicule":{
+		"scope":"ruby",
+		"prefix":"Space.launch_vehicule",
+		"body":"Faker::Space.launch_vehicule",
+		"description":"Fake Space launch_vehicule"
+	},
 	"Faker::FunnyName.name":{
 		"scope":"ruby",
 		"prefix":"Faker::FunnyName.name",
@@ -983,18 +1103,6 @@
 		"body":"Faker::Color.hsla_color",
 		"description":"Fake Color hsla_color"
 	},
-	"Faker::Name.name":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.name",
-		"body":"Faker::Name.name",
-		"description":"Fake Name name"
-	},
-	"Name.name":{
-		"scope":"ruby",
-		"prefix":"Name.name",
-		"body":"Faker::Name.name",
-		"description":"Fake Name name"
-	},
 	"Faker::Name.name_with_middle":{
 		"scope":"ruby",
 		"prefix":"Faker::Name.name_with_middle",
@@ -1006,90 +1114,6 @@
 		"prefix":"Name.name_with_middle",
 		"body":"Faker::Name.name_with_middle",
 		"description":"Fake Name name_with_middle"
-	},
-	"Faker::Name.first_name":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.first_name",
-		"body":"Faker::Name.first_name",
-		"description":"Fake Name first_name"
-	},
-	"Name.first_name":{
-		"scope":"ruby",
-		"prefix":"Name.first_name",
-		"body":"Faker::Name.first_name",
-		"description":"Fake Name first_name"
-	},
-	"Faker::Name.last_name":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.last_name",
-		"body":"Faker::Name.last_name",
-		"description":"Fake Name last_name"
-	},
-	"Name.last_name":{
-		"scope":"ruby",
-		"prefix":"Name.last_name",
-		"body":"Faker::Name.last_name",
-		"description":"Fake Name last_name"
-	},
-	"Faker::Name.prefix":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.prefix",
-		"body":"Faker::Name.prefix",
-		"description":"Fake Name prefix"
-	},
-	"Name.prefix":{
-		"scope":"ruby",
-		"prefix":"Name.prefix",
-		"body":"Faker::Name.prefix",
-		"description":"Fake Name prefix"
-	},
-	"Faker::Name.suffix":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.suffix",
-		"body":"Faker::Name.suffix",
-		"description":"Fake Name suffix"
-	},
-	"Name.suffix":{
-		"scope":"ruby",
-		"prefix":"Name.suffix",
-		"body":"Faker::Name.suffix",
-		"description":"Fake Name suffix"
-	},
-	"Faker::Name.title":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.title",
-		"body":"Faker::Name.title",
-		"description":"Fake Name title"
-	},
-	"Name.title":{
-		"scope":"ruby",
-		"prefix":"Name.title",
-		"body":"Faker::Name.title",
-		"description":"Fake Name title"
-	},
-	"Faker::Name.initials":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.initials",
-		"body":"Faker::Name.initials",
-		"description":"Fake Name initials"
-	},
-	"Name.initials":{
-		"scope":"ruby",
-		"prefix":"Name.initials",
-		"body":"Faker::Name.initials",
-		"description":"Fake Name initials"
-	},
-	"Faker::Name.initials(2)":{
-		"scope":"ruby",
-		"prefix":"Faker::Name.initials(2)",
-		"body":"Faker::Name.initials(2)",
-		"description":"Fake Name initials"
-	},
-	"Name.initials(2)":{
-		"scope":"ruby",
-		"prefix":"Name.initials(2)",
-		"body":"Faker::Name.initials(2)",
-		"description":"Fake Name initials"
 	},
 	"Faker::RockBand.name":{
 		"scope":"ruby",
@@ -1295,6 +1319,18 @@
 		"body":"Faker::HowIMetYourMother.quote",
 		"description":"Fake HowIMetYourMother quote"
 	},
+	"Faker::Code.npi":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.npi",
+		"body":"Faker::Code.npi",
+		"description":"Fake Code npi"
+	},
+	"Code.npi":{
+		"scope":"ruby",
+		"prefix":"Code.npi",
+		"body":"Faker::Code.npi",
+		"description":"Fake Code npi"
+	},
 	"Faker::Code.isbn":{
 		"scope":"ruby",
 		"prefix":"Faker::Code.isbn",
@@ -1318,6 +1354,42 @@
 		"prefix":"Code.ean",
 		"body":"Faker::Code.ean",
 		"description":"Fake Code ean"
+	},
+	"Faker::Code.rut":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.rut",
+		"body":"Faker::Code.rut",
+		"description":"Fake Code rut"
+	},
+	"Code.rut":{
+		"scope":"ruby",
+		"prefix":"Code.rut",
+		"body":"Faker::Code.rut",
+		"description":"Fake Code rut"
+	},
+	"Faker::Code.nric":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.nric",
+		"body":"Faker::Code.nric",
+		"description":"Fake Code nric"
+	},
+	"Code.nric":{
+		"scope":"ruby",
+		"prefix":"Code.nric",
+		"body":"Faker::Code.nric",
+		"description":"Fake Code nric"
+	},
+	"Faker::Code.nric(27, 34)":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.nric(27, 34)",
+		"body":"Faker::Code.nric(27, 34)",
+		"description":"Fake Code nric"
+	},
+	"Code.nric(27, 34)":{
+		"scope":"ruby",
+		"prefix":"Code.nric(27, 34)",
+		"body":"Faker::Code.nric(27, 34)",
+		"description":"Fake Code nric"
 	},
 	"Faker::Code.asin":{
 		"scope":"ruby",
@@ -1378,6 +1450,18 @@
 		"prefix":"Lorem.words(4, true)",
 		"body":"Faker::Lorem.words(4, true)",
 		"description":"Fake Lorem words"
+	},
+	"Faker::Lorem.multibyte":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.multibyte",
+		"body":"Faker::Lorem.multibyte",
+		"description":"Fake Lorem multibyte"
+	},
+	"Lorem.multibyte":{
+		"scope":"ruby",
+		"prefix":"Lorem.multibyte",
+		"body":"Faker::Lorem.multibyte",
+		"description":"Fake Lorem multibyte"
 	},
 	"Faker::Lorem.characters":{
 		"scope":"ruby",
@@ -1595,6 +1679,54 @@
 		"body":"Faker::Lorem.paragraphs(1, true)",
 		"description":"Fake Lorem paragraphs"
 	},
+	"Faker::Lorem.question":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.question",
+		"body":"Faker::Lorem.question",
+		"description":"Fake Lorem question"
+	},
+	"Lorem.question":{
+		"scope":"ruby",
+		"prefix":"Lorem.question",
+		"body":"Faker::Lorem.question",
+		"description":"Fake Lorem question"
+	},
+	"Faker::Lorem.questions(3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.questions(3)",
+		"body":"Faker::Lorem.questions(3)",
+		"description":"Fake Lorem questions"
+	},
+	"Lorem.questions(3)":{
+		"scope":"ruby",
+		"prefix":"Lorem.questions(3)",
+		"body":"Faker::Lorem.questions(3)",
+		"description":"Fake Lorem questions"
+	},
+	"Faker::Lorem.paragraph_by_chars":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph_by_chars",
+		"body":"Faker::Lorem.paragraph_by_chars",
+		"description":"Fake Lorem paragraph_by_chars"
+	},
+	"Lorem.paragraph_by_chars":{
+		"scope":"ruby",
+		"prefix":"Lorem.paragraph_by_chars",
+		"body":"Faker::Lorem.paragraph_by_chars",
+		"description":"Fake Lorem paragraph_by_chars"
+	},
+	"Faker::Lorem.paragraph_by_chars(256, false)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lorem.paragraph_by_chars(256, false)",
+		"body":"Faker::Lorem.paragraph_by_chars(256, false)",
+		"description":"Fake Lorem paragraph_by_chars"
+	},
+	"Lorem.paragraph_by_chars(256, false)":{
+		"scope":"ruby",
+		"prefix":"Lorem.paragraph_by_chars(256, false)",
+		"body":"Faker::Lorem.paragraph_by_chars(256, false)",
+		"description":"Fake Lorem paragraph_by_chars"
+	},
 	"Faker::WorldOfWarcraft.hero":{
 		"scope":"ruby",
 		"prefix":"Faker::WorldOfWarcraft.hero",
@@ -1667,6 +1799,30 @@
 		"body":"Faker::Fallout.quote",
 		"description":"Fake Fallout quote"
 	},
+	"Faker::PrincessBride.character":{
+		"scope":"ruby",
+		"prefix":"Faker::PrincessBride.character",
+		"body":"Faker::PrincessBride.character",
+		"description":"Fake PrincessBride character"
+	},
+	"PrincessBride.character":{
+		"scope":"ruby",
+		"prefix":"PrincessBride.character",
+		"body":"Faker::PrincessBride.character",
+		"description":"Fake PrincessBride character"
+	},
+	"Faker::PrincessBride.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::PrincessBride.quote",
+		"body":"Faker::PrincessBride.quote",
+		"description":"Fake PrincessBride quote"
+	},
+	"PrincessBride.quote":{
+		"scope":"ruby",
+		"prefix":"PrincessBride.quote",
+		"body":"Faker::PrincessBride.quote",
+		"description":"Fake PrincessBride quote"
+	},
 	"Faker::Science.element":{
 		"scope":"ruby",
 		"prefix":"Faker::Science.element",
@@ -1678,6 +1834,18 @@
 		"prefix":"Science.element",
 		"body":"Faker::Science.element",
 		"description":"Fake Science element"
+	},
+	"Faker::Science.element_symbol":{
+		"scope":"ruby",
+		"prefix":"Faker::Science.element_symbol",
+		"body":"Faker::Science.element_symbol",
+		"description":"Fake Science element_symbol"
+	},
+	"Science.element_symbol":{
+		"scope":"ruby",
+		"prefix":"Science.element_symbol",
+		"body":"Faker::Science.element_symbol",
+		"description":"Fake Science element_symbol"
 	},
 	"Faker::Science.scientist":{
 		"scope":"ruby",
@@ -1751,6 +1919,42 @@
 		"body":"Faker::Cat.registry",
 		"description":"Fake Cat registry"
 	},
+	"Faker::Appliance.brand":{
+		"scope":"ruby",
+		"prefix":"Faker::Appliance.brand",
+		"body":"Faker::Appliance.brand",
+		"description":"Fake Appliance brand"
+	},
+	"Appliance.brand":{
+		"scope":"ruby",
+		"prefix":"Appliance.brand",
+		"body":"Faker::Appliance.brand",
+		"description":"Fake Appliance brand"
+	},
+	"Faker::Appliance.equipment":{
+		"scope":"ruby",
+		"prefix":"Faker::Appliance.equipment",
+		"body":"Faker::Appliance.equipment",
+		"description":"Fake Appliance equipment"
+	},
+	"Appliance.equipment":{
+		"scope":"ruby",
+		"prefix":"Appliance.equipment",
+		"body":"Faker::Appliance.equipment",
+		"description":"Fake Appliance equipment"
+	},
+	"Faker::SingularSiegler.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::SingularSiegler.quote",
+		"body":"Faker::SingularSiegler.quote",
+		"description":"Fake SingularSiegler quote"
+	},
+	"SingularSiegler.quote":{
+		"scope":"ruby",
+		"prefix":"SingularSiegler.quote",
+		"body":"Faker::SingularSiegler.quote",
+		"description":"Fake SingularSiegler quote"
+	},
 	"Faker::Vehicle.vin":{
 		"scope":"ruby",
 		"prefix":"Faker::Vehicle.vin",
@@ -1774,6 +1978,534 @@
 		"prefix":"Vehicle.manufacture",
 		"body":"Faker::Vehicle.manufacture",
 		"description":"Fake Vehicle manufacture"
+	},
+	"Faker::Vehicle.mileage":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.mileage",
+		"body":"Faker::Vehicle.mileage",
+		"description":"Fake Vehicle mileage"
+	},
+	"Vehicle.mileage":{
+		"scope":"ruby",
+		"prefix":"Vehicle.mileage",
+		"body":"Faker::Vehicle.mileage",
+		"description":"Fake Vehicle mileage"
+	},
+	"Faker::Vehicle.year":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.year",
+		"body":"Faker::Vehicle.year",
+		"description":"Fake Vehicle year"
+	},
+	"Vehicle.year":{
+		"scope":"ruby",
+		"prefix":"Vehicle.year",
+		"body":"Faker::Vehicle.year",
+		"description":"Fake Vehicle year"
+	},
+	"Faker::Vehicle.make":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.make",
+		"body":"Faker::Vehicle.make",
+		"description":"Fake Vehicle make"
+	},
+	"Vehicle.make":{
+		"scope":"ruby",
+		"prefix":"Vehicle.make",
+		"body":"Faker::Vehicle.make",
+		"description":"Fake Vehicle make"
+	},
+	"Faker::Vehicle.model":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.model",
+		"body":"Faker::Vehicle.model",
+		"description":"Fake Vehicle model"
+	},
+	"Vehicle.model":{
+		"scope":"ruby",
+		"prefix":"Vehicle.model",
+		"body":"Faker::Vehicle.model",
+		"description":"Fake Vehicle model"
+	},
+	"Faker::Vehicle.make_and_model":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.make_and_model",
+		"body":"Faker::Vehicle.make_and_model",
+		"description":"Fake Vehicle make_and_model"
+	},
+	"Vehicle.make_and_model":{
+		"scope":"ruby",
+		"prefix":"Vehicle.make_and_model",
+		"body":"Faker::Vehicle.make_and_model",
+		"description":"Fake Vehicle make_and_model"
+	},
+	"Faker::Vehicle.style":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.style",
+		"body":"Faker::Vehicle.style",
+		"description":"Fake Vehicle style"
+	},
+	"Vehicle.style":{
+		"scope":"ruby",
+		"prefix":"Vehicle.style",
+		"body":"Faker::Vehicle.style",
+		"description":"Fake Vehicle style"
+	},
+	"Faker::Vehicle.color":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.color",
+		"body":"Faker::Vehicle.color",
+		"description":"Fake Vehicle color"
+	},
+	"Vehicle.color":{
+		"scope":"ruby",
+		"prefix":"Vehicle.color",
+		"body":"Faker::Vehicle.color",
+		"description":"Fake Vehicle color"
+	},
+	"Faker::Vehicle.transmission":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.transmission",
+		"body":"Faker::Vehicle.transmission",
+		"description":"Fake Vehicle transmission"
+	},
+	"Vehicle.transmission":{
+		"scope":"ruby",
+		"prefix":"Vehicle.transmission",
+		"body":"Faker::Vehicle.transmission",
+		"description":"Fake Vehicle transmission"
+	},
+	"Faker::Vehicle.drive_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.drive_type",
+		"body":"Faker::Vehicle.drive_type",
+		"description":"Fake Vehicle drive_type"
+	},
+	"Vehicle.drive_type":{
+		"scope":"ruby",
+		"prefix":"Vehicle.drive_type",
+		"body":"Faker::Vehicle.drive_type",
+		"description":"Fake Vehicle drive_type"
+	},
+	"Faker::Vehicle.fuel_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.fuel_type",
+		"body":"Faker::Vehicle.fuel_type",
+		"description":"Fake Vehicle fuel_type"
+	},
+	"Vehicle.fuel_type":{
+		"scope":"ruby",
+		"prefix":"Vehicle.fuel_type",
+		"body":"Faker::Vehicle.fuel_type",
+		"description":"Fake Vehicle fuel_type"
+	},
+	"Faker::Vehicle.door_count":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.door_count",
+		"body":"Faker::Vehicle.door_count",
+		"description":"Fake Vehicle door_count"
+	},
+	"Vehicle.door_count":{
+		"scope":"ruby",
+		"prefix":"Vehicle.door_count",
+		"body":"Faker::Vehicle.door_count",
+		"description":"Fake Vehicle door_count"
+	},
+	"Faker::Vehicle.car_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.car_type",
+		"body":"Faker::Vehicle.car_type",
+		"description":"Fake Vehicle car_type"
+	},
+	"Vehicle.car_type":{
+		"scope":"ruby",
+		"prefix":"Vehicle.car_type",
+		"body":"Faker::Vehicle.car_type",
+		"description":"Fake Vehicle car_type"
+	},
+	"Faker::Vehicle.engine":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.engine",
+		"body":"Faker::Vehicle.engine",
+		"description":"Fake Vehicle engine"
+	},
+	"Vehicle.engine":{
+		"scope":"ruby",
+		"prefix":"Vehicle.engine",
+		"body":"Faker::Vehicle.engine",
+		"description":"Fake Vehicle engine"
+	},
+	"Faker::Vehicle.engine_size":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.engine_size",
+		"body":"Faker::Vehicle.engine_size",
+		"description":"Fake Vehicle engine_size"
+	},
+	"Vehicle.engine_size":{
+		"scope":"ruby",
+		"prefix":"Vehicle.engine_size",
+		"body":"Faker::Vehicle.engine_size",
+		"description":"Fake Vehicle engine_size"
+	},
+	"Faker::Vehicle.car_options":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.car_options",
+		"body":"Faker::Vehicle.car_options",
+		"description":"Fake Vehicle car_options"
+	},
+	"Vehicle.car_options":{
+		"scope":"ruby",
+		"prefix":"Vehicle.car_options",
+		"body":"Faker::Vehicle.car_options",
+		"description":"Fake Vehicle car_options"
+	},
+	"Faker::Vehicle.standard_specs":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.standard_specs",
+		"body":"Faker::Vehicle.standard_specs",
+		"description":"Fake Vehicle standard_specs"
+	},
+	"Vehicle.standard_specs":{
+		"scope":"ruby",
+		"prefix":"Vehicle.standard_specs",
+		"body":"Faker::Vehicle.standard_specs",
+		"description":"Fake Vehicle standard_specs"
+	},
+	"Faker::Community.characters":{
+		"scope":"ruby",
+		"prefix":"Faker::Community.characters",
+		"body":"Faker::Community.characters",
+		"description":"Fake Community characters"
+	},
+	"Community.characters":{
+		"scope":"ruby",
+		"prefix":"Community.characters",
+		"body":"Faker::Community.characters",
+		"description":"Fake Community characters"
+	},
+	"Faker::Community.quotes":{
+		"scope":"ruby",
+		"prefix":"Faker::Community.quotes",
+		"body":"Faker::Community.quotes",
+		"description":"Fake Community quotes"
+	},
+	"Community.quotes":{
+		"scope":"ruby",
+		"prefix":"Community.quotes",
+		"body":"Faker::Community.quotes",
+		"description":"Fake Community quotes"
+	},
+	"Faker::Esport.player":{
+		"scope":"ruby",
+		"prefix":"Faker::Esport.player",
+		"body":"Faker::Esport.player",
+		"description":"Fake Esport player"
+	},
+	"Esport.player":{
+		"scope":"ruby",
+		"prefix":"Esport.player",
+		"body":"Faker::Esport.player",
+		"description":"Fake Esport player"
+	},
+	"Faker::Esport.team":{
+		"scope":"ruby",
+		"prefix":"Faker::Esport.team",
+		"body":"Faker::Esport.team",
+		"description":"Fake Esport team"
+	},
+	"Esport.team":{
+		"scope":"ruby",
+		"prefix":"Esport.team",
+		"body":"Faker::Esport.team",
+		"description":"Fake Esport team"
+	},
+	"Faker::Esport.league":{
+		"scope":"ruby",
+		"prefix":"Faker::Esport.league",
+		"body":"Faker::Esport.league",
+		"description":"Fake Esport league"
+	},
+	"Esport.league":{
+		"scope":"ruby",
+		"prefix":"Esport.league",
+		"body":"Faker::Esport.league",
+		"description":"Fake Esport league"
+	},
+	"Faker::Esport.event":{
+		"scope":"ruby",
+		"prefix":"Faker::Esport.event",
+		"body":"Faker::Esport.event",
+		"description":"Fake Esport event"
+	},
+	"Esport.event":{
+		"scope":"ruby",
+		"prefix":"Esport.event",
+		"body":"Faker::Esport.event",
+		"description":"Fake Esport event"
+	},
+	"Faker::Esport.game":{
+		"scope":"ruby",
+		"prefix":"Faker::Esport.game",
+		"body":"Faker::Esport.game",
+		"description":"Fake Esport game"
+	},
+	"Esport.game":{
+		"scope":"ruby",
+		"prefix":"Esport.game",
+		"body":"Faker::Esport.game",
+		"description":"Fake Esport game"
+	},
+	"Faker::LoremFlickr.image":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.image",
+		"body":"Faker::LoremFlickr.image",
+		"description":"Fake LoremFlickr image"
+	},
+	"LoremFlickr.image":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.image",
+		"body":"Faker::LoremFlickr.image",
+		"description":"Fake LoremFlickr image"
+	},
+	"Faker::LoremFlickr.image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.image(\"50x60\")",
+		"body":"Faker::LoremFlickr.image(\"50x60\")",
+		"description":"Fake LoremFlickr image"
+	},
+	"LoremFlickr.image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.image(\"50x60\")",
+		"body":"Faker::LoremFlickr.image(\"50x60\")",
+		"description":"Fake LoremFlickr image"
+	},
+	"Faker::LoremFlickr.image(\"50x60\", ['sports'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.image(\"50x60\", ['sports'])",
+		"body":"Faker::LoremFlickr.image(\"50x60\", ['sports'])",
+		"description":"Fake LoremFlickr image"
+	},
+	"LoremFlickr.image(\"50x60\", ['sports'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.image(\"50x60\", ['sports'])",
+		"body":"Faker::LoremFlickr.image(\"50x60\", ['sports'])",
+		"description":"Fake LoremFlickr image"
+	},
+	"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr image"
+	},
+	"LoremFlickr.image(\"50x60\", ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.image(\"50x60\", ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr image"
+	},
+	"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr image"
+	},
+	"LoremFlickr.image(\"50x60\", ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.image(\"50x60\", ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.image(\"50x60\", ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr image"
+	},
+	"Faker::LoremFlickr.grayscale_image":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.grayscale_image",
+		"body":"Faker::LoremFlickr.grayscale_image",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"LoremFlickr.grayscale_image":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.grayscale_image",
+		"body":"Faker::LoremFlickr.grayscale_image",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"Faker::LoremFlickr.grayscale_image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.grayscale_image(\"50x60\")",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\")",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"LoremFlickr.grayscale_image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.grayscale_image(\"50x60\")",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\")",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports'])",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports'])",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"LoremFlickr.grayscale_image(\"50x60\", ['sports'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.grayscale_image(\"50x60\", ['sports'])",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports'])",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.grayscale_image(\"50x60\", ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr grayscale_image"
+	},
+	"Faker::LoremFlickr.pixelated_image":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.pixelated_image",
+		"body":"Faker::LoremFlickr.pixelated_image",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"LoremFlickr.pixelated_image":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.pixelated_image",
+		"body":"Faker::LoremFlickr.pixelated_image",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"Faker::LoremFlickr.pixelated_image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.pixelated_image(\"50x60\")",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\")",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"LoremFlickr.pixelated_image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.pixelated_image(\"50x60\")",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\")",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports'])",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports'])",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"LoremFlickr.pixelated_image(\"50x60\", ['sports'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.pixelated_image(\"50x60\", ['sports'])",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports'])",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.pixelated_image(\"50x60\", ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr pixelated_image"
+	},
+	"Faker::LoremFlickr.colorized_image":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.colorized_image",
+		"body":"Faker::LoremFlickr.colorized_image",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"LoremFlickr.colorized_image":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.colorized_image",
+		"body":"Faker::LoremFlickr.colorized_image",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"Faker::LoremFlickr.colorized_image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.colorized_image(\"50x60\")",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\")",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"LoremFlickr.colorized_image(\"50x60\")":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.colorized_image(\"50x60\")",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\")",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"Faker::LoremFlickr.colorized_image(\"50x60\", 'red')":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red')",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red')",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"LoremFlickr.colorized_image(\"50x60\", 'red')":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.colorized_image(\"50x60\", 'red')",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red')",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports'])",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports'])",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"LoremFlickr.colorized_image(\"50x60\", 'red', ['sports'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.colorized_image(\"50x60\", 'red', ['sports'])",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports'])",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'])":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'])",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'])",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr colorized_image"
+	},
+	"LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'], true)":{
+		"scope":"ruby",
+		"prefix":"LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'], true)",
+		"body":"Faker::LoremFlickr.colorized_image(\"50x60\", 'red', ['sports', 'fitness'], true)",
+		"description":"Fake LoremFlickr colorized_image"
 	},
 	"Faker::Matz.quote":{
 		"scope":"ruby",
@@ -2111,6 +2843,78 @@
 		"body":"Faker::SlackEmoji.emoji",
 		"description":"Fake SlackEmoji emoji"
 	},
+	"Faker::Device.build_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Device.build_number",
+		"body":"Faker::Device.build_number",
+		"description":"Fake Device build_number"
+	},
+	"Device.build_number":{
+		"scope":"ruby",
+		"prefix":"Device.build_number",
+		"body":"Faker::Device.build_number",
+		"description":"Fake Device build_number"
+	},
+	"Faker::Device.manufacturer":{
+		"scope":"ruby",
+		"prefix":"Faker::Device.manufacturer",
+		"body":"Faker::Device.manufacturer",
+		"description":"Fake Device manufacturer"
+	},
+	"Device.manufacturer":{
+		"scope":"ruby",
+		"prefix":"Device.manufacturer",
+		"body":"Faker::Device.manufacturer",
+		"description":"Fake Device manufacturer"
+	},
+	"Faker::Device.model_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Device.model_name",
+		"body":"Faker::Device.model_name",
+		"description":"Fake Device model_name"
+	},
+	"Device.model_name":{
+		"scope":"ruby",
+		"prefix":"Device.model_name",
+		"body":"Faker::Device.model_name",
+		"description":"Fake Device model_name"
+	},
+	"Faker::Device.platform":{
+		"scope":"ruby",
+		"prefix":"Faker::Device.platform",
+		"body":"Faker::Device.platform",
+		"description":"Fake Device platform"
+	},
+	"Device.platform":{
+		"scope":"ruby",
+		"prefix":"Device.platform",
+		"body":"Faker::Device.platform",
+		"description":"Fake Device platform"
+	},
+	"Faker::Device.serial":{
+		"scope":"ruby",
+		"prefix":"Faker::Device.serial",
+		"body":"Faker::Device.serial",
+		"description":"Fake Device serial"
+	},
+	"Device.serial":{
+		"scope":"ruby",
+		"prefix":"Device.serial",
+		"body":"Faker::Device.serial",
+		"description":"Fake Device serial"
+	},
+	"Faker::Device.version":{
+		"scope":"ruby",
+		"prefix":"Faker::Device.version",
+		"body":"Faker::Device.version",
+		"description":"Fake Device version"
+	},
+	"Device.version":{
+		"scope":"ruby",
+		"prefix":"Device.version",
+		"body":"Faker::Device.version",
+		"description":"Fake Device version"
+	},
 	"Faker::RuPaul.quote":{
 		"scope":"ruby",
 		"prefix":"Faker::RuPaul.quote",
@@ -2135,6 +2939,30 @@
 		"body":"Faker::RuPaul.queen",
 		"description":"Fake RuPaul queen"
 	},
+	"Faker::Invoice.reference":{
+		"scope":"ruby",
+		"prefix":"Faker::Invoice.reference",
+		"body":"Faker::Invoice.reference",
+		"description":"Fake Invoice reference"
+	},
+	"Invoice.reference":{
+		"scope":"ruby",
+		"prefix":"Invoice.reference",
+		"body":"Faker::Invoice.reference",
+		"description":"Fake Invoice reference"
+	},
+	"Faker::Invoice.creditor_reference":{
+		"scope":"ruby",
+		"prefix":"Faker::Invoice.creditor_reference",
+		"body":"Faker::Invoice.creditor_reference",
+		"description":"Fake Invoice creditor_reference"
+	},
+	"Invoice.creditor_reference":{
+		"scope":"ruby",
+		"prefix":"Invoice.creditor_reference",
+		"body":"Faker::Invoice.creditor_reference",
+		"description":"Fake Invoice creditor_reference"
+	},
 	"Faker::Stripe.valid_card":{
 		"scope":"ruby",
 		"prefix":"Faker::Stripe.valid_card",
@@ -2158,6 +2986,30 @@
 		"prefix":"Stripe.valid_card(\"visa_debit\")",
 		"body":"Faker::Stripe.valid_card(\"visa_debit\")",
 		"description":"Fake Stripe valid_card"
+	},
+	"Faker::Stripe.valid_token":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.valid_token",
+		"body":"Faker::Stripe.valid_token",
+		"description":"Fake Stripe valid_token"
+	},
+	"Stripe.valid_token":{
+		"scope":"ruby",
+		"prefix":"Stripe.valid_token",
+		"body":"Faker::Stripe.valid_token",
+		"description":"Fake Stripe valid_token"
+	},
+	"Faker::Stripe.valid_token(\"mc_debit\")":{
+		"scope":"ruby",
+		"prefix":"Faker::Stripe.valid_token(\"mc_debit\")",
+		"body":"Faker::Stripe.valid_token(\"mc_debit\")",
+		"description":"Fake Stripe valid_token"
+	},
+	"Stripe.valid_token(\"mc_debit\")":{
+		"scope":"ruby",
+		"prefix":"Stripe.valid_token(\"mc_debit\")",
+		"body":"Faker::Stripe.valid_token(\"mc_debit\")",
+		"description":"Fake Stripe valid_token"
 	},
 	"Faker::Stripe.invalid_card":{
 		"scope":"ruby",
@@ -2255,6 +3107,66 @@
 		"body":"Faker::Internet.free_email",
 		"description":"Fake Internet free_email"
 	},
+	"Faker::Military.army_rank":{
+		"scope":"ruby",
+		"prefix":"Faker::Military.army_rank",
+		"body":"Faker::Military.army_rank",
+		"description":"Fake Military army_rank"
+	},
+	"Military.army_rank":{
+		"scope":"ruby",
+		"prefix":"Military.army_rank",
+		"body":"Faker::Military.army_rank",
+		"description":"Fake Military army_rank"
+	},
+	"Faker::Military.marines_rank":{
+		"scope":"ruby",
+		"prefix":"Faker::Military.marines_rank",
+		"body":"Faker::Military.marines_rank",
+		"description":"Fake Military marines_rank"
+	},
+	"Military.marines_rank":{
+		"scope":"ruby",
+		"prefix":"Military.marines_rank",
+		"body":"Faker::Military.marines_rank",
+		"description":"Fake Military marines_rank"
+	},
+	"Faker::Military.navy_rank":{
+		"scope":"ruby",
+		"prefix":"Faker::Military.navy_rank",
+		"body":"Faker::Military.navy_rank",
+		"description":"Fake Military navy_rank"
+	},
+	"Military.navy_rank":{
+		"scope":"ruby",
+		"prefix":"Military.navy_rank",
+		"body":"Faker::Military.navy_rank",
+		"description":"Fake Military navy_rank"
+	},
+	"Faker::Military.air_force_rank":{
+		"scope":"ruby",
+		"prefix":"Faker::Military.air_force_rank",
+		"body":"Faker::Military.air_force_rank",
+		"description":"Fake Military air_force_rank"
+	},
+	"Military.air_force_rank":{
+		"scope":"ruby",
+		"prefix":"Military.air_force_rank",
+		"body":"Faker::Military.air_force_rank",
+		"description":"Fake Military air_force_rank"
+	},
+	"Faker::Military.dod_paygrade":{
+		"scope":"ruby",
+		"prefix":"Faker::Military.dod_paygrade",
+		"body":"Faker::Military.dod_paygrade",
+		"description":"Fake Military dod_paygrade"
+	},
+	"Military.dod_paygrade":{
+		"scope":"ruby",
+		"prefix":"Military.dod_paygrade",
+		"body":"Faker::Military.dod_paygrade",
+		"description":"Fake Military dod_paygrade"
+	},
 	"Faker::Placeholdit.image":{
 		"scope":"ruby",
 		"prefix":"Faker::Placeholdit.image",
@@ -2303,6 +3215,18 @@
 		"body":"Faker::Placeholdit.image(\"50x50\", 'gif', 'ffffff')",
 		"description":"Fake Placeholdit image"
 	},
+	"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random)":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random)",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random)",
+		"description":"Fake Placeholdit image"
+	},
+	"Placeholdit.image(\"50x50\", 'jpeg', :random)":{
+		"scope":"ruby",
+		"prefix":"Placeholdit.image(\"50x50\", 'jpeg', :random)",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random)",
+		"description":"Fake Placeholdit image"
+	},
 	"Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')":{
 		"scope":"ruby",
 		"prefix":"Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')",
@@ -2313,6 +3237,18 @@
 		"scope":"ruby",
 		"prefix":"Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')",
 		"body":"Faker::Placeholdit.image(\"50x50\", 'jpeg', 'ffffff', '000')",
+		"description":"Fake Placeholdit image"
+	},
+	"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random, :random)":{
+		"scope":"ruby",
+		"prefix":"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random, :random)",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random, :random)",
+		"description":"Fake Placeholdit image"
+	},
+	"Placeholdit.image(\"50x50\", 'jpeg', :random, :random)":{
+		"scope":"ruby",
+		"prefix":"Placeholdit.image(\"50x50\", 'jpeg', :random, :random)",
+		"body":"Faker::Placeholdit.image(\"50x50\", 'jpeg', :random, :random)",
 		"description":"Fake Placeholdit image"
 	},
 	"Faker::Placeholdit.image(\"50x50\", 'jpg', 'ffffff', '000', 'Some Custom Text')":{
@@ -2362,6 +3298,18 @@
 		"prefix":"GameOfThrones.city",
 		"body":"Faker::GameOfThrones.city",
 		"description":"Fake GameOfThrones city"
+	},
+	"Faker::GameOfThrones.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::GameOfThrones.quote",
+		"body":"Faker::GameOfThrones.quote",
+		"description":"Fake GameOfThrones quote"
+	},
+	"GameOfThrones.quote":{
+		"scope":"ruby",
+		"prefix":"GameOfThrones.quote",
+		"body":"Faker::GameOfThrones.quote",
+		"description":"Fake GameOfThrones quote"
 	},
 	"Faker::GameOfThrones.dragon":{
 		"scope":"ruby",
@@ -2554,6 +3502,54 @@
 		"prefix":"Time.backward(14, :evening)",
 		"body":"Faker::Time.backward(14, :evening)",
 		"description":"Fake Time backward"
+	},
+	"Faker::Football.team":{
+		"scope":"ruby",
+		"prefix":"Faker::Football.team",
+		"body":"Faker::Football.team",
+		"description":"Fake Football team"
+	},
+	"Football.team":{
+		"scope":"ruby",
+		"prefix":"Football.team",
+		"body":"Faker::Football.team",
+		"description":"Fake Football team"
+	},
+	"Faker::Football.player":{
+		"scope":"ruby",
+		"prefix":"Faker::Football.player",
+		"body":"Faker::Football.player",
+		"description":"Fake Football player"
+	},
+	"Football.player":{
+		"scope":"ruby",
+		"prefix":"Football.player",
+		"body":"Faker::Football.player",
+		"description":"Fake Football player"
+	},
+	"Faker::Football.coach":{
+		"scope":"ruby",
+		"prefix":"Faker::Football.coach",
+		"body":"Faker::Football.coach",
+		"description":"Fake Football coach"
+	},
+	"Football.coach":{
+		"scope":"ruby",
+		"prefix":"Football.coach",
+		"body":"Faker::Football.coach",
+		"description":"Fake Football coach"
+	},
+	"Faker::Football.competition":{
+		"scope":"ruby",
+		"prefix":"Faker::Football.competition",
+		"body":"Faker::Football.competition",
+		"description":"Fake Football competition"
+	},
+	"Football.competition":{
+		"scope":"ruby",
+		"prefix":"Football.competition",
+		"body":"Faker::Football.competition",
+		"description":"Fake Football competition"
 	},
 	"Faker::LeagueOfLegends.champion":{
 		"scope":"ruby",
@@ -3011,6 +4007,66 @@
 		"body":"Faker::Hobbit.location",
 		"description":"Fake Hobbit location"
 	},
+	"Faker::WorldCup.team":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.team",
+		"body":"Faker::WorldCup.team",
+		"description":"Fake WorldCup team"
+	},
+	"WorldCup.team":{
+		"scope":"ruby",
+		"prefix":"WorldCup.team",
+		"body":"Faker::WorldCup.team",
+		"description":"Fake WorldCup team"
+	},
+	"Faker::WorldCup.group":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.group",
+		"body":"Faker::WorldCup.group",
+		"description":"Fake WorldCup group"
+	},
+	"WorldCup.group":{
+		"scope":"ruby",
+		"prefix":"WorldCup.group",
+		"body":"Faker::WorldCup.group",
+		"description":"Fake WorldCup group"
+	},
+	"Faker::WorldCup.group('group_A')":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.group('group_A')",
+		"body":"Faker::WorldCup.group('group_A')",
+		"description":"Fake WorldCup group"
+	},
+	"WorldCup.group('group_A')":{
+		"scope":"ruby",
+		"prefix":"WorldCup.group('group_A')",
+		"body":"Faker::WorldCup.group('group_A')",
+		"description":"Fake WorldCup group"
+	},
+	"Faker::WorldCup.roster":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.roster",
+		"body":"Faker::WorldCup.roster",
+		"description":"Fake WorldCup roster"
+	},
+	"WorldCup.roster":{
+		"scope":"ruby",
+		"prefix":"WorldCup.roster",
+		"body":"Faker::WorldCup.roster",
+		"description":"Fake WorldCup roster"
+	},
+	"Faker::WorldCup.roster('Russia', 'coach')":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.roster('Russia', 'coach')",
+		"body":"Faker::WorldCup.roster('Russia', 'coach')",
+		"description":"Fake WorldCup roster"
+	},
+	"WorldCup.roster('Russia', 'coach')":{
+		"scope":"ruby",
+		"prefix":"WorldCup.roster('Russia', 'coach')",
+		"body":"Faker::WorldCup.roster('Russia', 'coach')",
+		"description":"Fake WorldCup roster"
+	},
 	"Faker::LordOfTheRings.character":{
 		"scope":"ruby",
 		"prefix":"Faker::LordOfTheRings.character",
@@ -3034,6 +4090,78 @@
 		"prefix":"LordOfTheRings.location",
 		"body":"Faker::LordOfTheRings.location",
 		"description":"Fake LordOfTheRings location"
+	},
+	"Faker::Dota.hero":{
+		"scope":"ruby",
+		"prefix":"Faker::Dota.hero",
+		"body":"Faker::Dota.hero",
+		"description":"Fake Dota hero"
+	},
+	"Dota.hero":{
+		"scope":"ruby",
+		"prefix":"Dota.hero",
+		"body":"Faker::Dota.hero",
+		"description":"Fake Dota hero"
+	},
+	"Faker::Dota.item":{
+		"scope":"ruby",
+		"prefix":"Faker::Dota.item",
+		"body":"Faker::Dota.item",
+		"description":"Fake Dota item"
+	},
+	"Dota.item":{
+		"scope":"ruby",
+		"prefix":"Dota.item",
+		"body":"Faker::Dota.item",
+		"description":"Fake Dota item"
+	},
+	"Faker::Dota.team":{
+		"scope":"ruby",
+		"prefix":"Faker::Dota.team",
+		"body":"Faker::Dota.team",
+		"description":"Fake Dota team"
+	},
+	"Dota.team":{
+		"scope":"ruby",
+		"prefix":"Dota.team",
+		"body":"Faker::Dota.team",
+		"description":"Fake Dota team"
+	},
+	"Faker::Dota.player":{
+		"scope":"ruby",
+		"prefix":"Faker::Dota.player",
+		"body":"Faker::Dota.player",
+		"description":"Fake Dota player"
+	},
+	"Dota.player":{
+		"scope":"ruby",
+		"prefix":"Dota.player",
+		"body":"Faker::Dota.player",
+		"description":"Fake Dota player"
+	},
+	"Faker::Dota.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Dota.quote",
+		"body":"Faker::Dota.quote",
+		"description":"Fake Dota quote"
+	},
+	"Dota.quote":{
+		"scope":"ruby",
+		"prefix":"Dota.quote",
+		"body":"Faker::Dota.quote",
+		"description":"Fake Dota quote"
+	},
+	"Faker::Dota.quote(hero = 'alchemist')":{
+		"scope":"ruby",
+		"prefix":"Faker::Dota.quote(hero = 'alchemist')",
+		"body":"Faker::Dota.quote(hero = 'alchemist')",
+		"description":"Fake Dota quote"
+	},
+	"Dota.quote(hero = 'alchemist')":{
+		"scope":"ruby",
+		"prefix":"Dota.quote(hero = 'alchemist')",
+		"body":"Faker::Dota.quote(hero = 'alchemist')",
+		"description":"Fake Dota quote"
 	},
 	"Faker::FamilyGuy.character":{
 		"scope":"ruby",
@@ -3070,6 +4198,54 @@
 		"prefix":"FamilyGuy.quote",
 		"body":"Faker::FamilyGuy.quote",
 		"description":"Fake FamilyGuy quote"
+	},
+	"Faker::Gender.type":{
+		"scope":"ruby",
+		"prefix":"Faker::Gender.type",
+		"body":"Faker::Gender.type",
+		"description":"Fake Gender type"
+	},
+	"Gender.type":{
+		"scope":"ruby",
+		"prefix":"Gender.type",
+		"body":"Faker::Gender.type",
+		"description":"Fake Gender type"
+	},
+	"Faker::Gender.binary_type":{
+		"scope":"ruby",
+		"prefix":"Faker::Gender.binary_type",
+		"body":"Faker::Gender.binary_type",
+		"description":"Fake Gender binary_type"
+	},
+	"Gender.binary_type":{
+		"scope":"ruby",
+		"prefix":"Gender.binary_type",
+		"body":"Faker::Gender.binary_type",
+		"description":"Fake Gender binary_type"
+	},
+	"Faker::ParksAndRec.character":{
+		"scope":"ruby",
+		"prefix":"Faker::ParksAndRec.character",
+		"body":"Faker::ParksAndRec.character",
+		"description":"Fake ParksAndRec character"
+	},
+	"ParksAndRec.character":{
+		"scope":"ruby",
+		"prefix":"ParksAndRec.character",
+		"body":"Faker::ParksAndRec.character",
+		"description":"Fake ParksAndRec character"
+	},
+	"Faker::ParksAndRec.city":{
+		"scope":"ruby",
+		"prefix":"Faker::ParksAndRec.city",
+		"body":"Faker::ParksAndRec.city",
+		"description":"Fake ParksAndRec city"
+	},
+	"ParksAndRec.city":{
+		"scope":"ruby",
+		"prefix":"ParksAndRec.city",
+		"body":"Faker::ParksAndRec.city",
+		"description":"Fake ParksAndRec city"
 	},
 	"Faker::Job.title":{
 		"scope":"ruby",
@@ -3166,6 +4342,54 @@
 		"prefix":"Movie.quote",
 		"body":"Faker::Movie.quote",
 		"description":"Fake Movie quote"
+	},
+	"Faker::Nation.nationality":{
+		"scope":"ruby",
+		"prefix":"Faker::Nation.nationality",
+		"body":"Faker::Nation.nationality",
+		"description":"Fake Nation nationality"
+	},
+	"Nation.nationality":{
+		"scope":"ruby",
+		"prefix":"Nation.nationality",
+		"body":"Faker::Nation.nationality",
+		"description":"Fake Nation nationality"
+	},
+	"Faker::Nation.language":{
+		"scope":"ruby",
+		"prefix":"Faker::Nation.language",
+		"body":"Faker::Nation.language",
+		"description":"Fake Nation language"
+	},
+	"Nation.language":{
+		"scope":"ruby",
+		"prefix":"Nation.language",
+		"body":"Faker::Nation.language",
+		"description":"Fake Nation language"
+	},
+	"Faker::Nation.capital_city":{
+		"scope":"ruby",
+		"prefix":"Faker::Nation.capital_city",
+		"body":"Faker::Nation.capital_city",
+		"description":"Fake Nation capital_city"
+	},
+	"Nation.capital_city":{
+		"scope":"ruby",
+		"prefix":"Nation.capital_city",
+		"body":"Faker::Nation.capital_city",
+		"description":"Fake Nation capital_city"
+	},
+	"Faker::Nation.national_sport":{
+		"scope":"ruby",
+		"prefix":"Faker::Nation.national_sport",
+		"body":"Faker::Nation.national_sport",
+		"description":"Fake Nation national_sport"
+	},
+	"Nation.national_sport":{
+		"scope":"ruby",
+		"prefix":"Nation.national_sport",
+		"body":"Faker::Nation.national_sport",
+		"description":"Fake Nation national_sport"
 	},
 	"Faker::HitchhikersGuideToTheGalaxy.character":{
 		"scope":"ruby",
@@ -3335,6 +4559,66 @@
 		"body":"Faker::HeyArnold.quote",
 		"description":"Fake HeyArnold quote"
 	},
+	"Faker::NatoPhoneticAlphabet.code_word":{
+		"scope":"ruby",
+		"prefix":"Faker::NatoPhoneticAlphabet.code_word",
+		"body":"Faker::NatoPhoneticAlphabet.code_word",
+		"description":"Fake NatoPhoneticAlphabet code_word"
+	},
+	"NatoPhoneticAlphabet.code_word":{
+		"scope":"ruby",
+		"prefix":"NatoPhoneticAlphabet.code_word",
+		"body":"Faker::NatoPhoneticAlphabet.code_word",
+		"description":"Fake NatoPhoneticAlphabet code_word"
+	},
+	"Faker::BreakingBad.character":{
+		"scope":"ruby",
+		"prefix":"Faker::BreakingBad.character",
+		"body":"Faker::BreakingBad.character",
+		"description":"Fake BreakingBad character"
+	},
+	"BreakingBad.character":{
+		"scope":"ruby",
+		"prefix":"BreakingBad.character",
+		"body":"Faker::BreakingBad.character",
+		"description":"Fake BreakingBad character"
+	},
+	"Faker::BreakingBad.episode":{
+		"scope":"ruby",
+		"prefix":"Faker::BreakingBad.episode",
+		"body":"Faker::BreakingBad.episode",
+		"description":"Fake BreakingBad episode"
+	},
+	"BreakingBad.episode":{
+		"scope":"ruby",
+		"prefix":"BreakingBad.episode",
+		"body":"Faker::BreakingBad.episode",
+		"description":"Fake BreakingBad episode"
+	},
+	"Faker::IDNumber.valid":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.valid",
+		"body":"Faker::IDNumber.valid",
+		"description":"Fake IDNumber valid"
+	},
+	"IDNumber.valid":{
+		"scope":"ruby",
+		"prefix":"IDNumber.valid",
+		"body":"Faker::IDNumber.valid",
+		"description":"Fake IDNumber valid"
+	},
+	"Faker::IDNumber.invalid":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.invalid",
+		"body":"Faker::IDNumber.invalid",
+		"description":"Fake IDNumber invalid"
+	},
+	"IDNumber.invalid":{
+		"scope":"ruby",
+		"prefix":"IDNumber.invalid",
+		"body":"Faker::IDNumber.invalid",
+		"description":"Fake IDNumber invalid"
+	},
 	"Faker::Boolean.boolean":{
 		"scope":"ruby",
 		"prefix":"Faker::Boolean.boolean",
@@ -3358,6 +4642,42 @@
 		"prefix":"Boolean.boolean(0.2)",
 		"body":"Faker::Boolean.boolean(0.2)",
 		"description":"Fake Boolean boolean"
+	},
+	"Faker::DumbAndDumber.actor":{
+		"scope":"ruby",
+		"prefix":"Faker::DumbAndDumber.actor",
+		"body":"Faker::DumbAndDumber.actor",
+		"description":"Fake DumbAndDumber actor"
+	},
+	"DumbAndDumber.actor":{
+		"scope":"ruby",
+		"prefix":"DumbAndDumber.actor",
+		"body":"Faker::DumbAndDumber.actor",
+		"description":"Fake DumbAndDumber actor"
+	},
+	"Faker::DumbAndDumber.character":{
+		"scope":"ruby",
+		"prefix":"Faker::DumbAndDumber.character",
+		"body":"Faker::DumbAndDumber.character",
+		"description":"Fake DumbAndDumber character"
+	},
+	"DumbAndDumber.character":{
+		"scope":"ruby",
+		"prefix":"DumbAndDumber.character",
+		"body":"Faker::DumbAndDumber.character",
+		"description":"Fake DumbAndDumber character"
+	},
+	"Faker::DumbAndDumber.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::DumbAndDumber.quote",
+		"body":"Faker::DumbAndDumber.quote",
+		"description":"Fake DumbAndDumber quote"
+	},
+	"DumbAndDumber.quote":{
+		"scope":"ruby",
+		"prefix":"DumbAndDumber.quote",
+		"body":"Faker::DumbAndDumber.quote",
+		"description":"Fake DumbAndDumber quote"
 	},
 	"Faker::Commerce.color":{
 		"scope":"ruby",
@@ -3443,6 +4763,18 @@
 		"body":"Faker::Commerce.price",
 		"description":"Fake Commerce price"
 	},
+	"Faker::Commerce.price(range = 0..10.0, as_string = false)":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.price(range = 0..10.0, as_string = false)",
+		"body":"Faker::Commerce.price(range = 0..10.0, as_string = false)",
+		"description":"Fake Commerce price"
+	},
+	"Commerce.price(range = 0..10.0, as_string = false)":{
+		"scope":"ruby",
+		"prefix":"Commerce.price(range = 0..10.0, as_string = false)",
+		"body":"Faker::Commerce.price(range = 0..10.0, as_string = false)",
+		"description":"Fake Commerce price"
+	},
 	"Faker::Commerce.promotion_code":{
 		"scope":"ruby",
 		"prefix":"Faker::Commerce.promotion_code",
@@ -3453,6 +4785,18 @@
 		"scope":"ruby",
 		"prefix":"Commerce.promotion_code",
 		"body":"Faker::Commerce.promotion_code",
+		"description":"Fake Commerce promotion_code"
+	},
+	"Faker::Commerce.promotion_code(digits = 2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Commerce.promotion_code(digits = 2)",
+		"body":"Faker::Commerce.promotion_code(digits = 2)",
+		"description":"Fake Commerce promotion_code"
+	},
+	"Commerce.promotion_code(digits = 2)":{
+		"scope":"ruby",
+		"prefix":"Commerce.promotion_code(digits = 2)",
+		"body":"Faker::Commerce.promotion_code(digits = 2)",
 		"description":"Fake Commerce promotion_code"
 	},
 	"Faker::ElderScrolls.race":{
@@ -3466,6 +4810,18 @@
 		"prefix":"ElderScrolls.race",
 		"body":"Faker::ElderScrolls.race",
 		"description":"Fake ElderScrolls race"
+	},
+	"Faker::ElderScrolls.city":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.city",
+		"body":"Faker::ElderScrolls.city",
+		"description":"Fake ElderScrolls city"
+	},
+	"ElderScrolls.city":{
+		"scope":"ruby",
+		"prefix":"ElderScrolls.city",
+		"body":"Faker::ElderScrolls.city",
+		"description":"Fake ElderScrolls city"
 	},
 	"Faker::ElderScrolls.creature":{
 		"scope":"ruby",
@@ -3503,6 +4859,42 @@
 		"body":"Faker::ElderScrolls.dragon",
 		"description":"Fake ElderScrolls dragon"
 	},
+	"Faker::ElderScrolls.first_name":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.first_name",
+		"body":"Faker::ElderScrolls.first_name",
+		"description":"Fake ElderScrolls first_name"
+	},
+	"ElderScrolls.first_name":{
+		"scope":"ruby",
+		"prefix":"ElderScrolls.first_name",
+		"body":"Faker::ElderScrolls.first_name",
+		"description":"Fake ElderScrolls first_name"
+	},
+	"Faker::ElderScrolls.last_name":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.last_name",
+		"body":"Faker::ElderScrolls.last_name",
+		"description":"Fake ElderScrolls last_name"
+	},
+	"ElderScrolls.last_name":{
+		"scope":"ruby",
+		"prefix":"ElderScrolls.last_name",
+		"body":"Faker::ElderScrolls.last_name",
+		"description":"Fake ElderScrolls last_name"
+	},
+	"Faker::ElderScrolls.name":{
+		"scope":"ruby",
+		"prefix":"Faker::ElderScrolls.name",
+		"body":"Faker::ElderScrolls.name",
+		"description":"Fake ElderScrolls name"
+	},
+	"ElderScrolls.name":{
+		"scope":"ruby",
+		"prefix":"ElderScrolls.name",
+		"body":"Faker::ElderScrolls.name",
+		"description":"Fake ElderScrolls name"
+	},
 	"Faker::ProgrammingLanguage.name":{
 		"scope":"ruby",
 		"prefix":"Faker::ProgrammingLanguage.name",
@@ -3526,6 +4918,54 @@
 		"prefix":"ProgrammingLanguage.creator",
 		"body":"Faker::ProgrammingLanguage.creator",
 		"description":"Fake ProgrammingLanguage creator"
+	},
+	"Faker::SwordArtOnline.real_name":{
+		"scope":"ruby",
+		"prefix":"Faker::SwordArtOnline.real_name",
+		"body":"Faker::SwordArtOnline.real_name",
+		"description":"Fake SwordArtOnline real_name"
+	},
+	"SwordArtOnline.real_name":{
+		"scope":"ruby",
+		"prefix":"SwordArtOnline.real_name",
+		"body":"Faker::SwordArtOnline.real_name",
+		"description":"Fake SwordArtOnline real_name"
+	},
+	"Faker::SwordArtOnline.game_name":{
+		"scope":"ruby",
+		"prefix":"Faker::SwordArtOnline.game_name",
+		"body":"Faker::SwordArtOnline.game_name",
+		"description":"Fake SwordArtOnline game_name"
+	},
+	"SwordArtOnline.game_name":{
+		"scope":"ruby",
+		"prefix":"SwordArtOnline.game_name",
+		"body":"Faker::SwordArtOnline.game_name",
+		"description":"Fake SwordArtOnline game_name"
+	},
+	"Faker::SwordArtOnline.location":{
+		"scope":"ruby",
+		"prefix":"Faker::SwordArtOnline.location",
+		"body":"Faker::SwordArtOnline.location",
+		"description":"Fake SwordArtOnline location"
+	},
+	"SwordArtOnline.location":{
+		"scope":"ruby",
+		"prefix":"SwordArtOnline.location",
+		"body":"Faker::SwordArtOnline.location",
+		"description":"Fake SwordArtOnline location"
+	},
+	"Faker::SwordArtOnline.item":{
+		"scope":"ruby",
+		"prefix":"Faker::SwordArtOnline.item",
+		"body":"Faker::SwordArtOnline.item",
+		"description":"Fake SwordArtOnline item"
+	},
+	"SwordArtOnline.item":{
+		"scope":"ruby",
+		"prefix":"SwordArtOnline.item",
+		"body":"Faker::SwordArtOnline.item",
+		"description":"Fake SwordArtOnline item"
 	},
 	"Faker::Measurement.height":{
 		"scope":"ruby",
@@ -3707,6 +5147,186 @@
 		"body":"Faker::VentureBros.quote",
 		"description":"Fake VentureBros quote"
 	},
+	"Faker::Cannabis.strain":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.strain",
+		"body":"Faker::Cannabis.strain",
+		"description":"Fake Cannabis strain"
+	},
+	"Cannabis.strain":{
+		"scope":"ruby",
+		"prefix":"Cannabis.strain",
+		"body":"Faker::Cannabis.strain",
+		"description":"Fake Cannabis strain"
+	},
+	"Faker::Cannabis.cannabinoid_abbreviation":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.cannabinoid_abbreviation",
+		"body":"Faker::Cannabis.cannabinoid_abbreviation",
+		"description":"Fake Cannabis cannabinoid_abbreviation"
+	},
+	"Cannabis.cannabinoid_abbreviation":{
+		"scope":"ruby",
+		"prefix":"Cannabis.cannabinoid_abbreviation",
+		"body":"Faker::Cannabis.cannabinoid_abbreviation",
+		"description":"Fake Cannabis cannabinoid_abbreviation"
+	},
+	"Faker::Cannabis.cannabinoid":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.cannabinoid",
+		"body":"Faker::Cannabis.cannabinoid",
+		"description":"Fake Cannabis cannabinoid"
+	},
+	"Cannabis.cannabinoid":{
+		"scope":"ruby",
+		"prefix":"Cannabis.cannabinoid",
+		"body":"Faker::Cannabis.cannabinoid",
+		"description":"Fake Cannabis cannabinoid"
+	},
+	"Faker::Cannabis.terpene":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.terpene",
+		"body":"Faker::Cannabis.terpene",
+		"description":"Fake Cannabis terpene"
+	},
+	"Cannabis.terpene":{
+		"scope":"ruby",
+		"prefix":"Cannabis.terpene",
+		"body":"Faker::Cannabis.terpene",
+		"description":"Fake Cannabis terpene"
+	},
+	"Faker::Cannabis.medical_use":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.medical_use",
+		"body":"Faker::Cannabis.medical_use",
+		"description":"Fake Cannabis medical_use"
+	},
+	"Cannabis.medical_use":{
+		"scope":"ruby",
+		"prefix":"Cannabis.medical_use",
+		"body":"Faker::Cannabis.medical_use",
+		"description":"Fake Cannabis medical_use"
+	},
+	"Faker::Cannabis.health_benefit":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.health_benefit",
+		"body":"Faker::Cannabis.health_benefit",
+		"description":"Fake Cannabis health_benefit"
+	},
+	"Cannabis.health_benefit":{
+		"scope":"ruby",
+		"prefix":"Cannabis.health_benefit",
+		"body":"Faker::Cannabis.health_benefit",
+		"description":"Fake Cannabis health_benefit"
+	},
+	"Faker::Cannabis.category":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.category",
+		"body":"Faker::Cannabis.category",
+		"description":"Fake Cannabis category"
+	},
+	"Cannabis.category":{
+		"scope":"ruby",
+		"prefix":"Cannabis.category",
+		"body":"Faker::Cannabis.category",
+		"description":"Fake Cannabis category"
+	},
+	"Faker::Cannabis.type":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.type",
+		"body":"Faker::Cannabis.type",
+		"description":"Fake Cannabis type"
+	},
+	"Cannabis.type":{
+		"scope":"ruby",
+		"prefix":"Cannabis.type",
+		"body":"Faker::Cannabis.type",
+		"description":"Fake Cannabis type"
+	},
+	"Faker::Cannabis.buzzword":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.buzzword",
+		"body":"Faker::Cannabis.buzzword",
+		"description":"Fake Cannabis buzzword"
+	},
+	"Cannabis.buzzword":{
+		"scope":"ruby",
+		"prefix":"Cannabis.buzzword",
+		"body":"Faker::Cannabis.buzzword",
+		"description":"Fake Cannabis buzzword"
+	},
+	"Faker::Cannabis.website":{
+		"scope":"ruby",
+		"prefix":"Faker::Cannabis.website",
+		"body":"Faker::Cannabis.website",
+		"description":"Fake Cannabis website"
+	},
+	"Cannabis.website":{
+		"scope":"ruby",
+		"prefix":"Cannabis.website",
+		"body":"Faker::Cannabis.website",
+		"description":"Fake Cannabis website"
+	},
+	"Faker::Lebowski.actor":{
+		"scope":"ruby",
+		"prefix":"Faker::Lebowski.actor",
+		"body":"Faker::Lebowski.actor",
+		"description":"Fake Lebowski actor"
+	},
+	"Lebowski.actor":{
+		"scope":"ruby",
+		"prefix":"Lebowski.actor",
+		"body":"Faker::Lebowski.actor",
+		"description":"Fake Lebowski actor"
+	},
+	"Faker::Lebowski.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Lebowski.character",
+		"body":"Faker::Lebowski.character",
+		"description":"Fake Lebowski character"
+	},
+	"Lebowski.character":{
+		"scope":"ruby",
+		"prefix":"Lebowski.character",
+		"body":"Faker::Lebowski.character",
+		"description":"Fake Lebowski character"
+	},
+	"Faker::Lebowski.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Lebowski.quote",
+		"body":"Faker::Lebowski.quote",
+		"description":"Fake Lebowski quote"
+	},
+	"Lebowski.quote":{
+		"scope":"ruby",
+		"prefix":"Lebowski.quote",
+		"body":"Faker::Lebowski.quote",
+		"description":"Fake Lebowski quote"
+	},
+	"Faker::StrangerThings.character":{
+		"scope":"ruby",
+		"prefix":"Faker::StrangerThings.character",
+		"body":"Faker::StrangerThings.character",
+		"description":"Fake StrangerThings character"
+	},
+	"StrangerThings.character":{
+		"scope":"ruby",
+		"prefix":"StrangerThings.character",
+		"body":"Faker::StrangerThings.character",
+		"description":"Fake StrangerThings character"
+	},
+	"Faker::StrangerThings.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::StrangerThings.quote",
+		"body":"Faker::StrangerThings.quote",
+		"description":"Fake StrangerThings quote"
+	},
+	"StrangerThings.quote":{
+		"scope":"ruby",
+		"prefix":"StrangerThings.quote",
+		"body":"Faker::StrangerThings.quote",
+		"description":"Fake StrangerThings quote"
+	},
 	"Faker::Zelda.game":{
 		"scope":"ruby",
 		"prefix":"Faker::Zelda.game",
@@ -3754,6 +5374,54 @@
 		"prefix":"Zelda.item",
 		"body":"Faker::Zelda.item",
 		"description":"Fake Zelda item"
+	},
+	"Faker::MichaelScott.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::MichaelScott.quote",
+		"body":"Faker::MichaelScott.quote",
+		"description":"Fake MichaelScott quote"
+	},
+	"MichaelScott.quote":{
+		"scope":"ruby",
+		"prefix":"MichaelScott.quote",
+		"body":"Faker::MichaelScott.quote",
+		"description":"Fake MichaelScott quote"
+	},
+	"Faker::Finance.credit_card":{
+		"scope":"ruby",
+		"prefix":"Faker::Finance.credit_card",
+		"body":"Faker::Finance.credit_card",
+		"description":"Fake Finance credit_card"
+	},
+	"Finance.credit_card":{
+		"scope":"ruby",
+		"prefix":"Finance.credit_card",
+		"body":"Faker::Finance.credit_card",
+		"description":"Fake Finance credit_card"
+	},
+	"Faker::Finance.credit_card(:mastercard)":{
+		"scope":"ruby",
+		"prefix":"Faker::Finance.credit_card(:mastercard)",
+		"body":"Faker::Finance.credit_card(:mastercard)",
+		"description":"Fake Finance credit_card"
+	},
+	"Finance.credit_card(:mastercard)":{
+		"scope":"ruby",
+		"prefix":"Finance.credit_card(:mastercard)",
+		"body":"Faker::Finance.credit_card(:mastercard)",
+		"description":"Fake Finance credit_card"
+	},
+	"Faker::Finance.credit_card(:mastercard, :visa)":{
+		"scope":"ruby",
+		"prefix":"Faker::Finance.credit_card(:mastercard, :visa)",
+		"body":"Faker::Finance.credit_card(:mastercard, :visa)",
+		"description":"Fake Finance credit_card"
+	},
+	"Finance.credit_card(:mastercard, :visa)":{
+		"scope":"ruby",
+		"prefix":"Finance.credit_card(:mastercard, :visa)",
+		"body":"Faker::Finance.credit_card(:mastercard, :visa)",
+		"description":"Fake Finance credit_card"
 	},
 	"Faker::Friends.character":{
 		"scope":"ruby",
@@ -4127,6 +5795,30 @@
 		"body":"Faker::Lovecraft.paragraphs(2)",
 		"description":"Fake Lovecraft paragraphs"
 	},
+	"Faker::Lovecraft.paragraph_by_chars":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraph_by_chars",
+		"body":"Faker::Lovecraft.paragraph_by_chars",
+		"description":"Fake Lovecraft paragraph_by_chars"
+	},
+	"Lovecraft.paragraph_by_chars":{
+		"scope":"ruby",
+		"prefix":"Lovecraft.paragraph_by_chars",
+		"body":"Faker::Lovecraft.paragraph_by_chars",
+		"description":"Fake Lovecraft paragraph_by_chars"
+	},
+	"Faker::Lovecraft.paragraph_by_chars(256)":{
+		"scope":"ruby",
+		"prefix":"Faker::Lovecraft.paragraph_by_chars(256)",
+		"body":"Faker::Lovecraft.paragraph_by_chars(256)",
+		"description":"Fake Lovecraft paragraph_by_chars"
+	},
+	"Lovecraft.paragraph_by_chars(256)":{
+		"scope":"ruby",
+		"prefix":"Lovecraft.paragraph_by_chars(256)",
+		"body":"Faker::Lovecraft.paragraph_by_chars(256)",
+		"description":"Fake Lovecraft paragraph_by_chars"
+	},
 	"Faker::OnePiece.character":{
 		"scope":"ruby",
 		"prefix":"Faker::OnePiece.character",
@@ -4427,6 +6119,18 @@
 		"body":"Faker::Internet.email('Nancy')",
 		"description":"Fake Internet email"
 	},
+	"Faker::Internet.email('Janelle Santiago', '+')":{
+		"scope":"ruby",
+		"prefix":"Faker::Internet.email('Janelle Santiago', '+')",
+		"body":"Faker::Internet.email('Janelle Santiago', '+')",
+		"description":"Fake Internet email"
+	},
+	"Internet.email('Janelle Santiago', '+')":{
+		"scope":"ruby",
+		"prefix":"Internet.email('Janelle Santiago', '+')",
+		"body":"Faker::Internet.email('Janelle Santiago', '+')",
+		"description":"Fake Internet email"
+	},
 	"Faker::Internet.free_email('Nancy')":{
 		"scope":"ruby",
 		"prefix":"Faker::Internet.free_email('Nancy')",
@@ -4570,18 +6274,6 @@
 		"prefix":"Internet.domain_name",
 		"body":"Faker::Internet.domain_name",
 		"description":"Fake Internet domain_name"
-	},
-	"Faker::Internet.fix_umlauts('äöüß')":{
-		"scope":"ruby",
-		"prefix":"Faker::Internet.fix_umlauts('äöüß')",
-		"body":"Faker::Internet.fix_umlauts('äöüß')",
-		"description":"Fake Internet fix_umlauts"
-	},
-	"Internet.fix_umlauts('äöüß')":{
-		"scope":"ruby",
-		"prefix":"Internet.fix_umlauts('äöüß')",
-		"body":"Faker::Internet.fix_umlauts('äöüß')",
-		"description":"Fake Internet fix_umlauts"
 	},
 	"Faker::Internet.domain_word":{
 		"scope":"ruby",
@@ -5015,17 +6707,17 @@
 		"body":"Faker::Educator.campus",
 		"description":"Fake Educator campus"
 	},
-	"Faker::Types.string":{
+	"Faker::Types.rb_string":{
 		"scope":"ruby",
-		"prefix":"Faker::Types.string",
-		"body":"Faker::Types.string",
-		"description":"Fake Types string"
+		"prefix":"Faker::Types.rb_string",
+		"body":"Faker::Types.rb_string",
+		"description":"Fake Types rb_string"
 	},
-	"Types.string":{
+	"Types.rb_string":{
 		"scope":"ruby",
-		"prefix":"Types.string",
-		"body":"Faker::Types.string",
-		"description":"Fake Types string"
+		"prefix":"Types.rb_string",
+		"body":"Faker::Types.rb_string",
+		"description":"Fake Types rb_string"
 	},
 	"Faker::Types.character":{
 		"scope":"ruby",
@@ -5039,53 +6731,53 @@
 		"body":"Faker::Types.character",
 		"description":"Fake Types character"
 	},
-	"Faker::Types.integer":{
+	"Faker::Types.rb_integer":{
 		"scope":"ruby",
-		"prefix":"Faker::Types.integer",
-		"body":"Faker::Types.integer",
-		"description":"Fake Types integer"
+		"prefix":"Faker::Types.rb_integer",
+		"body":"Faker::Types.rb_integer",
+		"description":"Fake Types rb_integer"
 	},
-	"Types.integer":{
+	"Types.rb_integer":{
 		"scope":"ruby",
-		"prefix":"Types.integer",
-		"body":"Faker::Types.integer",
-		"description":"Fake Types integer"
+		"prefix":"Types.rb_integer",
+		"body":"Faker::Types.rb_integer",
+		"description":"Fake Types rb_integer"
 	},
-	"Faker::Types.hash":{
+	"Faker::Types.rb_hash":{
 		"scope":"ruby",
-		"prefix":"Faker::Types.hash",
-		"body":"Faker::Types.hash",
-		"description":"Fake Types hash"
+		"prefix":"Faker::Types.rb_hash",
+		"body":"Faker::Types.rb_hash",
+		"description":"Fake Types rb_hash"
 	},
-	"Types.hash":{
+	"Types.rb_hash":{
 		"scope":"ruby",
-		"prefix":"Types.hash",
-		"body":"Faker::Types.hash",
-		"description":"Fake Types hash"
+		"prefix":"Types.rb_hash",
+		"body":"Faker::Types.rb_hash",
+		"description":"Fake Types rb_hash"
 	},
-	"Faker::Types.complex_hash":{
+	"Faker::Types.complex_rb_hash":{
 		"scope":"ruby",
-		"prefix":"Faker::Types.complex_hash",
-		"body":"Faker::Types.complex_hash",
-		"description":"Fake Types complex_hash"
+		"prefix":"Faker::Types.complex_rb_hash",
+		"body":"Faker::Types.complex_rb_hash",
+		"description":"Fake Types complex_rb_hash"
 	},
-	"Types.complex_hash":{
+	"Types.complex_rb_hash":{
 		"scope":"ruby",
-		"prefix":"Types.complex_hash",
-		"body":"Faker::Types.complex_hash",
-		"description":"Fake Types complex_hash"
+		"prefix":"Types.complex_rb_hash",
+		"body":"Faker::Types.complex_rb_hash",
+		"description":"Fake Types complex_rb_hash"
 	},
-	"Faker::Types.array":{
+	"Faker::Types.rb_array":{
 		"scope":"ruby",
-		"prefix":"Faker::Types.array",
-		"body":"Faker::Types.array",
-		"description":"Fake Types array"
+		"prefix":"Faker::Types.rb_array",
+		"body":"Faker::Types.rb_array",
+		"description":"Fake Types rb_array"
 	},
-	"Types.array":{
+	"Types.rb_array":{
 		"scope":"ruby",
-		"prefix":"Types.array",
-		"body":"Faker::Types.array",
-		"description":"Fake Types array"
+		"prefix":"Types.rb_array",
+		"body":"Faker::Types.rb_array",
+		"description":"Fake Types rb_array"
 	},
 	"Faker::Types.random_type":{
 		"scope":"ruby",
@@ -5159,6 +6851,18 @@
 		"body":"Faker::Coffee.notes",
 		"description":"Fake Coffee notes"
 	},
+	"Faker::Coffee.intensifier":{
+		"scope":"ruby",
+		"prefix":"Faker::Coffee.intensifier",
+		"body":"Faker::Coffee.intensifier",
+		"description":"Fake Coffee intensifier"
+	},
+	"Coffee.intensifier":{
+		"scope":"ruby",
+		"prefix":"Coffee.intensifier",
+		"body":"Faker::Coffee.intensifier",
+		"description":"Fake Coffee intensifier"
+	},
 	"Faker::Number.number(10)":{
 		"scope":"ruby",
 		"prefix":"Faker::Number.number(10)",
@@ -5170,6 +6874,30 @@
 		"prefix":"Number.number(10)",
 		"body":"Faker::Number.number(10)",
 		"description":"Fake Number number"
+	},
+	"Faker::Number.leading_zero_number(10)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.leading_zero_number(10)",
+		"body":"Faker::Number.leading_zero_number(10)",
+		"description":"Fake Number leading_zero_number"
+	},
+	"Number.leading_zero_number(10)":{
+		"scope":"ruby",
+		"prefix":"Number.leading_zero_number(10)",
+		"body":"Faker::Number.leading_zero_number(10)",
+		"description":"Fake Number leading_zero_number"
+	},
+	"Faker::Number.decimal_part(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.decimal_part(2)",
+		"body":"Faker::Number.decimal_part(2)",
+		"description":"Fake Number decimal_part"
+	},
+	"Number.decimal_part(2)":{
+		"scope":"ruby",
+		"prefix":"Number.decimal_part(2)",
+		"body":"Faker::Number.decimal_part(2)",
+		"description":"Fake Number decimal_part"
 	},
 	"Faker::Number.decimal(2)":{
 		"scope":"ruby",
@@ -5254,6 +6982,18 @@
 		"prefix":"Number.negative",
 		"body":"Faker::Number.negative",
 		"description":"Fake Number negative"
+	},
+	"Faker::Number.non_zero_digit":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.non_zero_digit",
+		"body":"Faker::Number.non_zero_digit",
+		"description":"Fake Number non_zero_digit"
+	},
+	"Number.non_zero_digit":{
+		"scope":"ruby",
+		"prefix":"Number.non_zero_digit",
+		"body":"Faker::Number.non_zero_digit",
+		"description":"Fake Number non_zero_digit"
 	},
 	"Faker::Number.digit":{
 		"scope":"ruby",
@@ -5363,6 +7103,78 @@
 		"body":"Faker::Seinfeld.quote",
 		"description":"Fake Seinfeld quote"
 	},
+	"Faker::Source.hello_world":{
+		"scope":"ruby",
+		"prefix":"Faker::Source.hello_world",
+		"body":"Faker::Source.hello_world",
+		"description":"Fake Source hello_world"
+	},
+	"Source.hello_world":{
+		"scope":"ruby",
+		"prefix":"Source.hello_world",
+		"body":"Faker::Source.hello_world",
+		"description":"Fake Source hello_world"
+	},
+	"Faker::Source.hello_world(:javascript)":{
+		"scope":"ruby",
+		"prefix":"Faker::Source.hello_world(:javascript)",
+		"body":"Faker::Source.hello_world(:javascript)",
+		"description":"Fake Source hello_world"
+	},
+	"Source.hello_world(:javascript)":{
+		"scope":"ruby",
+		"prefix":"Source.hello_world(:javascript)",
+		"body":"Faker::Source.hello_world(:javascript)",
+		"description":"Fake Source hello_world"
+	},
+	"Faker::Source.print":{
+		"scope":"ruby",
+		"prefix":"Faker::Source.print",
+		"body":"Faker::Source.print",
+		"description":"Fake Source print"
+	},
+	"Source.print":{
+		"scope":"ruby",
+		"prefix":"Source.print",
+		"body":"Faker::Source.print",
+		"description":"Fake Source print"
+	},
+	"Faker::Source.print('cake')":{
+		"scope":"ruby",
+		"prefix":"Faker::Source.print('cake')",
+		"body":"Faker::Source.print('cake')",
+		"description":"Fake Source print"
+	},
+	"Source.print('cake')":{
+		"scope":"ruby",
+		"prefix":"Source.print('cake')",
+		"body":"Faker::Source.print('cake')",
+		"description":"Fake Source print"
+	},
+	"Faker::Source.print(str: 'cake', lang: :javascript)":{
+		"scope":"ruby",
+		"prefix":"Faker::Source.print(str: 'cake', lang: :javascript)",
+		"body":"Faker::Source.print(str: 'cake', lang: :javascript)",
+		"description":"Fake Source print"
+	},
+	"Source.print(str: 'cake', lang: :javascript)":{
+		"scope":"ruby",
+		"prefix":"Source.print(str: 'cake', lang: :javascript)",
+		"body":"Faker::Source.print(str: 'cake', lang: :javascript)",
+		"description":"Fake Source print"
+	},
+	"Faker::FamousLastWords.last_words":{
+		"scope":"ruby",
+		"prefix":"Faker::FamousLastWords.last_words",
+		"body":"Faker::FamousLastWords.last_words",
+		"description":"Fake FamousLastWords last_words"
+	},
+	"FamousLastWords.last_words":{
+		"scope":"ruby",
+		"prefix":"FamousLastWords.last_words",
+		"body":"Faker::FamousLastWords.last_words",
+		"description":"Fake FamousLastWords last_words"
+	},
 	"Faker::UmphreysMcgee.song":{
 		"scope":"ruby",
 		"prefix":"Faker::UmphreysMcgee.song",
@@ -5387,6 +7199,30 @@
 		"body":"Faker::University.name",
 		"description":"Fake University name"
 	},
+	"Faker::University.prefix":{
+		"scope":"ruby",
+		"prefix":"Faker::University.prefix",
+		"body":"Faker::University.prefix",
+		"description":"Fake University prefix"
+	},
+	"University.prefix":{
+		"scope":"ruby",
+		"prefix":"University.prefix",
+		"body":"Faker::University.prefix",
+		"description":"Fake University prefix"
+	},
+	"Faker::University.suffix":{
+		"scope":"ruby",
+		"prefix":"Faker::University.suffix",
+		"body":"Faker::University.suffix",
+		"description":"Fake University suffix"
+	},
+	"University.suffix":{
+		"scope":"ruby",
+		"prefix":"University.suffix",
+		"body":"Faker::University.suffix",
+		"description":"Fake University suffix"
+	},
 	"Faker::University.greek_organization":{
 		"scope":"ruby",
 		"prefix":"Faker::University.greek_organization",
@@ -5398,6 +7234,126 @@
 		"prefix":"University.greek_organization",
 		"body":"Faker::University.greek_organization",
 		"description":"Fake University greek_organization"
+	},
+	"Faker::University.greek_alphabet":{
+		"scope":"ruby",
+		"prefix":"Faker::University.greek_alphabet",
+		"body":"Faker::University.greek_alphabet",
+		"description":"Fake University greek_alphabet"
+	},
+	"University.greek_alphabet":{
+		"scope":"ruby",
+		"prefix":"University.greek_alphabet",
+		"body":"Faker::University.greek_alphabet",
+		"description":"Fake University greek_alphabet"
+	},
+	"Faker::TheITCrowd.actor":{
+		"scope":"ruby",
+		"prefix":"Faker::TheITCrowd.actor",
+		"body":"Faker::TheITCrowd.actor",
+		"description":"Fake TheITCrowd actor"
+	},
+	"TheITCrowd.actor":{
+		"scope":"ruby",
+		"prefix":"TheITCrowd.actor",
+		"body":"Faker::TheITCrowd.actor",
+		"description":"Fake TheITCrowd actor"
+	},
+	"Faker::TheITCrowd.character":{
+		"scope":"ruby",
+		"prefix":"Faker::TheITCrowd.character",
+		"body":"Faker::TheITCrowd.character",
+		"description":"Fake TheITCrowd character"
+	},
+	"TheITCrowd.character":{
+		"scope":"ruby",
+		"prefix":"TheITCrowd.character",
+		"body":"Faker::TheITCrowd.character",
+		"description":"Fake TheITCrowd character"
+	},
+	"Faker::TheITCrowd.email":{
+		"scope":"ruby",
+		"prefix":"Faker::TheITCrowd.email",
+		"body":"Faker::TheITCrowd.email",
+		"description":"Fake TheITCrowd email"
+	},
+	"TheITCrowd.email":{
+		"scope":"ruby",
+		"prefix":"TheITCrowd.email",
+		"body":"Faker::TheITCrowd.email",
+		"description":"Fake TheITCrowd email"
+	},
+	"Faker::TheITCrowd.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::TheITCrowd.quote",
+		"body":"Faker::TheITCrowd.quote",
+		"description":"Fake TheITCrowd quote"
+	},
+	"TheITCrowd.quote":{
+		"scope":"ruby",
+		"prefix":"TheITCrowd.quote",
+		"body":"Faker::TheITCrowd.quote",
+		"description":"Fake TheITCrowd quote"
+	},
+	"Faker::Myst.game":{
+		"scope":"ruby",
+		"prefix":"Faker::Myst.game",
+		"body":"Faker::Myst.game",
+		"description":"Fake Myst game"
+	},
+	"Myst.game":{
+		"scope":"ruby",
+		"prefix":"Myst.game",
+		"body":"Faker::Myst.game",
+		"description":"Fake Myst game"
+	},
+	"Faker::Myst.creature":{
+		"scope":"ruby",
+		"prefix":"Faker::Myst.creature",
+		"body":"Faker::Myst.creature",
+		"description":"Fake Myst creature"
+	},
+	"Myst.creature":{
+		"scope":"ruby",
+		"prefix":"Myst.creature",
+		"body":"Faker::Myst.creature",
+		"description":"Fake Myst creature"
+	},
+	"Faker::Myst.age":{
+		"scope":"ruby",
+		"prefix":"Faker::Myst.age",
+		"body":"Faker::Myst.age",
+		"description":"Fake Myst age"
+	},
+	"Myst.age":{
+		"scope":"ruby",
+		"prefix":"Myst.age",
+		"body":"Faker::Myst.age",
+		"description":"Fake Myst age"
+	},
+	"Faker::Myst.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Myst.character",
+		"body":"Faker::Myst.character",
+		"description":"Fake Myst character"
+	},
+	"Myst.character":{
+		"scope":"ruby",
+		"prefix":"Myst.character",
+		"body":"Faker::Myst.character",
+		"description":"Fake Myst character"
+	},
+	"Faker::Myst.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Myst.quote",
+		"body":"Faker::Myst.quote",
+		"description":"Fake Myst quote"
+	},
+	"Myst.quote":{
+		"scope":"ruby",
+		"prefix":"Myst.quote",
+		"body":"Faker::Myst.quote",
+		"description":"Fake Myst quote"
 	},
 	"Faker::Currency.name":{
 		"scope":"ruby",
@@ -5422,6 +7378,54 @@
 		"prefix":"Currency.code",
 		"body":"Faker::Currency.code",
 		"description":"Fake Currency code"
+	},
+	"Faker::Currency.symbol":{
+		"scope":"ruby",
+		"prefix":"Faker::Currency.symbol",
+		"body":"Faker::Currency.symbol",
+		"description":"Fake Currency symbol"
+	},
+	"Currency.symbol":{
+		"scope":"ruby",
+		"prefix":"Currency.symbol",
+		"body":"Faker::Currency.symbol",
+		"description":"Fake Currency symbol"
+	},
+	"Faker::ElectricalComponents.active":{
+		"scope":"ruby",
+		"prefix":"Faker::ElectricalComponents.active",
+		"body":"Faker::ElectricalComponents.active",
+		"description":"Fake ElectricalComponents active"
+	},
+	"ElectricalComponents.active":{
+		"scope":"ruby",
+		"prefix":"ElectricalComponents.active",
+		"body":"Faker::ElectricalComponents.active",
+		"description":"Fake ElectricalComponents active"
+	},
+	"Faker::ElectricalComponents.passive":{
+		"scope":"ruby",
+		"prefix":"Faker::ElectricalComponents.passive",
+		"body":"Faker::ElectricalComponents.passive",
+		"description":"Fake ElectricalComponents passive"
+	},
+	"ElectricalComponents.passive":{
+		"scope":"ruby",
+		"prefix":"ElectricalComponents.passive",
+		"body":"Faker::ElectricalComponents.passive",
+		"description":"Fake ElectricalComponents passive"
+	},
+	"Faker::ElectricalComponents.electromechanical":{
+		"scope":"ruby",
+		"prefix":"Faker::ElectricalComponents.electromechanical",
+		"body":"Faker::ElectricalComponents.electromechanical",
+		"description":"Fake ElectricalComponents electromechanical"
+	},
+	"ElectricalComponents.electromechanical":{
+		"scope":"ruby",
+		"prefix":"ElectricalComponents.electromechanical",
+		"body":"Faker::ElectricalComponents.electromechanical",
+		"description":"Fake ElectricalComponents electromechanical"
 	},
 	"Faker::Hipster.word":{
 		"scope":"ruby",
@@ -5675,6 +7679,54 @@
 		"body":"Faker::Hipster.paragraphs(1, true)",
 		"description":"Fake Hipster paragraphs"
 	},
+	"Faker::Hipster.paragraph_by_chars":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph_by_chars",
+		"body":"Faker::Hipster.paragraph_by_chars",
+		"description":"Fake Hipster paragraph_by_chars"
+	},
+	"Hipster.paragraph_by_chars":{
+		"scope":"ruby",
+		"prefix":"Hipster.paragraph_by_chars",
+		"body":"Faker::Hipster.paragraph_by_chars",
+		"description":"Fake Hipster paragraph_by_chars"
+	},
+	"Faker::Hipster.paragraph_by_chars(256, false)":{
+		"scope":"ruby",
+		"prefix":"Faker::Hipster.paragraph_by_chars(256, false)",
+		"body":"Faker::Hipster.paragraph_by_chars(256, false)",
+		"description":"Fake Hipster paragraph_by_chars"
+	},
+	"Hipster.paragraph_by_chars(256, false)":{
+		"scope":"ruby",
+		"prefix":"Hipster.paragraph_by_chars(256, false)",
+		"body":"Faker::Hipster.paragraph_by_chars(256, false)",
+		"description":"Fake Hipster paragraph_by_chars"
+	},
+	"Faker::Artist.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Artist.name",
+		"body":"Faker::Artist.name",
+		"description":"Fake Artist name"
+	},
+	"Artist.name":{
+		"scope":"ruby",
+		"prefix":"Artist.name",
+		"body":"Faker::Artist.name",
+		"description":"Fake Artist name"
+	},
+	"Faker::StarWars.call_squadron":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.call_squadron",
+		"body":"Faker::StarWars.call_squadron",
+		"description":"Fake StarWars call_squadron"
+	},
+	"StarWars.call_squadron":{
+		"scope":"ruby",
+		"prefix":"StarWars.call_squadron",
+		"body":"Faker::StarWars.call_squadron",
+		"description":"Fake StarWars call_squadron"
+	},
 	"Faker::StarWars.call_sign":{
 		"scope":"ruby",
 		"prefix":"Faker::StarWars.call_sign",
@@ -5686,6 +7738,18 @@
 		"prefix":"StarWars.call_sign",
 		"body":"Faker::StarWars.call_sign",
 		"description":"Fake StarWars call_sign"
+	},
+	"Faker::StarWars.call_number":{
+		"scope":"ruby",
+		"prefix":"Faker::StarWars.call_number",
+		"body":"Faker::StarWars.call_number",
+		"description":"Fake StarWars call_number"
+	},
+	"StarWars.call_number":{
+		"scope":"ruby",
+		"prefix":"StarWars.call_number",
+		"body":"Faker::StarWars.call_number",
+		"description":"Fake StarWars call_number"
 	},
 	"Faker::StarWars.character":{
 		"scope":"ruby",
@@ -5879,6 +7943,42 @@
 		"body":"Faker::Markdown.random",
 		"description":"Fake Markdown random"
 	},
+	"Faker::Markdown.sandwich":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.sandwich",
+		"body":"Faker::Markdown.sandwich",
+		"description":"Fake Markdown sandwich"
+	},
+	"Markdown.sandwich":{
+		"scope":"ruby",
+		"prefix":"Markdown.sandwich",
+		"body":"Faker::Markdown.sandwich",
+		"description":"Fake Markdown sandwich"
+	},
+	"Faker::Markdown.sandwich(5)":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.sandwich(5)",
+		"body":"Faker::Markdown.sandwich(5)",
+		"description":"Fake Markdown sandwich"
+	},
+	"Markdown.sandwich(5)":{
+		"scope":"ruby",
+		"prefix":"Markdown.sandwich(5)",
+		"body":"Faker::Markdown.sandwich(5)",
+		"description":"Fake Markdown sandwich"
+	},
+	"Faker::Markdown.sandwich(6, 3)":{
+		"scope":"ruby",
+		"prefix":"Faker::Markdown.sandwich(6, 3)",
+		"body":"Faker::Markdown.sandwich(6, 3)",
+		"description":"Fake Markdown sandwich"
+	},
+	"Markdown.sandwich(6, 3)":{
+		"scope":"ruby",
+		"prefix":"Markdown.sandwich(6, 3)",
+		"body":"Faker::Markdown.sandwich(6, 3)",
+		"description":"Fake Markdown sandwich"
+	},
 	"Faker::Compass.quarter_wind_abbreviation":{
 		"scope":"ruby",
 		"prefix":"Faker::Compass.quarter_wind_abbreviation",
@@ -5986,6 +8086,18 @@
 		"prefix":"HarryPotter.house",
 		"body":"Faker::HarryPotter.house",
 		"description":"Fake HarryPotter house"
+	},
+	"Faker::HarryPotter.spell":{
+		"scope":"ruby",
+		"prefix":"Faker::HarryPotter.spell",
+		"body":"Faker::HarryPotter.spell",
+		"description":"Fake HarryPotter spell"
+	},
+	"HarryPotter.spell":{
+		"scope":"ruby",
+		"prefix":"HarryPotter.spell",
+		"body":"Faker::HarryPotter.spell",
+		"description":"Fake HarryPotter spell"
 	},
 	"Faker::Simpsons.character":{
 		"scope":"ruby",
@@ -6239,6 +8351,18 @@
 		"body":"Faker::Address.longitude",
 		"description":"Fake Address longitude"
 	},
+	"Faker::Address.full_address":{
+		"scope":"ruby",
+		"prefix":"Faker::Address.full_address",
+		"body":"Faker::Address.full_address",
+		"description":"Fake Address full_address"
+	},
+	"Address.full_address":{
+		"scope":"ruby",
+		"prefix":"Address.full_address",
+		"body":"Faker::Address.full_address",
+		"description":"Fake Address full_address"
+	},
 	"Faker::Music.key":{
 		"scope":"ruby",
 		"prefix":"Faker::Music.key",
@@ -6274,6 +8398,42 @@
 		"prefix":"Music.instrument",
 		"body":"Faker::Music.instrument",
 		"description":"Fake Music instrument"
+	},
+	"Faker::Music.band":{
+		"scope":"ruby",
+		"prefix":"Faker::Music.band",
+		"body":"Faker::Music.band",
+		"description":"Fake Music band"
+	},
+	"Music.band":{
+		"scope":"ruby",
+		"prefix":"Music.band",
+		"body":"Faker::Music.band",
+		"description":"Fake Music band"
+	},
+	"Faker::Music.album":{
+		"scope":"ruby",
+		"prefix":"Faker::Music.album",
+		"body":"Faker::Music.album",
+		"description":"Fake Music album"
+	},
+	"Music.album":{
+		"scope":"ruby",
+		"prefix":"Music.album",
+		"body":"Faker::Music.album",
+		"description":"Fake Music album"
+	},
+	"Faker::Music.genre":{
+		"scope":"ruby",
+		"prefix":"Faker::Music.genre",
+		"body":"Faker::Music.genre",
+		"description":"Fake Music genre"
+	},
+	"Music.genre":{
+		"scope":"ruby",
+		"prefix":"Music.genre",
+		"body":"Faker::Music.genre",
+		"description":"Fake Music genre"
 	},
 	"Faker::Fillmurray.image":{
 		"scope":"ruby",
