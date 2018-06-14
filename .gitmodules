@@ -1,0 +1,3 @@
+[submodule "scripts/faker"]
+	path = scripts/faker
+	url = https://github.com/stympy/faker.git
