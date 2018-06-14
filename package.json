@@ -2,7 +2,7 @@
     "name": "faker-snippets",
     "displayName": "Faker Snippets",
     "description": "Snippets for Faker gem",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "icon": "images/icon.png",
     "publisher": "giancarlopro",
     "license": "MIT",
