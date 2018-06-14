@@ -8,6 +8,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 - 
 -->
+## [1.0.0] - 2018-06-14
+### Added
+- Faker Gem as a git submodule
+- Released stable version
+
+### Changed
+- Doc's folder now inside `scripts/faker/doc`
+
+### Removed
+- Old `scripts/doc` folder
+
 ## [0.2.0] - 2018-03-16
 ### Added
 - Short form snippets
