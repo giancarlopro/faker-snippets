@@ -72,11 +72,12 @@ with open("snippets.json", "w") as f:
 
 with open("features.md", "w") as f:
     f.write("## Features\n\n")
-    # f.write("|Snippet|Description|\n")
-    # f.write("|-------|-----------|\n")
-    # for name in formated_snippet:
-    #     # f.write("## {}\n".format(name))
-    #     f.write("| {} | Generate {} |\n".format(formated_snippet[name]["body"], formated_snippet[name]["description"]))
+
+    f.write("|Index|\n")
+    f.write("|-----|\n")
+    for group in grouped:
+        f.write("| [{}](#{}) |\n".format(group, str(group).lower()))
+
     for group in grouped:
         f.write("### {}\n".format(group))
         f.write("|Snippet|Short Snippet|\n")
