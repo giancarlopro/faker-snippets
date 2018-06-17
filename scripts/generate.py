@@ -45,7 +45,7 @@ def is_last_key(d, key):
         return key == "description"
     return key == p
 
-with open("snippets.json", "w") as f:
+with open("../snippets/snippets.json", "w") as f:
     f.write("{")
     for name in formated_snippet:
         f.write("\n\t\"{}\":{{".format(name))
@@ -70,13 +70,18 @@ with open("snippets.json", "w") as f:
             f.write(",")
     f.write("\n}\n")
 
-with open("features.md", "w") as f:
+with open("../README.md", "w") as f:
+    with open('stub.md') as rs:
+        stub = rs.read()
+    
+    f.write(stub)
     f.write("## Features\n\n")
 
     f.write("|Index|\n")
     f.write("|-----|\n")
     for group in grouped:
         f.write("| [{}](#{}) |\n".format(group, str(group).lower()))
+    f.write("\n")
 
     for group in grouped:
         f.write("### {}\n".format(group))
