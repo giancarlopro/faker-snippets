@@ -8,6 +8,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 - 
 -->
+## [1.0.1] - 2018-06-17
+### Added
+- Index on readme for easier searching
+- Script inside `scripts/sync.sh` to initiate faker submodule
+
+### Changed
+- Updated `generate.py` script to generate the index
+- Updated `generate.py` script to write directly on `snippets.json` and `README.md` files
+
 ## [1.0.0] - 2018-06-14
 ### Added
 - Faker Gem as a git submodule
