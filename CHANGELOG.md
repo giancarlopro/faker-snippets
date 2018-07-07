@@ -6,8 +6,18 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 -->
 <!--
 ## [Unreleased]
-- 
+-
 -->
+## [1.1.0] - 2018-07-07
+### Added
+- Faker::Name.female_first_name
+- Faker::Bank.account_number
+- Faker::Bank.routing_number
+- Faker::WorldCup.stadium
+- Faker::WorldCup.city
+- Faker::Ethereum.address
+- Faker::GreekPhilosophers
+
 ## [1.0.1] - 2018-06-17
 ### Added
 - Index on readme for easier searching

@@ -1115,6 +1115,18 @@
 		"body":"Faker::Name.name_with_middle",
 		"description":"Fake Name name_with_middle"
 	},
+	"Faker::Name.female_first_name":{
+		"scope":"ruby",
+		"prefix":"Faker::Name.female_first_name",
+		"body":"Faker::Name.female_first_name",
+		"description":"Fake Name female_first_name"
+	},
+	"Name.female_first_name":{
+		"scope":"ruby",
+		"prefix":"Name.female_first_name",
+		"body":"Faker::Name.female_first_name",
+		"description":"Fake Name female_first_name"
+	},
 	"Faker::RockBand.name":{
 		"scope":"ruby",
 		"prefix":"Faker::RockBand.name",
@@ -3323,29 +3335,29 @@
 		"body":"Faker::GameOfThrones.dragon",
 		"description":"Fake GameOfThrones dragon"
 	},
-	"Faker::Bank.name":{
+	"Faker::Bank.account_number":{
 		"scope":"ruby",
-		"prefix":"Faker::Bank.name",
-		"body":"Faker::Bank.name",
-		"description":"Fake Bank name"
+		"prefix":"Faker::Bank.account_number",
+		"body":"Faker::Bank.account_number",
+		"description":"Fake Bank account_number"
 	},
-	"Bank.name":{
+	"Bank.account_number":{
 		"scope":"ruby",
-		"prefix":"Bank.name",
-		"body":"Faker::Bank.name",
-		"description":"Fake Bank name"
+		"prefix":"Bank.account_number",
+		"body":"Faker::Bank.account_number",
+		"description":"Fake Bank account_number"
 	},
-	"Faker::Bank.swift_bic":{
+	"Faker::Bank.account_number(13)":{
 		"scope":"ruby",
-		"prefix":"Faker::Bank.swift_bic",
-		"body":"Faker::Bank.swift_bic",
-		"description":"Fake Bank swift_bic"
+		"prefix":"Faker::Bank.account_number(13)",
+		"body":"Faker::Bank.account_number(13)",
+		"description":"Fake Bank account_number"
 	},
-	"Bank.swift_bic":{
+	"Bank.account_number(13)":{
 		"scope":"ruby",
-		"prefix":"Bank.swift_bic",
-		"body":"Faker::Bank.swift_bic",
-		"description":"Fake Bank swift_bic"
+		"prefix":"Bank.account_number(13)",
+		"body":"Faker::Bank.account_number(13)",
+		"description":"Fake Bank account_number"
 	},
 	"Faker::Bank.iban":{
 		"scope":"ruby",
@@ -3370,6 +3382,54 @@
 		"prefix":"Bank.iban(\"be\")",
 		"body":"Faker::Bank.iban(\"be\")",
 		"description":"Fake Bank iban"
+	},
+	"Faker::Bank.name":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.name",
+		"body":"Faker::Bank.name",
+		"description":"Fake Bank name"
+	},
+	"Bank.name":{
+		"scope":"ruby",
+		"prefix":"Bank.name",
+		"body":"Faker::Bank.name",
+		"description":"Fake Bank name"
+	},
+	"Faker::Bank.routing_number":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.routing_number",
+		"body":"Faker::Bank.routing_number",
+		"description":"Fake Bank routing_number"
+	},
+	"Bank.routing_number":{
+		"scope":"ruby",
+		"prefix":"Bank.routing_number",
+		"body":"Faker::Bank.routing_number",
+		"description":"Fake Bank routing_number"
+	},
+	"Faker::Bank.routing_number(true)":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.routing_number(true)",
+		"body":"Faker::Bank.routing_number(true)",
+		"description":"Fake Bank routing_number"
+	},
+	"Bank.routing_number(true)":{
+		"scope":"ruby",
+		"prefix":"Bank.routing_number(true)",
+		"body":"Faker::Bank.routing_number(true)",
+		"description":"Fake Bank routing_number"
+	},
+	"Faker::Bank.swift_bic":{
+		"scope":"ruby",
+		"prefix":"Faker::Bank.swift_bic",
+		"body":"Faker::Bank.swift_bic",
+		"description":"Fake Bank swift_bic"
+	},
+	"Bank.swift_bic":{
+		"scope":"ruby",
+		"prefix":"Bank.swift_bic",
+		"body":"Faker::Bank.swift_bic",
+		"description":"Fake Bank swift_bic"
 	},
 	"Faker::Bitcoin.address":{
 		"scope":"ruby",
@@ -3502,6 +3562,18 @@
 		"prefix":"Time.backward(14, :evening)",
 		"body":"Faker::Time.backward(14, :evening)",
 		"description":"Fake Time backward"
+	},
+	"Faker::Time.between(3.hours.ago, Time.now, :between)":{
+		"scope":"ruby",
+		"prefix":"Faker::Time.between(3.hours.ago, Time.now, :between)",
+		"body":"Faker::Time.between(3.hours.ago, Time.now, :between)",
+		"description":"Fake Time between"
+	},
+	"Time.between(3.hours.ago, Time.now, :between)":{
+		"scope":"ruby",
+		"prefix":"Time.between(3.hours.ago, Time.now, :between)",
+		"body":"Faker::Time.between(3.hours.ago, Time.now, :between)",
+		"description":"Fake Time between"
 	},
 	"Faker::Football.team":{
 		"scope":"ruby",
@@ -4018,6 +4090,30 @@
 		"prefix":"WorldCup.team",
 		"body":"Faker::WorldCup.team",
 		"description":"Fake WorldCup team"
+	},
+	"Faker::WorldCup.stadium":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.stadium",
+		"body":"Faker::WorldCup.stadium",
+		"description":"Fake WorldCup stadium"
+	},
+	"WorldCup.stadium":{
+		"scope":"ruby",
+		"prefix":"WorldCup.stadium",
+		"body":"Faker::WorldCup.stadium",
+		"description":"Fake WorldCup stadium"
+	},
+	"Faker::WorldCup.city":{
+		"scope":"ruby",
+		"prefix":"Faker::WorldCup.city",
+		"body":"Faker::WorldCup.city",
+		"description":"Fake WorldCup city"
+	},
+	"WorldCup.city":{
+		"scope":"ruby",
+		"prefix":"WorldCup.city",
+		"body":"Faker::WorldCup.city",
+		"description":"Fake WorldCup city"
 	},
 	"Faker::WorldCup.group":{
 		"scope":"ruby",
@@ -4594,6 +4690,18 @@
 		"prefix":"BreakingBad.episode",
 		"body":"Faker::BreakingBad.episode",
 		"description":"Fake BreakingBad episode"
+	},
+	"Faker::Ethereum.address":{
+		"scope":"ruby",
+		"prefix":"Faker::Ethereum.address",
+		"body":"Faker::Ethereum.address",
+		"description":"Fake Ethereum address"
+	},
+	"Ethereum.address":{
+		"scope":"ruby",
+		"prefix":"Ethereum.address",
+		"body":"Faker::Ethereum.address",
+		"description":"Fake Ethereum address"
 	},
 	"Faker::IDNumber.valid":{
 		"scope":"ruby",
@@ -6658,6 +6766,30 @@
 		"prefix":"StarTrek.villain",
 		"body":"Faker::StarTrek.villain",
 		"description":"Fake StarTrek villain"
+	},
+	"Faker::GreekPhilosophers.name":{
+		"scope":"ruby",
+		"prefix":"Faker::GreekPhilosophers.name",
+		"body":"Faker::GreekPhilosophers.name",
+		"description":"Fake GreekPhilosophers name"
+	},
+	"GreekPhilosophers.name":{
+		"scope":"ruby",
+		"prefix":"GreekPhilosophers.name",
+		"body":"Faker::GreekPhilosophers.name",
+		"description":"Fake GreekPhilosophers name"
+	},
+	"Faker::GreekPhilosophers.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::GreekPhilosophers.quote",
+		"body":"Faker::GreekPhilosophers.quote",
+		"description":"Fake GreekPhilosophers quote"
+	},
+	"GreekPhilosophers.quote":{
+		"scope":"ruby",
+		"prefix":"GreekPhilosophers.quote",
+		"body":"Faker::GreekPhilosophers.quote",
+		"description":"Fake GreekPhilosophers quote"
 	},
 	"Faker::Educator.university":{
 		"scope":"ruby",

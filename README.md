@@ -102,6 +102,7 @@ ext install giancarlopro.faker-snippets
 | [HeyArnold](#heyarnold) |
 | [NatoPhoneticAlphabet](#natophoneticalphabet) |
 | [BreakingBad](#breakingbad) |
+| [Ethereum](#ethereum) |
 | [IDNumber](#idnumber) |
 | [Boolean](#boolean) |
 | [DumbAndDumber](#dumbanddumber) |
@@ -130,6 +131,7 @@ ext install giancarlopro.faker-snippets
 | [Robin](#robin) |
 | [Pokemon](#pokemon) |
 | [StarTrek](#startrek) |
+| [GreekPhilosophers](#greekphilosophers) |
 | [Educator](#educator) |
 | [Types](#types) |
 | [Coffee](#coffee) |
@@ -302,6 +304,7 @@ ext install giancarlopro.faker-snippets
 |Snippet|Short Snippet|
 |-------|-------------|
 | Faker::Name.name_with_middle | Name.name_with_middle |
+| Faker::Name.female_first_name | Name.female_first_name |
 ### RockBand
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -637,10 +640,14 @@ ext install giancarlopro.faker-snippets
 ### Bank
 |Snippet|Short Snippet|
 |-------|-------------|
-| Faker::Bank.name | Bank.name |
-| Faker::Bank.swift_bic | Bank.swift_bic |
+| Faker::Bank.account_number | Bank.account_number |
+| Faker::Bank.account_number(13) | Bank.account_number(13) |
 | Faker::Bank.iban | Bank.iban |
 | Faker::Bank.iban(\"be\") | Bank.iban(\"be\") |
+| Faker::Bank.name | Bank.name |
+| Faker::Bank.routing_number | Bank.routing_number |
+| Faker::Bank.routing_number(true) | Bank.routing_number(true) |
+| Faker::Bank.swift_bic | Bank.swift_bic |
 ### Bitcoin
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -658,6 +665,7 @@ ext install giancarlopro.faker-snippets
 | Faker::Time.between(2.days.ago, Date.today, :evening) | Time.between(2.days.ago, Date.today, :evening) |
 | Faker::Time.between(2.days.ago, Date.today, :midnight) | Time.between(2.days.ago, Date.today, :midnight) |
 | Faker::Time.backward(14, :evening) | Time.backward(14, :evening) |
+| Faker::Time.between(3.hours.ago, Time.now, :between) | Time.between(3.hours.ago, Time.now, :between) |
 ### Football
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -731,6 +739,8 @@ ext install giancarlopro.faker-snippets
 |Snippet|Short Snippet|
 |-------|-------------|
 | Faker::WorldCup.team | WorldCup.team |
+| Faker::WorldCup.stadium | WorldCup.stadium |
+| Faker::WorldCup.city | WorldCup.city |
 | Faker::WorldCup.group | WorldCup.group |
 | Faker::WorldCup.group('group_A') | WorldCup.group('group_A') |
 | Faker::WorldCup.roster | WorldCup.roster |
@@ -821,6 +831,10 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::BreakingBad.character | BreakingBad.character |
 | Faker::BreakingBad.episode | BreakingBad.episode |
+### Ethereum
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Ethereum.address | Ethereum.address |
 ### IDNumber
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1048,6 +1062,11 @@ ext install giancarlopro.faker-snippets
 | Faker::StarTrek.location | StarTrek.location |
 | Faker::StarTrek.specie | StarTrek.specie |
 | Faker::StarTrek.villain | StarTrek.villain |
+### GreekPhilosophers
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::GreekPhilosophers.name | GreekPhilosophers.name |
+| Faker::GreekPhilosophers.quote | GreekPhilosophers.quote |
 ### Educator
 |Snippet|Short Snippet|
 |-------|-------------|
