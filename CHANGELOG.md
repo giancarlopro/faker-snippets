@@ -8,6 +8,29 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -
 -->
+## [1.2.0] - 2018-08-13
+### Added
+- Faker::NationalHealthService
+- Faker::SouthAfrica
+- Faker::Buffy
+- Faker::BojackHorseman
+- Faker::GratefulDead
+- Faker::IDNumber
+    - spanish_citizen_number
+    - spanish_foreign_citizen_number
+    - south_african_id_number
+    - valid_south_african_id_number
+    - invalid_south_african_id_number
+- Faker::SouthPark
+- Faker::DcComics
+
+### Changed
+- Faker::Internet.user_name to Faker::Internet.username
+
+### Removed
+- Faker::Time.between(3.hours.ago, Time.now, :between)
+- Faker::Cannabis.website
+
 ## [1.1.0] - 2018-07-07
 ### Added
 - Faker::Name.female_first_name

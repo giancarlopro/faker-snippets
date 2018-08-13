@@ -1283,6 +1283,30 @@
 		"body":"Faker::Demographic.height(:imperial)",
 		"description":"Fake Demographic height"
 	},
+	"Faker::NationalHealthService.british_number":{
+		"scope":"ruby",
+		"prefix":"Faker::NationalHealthService.british_number",
+		"body":"Faker::NationalHealthService.british_number",
+		"description":"Fake NationalHealthService british_number"
+	},
+	"NationalHealthService.british_number":{
+		"scope":"ruby",
+		"prefix":"NationalHealthService.british_number",
+		"body":"Faker::NationalHealthService.british_number",
+		"description":"Fake NationalHealthService british_number"
+	},
+	"Faker::NationalHealthService.check_digit(400_012_114)":{
+		"scope":"ruby",
+		"prefix":"Faker::NationalHealthService.check_digit(400_012_114)",
+		"body":"Faker::NationalHealthService.check_digit(400_012_114)",
+		"description":"Fake NationalHealthService check_digit"
+	},
+	"NationalHealthService.check_digit(400_012_114)":{
+		"scope":"ruby",
+		"prefix":"NationalHealthService.check_digit(400_012_114)",
+		"body":"Faker::NationalHealthService.check_digit(400_012_114)",
+		"description":"Fake NationalHealthService check_digit"
+	},
 	"Faker::HowIMetYourMother.character":{
 		"scope":"ruby",
 		"prefix":"Faker::HowIMetYourMother.character",
@@ -1894,6 +1918,54 @@
 		"prefix":"BossaNova.song",
 		"body":"Faker::BossaNova.song",
 		"description":"Fake BossaNova song"
+	},
+	"Faker::IndustrySegments.industry":{
+		"scope":"ruby",
+		"prefix":"Faker::IndustrySegments.industry",
+		"body":"Faker::IndustrySegments.industry",
+		"description":"Fake IndustrySegments industry"
+	},
+	"IndustrySegments.industry":{
+		"scope":"ruby",
+		"prefix":"IndustrySegments.industry",
+		"body":"Faker::IndustrySegments.industry",
+		"description":"Fake IndustrySegments industry"
+	},
+	"Faker::IndustrySegments.super_sector":{
+		"scope":"ruby",
+		"prefix":"Faker::IndustrySegments.super_sector",
+		"body":"Faker::IndustrySegments.super_sector",
+		"description":"Fake IndustrySegments super_sector"
+	},
+	"IndustrySegments.super_sector":{
+		"scope":"ruby",
+		"prefix":"IndustrySegments.super_sector",
+		"body":"Faker::IndustrySegments.super_sector",
+		"description":"Fake IndustrySegments super_sector"
+	},
+	"Faker::IndustrySegments.sector":{
+		"scope":"ruby",
+		"prefix":"Faker::IndustrySegments.sector",
+		"body":"Faker::IndustrySegments.sector",
+		"description":"Fake IndustrySegments sector"
+	},
+	"IndustrySegments.sector":{
+		"scope":"ruby",
+		"prefix":"IndustrySegments.sector",
+		"body":"Faker::IndustrySegments.sector",
+		"description":"Fake IndustrySegments sector"
+	},
+	"Faker::IndustrySegments.sub_sector":{
+		"scope":"ruby",
+		"prefix":"Faker::IndustrySegments.sub_sector",
+		"body":"Faker::IndustrySegments.sub_sector",
+		"description":"Fake IndustrySegments sub_sector"
+	},
+	"IndustrySegments.sub_sector":{
+		"scope":"ruby",
+		"prefix":"IndustrySegments.sub_sector",
+		"body":"Faker::IndustrySegments.sub_sector",
+		"description":"Fake IndustrySegments sub_sector"
 	},
 	"Faker::Cat.name":{
 		"scope":"ruby",
@@ -3119,6 +3191,150 @@
 		"body":"Faker::Internet.free_email",
 		"description":"Fake Internet free_email"
 	},
+	"Faker::SouthAfrica.id_number":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthAfrica.id_number",
+		"body":"Faker::SouthAfrica.id_number",
+		"description":"Fake SouthAfrica id_number"
+	},
+	"SouthAfrica.id_number":{
+		"scope":"ruby",
+		"prefix":"SouthAfrica.id_number",
+		"body":"Faker::SouthAfrica.id_number",
+		"description":"Fake SouthAfrica id_number"
+	},
+	"Faker::SouthAfrica.valid_id_number":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthAfrica.valid_id_number",
+		"body":"Faker::SouthAfrica.valid_id_number",
+		"description":"Fake SouthAfrica valid_id_number"
+	},
+	"SouthAfrica.valid_id_number":{
+		"scope":"ruby",
+		"prefix":"SouthAfrica.valid_id_number",
+		"body":"Faker::SouthAfrica.valid_id_number",
+		"description":"Fake SouthAfrica valid_id_number"
+	},
+	"Faker::SouthAfrica.invalid_id_number":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthAfrica.invalid_id_number",
+		"body":"Faker::SouthAfrica.invalid_id_number",
+		"description":"Fake SouthAfrica invalid_id_number"
+	},
+	"SouthAfrica.invalid_id_number":{
+		"scope":"ruby",
+		"prefix":"SouthAfrica.invalid_id_number",
+		"body":"Faker::SouthAfrica.invalid_id_number",
+		"description":"Fake SouthAfrica invalid_id_number"
+	},
+	"Faker::SouthAfrica.phone_number":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthAfrica.phone_number",
+		"body":"Faker::SouthAfrica.phone_number",
+		"description":"Fake SouthAfrica phone_number"
+	},
+	"SouthAfrica.phone_number":{
+		"scope":"ruby",
+		"prefix":"SouthAfrica.phone_number",
+		"body":"Faker::SouthAfrica.phone_number",
+		"description":"Fake SouthAfrica phone_number"
+	},
+	"Faker::SouthAfrica.cell_phone":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthAfrica.cell_phone",
+		"body":"Faker::SouthAfrica.cell_phone",
+		"description":"Fake SouthAfrica cell_phone"
+	},
+	"SouthAfrica.cell_phone":{
+		"scope":"ruby",
+		"prefix":"SouthAfrica.cell_phone",
+		"body":"Faker::SouthAfrica.cell_phone",
+		"description":"Fake SouthAfrica cell_phone"
+	},
+	"Faker::Buffy.character":{
+		"scope":"ruby",
+		"prefix":"Faker::Buffy.character",
+		"body":"Faker::Buffy.character",
+		"description":"Fake Buffy character"
+	},
+	"Buffy.character":{
+		"scope":"ruby",
+		"prefix":"Buffy.character",
+		"body":"Faker::Buffy.character",
+		"description":"Fake Buffy character"
+	},
+	"Faker::Buffy.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::Buffy.quote",
+		"body":"Faker::Buffy.quote",
+		"description":"Fake Buffy quote"
+	},
+	"Buffy.quote":{
+		"scope":"ruby",
+		"prefix":"Buffy.quote",
+		"body":"Faker::Buffy.quote",
+		"description":"Fake Buffy quote"
+	},
+	"Faker::Buffy.celebrity":{
+		"scope":"ruby",
+		"prefix":"Faker::Buffy.celebrity",
+		"body":"Faker::Buffy.celebrity",
+		"description":"Fake Buffy celebrity"
+	},
+	"Buffy.celebrity":{
+		"scope":"ruby",
+		"prefix":"Buffy.celebrity",
+		"body":"Faker::Buffy.celebrity",
+		"description":"Fake Buffy celebrity"
+	},
+	"Faker::Buffy.big_bad":{
+		"scope":"ruby",
+		"prefix":"Faker::Buffy.big_bad",
+		"body":"Faker::Buffy.big_bad",
+		"description":"Fake Buffy big_bad"
+	},
+	"Buffy.big_bad":{
+		"scope":"ruby",
+		"prefix":"Buffy.big_bad",
+		"body":"Faker::Buffy.big_bad",
+		"description":"Fake Buffy big_bad"
+	},
+	"Faker::BojackHorseman.character":{
+		"scope":"ruby",
+		"prefix":"Faker::BojackHorseman.character",
+		"body":"Faker::BojackHorseman.character",
+		"description":"Fake BojackHorseman character"
+	},
+	"BojackHorseman.character":{
+		"scope":"ruby",
+		"prefix":"BojackHorseman.character",
+		"body":"Faker::BojackHorseman.character",
+		"description":"Fake BojackHorseman character"
+	},
+	"Faker::BojackHorseman.tongue_twister":{
+		"scope":"ruby",
+		"prefix":"Faker::BojackHorseman.tongue_twister",
+		"body":"Faker::BojackHorseman.tongue_twister",
+		"description":"Fake BojackHorseman tongue_twister"
+	},
+	"BojackHorseman.tongue_twister":{
+		"scope":"ruby",
+		"prefix":"BojackHorseman.tongue_twister",
+		"body":"Faker::BojackHorseman.tongue_twister",
+		"description":"Fake BojackHorseman tongue_twister"
+	},
+	"Faker::BojackHorseman.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::BojackHorseman.quote",
+		"body":"Faker::BojackHorseman.quote",
+		"description":"Fake BojackHorseman quote"
+	},
+	"BojackHorseman.quote":{
+		"scope":"ruby",
+		"prefix":"BojackHorseman.quote",
+		"body":"Faker::BojackHorseman.quote",
+		"description":"Fake BojackHorseman quote"
+	},
 	"Faker::Military.army_rank":{
 		"scope":"ruby",
 		"prefix":"Faker::Military.army_rank",
@@ -3563,18 +3779,6 @@
 		"body":"Faker::Time.backward(14, :evening)",
 		"description":"Fake Time backward"
 	},
-	"Faker::Time.between(3.hours.ago, Time.now, :between)":{
-		"scope":"ruby",
-		"prefix":"Faker::Time.between(3.hours.ago, Time.now, :between)",
-		"body":"Faker::Time.between(3.hours.ago, Time.now, :between)",
-		"description":"Fake Time between"
-	},
-	"Time.between(3.hours.ago, Time.now, :between)":{
-		"scope":"ruby",
-		"prefix":"Time.between(3.hours.ago, Time.now, :between)",
-		"body":"Faker::Time.between(3.hours.ago, Time.now, :between)",
-		"description":"Fake Time between"
-	},
 	"Faker::Football.team":{
 		"scope":"ruby",
 		"prefix":"Faker::Football.team",
@@ -3694,6 +3898,30 @@
 		"prefix":"LeagueOfLegends.rank",
 		"body":"Faker::LeagueOfLegends.rank",
 		"description":"Fake LeagueOfLegends rank"
+	},
+	"Faker::GratefulDead.player":{
+		"scope":"ruby",
+		"prefix":"Faker::GratefulDead.player",
+		"body":"Faker::GratefulDead.player",
+		"description":"Fake GratefulDead player"
+	},
+	"GratefulDead.player":{
+		"scope":"ruby",
+		"prefix":"GratefulDead.player",
+		"body":"Faker::GratefulDead.player",
+		"description":"Fake GratefulDead player"
+	},
+	"Faker::GratefulDead.song":{
+		"scope":"ruby",
+		"prefix":"Faker::GratefulDead.song",
+		"body":"Faker::GratefulDead.song",
+		"description":"Fake GratefulDead song"
+	},
+	"GratefulDead.song":{
+		"scope":"ruby",
+		"prefix":"GratefulDead.song",
+		"body":"Faker::GratefulDead.song",
+		"description":"Fake GratefulDead song"
 	},
 	"Faker::Overwatch.hero":{
 		"scope":"ruby",
@@ -4727,6 +4955,66 @@
 		"body":"Faker::IDNumber.invalid",
 		"description":"Fake IDNumber invalid"
 	},
+	"Faker::IDNumber.spanish_citizen_number":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.spanish_citizen_number",
+		"body":"Faker::IDNumber.spanish_citizen_number",
+		"description":"Fake IDNumber spanish_citizen_number"
+	},
+	"IDNumber.spanish_citizen_number":{
+		"scope":"ruby",
+		"prefix":"IDNumber.spanish_citizen_number",
+		"body":"Faker::IDNumber.spanish_citizen_number",
+		"description":"Fake IDNumber spanish_citizen_number"
+	},
+	"Faker::IDNumber.spanish_foreign_citizen_number":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.spanish_foreign_citizen_number",
+		"body":"Faker::IDNumber.spanish_foreign_citizen_number",
+		"description":"Fake IDNumber spanish_foreign_citizen_number"
+	},
+	"IDNumber.spanish_foreign_citizen_number":{
+		"scope":"ruby",
+		"prefix":"IDNumber.spanish_foreign_citizen_number",
+		"body":"Faker::IDNumber.spanish_foreign_citizen_number",
+		"description":"Fake IDNumber spanish_foreign_citizen_number"
+	},
+	"Faker::IDNumber.south_african_id_number":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.south_african_id_number",
+		"body":"Faker::IDNumber.south_african_id_number",
+		"description":"Fake IDNumber south_african_id_number"
+	},
+	"IDNumber.south_african_id_number":{
+		"scope":"ruby",
+		"prefix":"IDNumber.south_african_id_number",
+		"body":"Faker::IDNumber.south_african_id_number",
+		"description":"Fake IDNumber south_african_id_number"
+	},
+	"Faker::IDNumber.valid_south_african_id_number":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.valid_south_african_id_number",
+		"body":"Faker::IDNumber.valid_south_african_id_number",
+		"description":"Fake IDNumber valid_south_african_id_number"
+	},
+	"IDNumber.valid_south_african_id_number":{
+		"scope":"ruby",
+		"prefix":"IDNumber.valid_south_african_id_number",
+		"body":"Faker::IDNumber.valid_south_african_id_number",
+		"description":"Fake IDNumber valid_south_african_id_number"
+	},
+	"Faker::IDNumber.invalid_south_african_id_number":{
+		"scope":"ruby",
+		"prefix":"Faker::IDNumber.invalid_south_african_id_number",
+		"body":"Faker::IDNumber.invalid_south_african_id_number",
+		"description":"Fake IDNumber invalid_south_african_id_number"
+	},
+	"IDNumber.invalid_south_african_id_number":{
+		"scope":"ruby",
+		"prefix":"IDNumber.invalid_south_african_id_number",
+		"body":"Faker::IDNumber.invalid_south_african_id_number",
+		"description":"Fake IDNumber invalid_south_african_id_number"
+	},
 	"Faker::Boolean.boolean":{
 		"scope":"ruby",
 		"prefix":"Faker::Boolean.boolean",
@@ -5363,18 +5651,6 @@
 		"body":"Faker::Cannabis.buzzword",
 		"description":"Fake Cannabis buzzword"
 	},
-	"Faker::Cannabis.website":{
-		"scope":"ruby",
-		"prefix":"Faker::Cannabis.website",
-		"body":"Faker::Cannabis.website",
-		"description":"Fake Cannabis website"
-	},
-	"Cannabis.website":{
-		"scope":"ruby",
-		"prefix":"Cannabis.website",
-		"body":"Faker::Cannabis.website",
-		"description":"Fake Cannabis website"
-	},
 	"Faker::Lebowski.actor":{
 		"scope":"ruby",
 		"prefix":"Faker::Lebowski.actor",
@@ -5927,6 +6203,30 @@
 		"body":"Faker::Lovecraft.paragraph_by_chars(256)",
 		"description":"Fake Lovecraft paragraph_by_chars"
 	},
+	"Faker::SouthPark.character":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthPark.character",
+		"body":"Faker::SouthPark.character",
+		"description":"Fake SouthPark character"
+	},
+	"SouthPark.character":{
+		"scope":"ruby",
+		"prefix":"SouthPark.character",
+		"body":"Faker::SouthPark.character",
+		"description":"Fake SouthPark character"
+	},
+	"Faker::SouthPark.quote":{
+		"scope":"ruby",
+		"prefix":"Faker::SouthPark.quote",
+		"body":"Faker::SouthPark.quote",
+		"description":"Fake SouthPark quote"
+	},
+	"SouthPark.quote":{
+		"scope":"ruby",
+		"prefix":"SouthPark.quote",
+		"body":"Faker::SouthPark.quote",
+		"description":"Fake SouthPark quote"
+	},
 	"Faker::OnePiece.character":{
 		"scope":"ruby",
 		"prefix":"Faker::OnePiece.character",
@@ -6275,41 +6575,41 @@
 		"body":"Faker::Internet.safe_email('Nancy')",
 		"description":"Fake Internet safe_email"
 	},
-	"Faker::Internet.user_name":{
+	"Faker::Internet.username":{
 		"scope":"ruby",
-		"prefix":"Faker::Internet.user_name",
-		"body":"Faker::Internet.user_name",
-		"description":"Fake Internet user_name"
+		"prefix":"Faker::Internet.username",
+		"body":"Faker::Internet.username",
+		"description":"Fake Internet username"
 	},
-	"Internet.user_name":{
+	"Internet.username":{
 		"scope":"ruby",
-		"prefix":"Internet.user_name",
-		"body":"Faker::Internet.user_name",
-		"description":"Fake Internet user_name"
+		"prefix":"Internet.username",
+		"body":"Faker::Internet.username",
+		"description":"Fake Internet username"
 	},
-	"Faker::Internet.user_name('Nancy')":{
+	"Faker::Internet.username('Nancy')":{
 		"scope":"ruby",
-		"prefix":"Faker::Internet.user_name('Nancy')",
-		"body":"Faker::Internet.user_name('Nancy')",
-		"description":"Fake Internet user_name"
+		"prefix":"Faker::Internet.username('Nancy')",
+		"body":"Faker::Internet.username('Nancy')",
+		"description":"Fake Internet username"
 	},
-	"Internet.user_name('Nancy')":{
+	"Internet.username('Nancy')":{
 		"scope":"ruby",
-		"prefix":"Internet.user_name('Nancy')",
-		"body":"Faker::Internet.user_name('Nancy')",
-		"description":"Fake Internet user_name"
+		"prefix":"Internet.username('Nancy')",
+		"body":"Faker::Internet.username('Nancy')",
+		"description":"Fake Internet username"
 	},
-	"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))":{
+	"Faker::Internet.username('Nancy Johnson', %w(. _ -))":{
 		"scope":"ruby",
-		"prefix":"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))",
-		"body":"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))",
-		"description":"Fake Internet user_name"
+		"prefix":"Faker::Internet.username('Nancy Johnson', %w(. _ -))",
+		"body":"Faker::Internet.username('Nancy Johnson', %w(. _ -))",
+		"description":"Fake Internet username"
 	},
-	"Internet.user_name('Nancy Johnson', %w(. _ -))":{
+	"Internet.username('Nancy Johnson', %w(. _ -))":{
 		"scope":"ruby",
-		"prefix":"Internet.user_name('Nancy Johnson', %w(. _ -))",
-		"body":"Faker::Internet.user_name('Nancy Johnson', %w(. _ -))",
-		"description":"Fake Internet user_name"
+		"prefix":"Internet.username('Nancy Johnson', %w(. _ -))",
+		"body":"Faker::Internet.username('Nancy Johnson', %w(. _ -))",
+		"description":"Fake Internet username"
 	},
 	"Faker::Internet.password":{
 		"scope":"ruby",
@@ -7295,6 +7595,54 @@
 		"body":"Faker::Source.print(str: 'cake', lang: :javascript)",
 		"description":"Fake Source print"
 	},
+	"Faker::DcComics.hero":{
+		"scope":"ruby",
+		"prefix":"Faker::DcComics.hero",
+		"body":"Faker::DcComics.hero",
+		"description":"Fake DcComics hero"
+	},
+	"DcComics.hero":{
+		"scope":"ruby",
+		"prefix":"DcComics.hero",
+		"body":"Faker::DcComics.hero",
+		"description":"Fake DcComics hero"
+	},
+	"Faker::DcComics.heroine":{
+		"scope":"ruby",
+		"prefix":"Faker::DcComics.heroine",
+		"body":"Faker::DcComics.heroine",
+		"description":"Fake DcComics heroine"
+	},
+	"DcComics.heroine":{
+		"scope":"ruby",
+		"prefix":"DcComics.heroine",
+		"body":"Faker::DcComics.heroine",
+		"description":"Fake DcComics heroine"
+	},
+	"Faker::DcComics.villain":{
+		"scope":"ruby",
+		"prefix":"Faker::DcComics.villain",
+		"body":"Faker::DcComics.villain",
+		"description":"Fake DcComics villain"
+	},
+	"DcComics.villain":{
+		"scope":"ruby",
+		"prefix":"DcComics.villain",
+		"body":"Faker::DcComics.villain",
+		"description":"Fake DcComics villain"
+	},
+	"Faker::DcComics.name":{
+		"scope":"ruby",
+		"prefix":"Faker::DcComics.name",
+		"body":"Faker::DcComics.name",
+		"description":"Fake DcComics name"
+	},
+	"DcComics.name":{
+		"scope":"ruby",
+		"prefix":"DcComics.name",
+		"body":"Faker::DcComics.name",
+		"description":"Fake DcComics name"
+	},
 	"Faker::FamousLastWords.last_words":{
 		"scope":"ruby",
 		"prefix":"Faker::FamousLastWords.last_words",
@@ -7318,6 +7666,78 @@
 		"prefix":"UmphreysMcgee.song",
 		"body":"Faker::UmphreysMcgee.song",
 		"description":"Fake UmphreysMcgee song"
+	},
+	"Faker::ChileRut.full_rut":{
+		"scope":"ruby",
+		"prefix":"Faker::ChileRut.full_rut",
+		"body":"Faker::ChileRut.full_rut",
+		"description":"Fake ChileRut full_rut"
+	},
+	"ChileRut.full_rut":{
+		"scope":"ruby",
+		"prefix":"ChileRut.full_rut",
+		"body":"Faker::ChileRut.full_rut",
+		"description":"Fake ChileRut full_rut"
+	},
+	"Faker::ChileRut.rut":{
+		"scope":"ruby",
+		"prefix":"Faker::ChileRut.rut",
+		"body":"Faker::ChileRut.rut",
+		"description":"Fake ChileRut rut"
+	},
+	"ChileRut.rut":{
+		"scope":"ruby",
+		"prefix":"ChileRut.rut",
+		"body":"Faker::ChileRut.rut",
+		"description":"Fake ChileRut rut"
+	},
+	"Faker::ChileRut.rut(20_890_156)":{
+		"scope":"ruby",
+		"prefix":"Faker::ChileRut.rut(20_890_156)",
+		"body":"Faker::ChileRut.rut(20_890_156)",
+		"description":"Fake ChileRut rut"
+	},
+	"ChileRut.rut(20_890_156)":{
+		"scope":"ruby",
+		"prefix":"ChileRut.rut(20_890_156)",
+		"body":"Faker::ChileRut.rut(20_890_156)",
+		"description":"Fake ChileRut rut"
+	},
+	"Faker::ChileRut.last_rut":{
+		"scope":"ruby",
+		"prefix":"Faker::ChileRut.last_rut",
+		"body":"Faker::ChileRut.last_rut",
+		"description":"Fake ChileRut last_rut"
+	},
+	"ChileRut.last_rut":{
+		"scope":"ruby",
+		"prefix":"ChileRut.last_rut",
+		"body":"Faker::ChileRut.last_rut",
+		"description":"Fake ChileRut last_rut"
+	},
+	"Faker::ChileRut.dv":{
+		"scope":"ruby",
+		"prefix":"Faker::ChileRut.dv",
+		"body":"Faker::ChileRut.dv",
+		"description":"Fake ChileRut dv"
+	},
+	"ChileRut.dv":{
+		"scope":"ruby",
+		"prefix":"ChileRut.dv",
+		"body":"Faker::ChileRut.dv",
+		"description":"Fake ChileRut dv"
+	},
+	"Faker::ChileRut.check_digit":{
+		"scope":"ruby",
+		"prefix":"Faker::ChileRut.check_digit",
+		"body":"Faker::ChileRut.check_digit",
+		"description":"Fake ChileRut check_digit"
+	},
+	"ChileRut.check_digit":{
+		"scope":"ruby",
+		"prefix":"ChileRut.check_digit",
+		"body":"Faker::ChileRut.check_digit",
+		"description":"Fake ChileRut check_digit"
 	},
 	"Faker::University.name":{
 		"scope":"ruby",

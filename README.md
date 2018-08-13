@@ -44,6 +44,7 @@ ext install giancarlopro.faker-snippets
 | [RockBand](#rockband) |
 | [Omniauth](#omniauth) |
 | [Demographic](#demographic) |
+| [NationalHealthService](#nationalhealthservice) |
 | [HowIMetYourMother](#howimetyourmother) |
 | [Code](#code) |
 | [Lorem](#lorem) |
@@ -52,6 +53,7 @@ ext install giancarlopro.faker-snippets
 | [PrincessBride](#princessbride) |
 | [Science](#science) |
 | [BossaNova](#bossanova) |
+| [IndustrySegments](#industrysegments) |
 | [Cat](#cat) |
 | [Appliance](#appliance) |
 | [SingularSiegler](#singularsiegler) |
@@ -72,6 +74,9 @@ ext install giancarlopro.faker-snippets
 | [Stripe](#stripe) |
 | [Number](#number) |
 | [Internet](#internet) |
+| [SouthAfrica](#southafrica) |
+| [Buffy](#buffy) |
+| [BojackHorseman](#bojackhorseman) |
 | [Military](#military) |
 | [Placeholdit](#placeholdit) |
 | [GameOfThrones](#gameofthrones) |
@@ -80,6 +85,7 @@ ext install giancarlopro.faker-snippets
 | [Time](#time) |
 | [Football](#football) |
 | [LeagueOfLegends](#leagueoflegends) |
+| [GratefulDead](#gratefuldead) |
 | [Overwatch](#overwatch) |
 | [Dog](#dog) |
 | [LoremPixel](#lorempixel) |
@@ -122,6 +128,7 @@ ext install giancarlopro.faker-snippets
 | [Hacker](#hacker) |
 | [Beer](#beer) |
 | [Lovecraft](#lovecraft) |
+| [SouthPark](#southpark) |
 | [OnePiece](#onepiece) |
 | [Date](#date) |
 | [String](#string) |
@@ -138,8 +145,10 @@ ext install giancarlopro.faker-snippets
 | [File](#file) |
 | [Seinfeld](#seinfeld) |
 | [Source](#source) |
+| [DcComics](#dccomics) |
 | [FamousLastWords](#famouslastwords) |
 | [UmphreysMcgee](#umphreysmcgee) |
+| [ChileRut](#chilerut) |
 | [University](#university) |
 | [TheITCrowd](#theitcrowd) |
 | [Myst](#myst) |
@@ -327,6 +336,11 @@ ext install giancarlopro.faker-snippets
 | Faker::Demographic.sex | Demographic.sex |
 | Faker::Demographic.height | Demographic.height |
 | Faker::Demographic.height(:imperial) | Demographic.height(:imperial) |
+### NationalHealthService
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::NationalHealthService.british_number | NationalHealthService.british_number |
+| Faker::NationalHealthService.check_digit(400_012_114) | NationalHealthService.check_digit(400_012_114) |
 ### HowIMetYourMother
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -402,6 +416,13 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::BossaNova.artist | BossaNova.artist |
 | Faker::BossaNova.song | BossaNova.song |
+### IndustrySegments
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::IndustrySegments.industry | IndustrySegments.industry |
+| Faker::IndustrySegments.super_sector | IndustrySegments.super_sector |
+| Faker::IndustrySegments.sector | IndustrySegments.sector |
+| Faker::IndustrySegments.sub_sector | IndustrySegments.sub_sector |
 ### Cat
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -583,9 +604,9 @@ ext install giancarlopro.faker-snippets
 | Faker::Internet.free_email('Nancy') | Internet.free_email('Nancy') |
 | Faker::Internet.safe_email | Internet.safe_email |
 | Faker::Internet.safe_email('Nancy') | Internet.safe_email('Nancy') |
-| Faker::Internet.user_name | Internet.user_name |
-| Faker::Internet.user_name('Nancy') | Internet.user_name('Nancy') |
-| Faker::Internet.user_name('Nancy Johnson', %w(. _ -)) | Internet.user_name('Nancy Johnson', %w(. _ -)) |
+| Faker::Internet.username | Internet.username |
+| Faker::Internet.username('Nancy') | Internet.username('Nancy') |
+| Faker::Internet.username('Nancy Johnson', %w(. _ -)) | Internet.username('Nancy Johnson', %w(. _ -)) |
 | Faker::Internet.password | Internet.password |
 | Faker::Internet.password(8) | Internet.password(8) |
 | Faker::Internet.password(10, 20) | Internet.password(10, 20) |
@@ -610,6 +631,27 @@ ext install giancarlopro.faker-snippets
 | Faker::Internet.slug('foo bar', '-') | Internet.slug('foo bar', '-') |
 | Faker::Internet.user_agent | Internet.user_agent |
 | Faker::Internet.user_agent(:firefox) | Internet.user_agent(:firefox) |
+### SouthAfrica
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::SouthAfrica.id_number | SouthAfrica.id_number |
+| Faker::SouthAfrica.valid_id_number | SouthAfrica.valid_id_number |
+| Faker::SouthAfrica.invalid_id_number | SouthAfrica.invalid_id_number |
+| Faker::SouthAfrica.phone_number | SouthAfrica.phone_number |
+| Faker::SouthAfrica.cell_phone | SouthAfrica.cell_phone |
+### Buffy
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Buffy.character | Buffy.character |
+| Faker::Buffy.quote | Buffy.quote |
+| Faker::Buffy.celebrity | Buffy.celebrity |
+| Faker::Buffy.big_bad | Buffy.big_bad |
+### BojackHorseman
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::BojackHorseman.character | BojackHorseman.character |
+| Faker::BojackHorseman.tongue_twister | BojackHorseman.tongue_twister |
+| Faker::BojackHorseman.quote | BojackHorseman.quote |
 ### Military
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -665,7 +707,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Time.between(2.days.ago, Date.today, :evening) | Time.between(2.days.ago, Date.today, :evening) |
 | Faker::Time.between(2.days.ago, Date.today, :midnight) | Time.between(2.days.ago, Date.today, :midnight) |
 | Faker::Time.backward(14, :evening) | Time.backward(14, :evening) |
-| Faker::Time.between(3.hours.ago, Time.now, :between) | Time.between(3.hours.ago, Time.now, :between) |
 ### Football
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -682,6 +723,11 @@ ext install giancarlopro.faker-snippets
 | Faker::LeagueOfLegends.summoner_spell | LeagueOfLegends.summoner_spell |
 | Faker::LeagueOfLegends.masteries | LeagueOfLegends.masteries |
 | Faker::LeagueOfLegends.rank | LeagueOfLegends.rank |
+### GratefulDead
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::GratefulDead.player | GratefulDead.player |
+| Faker::GratefulDead.song | GratefulDead.song |
 ### Overwatch
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -840,6 +886,11 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::IDNumber.valid | IDNumber.valid |
 | Faker::IDNumber.invalid | IDNumber.invalid |
+| Faker::IDNumber.spanish_citizen_number | IDNumber.spanish_citizen_number |
+| Faker::IDNumber.spanish_foreign_citizen_number | IDNumber.spanish_foreign_citizen_number |
+| Faker::IDNumber.south_african_id_number | IDNumber.south_african_id_number |
+| Faker::IDNumber.valid_south_african_id_number | IDNumber.valid_south_african_id_number |
+| Faker::IDNumber.invalid_south_african_id_number | IDNumber.invalid_south_african_id_number |
 ### Boolean
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -921,7 +972,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Cannabis.category | Cannabis.category |
 | Faker::Cannabis.type | Cannabis.type |
 | Faker::Cannabis.buzzword | Cannabis.buzzword |
-| Faker::Cannabis.website | Cannabis.website |
 ### Lebowski
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -995,6 +1045,11 @@ ext install giancarlopro.faker-snippets
 | Faker::Lovecraft.paragraphs(2) | Lovecraft.paragraphs(2) |
 | Faker::Lovecraft.paragraph_by_chars | Lovecraft.paragraph_by_chars |
 | Faker::Lovecraft.paragraph_by_chars(256) | Lovecraft.paragraph_by_chars(256) |
+### SouthPark
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::SouthPark.character | SouthPark.character |
+| Faker::SouthPark.quote | SouthPark.quote |
 ### OnePiece
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1115,6 +1170,13 @@ ext install giancarlopro.faker-snippets
 | Faker::Source.print | Source.print |
 | Faker::Source.print('cake') | Source.print('cake') |
 | Faker::Source.print(str: 'cake', lang: :javascript) | Source.print(str: 'cake', lang: :javascript) |
+### DcComics
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::DcComics.hero | DcComics.hero |
+| Faker::DcComics.heroine | DcComics.heroine |
+| Faker::DcComics.villain | DcComics.villain |
+| Faker::DcComics.name | DcComics.name |
 ### FamousLastWords
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1123,6 +1185,17 @@ ext install giancarlopro.faker-snippets
 |Snippet|Short Snippet|
 |-------|-------------|
 | Faker::UmphreysMcgee.song | UmphreysMcgee.song |
+### ChileRut
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::ChileRut.full_rut | ChileRut.full_rut |
+| Faker::ChileRut.rut | ChileRut.rut |
+| Faker::ChileRut.rut(20_890_156) | ChileRut.rut(20_890_156) |
+| Faker::ChileRut.rut | ChileRut.rut |
+| Faker::ChileRut.last_rut | ChileRut.last_rut |
+| Faker::ChileRut.dv | ChileRut.dv |
+| Faker::ChileRut.rut | ChileRut.rut |
+| Faker::ChileRut.check_digit | ChileRut.check_digit |
 ### University
 |Snippet|Short Snippet|
 |-------|-------------|
