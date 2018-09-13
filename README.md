@@ -30,6 +30,7 @@ ext install giancarlopro.faker-snippets
 | [Ancient](#ancient) |
 | [Food](#food) |
 | [Verb](#verb) |
+| [Relationship](#relationship) |
 | [MostInterestingManInTheWorld](#mostinterestingmanintheworld) |
 | [DrWho](#drwho) |
 | [RickAndMorty](#rickandmorty) |
@@ -58,6 +59,7 @@ ext install giancarlopro.faker-snippets
 | [Appliance](#appliance) |
 | [SingularSiegler](#singularsiegler) |
 | [Vehicle](#vehicle) |
+| [Vehicke](#vehicke) |
 | [Community](#community) |
 | [Esport](#esport) |
 | [LoremFlickr](#loremflickr) |
@@ -86,6 +88,7 @@ ext install giancarlopro.faker-snippets
 | [Football](#football) |
 | [LeagueOfLegends](#leagueoflegends) |
 | [GratefulDead](#gratefuldead) |
+| [Construction](#construction) |
 | [Overwatch](#overwatch) |
 | [Dog](#dog) |
 | [LoremPixel](#lorempixel) |
@@ -146,6 +149,7 @@ ext install giancarlopro.faker-snippets
 | [Seinfeld](#seinfeld) |
 | [Source](#source) |
 | [DcComics](#dccomics) |
+| [CryptoCoin](#cryptocoin) |
 | [FamousLastWords](#famouslastwords) |
 | [UmphreysMcgee](#umphreysmcgee) |
 | [ChileRut](#chilerut) |
@@ -195,6 +199,10 @@ ext install giancarlopro.faker-snippets
 | Faker::Company.spanish_organisation_number | Company.spanish_organisation_number |
 | Faker::Company.polish_taxpayer_identification_number | Company.polish_taxpayer_identification_number |
 | Faker::Company.polish_register_of_national_economy | Company.polish_register_of_national_economy |
+| Faker::Company.south_african_pty_ltd_registration_number | Company.south_african_pty_ltd_registration_number |
+| Faker::Company.south_african_close_corporation_registration_number | Company.south_african_close_corporation_registration_number |
+| Faker::Company.south_african_listed_company_registration_number | Company.south_african_listed_company_registration_number |
+| Faker::Company.south_african_trust_registration_number | Company.south_african_trust_registration_number |
 ### Team
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -234,6 +242,16 @@ ext install giancarlopro.faker-snippets
 | Faker::Verb.past_participle | Verb.past_participle |
 | Faker::Verb.simple_present | Verb.simple_present |
 | Faker::Verb.ing_form | Verb.ing_form |
+### Relationship
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Relationship.familial | Relationship.familial |
+| Faker::Relationship.familial('direct') | Relationship.familial('direct') |
+| Faker::Relationship.familial('extended') | Relationship.familial('extended') |
+| Faker::Relationship.spouse | Relationship.spouse |
+| Faker::Relationship.parent | Relationship.parent |
+| Faker::Relationship.in_law | Relationship.in_law |
+| Faker::Relationship.sibling | Relationship.sibling |
 ### MostInterestingManInTheWorld
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -443,22 +461,32 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::Vehicle.vin | Vehicle.vin |
 | Faker::Vehicle.manufacture | Vehicle.manufacture |
-| Faker::Vehicle.mileage | Vehicle.mileage |
-| Faker::Vehicle.year | Vehicle.year |
 | Faker::Vehicle.make | Vehicle.make |
 | Faker::Vehicle.model | Vehicle.model |
+| Faker::Vehicle.model('Toyota') | Vehicle.model('Toyota') |
 | Faker::Vehicle.make_and_model | Vehicle.make_and_model |
-| Faker::Vehicle.style | Vehicle.style |
 | Faker::Vehicle.color | Vehicle.color |
 | Faker::Vehicle.transmission | Vehicle.transmission |
 | Faker::Vehicle.drive_type | Vehicle.drive_type |
 | Faker::Vehicle.fuel_type | Vehicle.fuel_type |
-| Faker::Vehicle.door_count | Vehicle.door_count |
+| Faker::Vehicle.style | Vehicle.style |
 | Faker::Vehicle.car_type | Vehicle.car_type |
-| Faker::Vehicle.engine | Vehicle.engine |
-| Faker::Vehicle.engine_size | Vehicle.engine_size |
 | Faker::Vehicle.car_options | Vehicle.car_options |
 | Faker::Vehicle.standard_specs | Vehicle.standard_specs |
+| Faker::Vehicle.doors | Vehicle.doors |
+| Faker::Vehicle.door_count | Vehicle.door_count |
+| Faker::Vehicle.engine_size | Vehicle.engine_size |
+| Faker::Vehicle.year | Vehicle.year |
+| Faker::Vehicle.mileage | Vehicle.mileage |
+| Faker::Vehicle.mileage(50_000) | Vehicle.mileage(50_000) |
+| Faker::Vehicle.mileage(50_000, 250_000) | Vehicle.mileage(50_000, 250_000) |
+| Faker::Vehicle.kilometrage | Vehicle.kilometrage |
+| Faker::Vehicle.license_plate | Vehicle.license_plate |
+| Faker::Vehicle.license_plate('FL') | Vehicle.license_plate('FL') |
+### Vehicke
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Vehicke.engine | Vehicke.engine |
 ### Community
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -639,6 +667,11 @@ ext install giancarlopro.faker-snippets
 | Faker::SouthAfrica.invalid_id_number | SouthAfrica.invalid_id_number |
 | Faker::SouthAfrica.phone_number | SouthAfrica.phone_number |
 | Faker::SouthAfrica.cell_phone | SouthAfrica.cell_phone |
+| Faker::SouthAfrica.pty_ltd_registration_number | SouthAfrica.pty_ltd_registration_number |
+| Faker::SouthAfrica.close_corporation_registration_number | SouthAfrica.close_corporation_registration_number |
+| Faker::SouthAfrica.listed_company_registration_number | SouthAfrica.listed_company_registration_number |
+| Faker::SouthAfrica.trust_registration_number | SouthAfrica.trust_registration_number |
+| Faker::SouthAfrica.vat_number | SouthAfrica.vat_number |
 ### Buffy
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -728,6 +761,11 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::GratefulDead.player | GratefulDead.player |
 | Faker::GratefulDead.song | GratefulDead.song |
+### Construction
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Construction.material | Construction.material |
+| Faker::Construction.subcontract_category | Construction.subcontract_category |
 ### Overwatch
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -912,7 +950,7 @@ ext install giancarlopro.faker-snippets
 | Faker::Commerce.material | Commerce.material |
 | Faker::Commerce.product_name | Commerce.product_name |
 | Faker::Commerce.price | Commerce.price |
-| Faker::Commerce.price(range = 0..10.0, as_string = false) | Commerce.price(range = 0..10.0, as_string = false) |
+| Faker::Commerce.price(range = 0..10.0, as_string = true) | Commerce.price(range = 0..10.0, as_string = true) |
 | Faker::Commerce.promotion_code | Commerce.promotion_code |
 | Faker::Commerce.promotion_code(digits = 2) | Commerce.promotion_code(digits = 2) |
 | Faker::Commerce.material | Commerce.material |
@@ -1000,6 +1038,9 @@ ext install giancarlopro.faker-snippets
 | Faker::Finance.credit_card | Finance.credit_card |
 | Faker::Finance.credit_card(:mastercard) | Finance.credit_card(:mastercard) |
 | Faker::Finance.credit_card(:mastercard, :visa) | Finance.credit_card(:mastercard, :visa) |
+| Faker::Finance.vat_number | Finance.vat_number |
+| Faker::Finance.vat_number('DE') | Finance.vat_number('DE') |
+| Faker::Finance.vat_number('ZA') | Finance.vat_number('ZA') |
 ### Friends
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1127,7 +1168,9 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::Educator.university | Educator.university |
 | Faker::Educator.secondary_school | Educator.secondary_school |
-| Faker::Educator.course | Educator.course |
+| Faker::Educator.degree | Educator.degree |
+| Faker::Educator.course_name | Educator.course_name |
+| Faker::Educator.subject | Educator.subject |
 | Faker::Educator.campus | Educator.campus |
 ### Types
 |Snippet|Short Snippet|
@@ -1177,6 +1220,13 @@ ext install giancarlopro.faker-snippets
 | Faker::DcComics.heroine | DcComics.heroine |
 | Faker::DcComics.villain | DcComics.villain |
 | Faker::DcComics.name | DcComics.name |
+### CryptoCoin
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::CryptoCoin.coin_name | CryptoCoin.coin_name |
+| Faker::CryptoCoin.acronym | CryptoCoin.acronym |
+| Faker::CryptoCoin.url_logo | CryptoCoin.url_logo |
+| Faker::CryptoCoin.coin_array | CryptoCoin.coin_array |
 ### FamousLastWords
 |Snippet|Short Snippet|
 |-------|-------------|

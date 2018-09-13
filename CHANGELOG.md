@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -
 -->
+## [1.3.0] - 2018-09-13
+### Added
+- Faker::Relationship
+- Faker::Vehicke
+- Faker::Construction
+- Faker::CryptoCoin
+
 ## [1.2.0] - 2018-08-13
 ### Added
 - Faker::NationalHealthService
