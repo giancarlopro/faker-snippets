@@ -383,6 +383,54 @@
 		"body":"Faker::Team.mascot",
 		"description":"Fake Team mascot"
 	},
+	"Faker::Tezos.account":{
+		"scope":"ruby",
+		"prefix":"Faker::Tezos.account",
+		"body":"Faker::Tezos.account",
+		"description":"Fake Tezos account"
+	},
+	"Tezos.account":{
+		"scope":"ruby",
+		"prefix":"Tezos.account",
+		"body":"Faker::Tezos.account",
+		"description":"Fake Tezos account"
+	},
+	"Faker::Tezos.contract":{
+		"scope":"ruby",
+		"prefix":"Faker::Tezos.contract",
+		"body":"Faker::Tezos.contract",
+		"description":"Fake Tezos contract"
+	},
+	"Tezos.contract":{
+		"scope":"ruby",
+		"prefix":"Tezos.contract",
+		"body":"Faker::Tezos.contract",
+		"description":"Fake Tezos contract"
+	},
+	"Faker::Tezos.operation":{
+		"scope":"ruby",
+		"prefix":"Faker::Tezos.operation",
+		"body":"Faker::Tezos.operation",
+		"description":"Fake Tezos operation"
+	},
+	"Tezos.operation":{
+		"scope":"ruby",
+		"prefix":"Tezos.operation",
+		"body":"Faker::Tezos.operation",
+		"description":"Fake Tezos operation"
+	},
+	"Faker::Tezos.signature":{
+		"scope":"ruby",
+		"prefix":"Faker::Tezos.signature",
+		"body":"Faker::Tezos.signature",
+		"description":"Fake Tezos signature"
+	},
+	"Tezos.signature":{
+		"scope":"ruby",
+		"prefix":"Tezos.signature",
+		"body":"Faker::Tezos.signature",
+		"description":"Fake Tezos signature"
+	},
 	"Faker::NewGirl.character":{
 		"scope":"ruby",
 		"prefix":"Faker::NewGirl.character",
@@ -455,18 +503,6 @@
 		"body":"Faker::Ancient.hero",
 		"description":"Fake Ancient hero"
 	},
-	"Faker::Food.dish":{
-		"scope":"ruby",
-		"prefix":"Faker::Food.dish",
-		"body":"Faker::Food.dish",
-		"description":"Fake Food dish"
-	},
-	"Food.dish":{
-		"scope":"ruby",
-		"prefix":"Food.dish",
-		"body":"Faker::Food.dish",
-		"description":"Fake Food dish"
-	},
 	"Faker::Food.description":{
 		"scope":"ruby",
 		"prefix":"Faker::Food.description",
@@ -479,17 +515,17 @@
 		"body":"Faker::Food.description",
 		"description":"Fake Food description"
 	},
-	"Faker::Food.ingredient":{
+	"Faker::Food.dish":{
 		"scope":"ruby",
-		"prefix":"Faker::Food.ingredient",
-		"body":"Faker::Food.ingredient",
-		"description":"Fake Food ingredient"
+		"prefix":"Faker::Food.dish",
+		"body":"Faker::Food.dish",
+		"description":"Fake Food dish"
 	},
-	"Food.ingredient":{
+	"Food.dish":{
 		"scope":"ruby",
-		"prefix":"Food.ingredient",
-		"body":"Faker::Food.ingredient",
-		"description":"Fake Food ingredient"
+		"prefix":"Food.dish",
+		"body":"Faker::Food.dish",
+		"description":"Fake Food dish"
 	},
 	"Faker::Food.fruits":{
 		"scope":"ruby",
@@ -503,29 +539,17 @@
 		"body":"Faker::Food.fruits",
 		"description":"Fake Food fruits"
 	},
-	"Faker::Food.vegetables":{
+	"Faker::Food.ingredient":{
 		"scope":"ruby",
-		"prefix":"Faker::Food.vegetables",
-		"body":"Faker::Food.vegetables",
-		"description":"Fake Food vegetables"
+		"prefix":"Faker::Food.ingredient",
+		"body":"Faker::Food.ingredient",
+		"description":"Fake Food ingredient"
 	},
-	"Food.vegetables":{
+	"Food.ingredient":{
 		"scope":"ruby",
-		"prefix":"Food.vegetables",
-		"body":"Faker::Food.vegetables",
-		"description":"Fake Food vegetables"
-	},
-	"Faker::Food.spice":{
-		"scope":"ruby",
-		"prefix":"Faker::Food.spice",
-		"body":"Faker::Food.spice",
-		"description":"Fake Food spice"
-	},
-	"Food.spice":{
-		"scope":"ruby",
-		"prefix":"Food.spice",
-		"body":"Faker::Food.spice",
-		"description":"Fake Food spice"
+		"prefix":"Food.ingredient",
+		"body":"Faker::Food.ingredient",
+		"description":"Fake Food ingredient"
 	},
 	"Faker::Food.measurement":{
 		"scope":"ruby",
@@ -550,6 +574,42 @@
 		"prefix":"Food.metric_measurement",
 		"body":"Faker::Food.metric_measurement",
 		"description":"Fake Food metric_measurement"
+	},
+	"Faker::Food.spice":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.spice",
+		"body":"Faker::Food.spice",
+		"description":"Fake Food spice"
+	},
+	"Food.spice":{
+		"scope":"ruby",
+		"prefix":"Food.spice",
+		"body":"Faker::Food.spice",
+		"description":"Fake Food spice"
+	},
+	"Faker::Food.sushi":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.sushi",
+		"body":"Faker::Food.sushi",
+		"description":"Fake Food sushi"
+	},
+	"Food.sushi":{
+		"scope":"ruby",
+		"prefix":"Food.sushi",
+		"body":"Faker::Food.sushi",
+		"description":"Fake Food sushi"
+	},
+	"Faker::Food.vegetables":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.vegetables",
+		"body":"Faker::Food.vegetables",
+		"description":"Fake Food vegetables"
+	},
+	"Food.vegetables":{
+		"scope":"ruby",
+		"prefix":"Food.vegetables",
+		"body":"Faker::Food.vegetables",
+		"description":"Fake Food vegetables"
 	},
 	"Faker::Verb.base":{
 		"scope":"ruby",
@@ -1570,6 +1630,18 @@
 		"prefix":"Code.asin",
 		"body":"Faker::Code.asin",
 		"description":"Fake Code asin"
+	},
+	"Faker::Code.sin":{
+		"scope":"ruby",
+		"prefix":"Faker::Code.sin",
+		"body":"Faker::Code.sin",
+		"description":"Fake Code sin"
+	},
+	"Code.sin":{
+		"scope":"ruby",
+		"prefix":"Code.sin",
+		"body":"Faker::Code.sin",
+		"description":"Fake Code sin"
 	},
 	"Faker::Lorem.word":{
 		"scope":"ruby",
@@ -6203,6 +6275,18 @@
 		"body":"Faker::Hacker.ingverb",
 		"description":"Fake Hacker ingverb"
 	},
+	"Faker::Beer.brand":{
+		"scope":"ruby",
+		"prefix":"Faker::Beer.brand",
+		"body":"Faker::Beer.brand",
+		"description":"Fake Beer brand"
+	},
+	"Beer.brand":{
+		"scope":"ruby",
+		"prefix":"Beer.brand",
+		"body":"Faker::Beer.brand",
+		"description":"Fake Beer brand"
+	},
 	"Faker::Beer.name":{
 		"scope":"ruby",
 		"prefix":"Faker::Beer.name",
@@ -7547,6 +7631,30 @@
 		"body":"Faker::Types.rb_hash",
 		"description":"Fake Types rb_hash"
 	},
+	"Faker::Types.rb_hash(1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.rb_hash(1)",
+		"body":"Faker::Types.rb_hash(1)",
+		"description":"Fake Types rb_hash"
+	},
+	"Types.rb_hash(1)":{
+		"scope":"ruby",
+		"prefix":"Types.rb_hash(1)",
+		"body":"Faker::Types.rb_hash(1)",
+		"description":"Fake Types rb_hash"
+	},
+	"Faker::Types.rb_hash(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.rb_hash(2)",
+		"body":"Faker::Types.rb_hash(2)",
+		"description":"Fake Types rb_hash"
+	},
+	"Types.rb_hash(2)":{
+		"scope":"ruby",
+		"prefix":"Types.rb_hash(2)",
+		"body":"Faker::Types.rb_hash(2)",
+		"description":"Fake Types rb_hash"
+	},
 	"Faker::Types.complex_rb_hash":{
 		"scope":"ruby",
 		"prefix":"Faker::Types.complex_rb_hash",
@@ -7557,6 +7665,30 @@
 		"scope":"ruby",
 		"prefix":"Types.complex_rb_hash",
 		"body":"Faker::Types.complex_rb_hash",
+		"description":"Fake Types complex_rb_hash"
+	},
+	"Faker::Types.complex_rb_hash(1)":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.complex_rb_hash(1)",
+		"body":"Faker::Types.complex_rb_hash(1)",
+		"description":"Fake Types complex_rb_hash"
+	},
+	"Types.complex_rb_hash(1)":{
+		"scope":"ruby",
+		"prefix":"Types.complex_rb_hash(1)",
+		"body":"Faker::Types.complex_rb_hash(1)",
+		"description":"Fake Types complex_rb_hash"
+	},
+	"Faker::Types.complex_rb_hash(2)":{
+		"scope":"ruby",
+		"prefix":"Faker::Types.complex_rb_hash(2)",
+		"body":"Faker::Types.complex_rb_hash(2)",
+		"description":"Fake Types complex_rb_hash"
+	},
+	"Types.complex_rb_hash(2)":{
+		"scope":"ruby",
+		"prefix":"Types.complex_rb_hash(2)",
+		"body":"Faker::Types.complex_rb_hash(2)",
 		"description":"Fake Types complex_rb_hash"
 	},
 	"Faker::Types.rb_array":{
@@ -7751,6 +7883,18 @@
 		"body":"Faker::Number.between(1, 10)",
 		"description":"Fake Number between"
 	},
+	"Faker::Number.within(1..10)":{
+		"scope":"ruby",
+		"prefix":"Faker::Number.within(1..10)",
+		"body":"Faker::Number.within(1..10)",
+		"description":"Fake Number within"
+	},
+	"Number.within(1..10)":{
+		"scope":"ruby",
+		"prefix":"Number.within(1..10)",
+		"body":"Faker::Number.within(1..10)",
+		"description":"Fake Number within"
+	},
 	"Faker::Number.positive":{
 		"scope":"ruby",
 		"prefix":"Faker::Number.positive",
@@ -7894,6 +8038,18 @@
 		"prefix":"Seinfeld.quote",
 		"body":"Faker::Seinfeld.quote",
 		"description":"Fake Seinfeld quote"
+	},
+	"Faker::Seinfeld.business":{
+		"scope":"ruby",
+		"prefix":"Faker::Seinfeld.business",
+		"body":"Faker::Seinfeld.business",
+		"description":"Fake Seinfeld business"
+	},
+	"Seinfeld.business":{
+		"scope":"ruby",
+		"prefix":"Seinfeld.business",
+		"body":"Faker::Seinfeld.business",
+		"description":"Fake Seinfeld business"
 	},
 	"Faker::Source.hello_world":{
 		"scope":"ruby",

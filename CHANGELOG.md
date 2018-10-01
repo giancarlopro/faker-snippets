@@ -8,6 +8,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -
 -->
+## [1.4.0] - 2018-09-13
+### Added
+- Faker::Tezos
+- Faker::Food.sushi
+- Faker::Code.sin
+- Faker::Number.within
+- Faker::Beer.brand
+- Faker::Types.rb_hash
+- Faker::Types.complex_rb_hash
+- Faker::Seinfeld.business
+
 ## [1.3.0] - 2018-09-13
 ### Added
 - Faker::Relationship

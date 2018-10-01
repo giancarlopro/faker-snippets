@@ -26,6 +26,7 @@ ext install giancarlopro.faker-snippets
 | [VForVendetta](#vforvendetta) |
 | [Company](#company) |
 | [Team](#team) |
+| [Tezos](#tezos) |
 | [NewGirl](#newgirl) |
 | [Ancient](#ancient) |
 | [Food](#food) |
@@ -211,6 +212,13 @@ ext install giancarlopro.faker-snippets
 | Faker::Team.state | Team.state |
 | Faker::Team.sport | Team.sport |
 | Faker::Team.mascot | Team.mascot |
+### Tezos
+|Snippet|Short Snippet|
+|-------|-------------|
+| Faker::Tezos.account | Tezos.account |
+| Faker::Tezos.contract | Tezos.contract |
+| Faker::Tezos.operation | Tezos.operation |
+| Faker::Tezos.signature | Tezos.signature |
 ### NewGirl
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -226,14 +234,15 @@ ext install giancarlopro.faker-snippets
 ### Food
 |Snippet|Short Snippet|
 |-------|-------------|
-| Faker::Food.dish | Food.dish |
 | Faker::Food.description | Food.description |
-| Faker::Food.ingredient | Food.ingredient |
+| Faker::Food.dish | Food.dish |
 | Faker::Food.fruits | Food.fruits |
-| Faker::Food.vegetables | Food.vegetables |
-| Faker::Food.spice | Food.spice |
+| Faker::Food.ingredient | Food.ingredient |
 | Faker::Food.measurement | Food.measurement |
 | Faker::Food.metric_measurement | Food.metric_measurement |
+| Faker::Food.spice | Food.spice |
+| Faker::Food.sushi | Food.sushi |
+| Faker::Food.vegetables | Food.vegetables |
 ### Verb
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -376,6 +385,7 @@ ext install giancarlopro.faker-snippets
 | Faker::Code.nric | Code.nric |
 | Faker::Code.nric(27, 34) | Code.nric(27, 34) |
 | Faker::Code.asin | Code.asin |
+| Faker::Code.sin | Code.sin |
 ### Lorem
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -617,6 +627,7 @@ ext install giancarlopro.faker-snippets
 | Faker::Number.normal(50, 3.5) | Number.normal(50, 3.5) |
 | Faker::Number.hexadecimal(3) | Number.hexadecimal(3) |
 | Faker::Number.between(1, 10) | Number.between(1, 10) |
+| Faker::Number.within(1..10) | Number.within(1..10) |
 | Faker::Number.positive | Number.positive |
 | Faker::Number.negative | Number.negative |
 | Faker::Number.non_zero_digit | Number.non_zero_digit |
@@ -1055,6 +1066,7 @@ ext install giancarlopro.faker-snippets
 ### Beer
 |Snippet|Short Snippet|
 |-------|-------------|
+| Faker::Beer.brand | Beer.brand |
 | Faker::Beer.name | Beer.name |
 | Faker::Beer.style | Beer.style |
 | Faker::Beer.hop | Beer.hop |
@@ -1179,7 +1191,11 @@ ext install giancarlopro.faker-snippets
 | Faker::Types.character | Types.character |
 | Faker::Types.rb_integer | Types.rb_integer |
 | Faker::Types.rb_hash | Types.rb_hash |
+| Faker::Types.rb_hash(1) | Types.rb_hash(1) |
+| Faker::Types.rb_hash(2) | Types.rb_hash(2) |
 | Faker::Types.complex_rb_hash | Types.complex_rb_hash |
+| Faker::Types.complex_rb_hash(1) | Types.complex_rb_hash(1) |
+| Faker::Types.complex_rb_hash(2) | Types.complex_rb_hash(2) |
 | Faker::Types.rb_array | Types.rb_array |
 | Faker::Types.random_type | Types.random_type |
 | Faker::Types.random_complex_type | Types.random_complex_type |
@@ -1205,6 +1221,7 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::Seinfeld.character | Seinfeld.character |
 | Faker::Seinfeld.quote | Seinfeld.quote |
+| Faker::Seinfeld.business | Seinfeld.business |
 ### Source
 |Snippet|Short Snippet|
 |-------|-------------|
