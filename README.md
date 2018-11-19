@@ -26,12 +26,10 @@ ext install giancarlopro.faker-snippets
 | [VForVendetta](#vforvendetta) |
 | [Company](#company) |
 | [Team](#team) |
-| [Tezos](#tezos) |
 | [NewGirl](#newgirl) |
 | [Ancient](#ancient) |
 | [Food](#food) |
 | [Verb](#verb) |
-| [Relationship](#relationship) |
 | [MostInterestingManInTheWorld](#mostinterestingmanintheworld) |
 | [DrWho](#drwho) |
 | [RickAndMorty](#rickandmorty) |
@@ -46,7 +44,6 @@ ext install giancarlopro.faker-snippets
 | [RockBand](#rockband) |
 | [Omniauth](#omniauth) |
 | [Demographic](#demographic) |
-| [NationalHealthService](#nationalhealthservice) |
 | [HowIMetYourMother](#howimetyourmother) |
 | [Code](#code) |
 | [Lorem](#lorem) |
@@ -55,12 +52,10 @@ ext install giancarlopro.faker-snippets
 | [PrincessBride](#princessbride) |
 | [Science](#science) |
 | [BossaNova](#bossanova) |
-| [IndustrySegments](#industrysegments) |
 | [Cat](#cat) |
 | [Appliance](#appliance) |
 | [SingularSiegler](#singularsiegler) |
 | [Vehicle](#vehicle) |
-| [Vehicke](#vehicke) |
 | [Community](#community) |
 | [Esport](#esport) |
 | [LoremFlickr](#loremflickr) |
@@ -77,8 +72,6 @@ ext install giancarlopro.faker-snippets
 | [Stripe](#stripe) |
 | [Number](#number) |
 | [Internet](#internet) |
-| [SouthAfrica](#southafrica) |
-| [Buffy](#buffy) |
 | [BojackHorseman](#bojackhorseman) |
 | [Military](#military) |
 | [Placeholdit](#placeholdit) |
@@ -88,8 +81,6 @@ ext install giancarlopro.faker-snippets
 | [Time](#time) |
 | [Football](#football) |
 | [LeagueOfLegends](#leagueoflegends) |
-| [GratefulDead](#gratefuldead) |
-| [Construction](#construction) |
 | [Overwatch](#overwatch) |
 | [Dog](#dog) |
 | [LoremPixel](#lorempixel) |
@@ -132,7 +123,6 @@ ext install giancarlopro.faker-snippets
 | [Hacker](#hacker) |
 | [Beer](#beer) |
 | [Lovecraft](#lovecraft) |
-| [SouthPark](#southpark) |
 | [OnePiece](#onepiece) |
 | [Date](#date) |
 | [String](#string) |
@@ -149,11 +139,8 @@ ext install giancarlopro.faker-snippets
 | [File](#file) |
 | [Seinfeld](#seinfeld) |
 | [Source](#source) |
-| [DcComics](#dccomics) |
-| [CryptoCoin](#cryptocoin) |
 | [FamousLastWords](#famouslastwords) |
 | [UmphreysMcgee](#umphreysmcgee) |
-| [ChileRut](#chilerut) |
 | [University](#university) |
 | [TheITCrowd](#theitcrowd) |
 | [Myst](#myst) |
@@ -200,10 +187,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Company.spanish_organisation_number | Company.spanish_organisation_number |
 | Faker::Company.polish_taxpayer_identification_number | Company.polish_taxpayer_identification_number |
 | Faker::Company.polish_register_of_national_economy | Company.polish_register_of_national_economy |
-| Faker::Company.south_african_pty_ltd_registration_number | Company.south_african_pty_ltd_registration_number |
-| Faker::Company.south_african_close_corporation_registration_number | Company.south_african_close_corporation_registration_number |
-| Faker::Company.south_african_listed_company_registration_number | Company.south_african_listed_company_registration_number |
-| Faker::Company.south_african_trust_registration_number | Company.south_african_trust_registration_number |
 ### Team
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -212,13 +195,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Team.state | Team.state |
 | Faker::Team.sport | Team.sport |
 | Faker::Team.mascot | Team.mascot |
-### Tezos
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::Tezos.account | Tezos.account |
-| Faker::Tezos.contract | Tezos.contract |
-| Faker::Tezos.operation | Tezos.operation |
-| Faker::Tezos.signature | Tezos.signature |
 ### NewGirl
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -234,15 +210,14 @@ ext install giancarlopro.faker-snippets
 ### Food
 |Snippet|Short Snippet|
 |-------|-------------|
-| Faker::Food.description | Food.description |
 | Faker::Food.dish | Food.dish |
-| Faker::Food.fruits | Food.fruits |
+| Faker::Food.description | Food.description |
 | Faker::Food.ingredient | Food.ingredient |
+| Faker::Food.fruits | Food.fruits |
+| Faker::Food.vegetables | Food.vegetables |
+| Faker::Food.spice | Food.spice |
 | Faker::Food.measurement | Food.measurement |
 | Faker::Food.metric_measurement | Food.metric_measurement |
-| Faker::Food.spice | Food.spice |
-| Faker::Food.sushi | Food.sushi |
-| Faker::Food.vegetables | Food.vegetables |
 ### Verb
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -251,16 +226,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Verb.past_participle | Verb.past_participle |
 | Faker::Verb.simple_present | Verb.simple_present |
 | Faker::Verb.ing_form | Verb.ing_form |
-### Relationship
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::Relationship.familial | Relationship.familial |
-| Faker::Relationship.familial('direct') | Relationship.familial('direct') |
-| Faker::Relationship.familial('extended') | Relationship.familial('extended') |
-| Faker::Relationship.spouse | Relationship.spouse |
-| Faker::Relationship.parent | Relationship.parent |
-| Faker::Relationship.in_law | Relationship.in_law |
-| Faker::Relationship.sibling | Relationship.sibling |
 ### MostInterestingManInTheWorld
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -363,11 +328,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Demographic.sex | Demographic.sex |
 | Faker::Demographic.height | Demographic.height |
 | Faker::Demographic.height(:imperial) | Demographic.height(:imperial) |
-### NationalHealthService
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::NationalHealthService.british_number | NationalHealthService.british_number |
-| Faker::NationalHealthService.check_digit(400_012_114) | NationalHealthService.check_digit(400_012_114) |
 ### HowIMetYourMother
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -385,7 +345,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Code.nric | Code.nric |
 | Faker::Code.nric(27, 34) | Code.nric(27, 34) |
 | Faker::Code.asin | Code.asin |
-| Faker::Code.sin | Code.sin |
 ### Lorem
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -444,13 +403,6 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::BossaNova.artist | BossaNova.artist |
 | Faker::BossaNova.song | BossaNova.song |
-### IndustrySegments
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::IndustrySegments.industry | IndustrySegments.industry |
-| Faker::IndustrySegments.super_sector | IndustrySegments.super_sector |
-| Faker::IndustrySegments.sector | IndustrySegments.sector |
-| Faker::IndustrySegments.sub_sector | IndustrySegments.sub_sector |
 ### Cat
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -471,32 +423,22 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::Vehicle.vin | Vehicle.vin |
 | Faker::Vehicle.manufacture | Vehicle.manufacture |
+| Faker::Vehicle.mileage | Vehicle.mileage |
+| Faker::Vehicle.year | Vehicle.year |
 | Faker::Vehicle.make | Vehicle.make |
 | Faker::Vehicle.model | Vehicle.model |
-| Faker::Vehicle.model('Toyota') | Vehicle.model('Toyota') |
 | Faker::Vehicle.make_and_model | Vehicle.make_and_model |
+| Faker::Vehicle.style | Vehicle.style |
 | Faker::Vehicle.color | Vehicle.color |
 | Faker::Vehicle.transmission | Vehicle.transmission |
 | Faker::Vehicle.drive_type | Vehicle.drive_type |
 | Faker::Vehicle.fuel_type | Vehicle.fuel_type |
-| Faker::Vehicle.style | Vehicle.style |
+| Faker::Vehicle.door_count | Vehicle.door_count |
 | Faker::Vehicle.car_type | Vehicle.car_type |
+| Faker::Vehicle.engine | Vehicle.engine |
+| Faker::Vehicle.engine_size | Vehicle.engine_size |
 | Faker::Vehicle.car_options | Vehicle.car_options |
 | Faker::Vehicle.standard_specs | Vehicle.standard_specs |
-| Faker::Vehicle.doors | Vehicle.doors |
-| Faker::Vehicle.door_count | Vehicle.door_count |
-| Faker::Vehicle.engine_size | Vehicle.engine_size |
-| Faker::Vehicle.year | Vehicle.year |
-| Faker::Vehicle.mileage | Vehicle.mileage |
-| Faker::Vehicle.mileage(50_000) | Vehicle.mileage(50_000) |
-| Faker::Vehicle.mileage(50_000, 250_000) | Vehicle.mileage(50_000, 250_000) |
-| Faker::Vehicle.kilometrage | Vehicle.kilometrage |
-| Faker::Vehicle.license_plate | Vehicle.license_plate |
-| Faker::Vehicle.license_plate('FL') | Vehicle.license_plate('FL') |
-### Vehicke
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::Vehicke.engine | Vehicke.engine |
 ### Community
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -627,7 +569,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Number.normal(50, 3.5) | Number.normal(50, 3.5) |
 | Faker::Number.hexadecimal(3) | Number.hexadecimal(3) |
 | Faker::Number.between(1, 10) | Number.between(1, 10) |
-| Faker::Number.within(1..10) | Number.within(1..10) |
 | Faker::Number.positive | Number.positive |
 | Faker::Number.negative | Number.negative |
 | Faker::Number.non_zero_digit | Number.non_zero_digit |
@@ -670,26 +611,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Internet.slug('foo bar', '-') | Internet.slug('foo bar', '-') |
 | Faker::Internet.user_agent | Internet.user_agent |
 | Faker::Internet.user_agent(:firefox) | Internet.user_agent(:firefox) |
-### SouthAfrica
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::SouthAfrica.id_number | SouthAfrica.id_number |
-| Faker::SouthAfrica.valid_id_number | SouthAfrica.valid_id_number |
-| Faker::SouthAfrica.invalid_id_number | SouthAfrica.invalid_id_number |
-| Faker::SouthAfrica.phone_number | SouthAfrica.phone_number |
-| Faker::SouthAfrica.cell_phone | SouthAfrica.cell_phone |
-| Faker::SouthAfrica.pty_ltd_registration_number | SouthAfrica.pty_ltd_registration_number |
-| Faker::SouthAfrica.close_corporation_registration_number | SouthAfrica.close_corporation_registration_number |
-| Faker::SouthAfrica.listed_company_registration_number | SouthAfrica.listed_company_registration_number |
-| Faker::SouthAfrica.trust_registration_number | SouthAfrica.trust_registration_number |
-| Faker::SouthAfrica.vat_number | SouthAfrica.vat_number |
-### Buffy
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::Buffy.character | Buffy.character |
-| Faker::Buffy.quote | Buffy.quote |
-| Faker::Buffy.celebrity | Buffy.celebrity |
-| Faker::Buffy.big_bad | Buffy.big_bad |
 ### BojackHorseman
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -767,16 +688,6 @@ ext install giancarlopro.faker-snippets
 | Faker::LeagueOfLegends.summoner_spell | LeagueOfLegends.summoner_spell |
 | Faker::LeagueOfLegends.masteries | LeagueOfLegends.masteries |
 | Faker::LeagueOfLegends.rank | LeagueOfLegends.rank |
-### GratefulDead
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::GratefulDead.player | GratefulDead.player |
-| Faker::GratefulDead.song | GratefulDead.song |
-### Construction
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::Construction.material | Construction.material |
-| Faker::Construction.subcontract_category | Construction.subcontract_category |
 ### Overwatch
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -935,11 +846,6 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::IDNumber.valid | IDNumber.valid |
 | Faker::IDNumber.invalid | IDNumber.invalid |
-| Faker::IDNumber.spanish_citizen_number | IDNumber.spanish_citizen_number |
-| Faker::IDNumber.spanish_foreign_citizen_number | IDNumber.spanish_foreign_citizen_number |
-| Faker::IDNumber.south_african_id_number | IDNumber.south_african_id_number |
-| Faker::IDNumber.valid_south_african_id_number | IDNumber.valid_south_african_id_number |
-| Faker::IDNumber.invalid_south_african_id_number | IDNumber.invalid_south_african_id_number |
 ### Boolean
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -961,7 +867,7 @@ ext install giancarlopro.faker-snippets
 | Faker::Commerce.material | Commerce.material |
 | Faker::Commerce.product_name | Commerce.product_name |
 | Faker::Commerce.price | Commerce.price |
-| Faker::Commerce.price(range = 0..10.0, as_string = true) | Commerce.price(range = 0..10.0, as_string = true) |
+| Faker::Commerce.price(range = 0..10.0, as_string = false) | Commerce.price(range = 0..10.0, as_string = false) |
 | Faker::Commerce.promotion_code | Commerce.promotion_code |
 | Faker::Commerce.promotion_code(digits = 2) | Commerce.promotion_code(digits = 2) |
 | Faker::Commerce.material | Commerce.material |
@@ -1049,9 +955,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Finance.credit_card | Finance.credit_card |
 | Faker::Finance.credit_card(:mastercard) | Finance.credit_card(:mastercard) |
 | Faker::Finance.credit_card(:mastercard, :visa) | Finance.credit_card(:mastercard, :visa) |
-| Faker::Finance.vat_number | Finance.vat_number |
-| Faker::Finance.vat_number('DE') | Finance.vat_number('DE') |
-| Faker::Finance.vat_number('ZA') | Finance.vat_number('ZA') |
 ### Friends
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1066,7 +969,6 @@ ext install giancarlopro.faker-snippets
 ### Beer
 |Snippet|Short Snippet|
 |-------|-------------|
-| Faker::Beer.brand | Beer.brand |
 | Faker::Beer.name | Beer.name |
 | Faker::Beer.style | Beer.style |
 | Faker::Beer.hop | Beer.hop |
@@ -1098,11 +1000,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Lovecraft.paragraphs(2) | Lovecraft.paragraphs(2) |
 | Faker::Lovecraft.paragraph_by_chars | Lovecraft.paragraph_by_chars |
 | Faker::Lovecraft.paragraph_by_chars(256) | Lovecraft.paragraph_by_chars(256) |
-### SouthPark
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::SouthPark.character | SouthPark.character |
-| Faker::SouthPark.quote | SouthPark.quote |
 ### OnePiece
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1180,9 +1077,7 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::Educator.university | Educator.university |
 | Faker::Educator.secondary_school | Educator.secondary_school |
-| Faker::Educator.degree | Educator.degree |
-| Faker::Educator.course_name | Educator.course_name |
-| Faker::Educator.subject | Educator.subject |
+| Faker::Educator.course | Educator.course |
 | Faker::Educator.campus | Educator.campus |
 ### Types
 |Snippet|Short Snippet|
@@ -1191,11 +1086,7 @@ ext install giancarlopro.faker-snippets
 | Faker::Types.character | Types.character |
 | Faker::Types.rb_integer | Types.rb_integer |
 | Faker::Types.rb_hash | Types.rb_hash |
-| Faker::Types.rb_hash(1) | Types.rb_hash(1) |
-| Faker::Types.rb_hash(2) | Types.rb_hash(2) |
 | Faker::Types.complex_rb_hash | Types.complex_rb_hash |
-| Faker::Types.complex_rb_hash(1) | Types.complex_rb_hash(1) |
-| Faker::Types.complex_rb_hash(2) | Types.complex_rb_hash(2) |
 | Faker::Types.rb_array | Types.rb_array |
 | Faker::Types.random_type | Types.random_type |
 | Faker::Types.random_complex_type | Types.random_complex_type |
@@ -1221,7 +1112,6 @@ ext install giancarlopro.faker-snippets
 |-------|-------------|
 | Faker::Seinfeld.character | Seinfeld.character |
 | Faker::Seinfeld.quote | Seinfeld.quote |
-| Faker::Seinfeld.business | Seinfeld.business |
 ### Source
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1230,20 +1120,6 @@ ext install giancarlopro.faker-snippets
 | Faker::Source.print | Source.print |
 | Faker::Source.print('cake') | Source.print('cake') |
 | Faker::Source.print(str: 'cake', lang: :javascript) | Source.print(str: 'cake', lang: :javascript) |
-### DcComics
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::DcComics.hero | DcComics.hero |
-| Faker::DcComics.heroine | DcComics.heroine |
-| Faker::DcComics.villain | DcComics.villain |
-| Faker::DcComics.name | DcComics.name |
-### CryptoCoin
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::CryptoCoin.coin_name | CryptoCoin.coin_name |
-| Faker::CryptoCoin.acronym | CryptoCoin.acronym |
-| Faker::CryptoCoin.url_logo | CryptoCoin.url_logo |
-| Faker::CryptoCoin.coin_array | CryptoCoin.coin_array |
 ### FamousLastWords
 |Snippet|Short Snippet|
 |-------|-------------|
@@ -1252,17 +1128,6 @@ ext install giancarlopro.faker-snippets
 |Snippet|Short Snippet|
 |-------|-------------|
 | Faker::UmphreysMcgee.song | UmphreysMcgee.song |
-### ChileRut
-|Snippet|Short Snippet|
-|-------|-------------|
-| Faker::ChileRut.full_rut | ChileRut.full_rut |
-| Faker::ChileRut.rut | ChileRut.rut |
-| Faker::ChileRut.rut(20_890_156) | ChileRut.rut(20_890_156) |
-| Faker::ChileRut.rut | ChileRut.rut |
-| Faker::ChileRut.last_rut | ChileRut.last_rut |
-| Faker::ChileRut.dv | ChileRut.dv |
-| Faker::ChileRut.rut | ChileRut.rut |
-| Faker::ChileRut.check_digit | ChileRut.check_digit |
 ### University
 |Snippet|Short Snippet|
 |-------|-------------|

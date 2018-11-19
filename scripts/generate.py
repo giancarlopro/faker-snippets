@@ -4,12 +4,12 @@ from pprint import pprint
 
 resnip = re.compile(r"(Faker::(\w+)\.(\w+)(\(.+\)){0,1}) #=>")
 
-files = listdir("faker/doc/")
+files = listdir("faker/doc/v1.9.1/")
 
 snippets = list()
 
 for f in files:
-    with open("faker/doc/{}".format(f)) as snpfile:
+    with open("faker/doc/v1.9.1/{}".format(f)) as snpfile:
         for snippet in resnip.finditer(snpfile.read()):
             snippets.append(snippet)
 

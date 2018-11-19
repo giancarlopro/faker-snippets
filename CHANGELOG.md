@@ -8,6 +8,22 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -
 -->
+## [1.5.0] - 2018-11-19
+### Removed
+- Faker::Tezos
+- Faker::Relationship
+- Faker::NationalHealthService
+- Faker::IndustrySegments
+- Faker::Vehicke
+- Faker::SouthAfrica
+- Faker::Buffy
+- Faker::GratefulDead
+- Faker::Construction
+- Faker::SouthPark
+- Faker::DcComics
+- Faker::CryptoCoin
+- Faker::ChileRut
+
 ## [1.4.0] - 2018-09-13
 ### Added
 - Faker::Tezos

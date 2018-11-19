@@ -275,54 +275,6 @@
 		"body":"Faker::Company.polish_register_of_national_economy",
 		"description":"Fake Company polish_register_of_national_economy"
 	},
-	"Faker::Company.south_african_pty_ltd_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::Company.south_african_pty_ltd_registration_number",
-		"body":"Faker::Company.south_african_pty_ltd_registration_number",
-		"description":"Fake Company south_african_pty_ltd_registration_number"
-	},
-	"Company.south_african_pty_ltd_registration_number":{
-		"scope":"ruby",
-		"prefix":"Company.south_african_pty_ltd_registration_number",
-		"body":"Faker::Company.south_african_pty_ltd_registration_number",
-		"description":"Fake Company south_african_pty_ltd_registration_number"
-	},
-	"Faker::Company.south_african_close_corporation_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::Company.south_african_close_corporation_registration_number",
-		"body":"Faker::Company.south_african_close_corporation_registration_number",
-		"description":"Fake Company south_african_close_corporation_registration_number"
-	},
-	"Company.south_african_close_corporation_registration_number":{
-		"scope":"ruby",
-		"prefix":"Company.south_african_close_corporation_registration_number",
-		"body":"Faker::Company.south_african_close_corporation_registration_number",
-		"description":"Fake Company south_african_close_corporation_registration_number"
-	},
-	"Faker::Company.south_african_listed_company_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::Company.south_african_listed_company_registration_number",
-		"body":"Faker::Company.south_african_listed_company_registration_number",
-		"description":"Fake Company south_african_listed_company_registration_number"
-	},
-	"Company.south_african_listed_company_registration_number":{
-		"scope":"ruby",
-		"prefix":"Company.south_african_listed_company_registration_number",
-		"body":"Faker::Company.south_african_listed_company_registration_number",
-		"description":"Fake Company south_african_listed_company_registration_number"
-	},
-	"Faker::Company.south_african_trust_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::Company.south_african_trust_registration_number",
-		"body":"Faker::Company.south_african_trust_registration_number",
-		"description":"Fake Company south_african_trust_registration_number"
-	},
-	"Company.south_african_trust_registration_number":{
-		"scope":"ruby",
-		"prefix":"Company.south_african_trust_registration_number",
-		"body":"Faker::Company.south_african_trust_registration_number",
-		"description":"Fake Company south_african_trust_registration_number"
-	},
 	"Faker::Team.creature":{
 		"scope":"ruby",
 		"prefix":"Faker::Team.creature",
@@ -382,54 +334,6 @@
 		"prefix":"Team.mascot",
 		"body":"Faker::Team.mascot",
 		"description":"Fake Team mascot"
-	},
-	"Faker::Tezos.account":{
-		"scope":"ruby",
-		"prefix":"Faker::Tezos.account",
-		"body":"Faker::Tezos.account",
-		"description":"Fake Tezos account"
-	},
-	"Tezos.account":{
-		"scope":"ruby",
-		"prefix":"Tezos.account",
-		"body":"Faker::Tezos.account",
-		"description":"Fake Tezos account"
-	},
-	"Faker::Tezos.contract":{
-		"scope":"ruby",
-		"prefix":"Faker::Tezos.contract",
-		"body":"Faker::Tezos.contract",
-		"description":"Fake Tezos contract"
-	},
-	"Tezos.contract":{
-		"scope":"ruby",
-		"prefix":"Tezos.contract",
-		"body":"Faker::Tezos.contract",
-		"description":"Fake Tezos contract"
-	},
-	"Faker::Tezos.operation":{
-		"scope":"ruby",
-		"prefix":"Faker::Tezos.operation",
-		"body":"Faker::Tezos.operation",
-		"description":"Fake Tezos operation"
-	},
-	"Tezos.operation":{
-		"scope":"ruby",
-		"prefix":"Tezos.operation",
-		"body":"Faker::Tezos.operation",
-		"description":"Fake Tezos operation"
-	},
-	"Faker::Tezos.signature":{
-		"scope":"ruby",
-		"prefix":"Faker::Tezos.signature",
-		"body":"Faker::Tezos.signature",
-		"description":"Fake Tezos signature"
-	},
-	"Tezos.signature":{
-		"scope":"ruby",
-		"prefix":"Tezos.signature",
-		"body":"Faker::Tezos.signature",
-		"description":"Fake Tezos signature"
 	},
 	"Faker::NewGirl.character":{
 		"scope":"ruby",
@@ -503,6 +407,18 @@
 		"body":"Faker::Ancient.hero",
 		"description":"Fake Ancient hero"
 	},
+	"Faker::Food.dish":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.dish",
+		"body":"Faker::Food.dish",
+		"description":"Fake Food dish"
+	},
+	"Food.dish":{
+		"scope":"ruby",
+		"prefix":"Food.dish",
+		"body":"Faker::Food.dish",
+		"description":"Fake Food dish"
+	},
 	"Faker::Food.description":{
 		"scope":"ruby",
 		"prefix":"Faker::Food.description",
@@ -515,17 +431,17 @@
 		"body":"Faker::Food.description",
 		"description":"Fake Food description"
 	},
-	"Faker::Food.dish":{
+	"Faker::Food.ingredient":{
 		"scope":"ruby",
-		"prefix":"Faker::Food.dish",
-		"body":"Faker::Food.dish",
-		"description":"Fake Food dish"
+		"prefix":"Faker::Food.ingredient",
+		"body":"Faker::Food.ingredient",
+		"description":"Fake Food ingredient"
 	},
-	"Food.dish":{
+	"Food.ingredient":{
 		"scope":"ruby",
-		"prefix":"Food.dish",
-		"body":"Faker::Food.dish",
-		"description":"Fake Food dish"
+		"prefix":"Food.ingredient",
+		"body":"Faker::Food.ingredient",
+		"description":"Fake Food ingredient"
 	},
 	"Faker::Food.fruits":{
 		"scope":"ruby",
@@ -539,17 +455,29 @@
 		"body":"Faker::Food.fruits",
 		"description":"Fake Food fruits"
 	},
-	"Faker::Food.ingredient":{
+	"Faker::Food.vegetables":{
 		"scope":"ruby",
-		"prefix":"Faker::Food.ingredient",
-		"body":"Faker::Food.ingredient",
-		"description":"Fake Food ingredient"
+		"prefix":"Faker::Food.vegetables",
+		"body":"Faker::Food.vegetables",
+		"description":"Fake Food vegetables"
 	},
-	"Food.ingredient":{
+	"Food.vegetables":{
 		"scope":"ruby",
-		"prefix":"Food.ingredient",
-		"body":"Faker::Food.ingredient",
-		"description":"Fake Food ingredient"
+		"prefix":"Food.vegetables",
+		"body":"Faker::Food.vegetables",
+		"description":"Fake Food vegetables"
+	},
+	"Faker::Food.spice":{
+		"scope":"ruby",
+		"prefix":"Faker::Food.spice",
+		"body":"Faker::Food.spice",
+		"description":"Fake Food spice"
+	},
+	"Food.spice":{
+		"scope":"ruby",
+		"prefix":"Food.spice",
+		"body":"Faker::Food.spice",
+		"description":"Fake Food spice"
 	},
 	"Faker::Food.measurement":{
 		"scope":"ruby",
@@ -574,42 +502,6 @@
 		"prefix":"Food.metric_measurement",
 		"body":"Faker::Food.metric_measurement",
 		"description":"Fake Food metric_measurement"
-	},
-	"Faker::Food.spice":{
-		"scope":"ruby",
-		"prefix":"Faker::Food.spice",
-		"body":"Faker::Food.spice",
-		"description":"Fake Food spice"
-	},
-	"Food.spice":{
-		"scope":"ruby",
-		"prefix":"Food.spice",
-		"body":"Faker::Food.spice",
-		"description":"Fake Food spice"
-	},
-	"Faker::Food.sushi":{
-		"scope":"ruby",
-		"prefix":"Faker::Food.sushi",
-		"body":"Faker::Food.sushi",
-		"description":"Fake Food sushi"
-	},
-	"Food.sushi":{
-		"scope":"ruby",
-		"prefix":"Food.sushi",
-		"body":"Faker::Food.sushi",
-		"description":"Fake Food sushi"
-	},
-	"Faker::Food.vegetables":{
-		"scope":"ruby",
-		"prefix":"Faker::Food.vegetables",
-		"body":"Faker::Food.vegetables",
-		"description":"Fake Food vegetables"
-	},
-	"Food.vegetables":{
-		"scope":"ruby",
-		"prefix":"Food.vegetables",
-		"body":"Faker::Food.vegetables",
-		"description":"Fake Food vegetables"
 	},
 	"Faker::Verb.base":{
 		"scope":"ruby",
@@ -670,90 +562,6 @@
 		"prefix":"Verb.ing_form",
 		"body":"Faker::Verb.ing_form",
 		"description":"Fake Verb ing_form"
-	},
-	"Faker::Relationship.familial":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.familial",
-		"body":"Faker::Relationship.familial",
-		"description":"Fake Relationship familial"
-	},
-	"Relationship.familial":{
-		"scope":"ruby",
-		"prefix":"Relationship.familial",
-		"body":"Faker::Relationship.familial",
-		"description":"Fake Relationship familial"
-	},
-	"Faker::Relationship.familial('direct')":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.familial('direct')",
-		"body":"Faker::Relationship.familial('direct')",
-		"description":"Fake Relationship familial"
-	},
-	"Relationship.familial('direct')":{
-		"scope":"ruby",
-		"prefix":"Relationship.familial('direct')",
-		"body":"Faker::Relationship.familial('direct')",
-		"description":"Fake Relationship familial"
-	},
-	"Faker::Relationship.familial('extended')":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.familial('extended')",
-		"body":"Faker::Relationship.familial('extended')",
-		"description":"Fake Relationship familial"
-	},
-	"Relationship.familial('extended')":{
-		"scope":"ruby",
-		"prefix":"Relationship.familial('extended')",
-		"body":"Faker::Relationship.familial('extended')",
-		"description":"Fake Relationship familial"
-	},
-	"Faker::Relationship.spouse":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.spouse",
-		"body":"Faker::Relationship.spouse",
-		"description":"Fake Relationship spouse"
-	},
-	"Relationship.spouse":{
-		"scope":"ruby",
-		"prefix":"Relationship.spouse",
-		"body":"Faker::Relationship.spouse",
-		"description":"Fake Relationship spouse"
-	},
-	"Faker::Relationship.parent":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.parent",
-		"body":"Faker::Relationship.parent",
-		"description":"Fake Relationship parent"
-	},
-	"Relationship.parent":{
-		"scope":"ruby",
-		"prefix":"Relationship.parent",
-		"body":"Faker::Relationship.parent",
-		"description":"Fake Relationship parent"
-	},
-	"Faker::Relationship.in_law":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.in_law",
-		"body":"Faker::Relationship.in_law",
-		"description":"Fake Relationship in_law"
-	},
-	"Relationship.in_law":{
-		"scope":"ruby",
-		"prefix":"Relationship.in_law",
-		"body":"Faker::Relationship.in_law",
-		"description":"Fake Relationship in_law"
-	},
-	"Faker::Relationship.sibling":{
-		"scope":"ruby",
-		"prefix":"Faker::Relationship.sibling",
-		"body":"Faker::Relationship.sibling",
-		"description":"Fake Relationship sibling"
-	},
-	"Relationship.sibling":{
-		"scope":"ruby",
-		"prefix":"Relationship.sibling",
-		"body":"Faker::Relationship.sibling",
-		"description":"Fake Relationship sibling"
 	},
 	"Faker::MostInterestingManInTheWorld.quote":{
 		"scope":"ruby",
@@ -1475,30 +1283,6 @@
 		"body":"Faker::Demographic.height(:imperial)",
 		"description":"Fake Demographic height"
 	},
-	"Faker::NationalHealthService.british_number":{
-		"scope":"ruby",
-		"prefix":"Faker::NationalHealthService.british_number",
-		"body":"Faker::NationalHealthService.british_number",
-		"description":"Fake NationalHealthService british_number"
-	},
-	"NationalHealthService.british_number":{
-		"scope":"ruby",
-		"prefix":"NationalHealthService.british_number",
-		"body":"Faker::NationalHealthService.british_number",
-		"description":"Fake NationalHealthService british_number"
-	},
-	"Faker::NationalHealthService.check_digit(400_012_114)":{
-		"scope":"ruby",
-		"prefix":"Faker::NationalHealthService.check_digit(400_012_114)",
-		"body":"Faker::NationalHealthService.check_digit(400_012_114)",
-		"description":"Fake NationalHealthService check_digit"
-	},
-	"NationalHealthService.check_digit(400_012_114)":{
-		"scope":"ruby",
-		"prefix":"NationalHealthService.check_digit(400_012_114)",
-		"body":"Faker::NationalHealthService.check_digit(400_012_114)",
-		"description":"Fake NationalHealthService check_digit"
-	},
 	"Faker::HowIMetYourMother.character":{
 		"scope":"ruby",
 		"prefix":"Faker::HowIMetYourMother.character",
@@ -1630,18 +1414,6 @@
 		"prefix":"Code.asin",
 		"body":"Faker::Code.asin",
 		"description":"Fake Code asin"
-	},
-	"Faker::Code.sin":{
-		"scope":"ruby",
-		"prefix":"Faker::Code.sin",
-		"body":"Faker::Code.sin",
-		"description":"Fake Code sin"
-	},
-	"Code.sin":{
-		"scope":"ruby",
-		"prefix":"Code.sin",
-		"body":"Faker::Code.sin",
-		"description":"Fake Code sin"
 	},
 	"Faker::Lorem.word":{
 		"scope":"ruby",
@@ -2123,54 +1895,6 @@
 		"body":"Faker::BossaNova.song",
 		"description":"Fake BossaNova song"
 	},
-	"Faker::IndustrySegments.industry":{
-		"scope":"ruby",
-		"prefix":"Faker::IndustrySegments.industry",
-		"body":"Faker::IndustrySegments.industry",
-		"description":"Fake IndustrySegments industry"
-	},
-	"IndustrySegments.industry":{
-		"scope":"ruby",
-		"prefix":"IndustrySegments.industry",
-		"body":"Faker::IndustrySegments.industry",
-		"description":"Fake IndustrySegments industry"
-	},
-	"Faker::IndustrySegments.super_sector":{
-		"scope":"ruby",
-		"prefix":"Faker::IndustrySegments.super_sector",
-		"body":"Faker::IndustrySegments.super_sector",
-		"description":"Fake IndustrySegments super_sector"
-	},
-	"IndustrySegments.super_sector":{
-		"scope":"ruby",
-		"prefix":"IndustrySegments.super_sector",
-		"body":"Faker::IndustrySegments.super_sector",
-		"description":"Fake IndustrySegments super_sector"
-	},
-	"Faker::IndustrySegments.sector":{
-		"scope":"ruby",
-		"prefix":"Faker::IndustrySegments.sector",
-		"body":"Faker::IndustrySegments.sector",
-		"description":"Fake IndustrySegments sector"
-	},
-	"IndustrySegments.sector":{
-		"scope":"ruby",
-		"prefix":"IndustrySegments.sector",
-		"body":"Faker::IndustrySegments.sector",
-		"description":"Fake IndustrySegments sector"
-	},
-	"Faker::IndustrySegments.sub_sector":{
-		"scope":"ruby",
-		"prefix":"Faker::IndustrySegments.sub_sector",
-		"body":"Faker::IndustrySegments.sub_sector",
-		"description":"Fake IndustrySegments sub_sector"
-	},
-	"IndustrySegments.sub_sector":{
-		"scope":"ruby",
-		"prefix":"IndustrySegments.sub_sector",
-		"body":"Faker::IndustrySegments.sub_sector",
-		"description":"Fake IndustrySegments sub_sector"
-	},
 	"Faker::Cat.name":{
 		"scope":"ruby",
 		"prefix":"Faker::Cat.name",
@@ -2267,6 +1991,30 @@
 		"body":"Faker::Vehicle.manufacture",
 		"description":"Fake Vehicle manufacture"
 	},
+	"Faker::Vehicle.mileage":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.mileage",
+		"body":"Faker::Vehicle.mileage",
+		"description":"Fake Vehicle mileage"
+	},
+	"Vehicle.mileage":{
+		"scope":"ruby",
+		"prefix":"Vehicle.mileage",
+		"body":"Faker::Vehicle.mileage",
+		"description":"Fake Vehicle mileage"
+	},
+	"Faker::Vehicle.year":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.year",
+		"body":"Faker::Vehicle.year",
+		"description":"Fake Vehicle year"
+	},
+	"Vehicle.year":{
+		"scope":"ruby",
+		"prefix":"Vehicle.year",
+		"body":"Faker::Vehicle.year",
+		"description":"Fake Vehicle year"
+	},
 	"Faker::Vehicle.make":{
 		"scope":"ruby",
 		"prefix":"Faker::Vehicle.make",
@@ -2291,18 +2039,6 @@
 		"body":"Faker::Vehicle.model",
 		"description":"Fake Vehicle model"
 	},
-	"Faker::Vehicle.model('Toyota')":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.model('Toyota')",
-		"body":"Faker::Vehicle.model('Toyota')",
-		"description":"Fake Vehicle model"
-	},
-	"Vehicle.model('Toyota')":{
-		"scope":"ruby",
-		"prefix":"Vehicle.model('Toyota')",
-		"body":"Faker::Vehicle.model('Toyota')",
-		"description":"Fake Vehicle model"
-	},
 	"Faker::Vehicle.make_and_model":{
 		"scope":"ruby",
 		"prefix":"Faker::Vehicle.make_and_model",
@@ -2314,6 +2050,18 @@
 		"prefix":"Vehicle.make_and_model",
 		"body":"Faker::Vehicle.make_and_model",
 		"description":"Fake Vehicle make_and_model"
+	},
+	"Faker::Vehicle.style":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.style",
+		"body":"Faker::Vehicle.style",
+		"description":"Fake Vehicle style"
+	},
+	"Vehicle.style":{
+		"scope":"ruby",
+		"prefix":"Vehicle.style",
+		"body":"Faker::Vehicle.style",
+		"description":"Fake Vehicle style"
 	},
 	"Faker::Vehicle.color":{
 		"scope":"ruby",
@@ -2363,17 +2111,17 @@
 		"body":"Faker::Vehicle.fuel_type",
 		"description":"Fake Vehicle fuel_type"
 	},
-	"Faker::Vehicle.style":{
+	"Faker::Vehicle.door_count":{
 		"scope":"ruby",
-		"prefix":"Faker::Vehicle.style",
-		"body":"Faker::Vehicle.style",
-		"description":"Fake Vehicle style"
+		"prefix":"Faker::Vehicle.door_count",
+		"body":"Faker::Vehicle.door_count",
+		"description":"Fake Vehicle door_count"
 	},
-	"Vehicle.style":{
+	"Vehicle.door_count":{
 		"scope":"ruby",
-		"prefix":"Vehicle.style",
-		"body":"Faker::Vehicle.style",
-		"description":"Fake Vehicle style"
+		"prefix":"Vehicle.door_count",
+		"body":"Faker::Vehicle.door_count",
+		"description":"Fake Vehicle door_count"
 	},
 	"Faker::Vehicle.car_type":{
 		"scope":"ruby",
@@ -2386,6 +2134,30 @@
 		"prefix":"Vehicle.car_type",
 		"body":"Faker::Vehicle.car_type",
 		"description":"Fake Vehicle car_type"
+	},
+	"Faker::Vehicle.engine":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.engine",
+		"body":"Faker::Vehicle.engine",
+		"description":"Fake Vehicle engine"
+	},
+	"Vehicle.engine":{
+		"scope":"ruby",
+		"prefix":"Vehicle.engine",
+		"body":"Faker::Vehicle.engine",
+		"description":"Fake Vehicle engine"
+	},
+	"Faker::Vehicle.engine_size":{
+		"scope":"ruby",
+		"prefix":"Faker::Vehicle.engine_size",
+		"body":"Faker::Vehicle.engine_size",
+		"description":"Fake Vehicle engine_size"
+	},
+	"Vehicle.engine_size":{
+		"scope":"ruby",
+		"prefix":"Vehicle.engine_size",
+		"body":"Faker::Vehicle.engine_size",
+		"description":"Fake Vehicle engine_size"
 	},
 	"Faker::Vehicle.car_options":{
 		"scope":"ruby",
@@ -2410,138 +2182,6 @@
 		"prefix":"Vehicle.standard_specs",
 		"body":"Faker::Vehicle.standard_specs",
 		"description":"Fake Vehicle standard_specs"
-	},
-	"Faker::Vehicle.doors":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.doors",
-		"body":"Faker::Vehicle.doors",
-		"description":"Fake Vehicle doors"
-	},
-	"Vehicle.doors":{
-		"scope":"ruby",
-		"prefix":"Vehicle.doors",
-		"body":"Faker::Vehicle.doors",
-		"description":"Fake Vehicle doors"
-	},
-	"Faker::Vehicle.door_count":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.door_count",
-		"body":"Faker::Vehicle.door_count",
-		"description":"Fake Vehicle door_count"
-	},
-	"Vehicle.door_count":{
-		"scope":"ruby",
-		"prefix":"Vehicle.door_count",
-		"body":"Faker::Vehicle.door_count",
-		"description":"Fake Vehicle door_count"
-	},
-	"Faker::Vehicle.engine_size":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.engine_size",
-		"body":"Faker::Vehicle.engine_size",
-		"description":"Fake Vehicle engine_size"
-	},
-	"Vehicle.engine_size":{
-		"scope":"ruby",
-		"prefix":"Vehicle.engine_size",
-		"body":"Faker::Vehicle.engine_size",
-		"description":"Fake Vehicle engine_size"
-	},
-	"Faker::Vehicke.engine":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicke.engine",
-		"body":"Faker::Vehicke.engine",
-		"description":"Fake Vehicke engine"
-	},
-	"Vehicke.engine":{
-		"scope":"ruby",
-		"prefix":"Vehicke.engine",
-		"body":"Faker::Vehicke.engine",
-		"description":"Fake Vehicke engine"
-	},
-	"Faker::Vehicle.year":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.year",
-		"body":"Faker::Vehicle.year",
-		"description":"Fake Vehicle year"
-	},
-	"Vehicle.year":{
-		"scope":"ruby",
-		"prefix":"Vehicle.year",
-		"body":"Faker::Vehicle.year",
-		"description":"Fake Vehicle year"
-	},
-	"Faker::Vehicle.mileage":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.mileage",
-		"body":"Faker::Vehicle.mileage",
-		"description":"Fake Vehicle mileage"
-	},
-	"Vehicle.mileage":{
-		"scope":"ruby",
-		"prefix":"Vehicle.mileage",
-		"body":"Faker::Vehicle.mileage",
-		"description":"Fake Vehicle mileage"
-	},
-	"Faker::Vehicle.mileage(50_000)":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.mileage(50_000)",
-		"body":"Faker::Vehicle.mileage(50_000)",
-		"description":"Fake Vehicle mileage"
-	},
-	"Vehicle.mileage(50_000)":{
-		"scope":"ruby",
-		"prefix":"Vehicle.mileage(50_000)",
-		"body":"Faker::Vehicle.mileage(50_000)",
-		"description":"Fake Vehicle mileage"
-	},
-	"Faker::Vehicle.mileage(50_000, 250_000)":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.mileage(50_000, 250_000)",
-		"body":"Faker::Vehicle.mileage(50_000, 250_000)",
-		"description":"Fake Vehicle mileage"
-	},
-	"Vehicle.mileage(50_000, 250_000)":{
-		"scope":"ruby",
-		"prefix":"Vehicle.mileage(50_000, 250_000)",
-		"body":"Faker::Vehicle.mileage(50_000, 250_000)",
-		"description":"Fake Vehicle mileage"
-	},
-	"Faker::Vehicle.kilometrage":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.kilometrage",
-		"body":"Faker::Vehicle.kilometrage",
-		"description":"Fake Vehicle kilometrage"
-	},
-	"Vehicle.kilometrage":{
-		"scope":"ruby",
-		"prefix":"Vehicle.kilometrage",
-		"body":"Faker::Vehicle.kilometrage",
-		"description":"Fake Vehicle kilometrage"
-	},
-	"Faker::Vehicle.license_plate":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.license_plate",
-		"body":"Faker::Vehicle.license_plate",
-		"description":"Fake Vehicle license_plate"
-	},
-	"Vehicle.license_plate":{
-		"scope":"ruby",
-		"prefix":"Vehicle.license_plate",
-		"body":"Faker::Vehicle.license_plate",
-		"description":"Fake Vehicle license_plate"
-	},
-	"Faker::Vehicle.license_plate('FL')":{
-		"scope":"ruby",
-		"prefix":"Faker::Vehicle.license_plate('FL')",
-		"body":"Faker::Vehicle.license_plate('FL')",
-		"description":"Fake Vehicle license_plate"
-	},
-	"Vehicle.license_plate('FL')":{
-		"scope":"ruby",
-		"prefix":"Vehicle.license_plate('FL')",
-		"body":"Faker::Vehicle.license_plate('FL')",
-		"description":"Fake Vehicle license_plate"
 	},
 	"Faker::Community.characters":{
 		"scope":"ruby",
@@ -3479,174 +3119,6 @@
 		"body":"Faker::Internet.free_email",
 		"description":"Fake Internet free_email"
 	},
-	"Faker::SouthAfrica.id_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.id_number",
-		"body":"Faker::SouthAfrica.id_number",
-		"description":"Fake SouthAfrica id_number"
-	},
-	"SouthAfrica.id_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.id_number",
-		"body":"Faker::SouthAfrica.id_number",
-		"description":"Fake SouthAfrica id_number"
-	},
-	"Faker::SouthAfrica.valid_id_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.valid_id_number",
-		"body":"Faker::SouthAfrica.valid_id_number",
-		"description":"Fake SouthAfrica valid_id_number"
-	},
-	"SouthAfrica.valid_id_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.valid_id_number",
-		"body":"Faker::SouthAfrica.valid_id_number",
-		"description":"Fake SouthAfrica valid_id_number"
-	},
-	"Faker::SouthAfrica.invalid_id_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.invalid_id_number",
-		"body":"Faker::SouthAfrica.invalid_id_number",
-		"description":"Fake SouthAfrica invalid_id_number"
-	},
-	"SouthAfrica.invalid_id_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.invalid_id_number",
-		"body":"Faker::SouthAfrica.invalid_id_number",
-		"description":"Fake SouthAfrica invalid_id_number"
-	},
-	"Faker::SouthAfrica.phone_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.phone_number",
-		"body":"Faker::SouthAfrica.phone_number",
-		"description":"Fake SouthAfrica phone_number"
-	},
-	"SouthAfrica.phone_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.phone_number",
-		"body":"Faker::SouthAfrica.phone_number",
-		"description":"Fake SouthAfrica phone_number"
-	},
-	"Faker::SouthAfrica.cell_phone":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.cell_phone",
-		"body":"Faker::SouthAfrica.cell_phone",
-		"description":"Fake SouthAfrica cell_phone"
-	},
-	"SouthAfrica.cell_phone":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.cell_phone",
-		"body":"Faker::SouthAfrica.cell_phone",
-		"description":"Fake SouthAfrica cell_phone"
-	},
-	"Faker::SouthAfrica.pty_ltd_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.pty_ltd_registration_number",
-		"body":"Faker::SouthAfrica.pty_ltd_registration_number",
-		"description":"Fake SouthAfrica pty_ltd_registration_number"
-	},
-	"SouthAfrica.pty_ltd_registration_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.pty_ltd_registration_number",
-		"body":"Faker::SouthAfrica.pty_ltd_registration_number",
-		"description":"Fake SouthAfrica pty_ltd_registration_number"
-	},
-	"Faker::SouthAfrica.close_corporation_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.close_corporation_registration_number",
-		"body":"Faker::SouthAfrica.close_corporation_registration_number",
-		"description":"Fake SouthAfrica close_corporation_registration_number"
-	},
-	"SouthAfrica.close_corporation_registration_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.close_corporation_registration_number",
-		"body":"Faker::SouthAfrica.close_corporation_registration_number",
-		"description":"Fake SouthAfrica close_corporation_registration_number"
-	},
-	"Faker::SouthAfrica.listed_company_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.listed_company_registration_number",
-		"body":"Faker::SouthAfrica.listed_company_registration_number",
-		"description":"Fake SouthAfrica listed_company_registration_number"
-	},
-	"SouthAfrica.listed_company_registration_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.listed_company_registration_number",
-		"body":"Faker::SouthAfrica.listed_company_registration_number",
-		"description":"Fake SouthAfrica listed_company_registration_number"
-	},
-	"Faker::SouthAfrica.trust_registration_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.trust_registration_number",
-		"body":"Faker::SouthAfrica.trust_registration_number",
-		"description":"Fake SouthAfrica trust_registration_number"
-	},
-	"SouthAfrica.trust_registration_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.trust_registration_number",
-		"body":"Faker::SouthAfrica.trust_registration_number",
-		"description":"Fake SouthAfrica trust_registration_number"
-	},
-	"Faker::SouthAfrica.vat_number":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthAfrica.vat_number",
-		"body":"Faker::SouthAfrica.vat_number",
-		"description":"Fake SouthAfrica vat_number"
-	},
-	"SouthAfrica.vat_number":{
-		"scope":"ruby",
-		"prefix":"SouthAfrica.vat_number",
-		"body":"Faker::SouthAfrica.vat_number",
-		"description":"Fake SouthAfrica vat_number"
-	},
-	"Faker::Buffy.character":{
-		"scope":"ruby",
-		"prefix":"Faker::Buffy.character",
-		"body":"Faker::Buffy.character",
-		"description":"Fake Buffy character"
-	},
-	"Buffy.character":{
-		"scope":"ruby",
-		"prefix":"Buffy.character",
-		"body":"Faker::Buffy.character",
-		"description":"Fake Buffy character"
-	},
-	"Faker::Buffy.quote":{
-		"scope":"ruby",
-		"prefix":"Faker::Buffy.quote",
-		"body":"Faker::Buffy.quote",
-		"description":"Fake Buffy quote"
-	},
-	"Buffy.quote":{
-		"scope":"ruby",
-		"prefix":"Buffy.quote",
-		"body":"Faker::Buffy.quote",
-		"description":"Fake Buffy quote"
-	},
-	"Faker::Buffy.celebrity":{
-		"scope":"ruby",
-		"prefix":"Faker::Buffy.celebrity",
-		"body":"Faker::Buffy.celebrity",
-		"description":"Fake Buffy celebrity"
-	},
-	"Buffy.celebrity":{
-		"scope":"ruby",
-		"prefix":"Buffy.celebrity",
-		"body":"Faker::Buffy.celebrity",
-		"description":"Fake Buffy celebrity"
-	},
-	"Faker::Buffy.big_bad":{
-		"scope":"ruby",
-		"prefix":"Faker::Buffy.big_bad",
-		"body":"Faker::Buffy.big_bad",
-		"description":"Fake Buffy big_bad"
-	},
-	"Buffy.big_bad":{
-		"scope":"ruby",
-		"prefix":"Buffy.big_bad",
-		"body":"Faker::Buffy.big_bad",
-		"description":"Fake Buffy big_bad"
-	},
 	"Faker::BojackHorseman.character":{
 		"scope":"ruby",
 		"prefix":"Faker::BojackHorseman.character",
@@ -4246,54 +3718,6 @@
 		"prefix":"LeagueOfLegends.rank",
 		"body":"Faker::LeagueOfLegends.rank",
 		"description":"Fake LeagueOfLegends rank"
-	},
-	"Faker::GratefulDead.player":{
-		"scope":"ruby",
-		"prefix":"Faker::GratefulDead.player",
-		"body":"Faker::GratefulDead.player",
-		"description":"Fake GratefulDead player"
-	},
-	"GratefulDead.player":{
-		"scope":"ruby",
-		"prefix":"GratefulDead.player",
-		"body":"Faker::GratefulDead.player",
-		"description":"Fake GratefulDead player"
-	},
-	"Faker::GratefulDead.song":{
-		"scope":"ruby",
-		"prefix":"Faker::GratefulDead.song",
-		"body":"Faker::GratefulDead.song",
-		"description":"Fake GratefulDead song"
-	},
-	"GratefulDead.song":{
-		"scope":"ruby",
-		"prefix":"GratefulDead.song",
-		"body":"Faker::GratefulDead.song",
-		"description":"Fake GratefulDead song"
-	},
-	"Faker::Construction.material":{
-		"scope":"ruby",
-		"prefix":"Faker::Construction.material",
-		"body":"Faker::Construction.material",
-		"description":"Fake Construction material"
-	},
-	"Construction.material":{
-		"scope":"ruby",
-		"prefix":"Construction.material",
-		"body":"Faker::Construction.material",
-		"description":"Fake Construction material"
-	},
-	"Faker::Construction.subcontract_category":{
-		"scope":"ruby",
-		"prefix":"Faker::Construction.subcontract_category",
-		"body":"Faker::Construction.subcontract_category",
-		"description":"Fake Construction subcontract_category"
-	},
-	"Construction.subcontract_category":{
-		"scope":"ruby",
-		"prefix":"Construction.subcontract_category",
-		"body":"Faker::Construction.subcontract_category",
-		"description":"Fake Construction subcontract_category"
 	},
 	"Faker::Overwatch.hero":{
 		"scope":"ruby",
@@ -5327,66 +4751,6 @@
 		"body":"Faker::IDNumber.invalid",
 		"description":"Fake IDNumber invalid"
 	},
-	"Faker::IDNumber.spanish_citizen_number":{
-		"scope":"ruby",
-		"prefix":"Faker::IDNumber.spanish_citizen_number",
-		"body":"Faker::IDNumber.spanish_citizen_number",
-		"description":"Fake IDNumber spanish_citizen_number"
-	},
-	"IDNumber.spanish_citizen_number":{
-		"scope":"ruby",
-		"prefix":"IDNumber.spanish_citizen_number",
-		"body":"Faker::IDNumber.spanish_citizen_number",
-		"description":"Fake IDNumber spanish_citizen_number"
-	},
-	"Faker::IDNumber.spanish_foreign_citizen_number":{
-		"scope":"ruby",
-		"prefix":"Faker::IDNumber.spanish_foreign_citizen_number",
-		"body":"Faker::IDNumber.spanish_foreign_citizen_number",
-		"description":"Fake IDNumber spanish_foreign_citizen_number"
-	},
-	"IDNumber.spanish_foreign_citizen_number":{
-		"scope":"ruby",
-		"prefix":"IDNumber.spanish_foreign_citizen_number",
-		"body":"Faker::IDNumber.spanish_foreign_citizen_number",
-		"description":"Fake IDNumber spanish_foreign_citizen_number"
-	},
-	"Faker::IDNumber.south_african_id_number":{
-		"scope":"ruby",
-		"prefix":"Faker::IDNumber.south_african_id_number",
-		"body":"Faker::IDNumber.south_african_id_number",
-		"description":"Fake IDNumber south_african_id_number"
-	},
-	"IDNumber.south_african_id_number":{
-		"scope":"ruby",
-		"prefix":"IDNumber.south_african_id_number",
-		"body":"Faker::IDNumber.south_african_id_number",
-		"description":"Fake IDNumber south_african_id_number"
-	},
-	"Faker::IDNumber.valid_south_african_id_number":{
-		"scope":"ruby",
-		"prefix":"Faker::IDNumber.valid_south_african_id_number",
-		"body":"Faker::IDNumber.valid_south_african_id_number",
-		"description":"Fake IDNumber valid_south_african_id_number"
-	},
-	"IDNumber.valid_south_african_id_number":{
-		"scope":"ruby",
-		"prefix":"IDNumber.valid_south_african_id_number",
-		"body":"Faker::IDNumber.valid_south_african_id_number",
-		"description":"Fake IDNumber valid_south_african_id_number"
-	},
-	"Faker::IDNumber.invalid_south_african_id_number":{
-		"scope":"ruby",
-		"prefix":"Faker::IDNumber.invalid_south_african_id_number",
-		"body":"Faker::IDNumber.invalid_south_african_id_number",
-		"description":"Fake IDNumber invalid_south_african_id_number"
-	},
-	"IDNumber.invalid_south_african_id_number":{
-		"scope":"ruby",
-		"prefix":"IDNumber.invalid_south_african_id_number",
-		"body":"Faker::IDNumber.invalid_south_african_id_number",
-		"description":"Fake IDNumber invalid_south_african_id_number"
-	},
 	"Faker::Boolean.boolean":{
 		"scope":"ruby",
 		"prefix":"Faker::Boolean.boolean",
@@ -5531,16 +4895,16 @@
 		"body":"Faker::Commerce.price",
 		"description":"Fake Commerce price"
 	},
-	"Faker::Commerce.price(range = 0..10.0, as_string = true)":{
+	"Faker::Commerce.price(range = 0..10.0, as_string = false)":{
 		"scope":"ruby",
-		"prefix":"Faker::Commerce.price(range = 0..10.0, as_string = true)",
-		"body":"Faker::Commerce.price(range = 0..10.0, as_string = true)",
+		"prefix":"Faker::Commerce.price(range = 0..10.0, as_string = false)",
+		"body":"Faker::Commerce.price(range = 0..10.0, as_string = false)",
 		"description":"Fake Commerce price"
 	},
-	"Commerce.price(range = 0..10.0, as_string = true)":{
+	"Commerce.price(range = 0..10.0, as_string = false)":{
 		"scope":"ruby",
-		"prefix":"Commerce.price(range = 0..10.0, as_string = true)",
-		"body":"Faker::Commerce.price(range = 0..10.0, as_string = true)",
+		"prefix":"Commerce.price(range = 0..10.0, as_string = false)",
+		"body":"Faker::Commerce.price(range = 0..10.0, as_string = false)",
 		"description":"Fake Commerce price"
 	},
 	"Faker::Commerce.promotion_code":{
@@ -6179,42 +5543,6 @@
 		"body":"Faker::Finance.credit_card(:mastercard, :visa)",
 		"description":"Fake Finance credit_card"
 	},
-	"Faker::Finance.vat_number":{
-		"scope":"ruby",
-		"prefix":"Faker::Finance.vat_number",
-		"body":"Faker::Finance.vat_number",
-		"description":"Fake Finance vat_number"
-	},
-	"Finance.vat_number":{
-		"scope":"ruby",
-		"prefix":"Finance.vat_number",
-		"body":"Faker::Finance.vat_number",
-		"description":"Fake Finance vat_number"
-	},
-	"Faker::Finance.vat_number('DE')":{
-		"scope":"ruby",
-		"prefix":"Faker::Finance.vat_number('DE')",
-		"body":"Faker::Finance.vat_number('DE')",
-		"description":"Fake Finance vat_number"
-	},
-	"Finance.vat_number('DE')":{
-		"scope":"ruby",
-		"prefix":"Finance.vat_number('DE')",
-		"body":"Faker::Finance.vat_number('DE')",
-		"description":"Fake Finance vat_number"
-	},
-	"Faker::Finance.vat_number('ZA')":{
-		"scope":"ruby",
-		"prefix":"Faker::Finance.vat_number('ZA')",
-		"body":"Faker::Finance.vat_number('ZA')",
-		"description":"Fake Finance vat_number"
-	},
-	"Finance.vat_number('ZA')":{
-		"scope":"ruby",
-		"prefix":"Finance.vat_number('ZA')",
-		"body":"Faker::Finance.vat_number('ZA')",
-		"description":"Fake Finance vat_number"
-	},
 	"Faker::Friends.character":{
 		"scope":"ruby",
 		"prefix":"Faker::Friends.character",
@@ -6274,18 +5602,6 @@
 		"prefix":"Hacker.ingverb",
 		"body":"Faker::Hacker.ingverb",
 		"description":"Fake Hacker ingverb"
-	},
-	"Faker::Beer.brand":{
-		"scope":"ruby",
-		"prefix":"Faker::Beer.brand",
-		"body":"Faker::Beer.brand",
-		"description":"Fake Beer brand"
-	},
-	"Beer.brand":{
-		"scope":"ruby",
-		"prefix":"Beer.brand",
-		"body":"Faker::Beer.brand",
-		"description":"Fake Beer brand"
 	},
 	"Faker::Beer.name":{
 		"scope":"ruby",
@@ -6622,30 +5938,6 @@
 		"prefix":"Lovecraft.paragraph_by_chars(256)",
 		"body":"Faker::Lovecraft.paragraph_by_chars(256)",
 		"description":"Fake Lovecraft paragraph_by_chars"
-	},
-	"Faker::SouthPark.character":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthPark.character",
-		"body":"Faker::SouthPark.character",
-		"description":"Fake SouthPark character"
-	},
-	"SouthPark.character":{
-		"scope":"ruby",
-		"prefix":"SouthPark.character",
-		"body":"Faker::SouthPark.character",
-		"description":"Fake SouthPark character"
-	},
-	"Faker::SouthPark.quote":{
-		"scope":"ruby",
-		"prefix":"Faker::SouthPark.quote",
-		"body":"Faker::SouthPark.quote",
-		"description":"Fake SouthPark quote"
-	},
-	"SouthPark.quote":{
-		"scope":"ruby",
-		"prefix":"SouthPark.quote",
-		"body":"Faker::SouthPark.quote",
-		"description":"Fake SouthPark quote"
 	},
 	"Faker::OnePiece.character":{
 		"scope":"ruby",
@@ -7535,41 +6827,17 @@
 		"body":"Faker::Educator.secondary_school",
 		"description":"Fake Educator secondary_school"
 	},
-	"Faker::Educator.degree":{
+	"Faker::Educator.course":{
 		"scope":"ruby",
-		"prefix":"Faker::Educator.degree",
-		"body":"Faker::Educator.degree",
-		"description":"Fake Educator degree"
+		"prefix":"Faker::Educator.course",
+		"body":"Faker::Educator.course",
+		"description":"Fake Educator course"
 	},
-	"Educator.degree":{
+	"Educator.course":{
 		"scope":"ruby",
-		"prefix":"Educator.degree",
-		"body":"Faker::Educator.degree",
-		"description":"Fake Educator degree"
-	},
-	"Faker::Educator.course_name":{
-		"scope":"ruby",
-		"prefix":"Faker::Educator.course_name",
-		"body":"Faker::Educator.course_name",
-		"description":"Fake Educator course_name"
-	},
-	"Educator.course_name":{
-		"scope":"ruby",
-		"prefix":"Educator.course_name",
-		"body":"Faker::Educator.course_name",
-		"description":"Fake Educator course_name"
-	},
-	"Faker::Educator.subject":{
-		"scope":"ruby",
-		"prefix":"Faker::Educator.subject",
-		"body":"Faker::Educator.subject",
-		"description":"Fake Educator subject"
-	},
-	"Educator.subject":{
-		"scope":"ruby",
-		"prefix":"Educator.subject",
-		"body":"Faker::Educator.subject",
-		"description":"Fake Educator subject"
+		"prefix":"Educator.course",
+		"body":"Faker::Educator.course",
+		"description":"Fake Educator course"
 	},
 	"Faker::Educator.campus":{
 		"scope":"ruby",
@@ -7631,30 +6899,6 @@
 		"body":"Faker::Types.rb_hash",
 		"description":"Fake Types rb_hash"
 	},
-	"Faker::Types.rb_hash(1)":{
-		"scope":"ruby",
-		"prefix":"Faker::Types.rb_hash(1)",
-		"body":"Faker::Types.rb_hash(1)",
-		"description":"Fake Types rb_hash"
-	},
-	"Types.rb_hash(1)":{
-		"scope":"ruby",
-		"prefix":"Types.rb_hash(1)",
-		"body":"Faker::Types.rb_hash(1)",
-		"description":"Fake Types rb_hash"
-	},
-	"Faker::Types.rb_hash(2)":{
-		"scope":"ruby",
-		"prefix":"Faker::Types.rb_hash(2)",
-		"body":"Faker::Types.rb_hash(2)",
-		"description":"Fake Types rb_hash"
-	},
-	"Types.rb_hash(2)":{
-		"scope":"ruby",
-		"prefix":"Types.rb_hash(2)",
-		"body":"Faker::Types.rb_hash(2)",
-		"description":"Fake Types rb_hash"
-	},
 	"Faker::Types.complex_rb_hash":{
 		"scope":"ruby",
 		"prefix":"Faker::Types.complex_rb_hash",
@@ -7665,30 +6909,6 @@
 		"scope":"ruby",
 		"prefix":"Types.complex_rb_hash",
 		"body":"Faker::Types.complex_rb_hash",
-		"description":"Fake Types complex_rb_hash"
-	},
-	"Faker::Types.complex_rb_hash(1)":{
-		"scope":"ruby",
-		"prefix":"Faker::Types.complex_rb_hash(1)",
-		"body":"Faker::Types.complex_rb_hash(1)",
-		"description":"Fake Types complex_rb_hash"
-	},
-	"Types.complex_rb_hash(1)":{
-		"scope":"ruby",
-		"prefix":"Types.complex_rb_hash(1)",
-		"body":"Faker::Types.complex_rb_hash(1)",
-		"description":"Fake Types complex_rb_hash"
-	},
-	"Faker::Types.complex_rb_hash(2)":{
-		"scope":"ruby",
-		"prefix":"Faker::Types.complex_rb_hash(2)",
-		"body":"Faker::Types.complex_rb_hash(2)",
-		"description":"Fake Types complex_rb_hash"
-	},
-	"Types.complex_rb_hash(2)":{
-		"scope":"ruby",
-		"prefix":"Types.complex_rb_hash(2)",
-		"body":"Faker::Types.complex_rb_hash(2)",
 		"description":"Fake Types complex_rb_hash"
 	},
 	"Faker::Types.rb_array":{
@@ -7883,18 +7103,6 @@
 		"body":"Faker::Number.between(1, 10)",
 		"description":"Fake Number between"
 	},
-	"Faker::Number.within(1..10)":{
-		"scope":"ruby",
-		"prefix":"Faker::Number.within(1..10)",
-		"body":"Faker::Number.within(1..10)",
-		"description":"Fake Number within"
-	},
-	"Number.within(1..10)":{
-		"scope":"ruby",
-		"prefix":"Number.within(1..10)",
-		"body":"Faker::Number.within(1..10)",
-		"description":"Fake Number within"
-	},
 	"Faker::Number.positive":{
 		"scope":"ruby",
 		"prefix":"Faker::Number.positive",
@@ -8039,18 +7247,6 @@
 		"body":"Faker::Seinfeld.quote",
 		"description":"Fake Seinfeld quote"
 	},
-	"Faker::Seinfeld.business":{
-		"scope":"ruby",
-		"prefix":"Faker::Seinfeld.business",
-		"body":"Faker::Seinfeld.business",
-		"description":"Fake Seinfeld business"
-	},
-	"Seinfeld.business":{
-		"scope":"ruby",
-		"prefix":"Seinfeld.business",
-		"body":"Faker::Seinfeld.business",
-		"description":"Fake Seinfeld business"
-	},
 	"Faker::Source.hello_world":{
 		"scope":"ruby",
 		"prefix":"Faker::Source.hello_world",
@@ -8111,102 +7307,6 @@
 		"body":"Faker::Source.print(str: 'cake', lang: :javascript)",
 		"description":"Fake Source print"
 	},
-	"Faker::DcComics.hero":{
-		"scope":"ruby",
-		"prefix":"Faker::DcComics.hero",
-		"body":"Faker::DcComics.hero",
-		"description":"Fake DcComics hero"
-	},
-	"DcComics.hero":{
-		"scope":"ruby",
-		"prefix":"DcComics.hero",
-		"body":"Faker::DcComics.hero",
-		"description":"Fake DcComics hero"
-	},
-	"Faker::DcComics.heroine":{
-		"scope":"ruby",
-		"prefix":"Faker::DcComics.heroine",
-		"body":"Faker::DcComics.heroine",
-		"description":"Fake DcComics heroine"
-	},
-	"DcComics.heroine":{
-		"scope":"ruby",
-		"prefix":"DcComics.heroine",
-		"body":"Faker::DcComics.heroine",
-		"description":"Fake DcComics heroine"
-	},
-	"Faker::DcComics.villain":{
-		"scope":"ruby",
-		"prefix":"Faker::DcComics.villain",
-		"body":"Faker::DcComics.villain",
-		"description":"Fake DcComics villain"
-	},
-	"DcComics.villain":{
-		"scope":"ruby",
-		"prefix":"DcComics.villain",
-		"body":"Faker::DcComics.villain",
-		"description":"Fake DcComics villain"
-	},
-	"Faker::DcComics.name":{
-		"scope":"ruby",
-		"prefix":"Faker::DcComics.name",
-		"body":"Faker::DcComics.name",
-		"description":"Fake DcComics name"
-	},
-	"DcComics.name":{
-		"scope":"ruby",
-		"prefix":"DcComics.name",
-		"body":"Faker::DcComics.name",
-		"description":"Fake DcComics name"
-	},
-	"Faker::CryptoCoin.coin_name":{
-		"scope":"ruby",
-		"prefix":"Faker::CryptoCoin.coin_name",
-		"body":"Faker::CryptoCoin.coin_name",
-		"description":"Fake CryptoCoin coin_name"
-	},
-	"CryptoCoin.coin_name":{
-		"scope":"ruby",
-		"prefix":"CryptoCoin.coin_name",
-		"body":"Faker::CryptoCoin.coin_name",
-		"description":"Fake CryptoCoin coin_name"
-	},
-	"Faker::CryptoCoin.acronym":{
-		"scope":"ruby",
-		"prefix":"Faker::CryptoCoin.acronym",
-		"body":"Faker::CryptoCoin.acronym",
-		"description":"Fake CryptoCoin acronym"
-	},
-	"CryptoCoin.acronym":{
-		"scope":"ruby",
-		"prefix":"CryptoCoin.acronym",
-		"body":"Faker::CryptoCoin.acronym",
-		"description":"Fake CryptoCoin acronym"
-	},
-	"Faker::CryptoCoin.url_logo":{
-		"scope":"ruby",
-		"prefix":"Faker::CryptoCoin.url_logo",
-		"body":"Faker::CryptoCoin.url_logo",
-		"description":"Fake CryptoCoin url_logo"
-	},
-	"CryptoCoin.url_logo":{
-		"scope":"ruby",
-		"prefix":"CryptoCoin.url_logo",
-		"body":"Faker::CryptoCoin.url_logo",
-		"description":"Fake CryptoCoin url_logo"
-	},
-	"Faker::CryptoCoin.coin_array":{
-		"scope":"ruby",
-		"prefix":"Faker::CryptoCoin.coin_array",
-		"body":"Faker::CryptoCoin.coin_array",
-		"description":"Fake CryptoCoin coin_array"
-	},
-	"CryptoCoin.coin_array":{
-		"scope":"ruby",
-		"prefix":"CryptoCoin.coin_array",
-		"body":"Faker::CryptoCoin.coin_array",
-		"description":"Fake CryptoCoin coin_array"
-	},
 	"Faker::FamousLastWords.last_words":{
 		"scope":"ruby",
 		"prefix":"Faker::FamousLastWords.last_words",
@@ -8230,78 +7330,6 @@
 		"prefix":"UmphreysMcgee.song",
 		"body":"Faker::UmphreysMcgee.song",
 		"description":"Fake UmphreysMcgee song"
-	},
-	"Faker::ChileRut.full_rut":{
-		"scope":"ruby",
-		"prefix":"Faker::ChileRut.full_rut",
-		"body":"Faker::ChileRut.full_rut",
-		"description":"Fake ChileRut full_rut"
-	},
-	"ChileRut.full_rut":{
-		"scope":"ruby",
-		"prefix":"ChileRut.full_rut",
-		"body":"Faker::ChileRut.full_rut",
-		"description":"Fake ChileRut full_rut"
-	},
-	"Faker::ChileRut.rut":{
-		"scope":"ruby",
-		"prefix":"Faker::ChileRut.rut",
-		"body":"Faker::ChileRut.rut",
-		"description":"Fake ChileRut rut"
-	},
-	"ChileRut.rut":{
-		"scope":"ruby",
-		"prefix":"ChileRut.rut",
-		"body":"Faker::ChileRut.rut",
-		"description":"Fake ChileRut rut"
-	},
-	"Faker::ChileRut.rut(20_890_156)":{
-		"scope":"ruby",
-		"prefix":"Faker::ChileRut.rut(20_890_156)",
-		"body":"Faker::ChileRut.rut(20_890_156)",
-		"description":"Fake ChileRut rut"
-	},
-	"ChileRut.rut(20_890_156)":{
-		"scope":"ruby",
-		"prefix":"ChileRut.rut(20_890_156)",
-		"body":"Faker::ChileRut.rut(20_890_156)",
-		"description":"Fake ChileRut rut"
-	},
-	"Faker::ChileRut.last_rut":{
-		"scope":"ruby",
-		"prefix":"Faker::ChileRut.last_rut",
-		"body":"Faker::ChileRut.last_rut",
-		"description":"Fake ChileRut last_rut"
-	},
-	"ChileRut.last_rut":{
-		"scope":"ruby",
-		"prefix":"ChileRut.last_rut",
-		"body":"Faker::ChileRut.last_rut",
-		"description":"Fake ChileRut last_rut"
-	},
-	"Faker::ChileRut.dv":{
-		"scope":"ruby",
-		"prefix":"Faker::ChileRut.dv",
-		"body":"Faker::ChileRut.dv",
-		"description":"Fake ChileRut dv"
-	},
-	"ChileRut.dv":{
-		"scope":"ruby",
-		"prefix":"ChileRut.dv",
-		"body":"Faker::ChileRut.dv",
-		"description":"Fake ChileRut dv"
-	},
-	"Faker::ChileRut.check_digit":{
-		"scope":"ruby",
-		"prefix":"Faker::ChileRut.check_digit",
-		"body":"Faker::ChileRut.check_digit",
-		"description":"Fake ChileRut check_digit"
-	},
-	"ChileRut.check_digit":{
-		"scope":"ruby",
-		"prefix":"ChileRut.check_digit",
-		"body":"Faker::ChileRut.check_digit",
-		"description":"Fake ChileRut check_digit"
 	},
 	"Faker::University.name":{
 		"scope":"ruby",
