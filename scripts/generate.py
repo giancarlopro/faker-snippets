@@ -1,17 +1,27 @@
 import re
-from os import listdir
+from os import listdir, path
 from pprint import pprint
 
 resnip = re.compile(r"(Faker::(\w+)\.(\w+)(\(.+\)){0,1}) #=>")
 
-files = listdir("faker/doc/v1.9.1/")
+dirs = listdir("faker/doc/")
 
-snippets = list()
+def find_snippets(snip_path):
+    snippets = list()
+    if path.isdir(snip_path):
+        files = listdir(snip_path)
+        for f in files:
+            for snippet in find_snippets("{}/{}".format(snip_path, f)):
+                snippets.append(snippet)
+    
+    if path.isfile(snip_path):
+        with open(snip_path) as snpfile:
+            for snippet in resnip.finditer(snpfile.read()):
+                snippets.append(snippet)
+    
+    return snippets
 
-for f in files:
-    with open("faker/doc/v1.9.1/{}".format(f)) as snpfile:
-        for snippet in resnip.finditer(snpfile.read()):
-            snippets.append(snippet)
+snippets = find_snippets("faker/doc")
 
 formated_snippet = dict()
 grouped = dict()
