@@ -8,6 +8,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -
 -->
+## [1.8.0] - 2019-10-11
+### Changed
+- Updated to latest version of Faker gem
+
+## [1.6.0 - 1.7.0] - Unknown
+- Skipped
+
 ## [1.5.0] - 2018-11-19
 ### Removed
 - Faker::Tezos
