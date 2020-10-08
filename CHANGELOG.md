@@ -8,6 +8,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 -
 -->
+## [1.9.0] - 2010-10-08
+### Changed
+- Updated to latest version of Faker gem
+
 ## [1.8.0] - 2019-10-11
 ### Changed
 - Updated to latest version of Faker gem
