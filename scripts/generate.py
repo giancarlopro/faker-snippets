@@ -13,12 +13,12 @@ def find_snippets(snip_path):
         for f in files:
             for snippet in find_snippets("{}/{}".format(snip_path, f)):
                 snippets.append(snippet)
-    
+
     if path.isfile(snip_path):
         with open(snip_path) as snpfile:
             for snippet in resnip.finditer(snpfile.read()):
                 snippets.append(snippet)
-    
+
     return snippets
 
 snippets = find_snippets("faker/doc")
@@ -34,12 +34,12 @@ for s in snippets:
     formated_snippet[group_1]["prefix"] = group_1
     formated_snippet[group_1]["body"] = group_1
     formated_snippet[group_1]["description"] = "Fake {} {}".format(s.group(2), s.group(3))
-    
+
     if s.group(4):
         formated_snippet[group_1]["short"] = "{}.{}{}".format(s.group(2), s.group(3), s.group(4))
     else:
         formated_snippet[group_1]["short"] = "{}.{}".format(s.group(2), s.group(3))
-    
+
     formated_snippet[group_1]["short"] = formated_snippet[group_1]["short"].replace("\\", "\\\\")
     formated_snippet[group_1]["short"] = formated_snippet[group_1]["short"].replace("\"", "\\\"")
     try:
@@ -83,7 +83,7 @@ with open("../snippets/snippets.json", "w") as f:
 with open("../README.md", "w") as f:
     with open('stub.md') as rs:
         stub = rs.read()
-    
+
     f.write(stub)
     f.write("## Features\n\n")
 
